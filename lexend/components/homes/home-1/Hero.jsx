@@ -124,7 +124,7 @@ export default function Hero() {
 
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/nexlify_vid.webm"
+        src="/assets/images/media/vid1.mp4"
         setIsOpen={() => setOpen(false)}
       />
     </>
