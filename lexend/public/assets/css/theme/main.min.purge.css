@@ -147,24 +147,24 @@
   --color-slate-900: #15171a;
 
   /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
-  --color-primary: #FFB723;
-  --bs-primary-rgb: 18, 113, 91;
-  --btn-hover-bg: #D5981A;
-  --btn-hover-border-color: #AD7412;
+  --color-primary: #2371FF;
+  --bs-primary-rgb:35, 113, 255;
+  --btn-hover-bg: #4a4d5e;
+  --btn-hover-border-color: #1b36685d;
   /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
 
-  --color-primary-10: #f8fbfa;
-  --color-primary-25: #f3f8f7;
-  --color-primary-50: #e7f1ef;
-  --color-primary-100: #C6BDA0;
-  --color-primary-200: #AA9E71;
-  --color-primary-300: #71aa9d;
-  --color-primary-400: #418d7c;
+  --color-primary-10: #f8f9fb;
+  --color-primary-25: #f3f5f8;
+  --color-primary-50: #e7ecf1;
+  --color-primary-100: #a0a8c6;
+  --color-primary-200: #7187aa;
+  --color-primary-300: #225095;
+  --color-primary-400: #14457a;
   --color-primary-500: var(--color-primary);
   --color-primary-600: var(--btn-hover-border-color);
-  --color-primary-700: #83691D;
-  --color-primary-800: #665200;
-  --color-primary-900: #170F04;
+  --color-primary-700: #1d4983;
+  --color-primary-800: #0f295f;
+  --color-primary-900: #111827;
   --color-secondary: #f5eee9;
   --color-secondary-10: #fffefe;
   --color-secondary-25: #fffefe;
@@ -1517,7 +1517,7 @@ p.text-muted:where(.uc-dark) {
 .uc-navbar-nav > li > a[aria-expanded="true"]:where(.uc-dark),
 :where(.uc-dark) .uc-navbar-nav > li:hover > a,
 :where(.uc-dark) .uc-navbar-nav > li > a[aria-expanded="true"] {
-  color: #fff !important;
+  color: var(--bs-primary) !important;
 }
 .uc-navbar-dropdown {
   min-width: 250px;
@@ -4368,11 +4368,9 @@ fieldset:disabled .btn {
 }
 .btn-secondary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f5eee9;
-  --bs-btn-border-color: #f5eee9;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f7f1ec;
-  --bs-btn-hover-border-color: #f6f0eb;
+  --bs-btn-bg: #111827;
+  --bs-btn-hover-color: #111827;
+  --bs-btn-hover-bg: var(--btn-hover-bg);
   --bs-btn-focus-shadow-rgb: 208, 202, 198;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #f7f1ed;
@@ -6613,8 +6611,8 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 .bg-secondary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 0.1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 .bg-dark {
   --bs-bg-opacity: 1;

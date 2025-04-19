@@ -31,7 +31,7 @@ export default function Header1() {
   return (
     <header
       style={{ "--uc-nav-height": "80px" }}
-      className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-dark uc-sticky  ${
+      className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky  ${
         scrollingUp ? "uc-sticky-below uc-sticky-fixed headerFixed" : ""
       }`}
       data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
@@ -48,7 +48,7 @@ export default function Header1() {
             className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white"
             data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"
           >
-            <div className="uc-navbar-left">
+            <div className="uc-navbar-left text-muted">
               <div className="uc-logo text-dark dark:text-white">
                 <Link
                   className="panel text-none"
@@ -57,15 +57,15 @@ export default function Header1() {
                 >
                   <Image
                     className="dark:d-none"
-                    alt="nexlify"
+                    alt="Lexend"
                     src="/assets/images/common/logo-light.svg"
                     width="117"
                     height="40"
                   />
                   <Image
                     className="d-none dark:d-block"
-                    alt="nexlify"
-                    src="/assets/images/common/logo-dark.svg"
+                    alt="Lexend"
+                    src="/assets/images/common/logo-light.svg"
                     width="117"
                     height="40"
                   />
@@ -75,7 +75,7 @@ export default function Header1() {
                 <Nav />
               </ul>
             </div>
-            <div className="uc-navbar-right">
+            <div className="uc-navbar-right text-black">
               <div className="d-none xl:d-block">
                 <a
                   className="text-none fw-medium"
