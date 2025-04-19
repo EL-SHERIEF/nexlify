@@ -5,9 +5,9 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import Terms from "@/components/otherPages/Terms";
 export const metadata = {
   title:
-    "Terms || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Terms || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function TermsPage() {
   return (

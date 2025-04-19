@@ -1,9 +1,9 @@
 import CommingSoon from "@/components/otherPages/CommingSoon";
 export const metadata = {
   title:
-    "Comming Soon || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Comming Soon || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function CommingSoonPage() {
   return (

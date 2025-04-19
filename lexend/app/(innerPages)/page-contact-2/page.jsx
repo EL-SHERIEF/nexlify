@@ -8,9 +8,9 @@ import Contact2 from "@/components/innerpages/Contact2";
 import ContactLinks2 from "@/components/innerpages/ContactLinks2";
 export const metadata = {
   title:
-    "Contact 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Contact 2 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ContactPage2() {
   return (
