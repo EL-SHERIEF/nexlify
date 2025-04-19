@@ -108,7 +108,7 @@
   --font-code-family: var(--font-family-code);
   --font-code-weight: 400;
   --root-size: 1rem;
-  --radius: 4px;
+  --radius: 10px;
   --border-size: 1px;
   --border-color: rgba(131, 131, 131, 0.25);
   --shadow-color: rgba(0, 0, 0, 0.15);
@@ -147,24 +147,24 @@
   --color-slate-900: #15171a;
 
   /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
-  --color-primary: #12715b;
+  --color-primary: #FFB723;
   --bs-primary-rgb: 18, 113, 91;
-  --btn-hover-bg: #0f604d;
-  --btn-hover-border-color: #0e5a49;
+  --btn-hover-bg: #D5981A;
+  --btn-hover-border-color: #AD7412;
   /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
 
   --color-primary-10: #f8fbfa;
   --color-primary-25: #f3f8f7;
   --color-primary-50: #e7f1ef;
-  --color-primary-100: #d0e3de;
-  --color-primary-200: #a0c6bd;
+  --color-primary-100: #C6BDA0;
+  --color-primary-200: #AA9E71;
   --color-primary-300: #71aa9d;
   --color-primary-400: #418d7c;
   --color-primary-500: var(--color-primary);
   --color-primary-600: var(--btn-hover-border-color);
-  --color-primary-700: #0b4437;
-  --color-primary-800: #072d24;
-  --color-primary-900: #041712;
+  --color-primary-700: #83691D;
+  --color-primary-800: #665200;
+  --color-primary-900: #170F04;
   --color-secondary: #f5eee9;
   --color-secondary-10: #fffefe;
   --color-secondary-25: #fffefe;
