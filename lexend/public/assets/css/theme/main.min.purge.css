@@ -728,6 +728,17 @@ body {
   background-color: var(--body-color-background, inherit);
   color: var(--body-color-text, inherit);
 }
+.bg-primary.bg-opacity-40.text-white .btn.btn-md.text-white{
+  background-color: white;
+  color: black!important;
+}
+.bg-primary.bg-opacity-40.text-white .cstack.w-16px.h-16px.bg-primary.text-white.rounded-circle.unicon-checkmark.fw-bold{
+  background-color: white!important;
+}
+.bg-primary.bg-opacity-40.text-white .position-absolute.top-0.d-inline-flex.py-narrow.px-1.bg-primary.rounded-1.text-white.fs-7.fw-medium{
+  background-color: white!important;
+  color: black!important;
+}
 .link,
 a {
   color: var(--link-color-text);

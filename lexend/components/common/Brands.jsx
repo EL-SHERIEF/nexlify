@@ -23,6 +23,9 @@ export default function Brands() {
     >
       {brands.map((brand, index) => (
         <SwiperSlide
+        style={{
+          filter: 'greyscale(100%)',
+        }}
           className="brand-item swiper-slide text-center"
           key={index}
         >

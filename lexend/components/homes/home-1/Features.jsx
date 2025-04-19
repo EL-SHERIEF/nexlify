@@ -27,14 +27,17 @@ export default function Features() {
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
-              <div className="panel px-3 rounded-2 bg-secondary dark:bg-gray-800">
+              <div className="panel rounded-pill" style={{
+                borderRadius: '12px',
+                boxShadow: 'rgba(0, 0, 0, 0.1) 2px 2px 20px 1px',
+              }}>
                 <ul
                   className="main-features-nav hstack text-center overflow-auto"
                   data-uc-switcher="connect: .main-features-switcher; active: 1; animation: uc-animation-fade;"
                   role="tablist"
                 >
                   <li
-                    className={`${activeTab == 1 ? "uc-active" : ""}`}
+                    className={`${activeTab == 1 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
@@ -42,13 +45,13 @@ export default function Features() {
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
-                    className={`${activeTab == 2 ? "uc-active" : ""}`}
+                    className={`${activeTab == 2 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
                     role="presentation"
                   >
                     <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
                   </li>
                   <li
-                    className={`${activeTab == 3 ? "uc-active" : ""}`}
+                    className={`${activeTab == 3 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
                     onClick={() => setActiveTab(3)}
                     role="presentation"
                   >
@@ -57,7 +60,7 @@ export default function Features() {
                     </a>
                   </li>
                   <li
-                    className={`${activeTab == 4 ? "uc-active" : ""}`}
+                    className={`${activeTab == 4 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >

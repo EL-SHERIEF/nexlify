@@ -2,63 +2,48 @@ export const brands = [
   {
     id: 1,
     src: "/assets/images/brands/brand-01.svg",
-    alt: "Proline",
+    alt: "Something",
   },
   {
     id: 2,
     src: "/assets/images/brands/brand-02.svg",
-    alt: "Iceberg",
+    alt: "Nirror",
   },
   {
     id: 3,
     src: "/assets/images/brands/brand-03.svg",
-    alt: "PinPoint",
+    alt: "Sometimes",
   },
   {
     id: 4,
     src: "/assets/images/brands/brand-04.svg",
-    alt: "Clues",
+    alt: "Moonheat",
   },
   {
     id: 5,
     src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
+    alt: "Justarrow",
   },
   {
     id: 6,
     src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
+    alt: "TiltedSquare",
   },
   {
     id: 7,
     src: "/assets/images/brands/brand-01.svg",
-    alt: "Proline",
+    alt: "Nexcell",
   },
   {
     id: 8,
     src: "/assets/images/brands/brand-02.svg",
-    alt: "Iceberg",
+    alt: "LifyNext",
   },
   {
     id: 9,
     src: "/assets/images/brands/brand-03.svg",
-    alt: "PinPoint",
-  },
-  {
-    id: 10,
-    src: "/assets/images/brands/brand-04.svg",
-    alt: "Clues",
-  },
-  {
-    id: 11,
-    src: "/assets/images/brands/brand-05.svg",
-    alt: "Snowflake",
-  },
-  {
-    id: 12,
-    src: "/assets/images/brands/brand-06.svg",
-    alt: "Proline",
-  },
+    alt: "Nextly",
+  }
 ];
 
 export const reviewLogos = [

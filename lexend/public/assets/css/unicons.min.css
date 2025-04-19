@@ -415,7 +415,7 @@
   content: "\e93d";
 }
 .unicon-checkmark:before {
-  content: "\e93e";
+  content: "";
 }
 .unicon-chevron-down:before {
   content: "\e93f";

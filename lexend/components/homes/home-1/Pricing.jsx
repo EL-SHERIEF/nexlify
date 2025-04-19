@@ -2,6 +2,8 @@ import { pricingTiers } from "@/data/pricing";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+
 export default function Pricing() {
   return (
     <div
@@ -23,13 +25,20 @@ export default function Pricing() {
                   No extra charges. No hidden fees.
                 </p>
               </div>
-              <div className="panel w-100 lg:max-w-900px border rounded-3 overflow-hidden">
+              <div className="panel w-100 lg:max-w-900px border rounded-3 overflow-hidden"
+               style={{
+                backgroundImage: `url(${bg.src})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'start start',
+                backgroundRepeat: 'no-repeat',
+              }}
+>
                 <div className="row child-cols-12 sm:child-cols-6 col-match justify-between g-0">
                   {pricingTiers.map((tier, index) => (
                     <div key={index}>
                       <div
                         className={`tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded-0 ${
-                          tier.popular ? "bg-secondary dark:bg-gray-800" : ""
+                          tier.popular ? "bg-primary bg-opacity-40 text-white" : "bg-white"
                         }`}
                       >
                         {tier.popular && (
@@ -38,16 +47,16 @@ export default function Pricing() {
                           </span>
                         )}
                         <div className="panel">
-                          <h3 className="title h5 sm:h4 dark:text-white">
+                          <h3 className="title h5 sm:h4 text-inherit">
                             {tier.title}
                           </h3>
-                          <p className="desc dark:text-whiteopacity-70 dark:opacity-80">
+                          <p className="desc opacity-70 dark:opacity-80 text-inherit">
                             {tier.description}
                           </p>
                         </div>
                         <div className="panel">
                           <div className="panel vstack gap-narrow">
-                            <h5 className="title h3 sm:h2 m-0 dark:text-white">
+                            <h5 className="title h3 sm:h2 m-0 text-inherit">
                               {tier.price}
                             </h5>
                             <span className="fs-7 opacity-70">
@@ -81,24 +90,7 @@ export default function Pricing() {
                             ))}
                           </div>
                         </div>
-                        {tier.popular && (
-                          <div className="position-absolute bottom-0 ltr:end-0 rtl:start-0 m-2 d-none md:d-block">
-                            <Image
-                              className="w-100px lg:w-128px d-block dark:d-none"
-                              src={tier.imageUrl}
-                              width={257}
-                              height={187}
-                              alt={tier.imageAlt}
-                            />
-                            <Image
-                              className="w-100px lg:w-128px d-none dark:d-block"
-                              src={tier.darkImageUrl}
-                              width={257}
-                              height={187}
-                              alt={tier.darkImageAlt}
-                            />
-                          </div>
-                        )}
+                   
                       </div>
                     </div>
                   ))}
