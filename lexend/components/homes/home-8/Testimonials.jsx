@@ -55,7 +55,7 @@ export default function Testimonials() {
                         </div>
                         <div className="panel hstack gap-2 mt-2">
                           <Image
-                            className="w-40px rounded-circle"
+                            className="w-40px h-40px rounded-circle"
                             alt={testimonial.name}
                             src={testimonial.imgSrc}
                             width={150}

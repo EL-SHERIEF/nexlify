@@ -30,7 +30,7 @@ export default function Header1() {
 
   return (
     <header
-      style={{ "--uc-nav-height": "80px" }}
+      style={{ "--uc-nav-height": "80px"}}
       className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky  ${
         scrollingUp ? "uc-sticky-below uc-sticky-fixed headerFixed" : ""
       }`}
@@ -57,14 +57,14 @@ export default function Header1() {
                 >
                   <Image
                     className="dark:d-none"
-                    alt="Lexend"
+                    alt="Nexlify"
                     src="/assets/images/common/logo-light.svg"
                     width="117"
                     height="40"
                   />
                   <Image
                     className="d-none dark:d-block"
-                    alt="Lexend"
+                    alt="Nexlify"
                     src="/assets/images/common/logo-light.svg"
                     width="117"
                     height="40"

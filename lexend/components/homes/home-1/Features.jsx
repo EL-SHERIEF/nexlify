@@ -30,6 +30,7 @@ export default function Features() {
               <div className="panel rounded-pill" style={{
                 borderRadius: '12px',
                 boxShadow: 'rgba(0, 0, 0, 0.1) 2px 2px 20px 1px',
+                border:'solid 1px #e5e7eb'
               }}>
                 <ul
                   className="main-features-nav hstack text-center overflow-auto"

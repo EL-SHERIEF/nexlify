@@ -44,7 +44,7 @@ export default function Feedback() {
                       </div>
                       <div className="panel hstack gap-2 mt-2 lg:mt-4">
                         <Image
-                          className="w-40px rounded-circle"
+                          className="w-40px h-40px rounded-circle"
                           src={item.authorImg}
                           alt={item.authorName}
                           width={150}

@@ -39,7 +39,7 @@ export default function Accordion({
       {faqData.map((item, index) => (
         <li
           ref={(el) => (parentRefs.current[index] = el)}
-          className={`${
+          className={` p-2 rounded-2 border border-1 border-black-400 ${
             currentIndex == index ? "uc-open" : ""
           } ${parentClass} `}
           onClick={() => {

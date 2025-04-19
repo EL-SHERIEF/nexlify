@@ -25,10 +25,10 @@ export default function Team() {
                   <div key={index}>
                     <div className="panel vstack gap-2">
                       <Image
-                        className="w-100 rounded"
+                        className="h-100 rounded object-fit-cover"
                         src={member.imageSrc}
                         width={400}
-                        height={400}
+                        height={800}
                         alt={member.altText}
                       />
                       <div className="panel vstack items-start gap-0">

@@ -4343,8 +4343,7 @@ progress {
 .btn:first-child:active,
 :not(.btn-check) + .btn:active {
   color: var(--bs-btn-active-color);
-  background-color: var(--bs-btn-active-bg);
-  border-color: var(--bs-btn-active-border-color);
+  background-color: var(--bs-btn-hover-bg);
 }
 .btn.active:focus-visible,
 .btn.show:focus-visible,

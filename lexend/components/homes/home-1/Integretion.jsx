@@ -31,7 +31,12 @@ export default function Integretion() {
               >
                 {integrations.map((integration, index) => (
                   <div key={index}>
-                    <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white text-dark">
+                    <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white text-dark"
+                     style={{
+                      borderRadius: '12px',
+                      boxShadow: 'rgba(0, 0, 0, 0.1) 2px 2px 20px 1px',
+                      border:'solid 1px #e5e7eb'
+                   }}>
                       <div className="vstack gap-3">
                         <div className="hstack justify-between items-center">
                           <div className="vstack">

@@ -34,9 +34,13 @@ export default function Testimonials() {
             data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
           >
             <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
-              What clients said:
+              Testimonials
             </h2>
-            <div className="panel p-3 lg:p-6 bg-secondary dark:bg-gray-800 rounded-3 mt-4 sm:mt-6">
+            <div className="panel p-3 lg:p-6 rounded-3 mt-4 sm:mt-6 border border-1 border-black-400"
+               style={{
+                boxShadow: 'rgba(0, 0, 0, 0.05) 2px 2px 5px 0px!important',
+              }}
+            >
               <div className="row child-cols-12 sm:child-cols-6 col-match g-3 lg:g-8">
                 <div>
                   <div className="panel rounded-2 overflow-hidden">

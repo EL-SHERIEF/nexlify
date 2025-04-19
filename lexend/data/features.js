@@ -2,7 +2,7 @@ export const panelData = [
   {
     id: 1,
     lightIcon: "/assets/images/template/icon-diamond.svg",
-    darkIcon: "/assets/images/template/icon-diamond-dark.svg",
+    darkIcon: "/assets/images/template/icon-diamond.svg",
     altText: "impact-icon",
     title: "Make an impact",
     description:
@@ -10,8 +10,8 @@ export const panelData = [
   },
   {
     id: 2,
-    lightIcon: "/assets/images/template/icon-trophy.svg",
-    darkIcon: "/assets/images/template/icon-trophy-dark.svg",
+    lightIcon: "/assets/images/template/icon-giveLove.svg",
+    darkIcon: "/assets/images/template/icon-giveLove.svg",
     altText: "crown-icon",
     title: "Learn",
     description:
@@ -19,8 +19,8 @@ export const panelData = [
   },
   {
     id: 3,
-    lightIcon: "/assets/images/template/icon-crown.svg",
-    darkIcon: "/assets/images/template/icon-crown-dark.svg",
+    lightIcon: "/assets/images/template/icon-work.svg",
+    darkIcon: "/assets/images/template/icon-work.svg",
     altText: "empathy-icon",
     title: "Empathy",
     description:
@@ -130,7 +130,7 @@ export const features3 = [
     description: `Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.`,
     testimonial: {
       quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
-      imgSrc: "/assets/images/avatars/04.png",
+      imgSrc: "/assets/images/avatars/04.jpg",
       name: "Natalia Larsson",
       role: "Director of Sales Operations",
     },
@@ -222,7 +222,7 @@ export const featureItems = [
     reverseOrder: false,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-04.png",
+    imageSrc: "/assets/images/template/home-four-feature-04.jpg",
     altText: "Collaboration is made seamless with nexlify",
     title: "Collaboration is made seamless with nexlify",
     description:

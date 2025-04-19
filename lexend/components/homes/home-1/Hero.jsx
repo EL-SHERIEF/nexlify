@@ -56,27 +56,33 @@ export default function Hero() {
                     </Link>
                     <div className="hstack justify-center gap-2 mt-1 sm:mt-2">
                       <div className="hstack justify-center gap-0">
+                        <div className="w-40px h-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
                         <Image
-                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-gray-900"
+                          className="object-fit-cover h-full"
                           alt="Avatar image"
-                          src="/assets/images/avatars/03.png"
+                          src="/assets/images/avatars/01.jpg"
                           width="150"
                           height="150"
                         />
+                        </div>
+                        <div className="w-40px h-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
                         <Image
-                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-gray-900"
+                          className="object-fit-cover h-100"
                           alt="Avatar image"
-                          src="/assets/images/avatars/02.png"
+                          src="/assets/images/avatars/02.jpg"
                           width="150"
                           height="150"
                         />
+                        </div>
+                        <div className="w-40px h-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
                         <Image
-                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-gray-900"
+                          className="object-fit-cover h-full"
                           alt="Avatar image"
-                          src="/assets/images/avatars/08.png"
+                          src="/assets/images/avatars/03.jpg"
                           width="150"
                           height="150"
                         />
+                        </div>
                       </div>
                       <span className="fs-7 sm:fs-6 fw-medium">
                         4.6k Hardworking Members
