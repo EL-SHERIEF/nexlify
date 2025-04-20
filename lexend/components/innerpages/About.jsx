@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
  
-      <div className="section-outer panel pt-9 lg:pt-10 pb-6 sm:pb-8 lg:pb-9">
+      <div className="section-outer panel pt-9 lg:pt-8 pb-4 sm:pb-8 lg:pb-9">
         <div className="container max-w-xl">
           <div
             className="section-inner panel mt-2 sm:mt-4 lg:mt-0"
@@ -28,7 +28,7 @@ export default function About() {
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 text-inherit">
                 About nexlify.
               </h1>
-              <p className="fs-6 md:fs-5 text-inherit text-opacity-70 max-w-lg pb-3">
+              <p className="fs-6 md:fs-5 text-inherit text-opacity-70 max-w-lg pb-3 px-4">
                 In 2014, Steven Smith have gotten so much of our time back that
                 we're now able to put towards things that are actually helping
                 our company as opposed to just throwing content out there. and
