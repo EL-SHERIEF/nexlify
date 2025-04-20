@@ -6,9 +6,9 @@ export default function KeyFeatures() {
   return (
     <div
       id="key_features"
-      className="key-features section panel overflow-hidden bg-gray-900 uc-dark"
+      className="key-features section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 xl:py-9 dark:bg-gray-800">
+      <div className="section-outer panel py-6 xl:py-9 max-w-xl m-auto">
         <div className="container sm:max-w-md lg:max-w-lg">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
@@ -26,7 +26,7 @@ export default function KeyFeatures() {
                 >
                   {features4.map((feature, index) => (
                     <div key={index}>
-                      <div className="feature-item panel p-4 border rounded hover:bg-white dark:hover:bg-primary dark:text-white hover:scale-105 duration-150 transition-all">
+                      <div className="feature-item panel p-4 border rounded hover:bg-white hover:bg-opacity-80 border-1 border border-black hover:shadow:xl shadow-sm hover:text-primary text-white  bg-primary hover:scale-105 duration-150 transition-all">
                         <div className="vstack panel min-h-250px">
                           <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" />
                           <div className="vstack justify-between gap-2 h-100">

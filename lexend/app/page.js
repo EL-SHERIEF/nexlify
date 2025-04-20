@@ -1,4 +1,4 @@
-import Home1 from "./(homes)/home-1/page";
+import Home2 from "./(homes)/home-2/page";
 export const metadata = {
   title:
     "Nexlify Home-1 | Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -8,7 +8,7 @@ export const metadata = {
 export default function HomePage1() {
   return (
     <>
-      <Home1 />
+      <Home2 />
     </>
   );
 }
