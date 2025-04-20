@@ -2301,10 +2301,10 @@ pre.prettyprint .atv:where(.uc-dark) {
   transform: translateY(0);
 }
 .uc-navbar-container.uc-navbar-sticky {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(20px);
 }
 .uc-navbar-container.uc-navbar-sticky {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
 }
 .uc-navbar-container.uc-navbar-sticky:where(.uc-dark),
 :where(.uc-dark) .uc-navbar-container.uc-navbar-sticky {

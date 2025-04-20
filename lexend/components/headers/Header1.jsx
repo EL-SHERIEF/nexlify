@@ -38,7 +38,7 @@ export default function Header1() {
     >
       <nav
         className={`uc-navbar-container uc-navbar-float ft-tertiary z-1   ${
-          scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
+          scrollingUp ? "uc-navbar-sticky border-1 border-bottom border-black shadow-xs" : "uc-navbar-transparent"
         } `}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
         style={{ transform: "translateY(0px)", opacity: 1 }}

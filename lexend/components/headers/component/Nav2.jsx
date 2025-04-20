@@ -212,7 +212,7 @@ export default function Nav2() {
                     <Image
                       className="media-cover image uc-transition-scale-up uc-transition-opaque"
                       alt="Image"
-                      src="/assets/images/common/login.webp"
+                      src="/assets/images/common/login.jpg"
                       width="1500"
                       height="1000"
                     />

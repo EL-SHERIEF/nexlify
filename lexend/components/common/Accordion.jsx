@@ -46,6 +46,7 @@ export default function Accordion({
             setCurrentIndex((pre) => (pre == index ? -1 : index));
           }}
           key={index}
+          style={{ width: "100%" }}
         >
           <a
             className="uc-accordion-title fs-5 sm:fs-4"

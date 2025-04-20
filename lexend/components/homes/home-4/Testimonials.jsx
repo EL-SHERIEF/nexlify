@@ -75,7 +75,7 @@ export default function Testimonials() {
                               <Image
                                 className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                 alt="image"
-                                src="/assets/images/common/login.webp"
+                                src="/assets/images/common/login.jpg"
                                 width="1500"
                                 height="1000"
                               />

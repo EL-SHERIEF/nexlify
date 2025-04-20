@@ -12,6 +12,7 @@ export default function KeyFeatures() {
         <div className="container sm:max-w-md lg:max-w-lg">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
+              
               <h2
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"

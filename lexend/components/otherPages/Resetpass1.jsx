@@ -22,7 +22,7 @@ export default function Resetpass1() {
                     <Image
                       className="media-cover image"
                       alt="Hero login image"
-                      src="/assets/images/common/login.webp"
+                      src="/assets/images/common/login.jpg"
                       width="1500"
                       height="1000"
                     />

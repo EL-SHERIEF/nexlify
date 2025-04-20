@@ -42,21 +42,21 @@ export default function ContactModal() {
     >
       <div
         ref={elementRef}
-        className="uc-modal-dialog lg:max-w-650px bg-secondary text-dark dark:bg-gray-800 dark:text-white rounded-1-5"
+        className="uc-modal-dialog lg:max-w-650px bg-white p-1 text-black rounded-1-5 shadow-lg border border-1 border-black"
         role="dialog"
         aria-modal="true"
       >
         <button
-          className="uc-modal-close-default top-0 ltr:end-0 rtl:start-0 rtl:end-auto m-2 p-0 border-0 icon-2 lg:icon-3 btn btn-md dark:text-white transition-transform duration-150 hover:rotate-90"
+          className="uc-modal-close-default top-0 ltr:end-0 rtl:start-0 rtl:end-auto m-2 p-2 border-1 border-black border icon-2 lg:icon-3 btn btn-md dark:text-white transition-transform duration-150 hover:rotate-90"
           type="button"
           onClick={closeContactModal}
         >
           <i className="unicon-close" />
         </button>
-        <div className="panel vstack gap-2 md:gap-4 text-center">
+        <div className="panel vstack gap-2 md:gap-4 text-center pt-2">
           <div className="panel cstack px-3 md:px-4 py-4 md:py-8 m-0 lg:mx-auto">
             <div className="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
-              <h4 className="h5 lg:h4 m-0">Schedule your 15-minute demo now</h4>
+              <h4 className="h5 lg:h3 m-0 text-primary">Schedule your 15-minute demo now</h4>
               <div className="panel w-100 sm:w-350px md:w-500px mx-auto">
                 <form
                   onSubmit={(e) => e.preventDefault()}

@@ -6,15 +6,15 @@ export default function SignIn() {
   return (
     <div
       id="sign-in"
-      className="sign-in section panel overflow-hidden bg-secondary dark:bg-gray-900"
+      className="sign-in section panel overflow-hidden"
     >
       <div className="section-outer panel">
         <div className="section-inner panel">
           <div className="panel overflow-hidden">
-            <div className="panel row child-cols-12 md:child-cols-6 g-0">
+            <div className="panel row child-cols-12 md:child-cols-6 g-0 m-3">
               <div>
                 <div
-                  className="panel overflow-hidden min-h-300px h-100 lg:h-screen"
+                  className="panel overflow-hidden min-h-300px h-100 lg:h-screen border-1 border border-black shadow-sm rounded-3"
                   data-anime="translateX: [-24, 0]; opacity: [0, 1]; easing: easeInOutExpo; duration: 750;"
                 >
                   <figure className="panel h-100 m-0 rounded">
@@ -22,7 +22,7 @@ export default function SignIn() {
                     <Image
                       className="media-cover image"
                       alt="Hero login image"
-                      src="/assets/images/common/login.webp"
+                      src="/assets/images/common/login.jpg"
                       width="1500"
                       height="1000"
                     />
@@ -52,137 +52,36 @@ export default function SignIn() {
                   </div>
                   <Link
                     href={`/`}
-                    className="position-absolute top-0 ltr:start-0 rtl:end-0 text-none m-4 lg:m-6"
+                    className="position-absolute top-0 ltr:start-0 rtl:end-0 text-none m-3 lg:m-3"
                     data-anime="scale: [0.5, 1]; opacity: [0, 1]; easing: easeInOutExpo; duration: 750; delay: anime.stagger(100, {start: 150});"
                   >
                     <Image
-                      className="w-32px lg:w-40px"
+                      className="w-42px lg:w-50px"
                       alt=""
                       src="/assets/images/common/logo-mark.svg"
-                      width="34"
-                      height="34"
+                      width="50"
+                      height="50"
                     />
                   </Link>
                 </div>
               </div>
               <div>
                 <div className="panel vstack justify-center h-100 overflow-hidden">
-                  <div
-                    className="d-none lg:d-block"
-                    data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
-                  >
+               
+                  <div className="panel py-4 md:px-4">
                     <div
-                      className="position-absolute rotate-45"
-                      style={{
-                        bottom: "15%",
-                        left: "18%",
-                      }}
-                    >
-                      <Image
-                        className="w-32px text-gray-900 dark:text-white"
-                        width={193}
-                        height={216}
-                        alt="star-1"
-                        data-uc-svg=""
-                        src="/assets/images/template/star-1.svg"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute  rotate-45"
-                      style={{ top: "15%", right: "18%" }}
-                    >
-                      <Image
-                        className="w-24px text-gray-900 dark:text-white"
-                        width={69}
-                        height={95}
-                        alt="star-2"
-                        data-uc-svg=""
-                        src="/assets/images/template/star-2.svg"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 start-0 translate-middle-y -rotate-12"
-                      style={{ top: "15% !important", left: "10% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-issue"
-                        src="/assets/images/template/icon-issue.svg"
-                        width="100"
-                        height="100"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-issue"
-                        src="/assets/images/template/icon-issue.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 start-0 translate-middle-y ms-n3"
-                      style={{ top: "65% !important", left: "0% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-globe"
-                        src="/assets/images/template/icon-globe.svg"
-                        width="100"
-                        height="100"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-globe-dark"
-                        src="/assets/images/template/icon-globe-dark.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 end-0 translate-middle-y rotate-12"
-                      style={{ top: "80% !important", right: "12% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-diamond"
-                        src="/assets/images/template/icon-diamond.svg"
-                        width="100"
-                        height="100"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-diamond-dark"
-                        src="/assets/images/template/icon-diamond-dark.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 end-0 translate-middle-y -rotate-12 me-n2"
-                      style={{ top: "35% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-community"
-                        src="/assets/images/template/icon-community.svg"
-                        width="101"
-                        height="87"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-community-dark"
-                        src="/assets/images/template/icon-community-dark.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                  </div>
-                  <div className="panel py-4 px-2">
-                    <div
-                      className="panel vstack gap-3 w-100 sm:w-350px mx-auto text-center"
+                      className="panel vstack gap-3 text-center bg-white p-4 rounded-2 max-w-550px mx-auto border-1 border-black border shadow-sm w-100"
+                     
                       data-anime="targets: >*; translateY: [24, 0]; opacity: [0, 1]; easing: easeInOutExpo; duration: 750; delay: anime.stagger(100);"
                     >
-                      <h1 className="h4 sm:h2">Sign in</h1>
+                       <Image
+                      className="w-42px lg:w-50px mx-auto"
+                      alt=""
+                      src="/assets/images/common/logo-light.svg"
+                      width="150"
+                      height="100"
+                    />
+                      <h1 className="h4 sm:h2 w-100 pt-3 border-top border-black border-1">Sign in</h1>
                       <div className="hstack gap-2">
                         <a
                           href="#github"
@@ -199,8 +98,10 @@ export default function SignIn() {
                       </div>
                       <div className="panel my-2">
                         <hr className="m-0" />
-                        <span className="position-absolute top-50 start-50 translate-middle p-1 fs-7 text-uppercase bg-secondary dark:bg-gray-900">
-                          Or
+                        <span className="opacity-50 position-absolute top-50 start-50 translate-middle p-1 fs-7 text-uppercase flex-row d-flex justify-center items-center gap-2 relative w-full">
+                          <div style={{ width: "30%",backgroundColor:"gray", height: "1.5px"}}/>
+                           Or
+                           <div style={{ width: "30%",backgroundColor:"gray", height: "1.5px"}}/>
                         </span>
                       </div>
                       <form

@@ -95,7 +95,7 @@ export default function Hero() {
                   data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
                   data-uc-lightbox="video-autoplay: true;"
                 >
-                  <figure className="featured-image m-0 rounded ratio ratio-16x9 lg:rounded-2 overflow-hidden">
+                  <figure className="featured-image m-0 rounded ratio ratio-16x9 lg:rounded-2 overflow-hidden shadow-md border border-2 border-black">
                     <Image
                       className="media-cover image"
                       alt="nexlify"

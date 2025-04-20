@@ -2394,6 +2394,7 @@ select.uc-form-width-xsmall {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
   opacity: 0;
   transition: opacity 0.15s linear;
 }
