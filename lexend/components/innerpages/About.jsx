@@ -48,15 +48,7 @@ export default function About() {
                     height="1500"
                   />
                 </figure>
-                <div className="position-absolute top-0 start-0 z-1 ms-n8 mt-n8 d-none lg:d-block">
-                  <Image
-                    className="w-200px xl:w-250px d-block dark:d-none"
-                    alt="hand-pencil"
-                    src="/assets/images/template/hand-pencil.svg"
-                    width="154"
-                    height="309"
-                  />
-                </div>
+      
               </div>
               <div className="col-8">
                 <div className="h-100">
