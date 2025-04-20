@@ -22,7 +22,7 @@ export default function Hero() {
                 <Image
                   className="p-narrow rounded-circle"
                   alt="brand"
-                  src="/assets/images/avatars/03.png"
+                  src="/assets/images/avatars/03.jpg"
                   width={150}
                   height={150}
                 />
@@ -35,7 +35,7 @@ export default function Hero() {
                 <Image
                   className="p-narrow rounded-circle"
                   alt="brand"
-                  src="/assets/images/avatars/08.png"
+                  src="/assets/images/avatars/08.jpg"
                   width={150}
                   height={150}
                 />
@@ -48,7 +48,7 @@ export default function Hero() {
                 <Image
                   className="p-narrow rounded-circle"
                   alt="brand"
-                  src="/assets/images/avatars/02.png"
+                  src="/assets/images/avatars/02.jpg"
                   width={150}
                   height={150}
                 />
@@ -61,7 +61,7 @@ export default function Hero() {
                 <Image
                   className="p-narrow rounded-circle"
                   alt="brand"
-                  src="/assets/images/avatars/01.png"
+                  src="/assets/images/avatars/01.jpg"
                   width={150}
                   height={150}
                 />
@@ -74,7 +74,7 @@ export default function Hero() {
                 <Image
                   className="p-narrow rounded-circle"
                   alt="brand"
-                  src="/assets/images/avatars/06.png"
+                  src="/assets/images/avatars/06.jpg"
                   width={150}
                   height={150}
                 />
@@ -87,7 +87,7 @@ export default function Hero() {
                 <Image
                   className="p-narrow rounded-circle"
                   alt="brand"
-                  src="/assets/images/avatars/09.png"
+                  src="/assets/images/avatars/09.jpg"
                   width={150}
                   height={150}
                 />
