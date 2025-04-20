@@ -44,7 +44,7 @@ export default function Newsletter() {
                       />
                     </div>
                     <div className="col-12 sm:col-auto">
-                      <button className="btn btn-md h-48px xl:h-56px w-100 lg:min-w-150px xl:min-w-200px btn-primary text-white">
+                      <button className="btn btn-md h-48px xl:h-56px w-100 lg:min-w-150px xl:min-w-200px btn-secondary text-white">
                         Subscribe
                       </button>
                     </div>
