@@ -3,11 +3,19 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
 import { footerLinks, socialLinks } from "@/data/footer";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 export default function Footer2() {
   return (
-    <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
-      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:bg-gray-900 dark:text-white">
+    <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark p-4">
+      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:text-white mx-auto border-black border border-1 shadow-sm"
+       style={{
+              borderRadius: '20px',
+              backgroundImage: `url(${bg.src})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'start center',
+              backgroundRepeat: 'no-repeat',
+            }}>
         <div className="container max-w-xl">
           <div className="footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
             <div className="uc-footer-widgets panel">
@@ -65,7 +73,7 @@ export default function Footer2() {
                 ))}
               </div>
             </div>
-            <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
+            <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top border-black dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
                   nexlify © {new Date().getFullYear()}, All rights reserved.

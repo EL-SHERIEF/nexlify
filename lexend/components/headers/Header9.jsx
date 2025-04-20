@@ -13,7 +13,7 @@ export default function Header9() {
         style={{ transform: "translateY(0px)", opacity: 1 }}
       >
         <div className="uc-navbar-main">
-          <div className="container max-w-lg lg:max-w-950px xl:max-w-xl">
+          <div className="container max-w-xl lg:max-w-950px xl:max-w-xl">
             <div
               className="uc-navbar min-h-56px lg:min-h-100px px-2 lg:px-0 text-gray-900 dark:text-white"
               data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;"

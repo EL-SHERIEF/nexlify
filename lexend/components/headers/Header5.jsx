@@ -46,7 +46,7 @@ export default function Header5() {
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
       >
         <div className="uc-navbar-main" style={{ "--uc-nav-height": "80px" }}>
-          <div className="container max-w-lg lg:max-w-950px xl:max-w-xl">
+          <div className="container max-w-xl lg:max-w-950px xl:max-w-xl">
             <div
               className="uc-navbar min-h-64px lg:min-h-80px px-2 lg:px-0 text-gray-900 dark:text-white"
               data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"

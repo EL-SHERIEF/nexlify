@@ -9,7 +9,7 @@ export default function CareerBenefits() {
       data-anime="onview: -100; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
     >
       <div className="section-outer panel">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
               className="panel vstack max-w-850px mx-auto"

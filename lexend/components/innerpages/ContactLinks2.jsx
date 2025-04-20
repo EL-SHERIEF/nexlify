@@ -6,7 +6,7 @@ export default function ContactLinks2() {
   return (
     <div id="helpful-links" className="section panel overflow-hidden">
       <div className="section-outer panel pb-6 sm:pb-8 lg:pb-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <h2
@@ -29,13 +29,6 @@ export default function ContactLinks2() {
                           width={100}
                           height={100}
                           alt={panel.altText}
-                        />
-                        <Image
-                          className="w-32px lg:w-48px d-none dark:d-block"
-                          src={panel.darkIcon}
-                          width={100}
-                          height={100}
-                          alt={`${panel.altText}-dark`}
                         />
                       </div>
                       <div className="vstack justify-center">

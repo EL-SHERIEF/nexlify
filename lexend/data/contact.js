@@ -21,8 +21,8 @@ export const panels = [
   },
   {
     id: 3,
-    lightIcon: "/assets/images/template/icon-internet.svg",
-    darkIcon: "/assets/images/template/icon-internet-dark.svg",
+    lightIcon: "/assets/images/template/icon-issue.svg",
+    darkIcon: "/assets/images/template/icon-issue.svg",
     altText: "internet-icon",
     title: "Report Issue",
     description: "Get priority support.",
@@ -64,8 +64,8 @@ export const horizontalPanels = [
   },
   {
     id: 3,
-    lightIcon: "/assets/images/template/icon-internet.svg",
-    darkIcon: "/assets/images/template/icon-internet-dark.svg",
+    lightIcon: "/assets/images/template/icon-issue.svg",
+    darkIcon: "/assets/images/template/icon-issue.svg",
     altText: "internet-icon",
     title: "Report Issue",
     description: "Get priority support.",

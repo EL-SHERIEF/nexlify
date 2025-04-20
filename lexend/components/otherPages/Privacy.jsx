@@ -3,7 +3,7 @@ import React from "react";
 export default function Privacy() {
   return (
     <div className="section py-4 lg:py-6 xl:py-8">
-      <div className="container max-w-lg">
+      <div className="container max-w-xl">
         <div className="page-wrap panel vstack gap-4 lg:gap-6 xl:gap-8">
           <header className="page-header panel vstack justify-center gap-2 lg:gap-4 text-center">
             <div className="panel">

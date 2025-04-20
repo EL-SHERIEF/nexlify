@@ -105,15 +105,15 @@ export default function Signup() {
                     >
                       <Image
                         className="w-64px d-block dark:d-none"
-                        alt="icon-internet"
-                        src="/assets/images/template/icon-internet.svg"
+                        alt="icon-issue"
+                        src="/assets/images/template/icon-issue.svg"
                         width="100"
                         height="100"
                       />
                       <Image
                         className="w-64px d-none dark:d-block"
-                        alt="icon-internet-dark"
-                        src="/assets/images/template/icon-internet-dark.svg"
+                        alt="icon-issue"
+                        src="/assets/images/template/icon-issue.svg"
                         width="100"
                         height="100"
                       />

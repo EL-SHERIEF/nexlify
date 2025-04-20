@@ -8,7 +8,7 @@ export default function Blogs2() {
   return (
     <div className="section panel overflow-hidden">
       <div className="section-outer panel py-6 lg:py-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel vstack gap-3 sm:gap-6 lg:gap-9">
             <header className="page-header vstack justify-center items-center gap-2 md:gap-4 text-center max-w-650px mx-auto">
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">

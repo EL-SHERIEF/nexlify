@@ -5,7 +5,7 @@ export default function JobDetails() {
   return (
     <div id="job_details" className="job-details section panel pb-6 xl:pb-9">
       <div className="section-outer panel">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div className="panel fs-6 md:fs-5 text-dark dark:text-white text-opacity-70">
               <div className="row g-3 gy-6 lg:g-6 lg:gy-8" data-uc-grid="">

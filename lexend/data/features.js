@@ -31,7 +31,7 @@ export const panelData = [
 export const features = [
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Share tools quickly and confidently in minutes",
     description:
@@ -39,7 +39,7 @@ export const features = [
   },
   {
     id: 5,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
     title: "Connect every part of your entire business",
     description:
@@ -49,7 +49,7 @@ export const features = [
   },
   {
     id: 6,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
     title: "Maintain compliance and control your apps",
     description:
@@ -91,7 +91,7 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/feature-01.jpg",
     altText: "Share tools quickly and confidently in minutes",
     step: "01.",
     title: "Share tools quickly and confidently in minutes",
@@ -105,7 +105,7 @@ export const features3 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/feature-02.jpg",
     altText: "Connect every part of your entire business",
     step: "02.",
     title: "Connect every part of your entire business",
@@ -123,7 +123,7 @@ export const features3 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/feature-03.jpg",
     altText: "Maintain compliance and control your apps",
     step: "03.",
     title: "Maintain compliance and control your apps",
@@ -137,7 +137,7 @@ export const features3 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/template/feature-04.jpg",
     altText: "Review quickly and confidently",
     step: "04.",
     title: "Review quickly and confidently",
@@ -331,7 +331,7 @@ export const features5 = [
 export const features6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.svg",
+    imgSrc: "/assets/images/template/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Share tools quickly and confidently in minutes",
     description:
@@ -340,7 +340,7 @@ export const features6 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.svg",
+    imgSrc: "/assets/images/template/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
     title: "Connect every part of your entire business",
     description:
@@ -349,7 +349,7 @@ export const features6 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.svg",
+    imgSrc: "/assets/images/template/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
     title: "Maintain compliance and control your apps",
     description:
@@ -358,7 +358,7 @@ export const features6 = [
   },
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
+    imgSrc: "/assets/images/template/feature-04.jpg",
     imgAlt: "Review quickly and confidently",
     title: "Review quickly and confidently",
     description:

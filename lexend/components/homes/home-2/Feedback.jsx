@@ -9,7 +9,7 @@ export default function Feedback() {
       className="clients-feedbacks section panel overflow-hidden"
     >
       <div className="section-outer panel pb-6 xl:pb-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
               className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"

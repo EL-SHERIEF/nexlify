@@ -38,7 +38,7 @@ export default function Integrations() {
         </div>
       </div>
       <div className="section-outer panel pt-9 lg:pt-10 pb-6 sm:pb-8 lg:pb-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel mt-2 sm:mt-4 lg:mt-0">
             <div
               className="vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center"

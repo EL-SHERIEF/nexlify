@@ -128,15 +128,14 @@ export default function Blogs1() {
               ))}
               {blogsPosts4.slice(1, 7).map((elm, i) => (
                 <div key={i}>
-                  <article className="post type-post panel vstack gap-3 rounded-3 p-2 pb-3 bg-secondary dark:bg-gray-800">
+                  <article className="post type-post panel vstack gap-3 rounded-2 p-1 pb-3 border-1 border-black border shadow-sm">
                     <Link
-                      className="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1"
+                      className="position-absolute top-0 ltr:start-0 rtl:end-0 m-2 fs-7 fw-bold text-none z-1 border-1 border-black border bg-white text-primary shadow-sm py-narrow px-1 rounded-pill"
                       href={`/blog`}
-                      style={{ borderRadius: 8 }}
                     >
                       {elm.category}
                     </Link>
-                    <figure className="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden">
+                    <figure className="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden border-1 border-black border">
                       <Image
                         className="media-cover image uc-transition-scale-up uc-transition-opaque"
                         src={elm.imgSrc}
@@ -150,7 +149,7 @@ export default function Blogs1() {
                         data-caption="Top 5 reasons to invest in marketing"
                       ></Link>
                     </figure>
-                    <header className="panel vstack items-center gap-1 lg:gap-2 px-2">
+                    <header className="panel vstack items-center gap-1 lg:gap-2 px-2 ">
                       <h3 className="h5 xl:h4 m-0 text-center m-0">
                         <Link
                           className="text-none"

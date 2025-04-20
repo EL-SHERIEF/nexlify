@@ -9,7 +9,7 @@ export default function AboutValues() {
       className="about-values section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <h2
@@ -24,17 +24,10 @@ export default function AboutValues() {
               >
                 {panelsData.map((panel) => (
                   <div key={panel.id}>
-                    <div className="panel vstack gap-2 p-4 lg:py-6 rounded-2 bg-secondary dark:bg-gray-800">
+                    <div className="panel vstack gap-2 p-4 lg:py-6 rounded-2 border-1 border-black border shadow-sm">
                       <Image
                         className="w-64px lg:w-80px d-block dark:d-none"
                         src={panel.lightImgSrc}
-                        width={100}
-                        height={100}
-                        alt={panel.altText}
-                      />
-                      <Image
-                        className="w-64px lg:w-80px d-none dark:d-block"
-                        src={panel.darkImgSrc}
                         width={100}
                         height={100}
                         alt={panel.altText}

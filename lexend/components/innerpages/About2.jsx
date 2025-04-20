@@ -31,7 +31,7 @@ export default function About2() {
             />
           </div>
         </div>
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
               className="panel vstack text-center"

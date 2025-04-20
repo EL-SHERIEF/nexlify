@@ -27,7 +27,7 @@ export default async function CareerDetailsPage(props) {
             className="hero-header section panel overflow-hidden"
           >
             <div className="section-outer panel pt-9 lg:pt-10 pb-4 sm:pb-6 xl:pb-9">
-              <div className="container max-w-lg">
+              <div className="container max-w-xl">
                 <div className="section-inner panel">
                   <div className="vstack items-center text-center gap-2 lg:gap-4">
                     <span className="fs-6 fw-bold text-uppercase text-primary">

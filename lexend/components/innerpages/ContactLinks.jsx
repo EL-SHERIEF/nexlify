@@ -21,7 +21,7 @@ export default function ContactLinks() {
               >
                 {panels.map((panel) => (
                   <div key={panel.id}>
-                    <div className="panel vstack gap-2 items-center text-center px-3 py-4 lg:py-6 xl:py-8 rounded-2 bg-secondary dark:bg-gray-800 lg:hover:-translate-y-2 duration-150 transition-all">
+                    <div className="panel vstack gap-2 items-center text-center px-3 py-4 lg:py-6 xl:py-8 rounded-2 shadow-sm lg:hover:-translate-y-2 duration-150 transition-all  border border-1 border-black-400">
                       <div className="cstack mb-2">
                         <Image
                           className="w-64px lg:w-80px d-block dark:d-none"

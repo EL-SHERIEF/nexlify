@@ -2,12 +2,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+
 import { footerLinks, socialLinks } from "@/data/footer";
 
 export default function Footer1() {
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden">
-      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:bg-gray-900 dark:text-white">
+      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:bg-gray-900 dark:text-white"
+      >
         <div className="container max-w-xl">
           <div className="footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
             <div className="uc-footer-widgets panel">

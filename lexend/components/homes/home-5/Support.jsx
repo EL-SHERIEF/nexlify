@@ -5,7 +5,7 @@ export default function Support() {
   return (
     <div id="support_cta" className="support-cta section panel overflow-hidden">
       <div className="section-outer panel py-4 sm:py-6 xl:py-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div
             className="section-inner panel p-4 md:p-6 lg:p-8 rounded-1-5 lg:rounded-2 bg-secondary dark:bg-white dark:bg-opacity-5 dark:text-white"
             data-anime="onview: -200; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;"

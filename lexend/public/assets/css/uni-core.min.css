@@ -19,6 +19,9 @@ a {
   text-decoration: none !important;
   cursor: pointer;
 }
+.panel.vstack.gap-2.items-center.text-center.px-3 .uc-link{
+  color: var(--secondary)!important;
+}
 .uc-link-toggle:hover .uc-link,
 .uc-link:hover,
 a:hover {

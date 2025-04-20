@@ -80,7 +80,7 @@ export default function BlogDetails3({ blogItem }) {
           </div>
         </div>
         <div className="panel mt-4 lg:mt-6 xl:mt-9">
-          <div className="container max-w-lg">
+          <div className="container max-w-xl">
             <Gallery>
               <div
                 className="post-content panel fs-6 md:fs-5"

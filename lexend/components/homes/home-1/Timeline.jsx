@@ -6,10 +6,10 @@ export default function Timeline() {
   return (
     <div
       id="about-timeline"
-      className="about-timeline section panel overflow-hidden bg-secondary dark:bg-gray-800"
+      className="about-timeline section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8">
               <h2
@@ -34,7 +34,7 @@ export default function Timeline() {
                       <div className="timeline-box panel vstack items-center gap-9 text-center">
                         <div className="image-wrap panel overflow-hidden w-200px">
                           <Image
-                            className="image w-100 origin-bottom"
+                            className="image w-100 origin-bottom rounded-2"
                             src={item.src}
                             width={400}
                             height={400}

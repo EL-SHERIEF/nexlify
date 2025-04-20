@@ -11,7 +11,7 @@ export default function Testimonials() {
         className="clients-feedbacks section panel overflow-hidden"
       >
         <div className="section-outer panel pt-4 md:pt-6 xl:pt-9">
-          <div className="container max-w-lg">
+          <div className="container max-w-xl">
             <div className="section-inner panel">
               <div
                 className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"

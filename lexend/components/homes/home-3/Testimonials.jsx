@@ -28,7 +28,7 @@ export default function Testimonials() {
       className="clients-feedback section panel overflow-hidden"
     >
       <div className="section-outer panel">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div
             className="section-inner panel swiper-parent"
             data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
