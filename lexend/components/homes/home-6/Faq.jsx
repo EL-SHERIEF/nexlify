@@ -25,7 +25,7 @@ export default function Faq() {
                   </div>
                   <h2 className="h3 lg:h2 m-0">Frequenlty Asked Questions</h2>
                   <p className="fs-6 lg:fs-5">
-                    We’re looking for people who share our vision! most of our
+                    AI Developer? We value your skills! most of our
                     time used to be taken up by most of who created new websites
                     for thier businesses.
                   </p>

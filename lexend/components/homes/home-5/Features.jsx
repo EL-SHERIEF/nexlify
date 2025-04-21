@@ -58,7 +58,7 @@ export default function Features() {
                           className="uc-link dark:text-secondary fs-7 xl:fs-6 fw-bold hstack gap-1 sm:mt-1"
                           href={`/page-features`}
                         >
-                          <span>Learn more</span>
+                          <span>Grow more</span>
                           <i className="position-relative icon unicon-arrow-right fw-bold rtl:rotate-180 translate-y-px" />
                         </Link>
                       </div>

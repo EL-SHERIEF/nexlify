@@ -53,7 +53,7 @@ export default function Features() {
                         href="#"
                         className="btn btn-sm btn-primary border border-dark px-2 mt-2"
                       >
-                        <span>Learn more</span>
+                        <span>Grow more</span>
                         <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:rotate-180" />
                       </a>
                     </div>

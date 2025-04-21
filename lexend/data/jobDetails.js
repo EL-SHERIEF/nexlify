@@ -29,7 +29,7 @@ export const requirement = [
   "Large knowledge of design patterns.",
   "Great written and verbal communication skills.",
   "Team player, you enjoy working in teams and sharing your experience and knowledge with others.",
-  "Ability and willingness to learn and develop strong design leadership skills.",
+  "Ability and willingness to Grow and develop strong design leadership skills.",
   "Experience working and building Design Systems.",
 ];
 

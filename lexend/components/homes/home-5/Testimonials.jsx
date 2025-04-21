@@ -35,7 +35,7 @@ export default function Testimonials() {
                           </div>
                         </div>
                         <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">
-                          “We’re looking for people who share our vision! most
+                          “AI Developer? We value your skills! most
                           of our time used to be taken up by most of alternate
                           administrative work whereas now we can focus on
                           building out to help our employees.”

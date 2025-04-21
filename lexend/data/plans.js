@@ -4,9 +4,9 @@ export const panelsData = [
     lightImgSrc: "/assets/images/template/icon-diamond.svg",
     darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
-    title: "Make an impact",
+    title: "Drive Change",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "We’re crafting something monumental. Our AI solutions can transform the path of any business, big or small, for the better.",
   },
   {
     id: 2,
@@ -15,24 +15,24 @@ export const panelsData = [
     altText: "crown-icon",
     title: "Learn",
     description:
-      "nexlify team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Nexlify’s team are pioneers in their domains. Though experts, we always carve out time to broaden our knowledge and skills.",
   },
   {
     id: 3,
     lightImgSrc: "/assets/images/template/icon-globe.svg",
     darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
     altText: "fun-icon",
-    title: "Have fun",
+    title: "Spark Joy",
     description:
-      "We work hard and play harder. We believe in the importance of celebrating wins big or small, for the business or individuals.",
+      "We code with zeal and celebrate with zest. Every AI breakthrough, big or small, ignites our passion for innovation.",
   },
   {
     id: 4,
     lightImgSrc: "/assets/images/template/icon-crown.svg",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
-    altText: "empathy-icon",
-    title: "Empathy",
+    altText: "Understand-icon",
+    title: "Understand",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we can provide a better experience for all.",
+      "We embed Understand in our AI, ensuring intuitive solutions that resonate deeply with clients and colleagues alike.",
   },
 ];

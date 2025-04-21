@@ -35,7 +35,7 @@ export const slidesData = [
   {
     rating: 5,
     quote:
-      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+      "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
     name: "John Edrissi",
     title: "CEO, Co-Founder.",
   },
@@ -56,7 +56,7 @@ export const slidesData = [
   {
     rating: 5,
     quote:
-      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+      "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
     name: "Tom Smith",
     title: "Senior UI/UX Designer",
   },
@@ -68,7 +68,7 @@ export const reviews = [
     name: "John Edrissi",
     position: "CEO, Co-Founder",
     feedback:
-      "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
   },
   {
     name: "Sam Owesen",
@@ -86,7 +86,7 @@ export const reviews = [
     name: "Tom Smith",
     position: "Senior UI/UX Designer",
     feedback:
-      "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
   },
 ];
 
@@ -161,7 +161,7 @@ export const testimonials3 = [
   {
     brandImgSrc: "/assets/images/brands/brand-07.svg",
     brandImgAlt: "Brand",
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
     avatarImgSrc: "/assets/images/avatars/01.jpg",
     avatarImgAlt: "John Edrissi",
     name: "John Edrissi",
@@ -189,7 +189,7 @@ export const testimonials3 = [
 
 export const testimonials4 = [
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
     name: "John Edrissi",
     imgSrc: "/assets/images/avatars/01.jpg",
   },
@@ -204,12 +204,12 @@ export const testimonials4 = [
     imgSrc: "/assets/images/avatars/03.jpg",
   },
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
     name: "Tom Smith",
     imgSrc: "/assets/images/avatars/08.jpg",
   },
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
     name: "John Edrissi",
     imgSrc: "/assets/images/avatars/01.jpg",
   },
@@ -224,7 +224,7 @@ export const testimonials4 = [
     imgSrc: "/assets/images/avatars/03.jpg",
   },
   {
-    text: "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
+    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
     name: "Tom Smith",
     imgSrc: "/assets/images/avatars/08.jpg",
   },
@@ -237,7 +237,7 @@ export const testimonialsData = [
     name: "John Edrissi",
     role: "CEO, Co-Founder.",
     quote:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“AI Developer? We value your skills! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
   },
   {
     id: 2,
@@ -261,13 +261,13 @@ export const testimonialsData = [
     name: "Tom Smith",
     role: "Senior UI/UX Designer",
     quote:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“AI Developer? We value your skills! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
   },
 ];
 
 export const testimonials5 = [
   {
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate to help our employees.”",
+    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate to help our employees.”",
     name: "John Edrissi",
     imgSrc: "/assets/images/avatars/01.jpg",
   },
@@ -282,12 +282,12 @@ export const testimonials5 = [
     imgSrc: "/assets/images/avatars/03.jpg",
   },
   {
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
     name: "Tom Smith",
     imgSrc: "/assets/images/avatars/08.jpg",
   },
   {
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
     name: "Jaden Karl",
     imgSrc: "/assets/images/avatars/05.jpg",
   },
@@ -302,7 +302,7 @@ export const testimonials5 = [
     imgSrc: "/assets/images/avatars/07.jpg",
   },
   {
-    text: "“We’re looking for people who share our vision! Most of our time used to be taken up by most of the alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“AI Developer? We value your skills! Most of our time used to be taken up by most of the alternate administrative work whereas now we can focus on building out to help our employees.”",
     name: "jarry Cherry",
     imgSrc: "/assets/images/avatars/10.jpg",
   },
