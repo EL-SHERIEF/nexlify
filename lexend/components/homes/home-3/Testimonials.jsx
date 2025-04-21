@@ -36,14 +36,11 @@ export default function Testimonials() {
             <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
               Testimonials
             </h2>
-            <div className="panel p-3 lg:p-6 rounded-3 mt-4 sm:mt-6 border border-1 border-black-400"
-               style={{
-                boxShadow: 'rgba(0, 0, 0, 0.05) 2px 2px 5px 0px!important',
-              }}
+            <div className="panel p-3 lg:p-6 rounded-3 mt-4 sm:mt-6"
             >
-              <div className="row child-cols-12 sm:child-cols-6 col-match g-3 lg:g-8">
+              <div className="row child-cols-12 sm:child-cols-6 col-match g-2 lg:g-4">
                 <div>
-                  <div className="panel rounded-2 overflow-hidden">
+                  <div className="panel rounded-2 overflow-hidden border border-1 border-black shadow-sm">
                     <Swiper
                       allowTouchMove={false}
                       onSwiper={setThumbsSwiper}
@@ -58,7 +55,7 @@ export default function Testimonials() {
                               src={elm.imgSrc}
                               width={1000}
                               height={667}
-                              alt="John Edrissi"
+                              alt="Mark Zellers"
                             />
                           </figure>
                         </SwiperSlide>
@@ -67,7 +64,7 @@ export default function Testimonials() {
                   </div>
                 </div>
                 <div>
-                  <div className="panel">
+                  <div className="panel p-3 border-1 border-black border rounded-2 shadow-sm">
                     <Swiper
                       thumbs={{ swiper: thumbsSwiper }}
                       {...swiperOptions2}
