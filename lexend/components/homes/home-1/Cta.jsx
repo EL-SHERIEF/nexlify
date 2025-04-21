@@ -21,7 +21,7 @@ export default function Cta() {
             }}
           >
             <div
-              className="vstack items-start gap-2 px-8 mx-auto text-start"
+              className="vstack items-start gap-2 px-3 lg:px-4 xl:px-6 mx-auto text-start"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
                 <Image
