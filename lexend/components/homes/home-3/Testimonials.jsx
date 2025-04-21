@@ -81,7 +81,7 @@ export default function Testimonials() {
                         >
                           <div className="panel vstack justify-between items-center gap-2 lg:gap-3 h-100 text-center">
                             <div className="panel">
-                              <i className="icon icon-4 unicon-quotes text-primary" />
+                            <svg width={60} height={60} className="text-primary" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" fill="currentColor"><g strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g> <path d="M600,0C268.629,0,0,268.629,0,600s268.629,600,600,600 s600-268.629,600-600S931.371,0,600,0z M554.077,282.422l25.781,118.727c-75.541,16.721-145.005,38.468-139.38,122.826h88.77 v315.968H261.841V544.629C261.936,309.938,434.242,290.843,554.077,282.422z M912.305,282.422l25.854,118.727 c-75.541,16.721-145.005,38.468-139.38,122.826h88.77v315.968H620.142V544.629C620.236,309.938,792.47,290.843,912.305,282.422z"></path> </g></svg>
                               <p className="fs-6 sm:fs-5 lg:fs-4 fw-bold mt-1 sm:mt-4 dark:text-white">
                                 {testimonial.quote}
                               </p>

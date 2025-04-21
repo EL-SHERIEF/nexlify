@@ -34,51 +34,61 @@ export default function Hero() {
               </p>
             </div>
             <div className="sticky-scene panel vstack gap-3">
-              {features6.map((feature) => (
-                <div
-                  key={feature.id}
-                  className="feature-item panel px-3 lg:px-4 py-4 rounded-3 border-1 border-black border shadow-sm"
-                  data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
+            {features6.map((feature) => (
+  <div
+    key={feature.id}
+    className="feature-item panel py-4"
+    data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
+  >
+    <div className="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
+      <div className={`order-0 ${feature.id % 2 === 1 ? 'lg:order-0' : 'lg:order-1'}`}>
+        <div className="panel w-100 rounded lg:rounded-2 overflow-hidden border border-1 border-black">
+          <Image
+            src={feature.imgSrc}
+            width={780}
+            height={728}
+            alt={feature.imgAlt}
+          />
+        </div>
+      </div>
+      <div className={`order-1 ${feature.id % 2 === 1 ? 'lg:order-1' : 'lg:order-0'} col-12 sm:col-5`}>
+        <div className="panel vstack justify-center gap-4 h-100">
+          <div>
+            <div className="panel vstack gap-3">
+              <div className="row gap-1 px-1">
+                <span
+                  className="fw-medium fs-6 d-flex align-items-center px-2 py-1 text-white rounded-pill blur gap-1 border-1 border border-black shadow-sm bg-primary"
+                  style={{ width: 'fit-content' }}
                 >
-                  <div className="row child-cols col-match justify-between g-4 lg:g-8 xl:g-10">
-                    <div className="order-0 lg:order-1">
-                      <div className="panel w-100 rounded lg:rounded-2 overflow-hidden border border-1 border-black">
-                        <Image
-                          src={feature.imgSrc}
-                          width={780}
-                          height={728}
-                          alt={feature.imgAlt}
-                        />
-                      </div>
-                    </div>
-                    <div className="order-1 lg:order-0 col-12 sm:col-5">
-                      <div className="panel vstack justify-center gap-4 h-100">
-                        <div>
-                          <div className="panel vstack gap-2">
-                          <span className="fw-medium fs-6 d-flex align-items-center px-2 py-1 text-primary rounded-pill blur gap-1 mb-4 border-1 border border-black shadow-sm " style={{width:'fit-content'}}>
-                   {feature.id.toString().padStart(2, "")}
-                    </span>
-                           
-                            <h3 className="h4 lg:h2 m-0">{feature.title}</h3>
-                            <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                              {feature.description}
-                            </p>
-                            {feature.link && (
-                              <a
-                                href={feature.link.href}
-                                className="uc-link fw-bold hstack gap-narrow"
-                              >
-                                <span>{feature.link.text}</span>
-                                <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
-                              </a>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
+                  Feature
+                </span>
+                <span
+                  className="fw-medium fs-6 d-flex align-items-center px-2 py-1 text-primary rounded-pill blur gap-1 border-1 border border-black shadow-sm"
+                  style={{ width: 'fit-content' }}
+                >
+                  {feature.id.toString().padStart(2, "")}
+                </span>
+              </div>
+              <h3 className="h4 lg:h2 m-0">{feature.title}</h3>
+              <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
+                {feature.description}
+              </p>
+              {feature.link && (
+                <a
+                  href={feature.link.href}
+                  className="uc-link fw-bold hstack gap-narrow"
+                >
+                  <span>{feature.link.text}</span>
+                  <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+))}
             </div>
           </div>
         </div>

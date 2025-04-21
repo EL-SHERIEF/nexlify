@@ -1,35 +1,22 @@
 export const testimonials = [
   {
-    quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on
-      building out programs to help our employees. 
-      Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Quas nisi consectetur adipisci eaque. Porro,
-      atque.”`,
-    name: "John Edrissi",
-    position: "Director of Human Resources.",
-    imgSrc: "/assets/images/portrait/01.jpg",
+    "quote": "Our team used to spend hours on data processing and report generation. Now, with Nexlify's advanced AI tools, we can focus on developing innovative strategies to enhance employee productivity and engagement.",
+    "name": "John Edrissi",
+    "position": "Director of Human Resources",
+    "imgSrc": "/assets/images/portrait/01.jpg"
   },
   {
-    quote: `“I can create a custom proposal with dynamic pricing
-      tables, and get approval from my boss all within 36
-      minutes and looks fantastic.
-      Dolor sit amet consectetur adipisicing elit. Quas
-      nisi consectetur adipisci eaque. Porro, atque.”`,
-    name: "Marci Beckler",
-    position: "Client Success Manager",
-    imgSrc: "/assets/images/portrait/02.jpg",
+    "quote": "With Nexlify's AI-driven analytics, I can generate tailored business proposals with real-time insights and predictive pricing models, getting approvals in under 30 minutes. The results are professional and impactful.",
+    "name": "Marci Beckler",
+    "position": "Client Success Manager",
+    "imgSrc": "/assets/images/portrait/02.jpg"
   },
   {
-    quote: `“This powerful tool eliminates the need to leave
-      Salesforce to get things done, 
-      quas libero placeat voluptates sed sequi? Corporis,
-      earum vitae. 
-      Tempore pariatur dignissimos coming for great tool
-      of repellat quae a eaque culpa iusto fugit.”`,
-    name: "Matt Henderson",
-    position: "Director of Sales Operations",
-    imgSrc: "/assets/images/portrait/03.jpg",
-  },
+    "quote": "Nexlify's seamless integration with our CRM platform allows us to leverage powerful AI capabilities without switching tools. It streamlines our sales processes, from lead scoring to forecasting, boosting efficiency like never before.",
+    "name": "Matt Henderson",
+    "position": "Director of Sales Operations",
+    "imgSrc": "/assets/images/portrait/03.jpg"
+  }
 ];
 export const slidesData = [
   {
