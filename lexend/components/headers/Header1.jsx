@@ -58,14 +58,14 @@ export default function Header1() {
                   <Image
                     className="dark:d-none"
                     alt="Nexlify"
-                    src="/assets/images/common/logo-light.svg"
+                    src="/assets/images/common/logo-light.png"
                     width="117"
                     height="40"
                   />
                   <Image
                     className="d-none dark:d-block"
                     alt="Nexlify"
-                    src="/assets/images/common/logo-light.svg"
+                    src="/assets/images/common/logo-light.png"
                     width="117"
                     height="40"
                   />

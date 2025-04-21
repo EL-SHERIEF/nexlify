@@ -27,7 +27,7 @@ export default function Footer3() {
                     <Image
                       className="dark:d-none"
                       alt=""
-                      src="/assets/images/common/logo-light.svg"
+                      src="/assets/images/common/logo-light.png"
                       width="117"
                       height="40"
                     />

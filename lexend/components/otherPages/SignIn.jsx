@@ -77,7 +77,7 @@ export default function SignIn() {
                        <Image
                       className="w-42px lg:w-50px mx-auto"
                       alt=""
-                      src="/assets/images/common/logo-light.svg"
+                      src="/assets/images/common/logo-light.png"
                       width="150"
                       height="100"
                     />
