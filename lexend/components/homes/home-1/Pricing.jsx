@@ -46,7 +46,7 @@ export default function Pricing() {
                         }`}
                       >
                         {tier.popular && (
-                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-narrow px-1 bg-primary rounded-1 text-white fs-7 fw-medium">
+                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 border-primary">
                             Popular
                           </span>
                         )}
