@@ -76,13 +76,13 @@ export default function Facts() {
                           boxshadow: 'rgba(0, 0, 0, 0.05) 2px 2px 5px 0px',
                           border:'solid 1px #e5e7eb'
                        }}>
-                          <h4 className="h2 xl:display-5 m-0">
+                          <h4 className="h2 xl:display-5 m-0 text-primary">
                             <span data-anime={item.animation}>
                               {item.year || item.count}
                             </span>
                             {item.suffix && item.suffix}
                           </h4>
-                          <p className="fs-6 lg:fs-5 text-dark dark:text-white text-opacity-70">
+                          <p className="fs-6 lg:fs-5 text-dark dark:text-white">
                             {item.description}
                           </p>
                         </div>
