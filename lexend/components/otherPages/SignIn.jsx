@@ -58,7 +58,7 @@ export default function SignIn() {
                     <Image
                       className="w-42px lg:w-50px"
                       alt=""
-                      src="/assets/images/common/logo-mark.svg"
+                      src="/assets/images/common/logo-mark.png"
                       width="50"
                       height="50"
                     />

@@ -1,5 +1,5 @@
 "use client";
-import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 
 export default function Newsletter() {
   return (

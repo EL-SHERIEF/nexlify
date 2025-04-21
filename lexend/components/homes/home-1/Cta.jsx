@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 
 export default function Cta() {
   return (
@@ -27,7 +27,7 @@ export default function Cta() {
                 <Image
                                  className="dark:d-none"
                                  alt="Nexlify"
-                                 src="/assets/images/common/logo-dark.svg"
+                                 src="/assets/images/common/logo-dark.png"
                                  width="130"
                                  height="60"
                                />

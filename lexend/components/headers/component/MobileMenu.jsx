@@ -90,7 +90,7 @@ export default function MobileMenu() {
               <Image
                 className="w-32px"
                 alt="nexlify"
-                src="/assets/images/common/logo-mark.svg"
+                src="/assets/images/common/logo-mark.png"
                 width="34"
                 height="34"
               />

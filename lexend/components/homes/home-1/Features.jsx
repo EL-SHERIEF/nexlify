@@ -38,7 +38,7 @@ export default function Features() {
                   role="tablist"
                 >
                   <li
-                    className={`${activeTab == 1 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
+                    className={`${activeTab == 1 ? "border border-2 border-primary m-1 rounded-pill text-primary py-2" : ""}`}
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
@@ -46,13 +46,13 @@ export default function Features() {
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
-                    className={`${activeTab == 2 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
+                    className={`${activeTab == 2 ? "border border-2 border-primary m-1 rounded-pill text-primary py-2" : ""}`}
                     role="presentation"
                   >
                     <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
                   </li>
                   <li
-                    className={`${activeTab == 3 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
+                    className={`${activeTab == 3 ? "border border-2 border-primary m-1 rounded-pill text-primary py-2" : ""}`}
                     onClick={() => setActiveTab(3)}
                     role="presentation"
                   >
@@ -61,7 +61,7 @@ export default function Features() {
                     </a>
                   </li>
                   <li
-                    className={`${activeTab == 4 ? "border border-2 border-primary m-1 rounded-pill text-primary" : ""}`}
+                    className={`${activeTab == 4 ? "border border-2 border-primary m-1 rounded-pill text-primary py-2" : ""}`}
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >

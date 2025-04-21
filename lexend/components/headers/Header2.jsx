@@ -70,7 +70,7 @@ export default function Header2() {
                   <Image
                     className="d-none dark:d-block"
                     alt="nexlify"
-                    src="/assets/images/common/logo-dark.svg"
+                    src="/assets/images/common/logo-dark.png"
                     width="117"
                     height="40"
                   />

@@ -20,7 +20,7 @@ export default function Footer5() {
                           <Image
                             className="text-primary"
                             alt="nexlify"
-                            src="/assets/images/common/logo-dark.svg"
+                            src="/assets/images/common/logo-dark.png"
                             width="117"
                             height="40"
                           />

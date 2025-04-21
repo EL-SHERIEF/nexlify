@@ -147,24 +147,24 @@
   --color-slate-900: #15171a;
 
   /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
-  --color-primary: #2371FF;
-  --bs-primary-rgb:35, 113, 255;
-  --btn-hover-bg: #4a4d5e;
-  --btn-hover-border-color: #1b36685d;
+  --color-primary: #8d23ff;
+  --bs-primary-rgb:141, 35, 255;
+  --btn-hover-bg: #3c0069;
+  --btn-hover-border-color: #4c1b685d;
   /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
 
   --color-primary-10: #f8f9fb;
   --color-primary-25: #f3f5f8;
   --color-primary-50: #e7ecf1;
-  --color-primary-100: #a0a8c6;
-  --color-primary-200: #7187aa;
-  --color-primary-300: #225095;
-  --color-primary-400: #14457a;
+  --color-primary-100: #b1a0c6;
+  --color-primary-200: #9371aa;
+  --color-primary-300: #6b2295;
+  --color-primary-400: #5d147a;
   --color-primary-500: var(--color-primary);
   --color-primary-600: var(--btn-hover-border-color);
-  --color-primary-700: #1d4983;
-  --color-primary-800: #0f295f;
-  --color-primary-900: #111827;
+  --color-primary-700: #421d83;
+  --color-primary-800: #460f5f;
+  --color-primary-900: #3a005a;
   --color-secondary: #f5eee9;
   --color-secondary-10: #fffefe;
   --color-secondary-25: #fffefe;
@@ -2521,7 +2521,6 @@ header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  line-height: 80px !important;
   padding: 0 16px;
 }
 .main-features-nav > li::before {

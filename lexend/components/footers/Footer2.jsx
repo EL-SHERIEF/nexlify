@@ -3,15 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
 import { footerLinks, socialLinks } from "@/data/footer";
-import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 
 export default function Footer2() {
   return (
-    <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark p-4">
-      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:text-white mx-auto border-black border border-1 shadow-sm"
+    <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark p-2">
+      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:text-white mx-auto border-black border border-1 shadow-sm bg-primary"
        style={{
               borderRadius: '20px',
-              backgroundImage: `url(${bg.src})`,
+              
               backgroundSize: 'cover',
               backgroundPosition: 'start center',
               backgroundRepeat: 'no-repeat',
@@ -25,9 +25,11 @@ export default function Footer2() {
                     <div className="vstack gap-2">
                       <Link href={`/`}>
                         <img
+                        width={150}
+                        height={150}
                           className=" text-primary"
                           alt="nexlify"
-                          src="/assets/images/common/logo-dark.svg"
+                          src="/assets/images/common/logo-dark.png"
                         />
                       </Link>
                       <p>

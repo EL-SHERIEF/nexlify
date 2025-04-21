@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Pagination from "../common/Pagination";
-import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 
 export default function Blogs1() {
   return (

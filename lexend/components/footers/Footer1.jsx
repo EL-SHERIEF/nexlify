@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
-import bg from "@/public/assets/images/landing/hero-bg-2.webp";
+import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 
 import { footerLinks, socialLinks } from "@/data/footer";
 
@@ -22,7 +22,7 @@ export default function Footer1() {
                         <Image
                           className="w-32px text-primary"
                           alt="nexlify"
-                          src="/assets/images/common/logo-mark.svg"
+                          src="/assets/images/common/logo-mark.png"
                           width="34"
                           height="34"
                         />
