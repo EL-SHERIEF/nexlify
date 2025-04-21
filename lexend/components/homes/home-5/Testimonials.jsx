@@ -31,13 +31,7 @@ export default function Testimonials() {
                               width="165"
                               height="48"
                             />
-                            <Image
-                              className="w-128px d-none dark:d-inline-flex"
-                              alt="Brand"
-                              src="/assets/images/brands/brand-01-dark.svg"
-                              width="165"
-                              height="48"
-                            />
+                        
                           </div>
                         </div>
                         <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white lg:px-6">

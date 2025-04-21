@@ -18,12 +18,10 @@ export default function Features() {
           >
             <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                Smart features for your business
+                Smart AI Features
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                We improve your workflow with our smart AI features, so you can focus on bigger scale work Easily and without any hassles. 
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
@@ -42,14 +40,14 @@ export default function Features() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Audit Trial</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Content</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "border border-2 border-primary m-1 rounded-pill text-primary py-2" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Social Media</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "border border-2 border-primary m-1 rounded-pill text-primary py-2" : ""}`}
@@ -57,7 +55,7 @@ export default function Features() {
                     role="presentation"
                   >
                     <a className="h6 lg:h5 text-nowrap m-0">
-                      Control your Apps
+                    Monitoring
                     </a>
                   </li>
                   <li
@@ -65,7 +63,7 @@ export default function Features() {
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Approvals</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Analytics</a>
                   </li>
                 </ul>
               </div>

@@ -32,8 +32,8 @@ export default function Brands() {
           <Image
             className="brand-item-image h-40px image-filter"
             src={brand.src}
-            width={165}
-            height={48}
+            width={300}
+            height={100}
             alt={brand.alt}
           />
         </SwiperSlide>
