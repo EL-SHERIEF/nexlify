@@ -1,17 +1,17 @@
 export const teamMembers = [
   {
     id: 1,
-    name: "Mark Zellers",
+    name: "John Edrissi",
     position: "Founder & CEO",
     imageSrc: "/assets/images/template/team-01.jpg",
-    altText: "Mark Zellers",
+    altText: "John Edrissi",
   },
   {
     id: 2,
-    name: "John Zellers",
+    name: "John Lee",
     position: "Co-Founder",
     imageSrc: "/assets/images/template/team-02.jpg",
-    altText: "John Zellers",
+    altText: "John Lee",
   },
   {
     id: 3,
@@ -22,10 +22,10 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: "André Garcia",
+    name: "Marci Beckler",
     position: "Product Manager",
     imageSrc: "/assets/images/template/team-04.jpg",
-    altText: "André Garcia",
+    altText: "Marci Beckler",
   },
   {
     id: 5,
@@ -36,41 +36,41 @@ export const teamMembers = [
   },
   {
     id: 6,
-    name: "Henry Matt",
+    name: "Francia Matt",
     position: "Customer Success",
     imageSrc: "/assets/images/template/team-06.jpg",
-    altText: "Henry Matt",
+    altText: "Francia Matt",
   },
   {
     id: 7,
-    name: "Natalia",
+    name: "jarry",
     position: "Lead of Fun",
     imageSrc: "/assets/images/template/team-07.jpg",
-    altText: "Natalia",
+    altText: "jarry",
   },
   {
     id: 8,
-    name: "Larry",
+    name: "Jack",
     position: "Director of Joy",
     imageSrc: "/assets/images/template/team-08.jpg",
-    altText: "Larry",
+    altText: "Jack",
   },
 ];
 
 export const teamMembers2 = [
   {
     id: 9,
-    name: "Mark Zellers",
+    name: "John Edrissi",
     role: "Founder & CEO",
     imgSrc: "/assets/images/template/team-01.jpg",
-    alt: "Mark Zellers",
+    alt: "John Edrissi",
   },
   {
     id: 10,
-    name: "John Zellers",
+    name: "John Lee",
     role: "Co-Founder",
     imgSrc: "/assets/images/template/team-02.jpg",
-    alt: "John Zellers",
+    alt: "John Lee",
   },
   {
     id: 11,
@@ -81,10 +81,10 @@ export const teamMembers2 = [
   },
   {
     id: 12,
-    name: "André Garcia",
+    name: "Marci Beckler",
     role: "Product Manager",
     imgSrc: "/assets/images/template/team-04.jpg",
-    alt: "André Garcia",
+    alt: "Marci Beckler",
   },
   {
     id: 13,
@@ -95,24 +95,24 @@ export const teamMembers2 = [
   },
   {
     id: 14,
-    name: "Henry Matt",
+    name: "Francia Matt",
     role: "Customer Success",
     imgSrc: "/assets/images/template/team-06.jpg",
-    alt: "Henry Matt",
+    alt: "Francia Matt",
   },
   {
     id: 15,
-    name: "Natalia",
+    name: "jarry",
     role: "Lead of fun",
     imgSrc: "/assets/images/template/team-07.jpg",
-    alt: "Natalia",
+    alt: "jarry",
   },
   {
     id: 16,
-    name: "Larry",
+    name: "Jack",
     role: "Director of Joy",
     imgSrc: "/assets/images/template/team-08.jpg",
-    alt: "Larry",
+    alt: "Jack",
   },
 ];
 

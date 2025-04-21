@@ -99,7 +99,7 @@ export const features3 = [
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
       imgSrc: "/assets/images/avatars/01.png",
-      name: "Mark Zellers",
+      name: "John Edrissi",
       role: "Director of Human Resources.",
     },
   },
@@ -131,7 +131,7 @@ export const features3 = [
     testimonial: {
       quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
       imgSrc: "/assets/images/avatars/04.jpg",
-      name: "Natalia Larsson",
+      name: "Sam Owesen",
       role: "Director of Sales Operations",
     },
   },
@@ -145,7 +145,7 @@ export const features3 = [
     testimonial: {
       quote: `“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”`,
       imgSrc: "/assets/images/avatars/03.png",
-      name: "Sarah Edrissi",
+      name: "Elloni Emad",
       role: "Lead Marketing",
     },
   },

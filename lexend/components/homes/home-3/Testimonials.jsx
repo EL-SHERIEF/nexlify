@@ -58,7 +58,7 @@ export default function Testimonials() {
                               src={elm.imgSrc}
                               width={1000}
                               height={667}
-                              alt="Mark Zellers"
+                              alt="John Edrissi"
                             />
                           </figure>
                         </SwiperSlide>

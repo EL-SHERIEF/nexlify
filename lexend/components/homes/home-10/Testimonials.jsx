@@ -40,14 +40,14 @@ export default function Testimonials() {
                       <div className="panel">
                         <Image
                           className="w-48px lg:w-56px h-48px lg:h-56px rounded-circle"
-                          alt="Sarah Edrissi — Lead Marketing"
+                          alt="Elloni Emad — Lead Marketing"
                           src="/assets/images/avatars/03.png"
                           width={150}
                           height={150}
                         />
                       </div>
                       <div className="panel vstack gap-narrow">
-                        <h6 className="h6 lg:h5 m-0">Sarah Edrissi</h6>
+                        <h6 className="h6 lg:h5 m-0">Elloni Emad</h6>
                         <span className="opacity-70">Lead Marketing</span>
                       </div>
                     </div>

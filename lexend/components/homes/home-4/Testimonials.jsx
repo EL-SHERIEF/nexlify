@@ -58,7 +58,7 @@ export default function Testimonials() {
                             </div>
                             <div className="panel mt-2 lg:mt-4">
                               <div className="panel vstack items-start gap-0 lg:gap-1">
-                                <h6 className="h6 lg:h5 m-0">Sarah Edrissi</h6>
+                                <h6 className="h6 lg:h5 m-0">Elloni Emad</h6>
                                 <span className="fs-7 lg:h6 opacity-70">
                                   Lead Marketing
                                 </span>

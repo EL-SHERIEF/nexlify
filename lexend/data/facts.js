@@ -34,36 +34,36 @@ export const factItems = [
   {
     id: 1,
     value: "280+",
-    description: "Track of leads",
+    description: "Tools",
   },
   {
     id: 2,
     value: "90%",
-    description: "Satisfied users",
+    description: "Faster than other tools",
   },
   {
     id: 3,
-    value: "10.2k",
-    description: "Team collaborations",
+    value: "40.2k",
+    description: "Satisfied users",
   },
 ];
 
 export const panelsData = [
   {
-    value: 2014,
-    text: "nexlify founded.",
+    value: 2019,
+    text: "nexlify founded",
     animationData:
       "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 50,
-    text: "Hardworking group.",
+    value: '140K',
+    text: "Customers",
     animationData:
       "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 100,
-    text: "Document workflows.",
+    value: 4600,
+    text: "Avg. Daily Queries",
     animationData:
       "onview: -100; textContent: [0, 100]; round: 1; easing: linear; duration: 1200;",
     suffix: "k",

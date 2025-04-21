@@ -58,7 +58,7 @@ export default function Contact1() {
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              David Larry
+                              David Jack
                             </p>
                             <span className="fs-7 opacity-80">
                               Founder &amp; CEO
