@@ -5,10 +5,10 @@ export default function Breadcumb() {
   return (
     <div
       style={{ marginTop: "80px" }}
-      className="breadcrumbs panel z-1 py-2 bg-secondary dark:bg-gray-100 dark:bg-opacity-5 dark:text-white"
+      className="breadcrumbs panel z-1 py-2 border-1 border-bottom border-top border-black shadow-sm"
     >
       <div className="container max-w-xl">
-        <ul className="breadcrumb nav-x justify-center items-center gap-1 fs-7 m-0 fw-bold">
+        <ul className="breadcrumb nav-x justify-start items-center gap-1 fs-7 m-0 fw-bold">
           <li>
             <Image
               alt="icon"

@@ -71,7 +71,7 @@ export default function Integretion() {
               </div>
               <Link
                 href={`/page-integrations`}
-                className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2 dark:text-white"
+                className="uc-link fw-bold d-inline-flex items-center gap-narrow dark:text-white"
               >
                 <span>Explore all integrations</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />

@@ -41,7 +41,7 @@ export default function Header4() {
       >
         <div
           style={{ "--uc-nav-height": "32px" }}
-          className="uc-navbar-top bg-primary-700 text-white uc-dark d-none lg:d-block"
+          className="uc-navbar-top bg-primary text-white uc-dark d-none lg:d-block"
         >
           <div className="hide-on-sticky">
             <div className="container container-expand max-w-1440px">

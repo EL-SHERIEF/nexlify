@@ -16,44 +16,50 @@ export default function Blogs2() {
               </h1>
             </header>
             <div className="row child-cols-12 sm:child-cols-4 col-match gy-4 gx-2 xl:gx-4">
-              {blogsPosts4.slice(0, 7).map((elm, i) => (
+            {blogsPosts4.slice(0, 7).map((elm, i) => (
                 <div key={i} className="col-12">
-                  <article className="post type-post panel rounded-3 p-2 md:p-4 bg-secondary dark:bg-gray-800">
-                    <div className="panel row child-cols-12 sm:child-cols items-center g-3 md:g-4">
-                      <div className="sm:col-4 md:col-6 lg:col-4">
-                        <div className="panel">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 uc-transition-toggle overflow-hidden">
-                            <Image
-                              className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                              src={elm.imgSrc}
-                              width={1280}
-                              height={853}
-                              alt="Maximizing your reach with marketing strategies"
-                            />
-                            <Link
-                              href={`/blog-details/${elm.id}`}
-                              className="position-cover"
-                              data-caption="Maximizing your reach with marketing strategies"
-                            ></Link>
-                          </figure>
+                  <article className="post type-post panel rounded-3 p-3 shadow-sm border border-1 border-black">
+                    <div className="panel row child-cols-12 md:child-cols-6 items-center g-3">
+                      <div>
+                        <figure className="featured-image m-0 rounded ratio ratio-4x3 rounded lg:rounded-2 uc-transition-toggle overflow-hidden">
+                          <Image
+                            className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                            src={elm.imgSrc}
+                            width={1280}
+                            height={853}
+                            alt="Maximizing your reach with marketing strategies"
+                          />
                           <Link
-                            className="post-category text-primary fw-normal text-none fw-bold fs-7 py-narrow px-1 rounded bg-primary text-white position-absolute top-0 start-0 m-2"
+                            href={`/blog-details/${elm.id}`}
+                            className="position-cover"
+                            data-caption="Maximizing your reach with marketing strategies"
+                          ></Link>
+                        </figure>
+                      </div>
+                      <div>
+                        <div className="vstack items-start gap-2 lg:gap-3">
+                          <Link
+                            className="post-category text-primary fw-normal text-none fw-bold fs-7 text-primary shadow-sm border-1 border-black border py-narrow px-1 rounded-pill"
                             href={`/blog-category/${elm.category}`}
                           >
                             {elm.category}
                           </Link>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="vstack items-start gap-2 md:gap-3">
-                          <ul className="post-meta nav-x ft-tertiary justify-start gap-1 fs-7">
+                          <h3 className="h4 xl:h2 text-start mx-0 lg:w-500px px-0">
+                            <Link
+                              className="text-none"
+                              href={`/blog-details/${elm.id}`}
+                            >
+                              {elm.title}
+                            </Link>
+                          </h3>
+                          <ul className="post-meta nav-x ft-tertiary justify-center fs-7 gap-1">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
                                 <Image
                                   src={elm.authorImg}
-                                  alt="David"
                                   width={150}
                                   height={150}
+                                  alt="David"
                                   className="w-24px h-24px rounded-circle me-narrow"
                                 />
                                 <Link
@@ -71,19 +77,11 @@ export default function Blogs2() {
                               </div>
                             </li>
                           </ul>
-                          <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                            <Link
-                              className="text-none"
-                              href={`/blog-details/${elm.id}`}
-                            >
-                              {elm.title}
-                            </Link>
-                          </h3>
-                          <p className="fs-6 md:fs-5 d-none md:d-block">
+                          <p className="fs-6 lg:fs-5 lg:w-500px text-start md:d-none lg:d-block">
                             {elm.desc}
                           </p>
                           <Link
-                            className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block"
+                            className="btn btn-text text-primary border-bottom d-inline-flex fs-7 lg:fs-6 sm:mt-2"
                             href={`/blog-details/${elm.id}`}
                           >
                             Continue reading
@@ -94,6 +92,7 @@ export default function Blogs2() {
                   </article>
                 </div>
               ))}
+       
             </div>
             <div className="nav-pagination fw-medium">
               <ul

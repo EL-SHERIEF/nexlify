@@ -8,7 +8,7 @@ export default function CareerOpenings() {
       id="career_openings"
       className="career-openings section panel overflow-hidden pb-6 xl:pb-9"
     >
-      <div className="section-outer panel py-6 xl:py-9 bg-secondary dark:bg-gray-800">
+      <div className="section-outer panel py-6 xl:py-9 border-top border-bottom border-1 border-black">
         <div className="container max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8 max-w-850px mx-auto">
@@ -26,7 +26,7 @@ export default function CareerOpenings() {
                 >
                   {jobListings.map((job, index) => (
                     <div key={index}>
-                      <div className="panel vstack justify-end items-end gap-1 p-3 rounded lg:rounded-2 bg-white dark:bg-gray-800">
+                      <div className="panel vstack justify-start items-start gap-1 p-3 rounded lg:rounded-2 border-1 border border-black shadow-sm">
                         <div className="vstack gap-narrow">
                           <h5 className="h6 lg:h5 m-0">{job.title}</h5>
                           <span className="fs-6 text-dark dark:text-white text-opacity-70">
@@ -35,7 +35,7 @@ export default function CareerOpenings() {
                         </div>
                         <Link
                           href={`/page-career-detail/${job.id}`}
-                          className="uc-link fs-7 fw-bold d-inline-flex items-center gap-narrow border-bottom pb-narrow"
+                          className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2 dark:text-white"
                         >
                           <span>Apply now</span>
                           <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:-rotate-90" />
