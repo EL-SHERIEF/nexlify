@@ -9,6 +9,7 @@ import Timeline from "@/components/homes/home-1/Timeline";
 import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/homes/home-1/Cta";
 import Footer1 from "@/components/footers/Footer1";
+import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
 export const metadata = {
   title:
     "Home 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -22,13 +23,13 @@ export default function HomePage1() {
         <Header1 />
         <div id="wrapper" className="wrap">
           <Hero />
-          <Features />
+          <KeyFeatures />
           <Integretion />
-          <Facts />
+          <Features />
           <Pricing />
           <Feedback />
-          <Timeline />
           <Team />
+          <Timeline />
           <Cta />
         </div>
         <Footer1 />

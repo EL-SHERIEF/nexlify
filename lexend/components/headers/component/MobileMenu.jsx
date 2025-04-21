@@ -252,7 +252,7 @@ export default function MobileMenu() {
             </li>
           </ul>
           <div
-            className="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900 uc-sticky uc-active uc-sticky-fixed"
+            className="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900 uc-sticky uc-active uc-sticky-fixed d-none"
             data-uc-sticky="position: bottom"
           >
             <div className="vstack gap-1">

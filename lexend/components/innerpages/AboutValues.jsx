@@ -23,7 +23,7 @@ export default function AboutValues() {
                 Our Values it’s Simple!
               </h2>
               <div
-                className="row child-cols-12 sm:child-cols-6 g-2 lg:g-4 justify-between"
+                className="row child-cols-12 sm:child-cols-6 g-2 justify-between"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 {panelsData.map((panel) => (

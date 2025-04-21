@@ -10,7 +10,7 @@ export default function Features() {
       id="main_features"
       className="main-features section panel overflow-hidden"
     >
-      <div className="section-outer panel pb-6 xl:pb-9">
+      <div className="section-outer panel pb-6 xl:pb-9 pt-9">
         <div className="container max-w-xl lg:max-w-lg">
           <div
             className="section-inner panel"

@@ -23,7 +23,7 @@ export default function Feedback() {
               Some clients feedbacks
               </h2>
               <div
-                className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 justify-center col-match g-2 lg:g-3"
+                className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 justify-center col-match g-2"
                 data-uc-grid=""
               >
                 {testimonials3.map((testimonial, index) => (
@@ -67,7 +67,7 @@ export default function Feedback() {
               </div>
               <a
                 href="#"
-                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
+                className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
               >
                 <span>See all feedbacks</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />

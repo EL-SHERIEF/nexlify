@@ -46,7 +46,7 @@ export default function Pricing() {
                         }`}
                       >
                         {tier.popular && (
-                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 border-primary">
+                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 bg-white border-primary">
                             Popular
                           </span>
                         )}
@@ -102,7 +102,7 @@ export default function Pricing() {
               </div>
               <Link
                 href={`/page-pricing`}
-                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
+                className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow"
                 style={{
                   transform: "translateY(0.0097341px)",
                   opacity: "0.999797",

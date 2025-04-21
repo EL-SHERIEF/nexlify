@@ -5,7 +5,7 @@ import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 
 export default function Cta() {
   return (
-    <div id="cta" className="cta section panel overflow-hidden">
+    <div id="cta" className="cta section panel overflow-hidden mt-5">
       <div
         className="section-outer panel"
         data-anime="onview: -100; translateY: [24, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"

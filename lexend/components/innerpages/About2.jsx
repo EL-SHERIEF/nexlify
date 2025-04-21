@@ -27,7 +27,7 @@ export default function About2() {
               <p className="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
               In 2014, Sarah Thompson reclaimed valuable time, allowing us to focus on strategies that truly drive our company forward instead of scattering efforts aimlessly. Thus, Nexlify was born. Today, Nexlify enables teams to seamlessly connect with clients through tailored AI solutions crafted in minutes, fostering impactful relationships.              </p>
               <div className="panel mt-8">
-                <div className="row child-cols-6 lg:child-cols-4 justify-center g-3 col-match">
+                <div className="row child-cols-6 lg:child-cols-4 justify-center g-2 col-match">
                   {panelsData.map((panel, index) => (
                     <div key={index}>
                       <div className="panel vstack gap-1 p-2 border-1 border border-black shadow-sm rounded-2">

@@ -52,7 +52,7 @@ export default function KeyFeatures() {
               </div>
               <Link
                 href={`/page-features`}
-                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
+                className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
                 style={{
                   transform: "translateY(0.0097341px)",
                   opacity: "0.999797",

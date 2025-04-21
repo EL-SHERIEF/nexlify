@@ -30,7 +30,7 @@ export default function Hero() {
   data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 250; delay: anime.stagger(50, {start: 500});"
 >
 </div>
-        <div className="section-outer panel pb-6 sm:pb-9 pt-9 sm:pt-10">
+        <div className="section-outer panel pb-2 pt-9 sm:pt-10">
           <div className="container max-w-xl">
             <div className="section-inner panel">
               <div className="vstack gap-6 sm:gap-8 xl:gap-9">
@@ -48,12 +48,7 @@ export default function Hero() {
                       <br className="d-none sm:d-block" />
                       to boost your business
                     </h1>
-                    <Link
-                      href={`/page-pricing`}
-                      className="btn btn-md lg:btn-lg btn-secondary text-white min-w-150px sm:mt-1 lg:mt-2"
-                    >
-                      Start Today
-                    </Link>
+              
                     <div className="hstack justify-center gap-2 mt-1 sm:mt-2">
                       <div className="hstack justify-center gap-0">
                         <div className="w-40px h-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
@@ -88,6 +83,12 @@ export default function Hero() {
                       Trusted by 4,600 Innovators Worldwide
                       </span>
                     </div>
+                    <Link
+                      href={`/page-pricing`}
+                      className="btn btn-md lg:btn-lg btn-secondary text-white min-w-150px sm:mt-1 lg:mt-2"
+                    >
+                      Start Today
+                    </Link>
                   </div>
                 </div>
                 <div
@@ -105,7 +106,7 @@ export default function Hero() {
                     />
                   </figure>
                   <a
-                    className="cstack text-none position-absolute top-50 start-50 translate-middle bg-white text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md"
+                    className="cstack text-none position-absolute top-50 start-50 translate-middle bg-white text-primary w-56px h-56px sm:w-56px sm:h-56px rounded-circle shadow-md"
                     onClick={() => setOpen(true)}
                     data-caption="Easy project managment of any complexity."
                     data-attrs="width: 640; height: 480;"

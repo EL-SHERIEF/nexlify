@@ -24,7 +24,7 @@ export default function Faq() {
               </h2>
               <div className="panel mt-4 sm:mt-6 lg:mt-8 p-3 lg:max-w-750px xl:w-auto m-auto">
                 <ul
-                  className="gap-2 uc-accordion"
+                  className="gap-1 uc-accordion"
                   data-uc-accordion="targets: > li;"
                 >
                   <Accordion />

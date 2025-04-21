@@ -43,7 +43,7 @@ export default function Nav() {
         </a>
         {/* uc-navbar-dropdown uc-drop uc-open */}
 
-        <div className={`uc-navbar-dropdown uc-drop w-100`}>
+        <div className={`uc-navbar-dropdown uc-drop w-100 shadow-sm border-1 border border-black`}>
           <div
             className="uc-drop-grid row child-cols g-4 uc-grid uc-grid-stack"
             data-uc-grid=""

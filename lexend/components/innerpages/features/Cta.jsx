@@ -18,7 +18,7 @@ export default function Cta() {
                       }}>
             <div className="vstack gap-2 max-w-550px items-center lg:items-start m-auto lg:m-0 text-center lg:text-start rtl:lg:text-end">
               <h2 className="h3 sm:h1 m-0 text-inherit">
-                Create stunning websites that fits your needs.
+                Boost your creativity and productivity with nexlify
               </h2>
               <div className="vstack sm:hstack justify-center lg:justify-start gap-1 lg:gap-2 mt-1 lg:mt-2">
                 <Link
@@ -29,7 +29,7 @@ export default function Cta() {
                 </Link>
               </div>
               <p className="fs-7 text-inherit text-opacity-70">
-                14-day trial, no credit card required.
+                30-day trial, no credit card required.
               </p>
             </div>
           </div>

@@ -65,7 +65,7 @@ export default function Pricing() {
                     <div key={index} className="tier-wrapper">
                       <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded lg:rounded-2 border border-1 border-black shadow-sm">
                         {tier.isPopular && (
-                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 border-primary">
+                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 bg-white border-primary">
                             Popular
                           </span>
                         )}
