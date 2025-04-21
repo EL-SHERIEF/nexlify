@@ -122,7 +122,7 @@ export default function Shop4() {
               </div>
               <div className="nav-pagination pt-3 border-top border-gray-100 dark:border-gray-800">
                 <ul
-                  className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary"
+                  className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary py-3"
                   data-uc-margin=""
                 >
                   <Pagination />

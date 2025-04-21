@@ -70,7 +70,7 @@ export default function BlogSidebarRight() {
                 </div>
                 <div className="nav-pagination mt-4 lg:mt-6 xl:mt-8">
                   <ul
-                    className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary"
+                    className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary py-3"
                     data-uc-margin=""
                   >
                     <Pagination />

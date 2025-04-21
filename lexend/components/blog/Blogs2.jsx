@@ -96,7 +96,7 @@ export default function Blogs2() {
             </div>
             <div className="nav-pagination fw-medium">
               <ul
-                className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary"
+                className="nav-x uc-pagination hstack gap-1 justify-center ft-secondary py-3"
                 data-uc-margin=""
               >
                 <Pagination />
