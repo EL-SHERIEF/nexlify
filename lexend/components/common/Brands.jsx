@@ -22,15 +22,12 @@ export default function Brands() {
       }}
     >
       {brands.map((brand, index) => (
-        <SwiperSlide
-        style={{
-          filter: 'greyscale(100%)',
-        }}
-          className="brand-item swiper-slide text-center"
-          key={index}
-        >
+    <SwiperSlide
+    className="brand-item swiper-slide text-center btn-close-white-filter"
+    key={index}
+  >
           <Image
-            className="brand-item-image h-40px image-filter"
+            className="brand-item-image h-40px"
             src={brand.src}
             width={300}
             height={100}

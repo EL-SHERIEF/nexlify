@@ -78,6 +78,12 @@
   font-display: swap;
   ascent-override: 100%;
 }
+#hero_header .btn-close-white-filter{ filter:invert(1) grayscale(100%) brightness(200%);}
+@media (min-width: 670px) {
+ #hero_header .btn-close-white-filter{ filter:none;}
+
+}
+
 :root {
   --font-family-primary: "Rubik", sans-serif;
   --font-family-secondary: "Rubik", sans-serif;
