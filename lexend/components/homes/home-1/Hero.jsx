@@ -84,7 +84,7 @@ export default function Hero() {
                         />
                         </div>
                       </div>
-                      <span className="fs-7 sm:fs-6 fw-medium">
+                      <span className="fs-7 sm:fs-6 fw-medium text-white">
                         4.6k Hardworking Members
                       </span>
                     </div>
