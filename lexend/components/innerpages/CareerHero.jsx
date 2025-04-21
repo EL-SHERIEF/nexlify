@@ -5,7 +5,7 @@ import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 export default function CareerHero() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
-      <div className="position-absolute top-0 start-0 end-0 h-400px sm:h-500px lg:h-screen xl:h-screen bg-secondary dark:bg-gray-800 z-0" />
+      <div className="position-absolute top-0 start-0 end-0 h-400px sm:h-500px lg:h-screen xl:h-screen z-0" />
       <div className="section-outer panel pt-9 lg:pt-8 pb-4 sm:pb-8 lg:pb-9">
         <div className="container max-w-xl">
           <div
@@ -37,7 +37,7 @@ export default function CareerHero() {
                 </div>
       
             <div className="panel">
-              <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded lg:rounded-2 uc-transition-toggle overflow-hidden">
+              <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded lg:rounded-2 shadow-sm border border-1 border-black uc-transition-toggle overflow-hidden">
                 <Image
                   className="media-cover image uc-transition-scale-up uc-transition-opaque"
                   alt="Career"
