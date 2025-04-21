@@ -41,21 +41,21 @@ export default function BacktoTop() {
       }`}
     >
       <div
-        className="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white"
+        className="d-none darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white"
         data-darkmode-toggle=""
       >
-        <label className="switch">
+        <label className="switch ">
           <span className="sr-only">Dark mode toggle</span>
           <input onChange={handleToggle} type="checkbox" checked={isDark} />
           <span className="slider fs-5"></span>
         </label>
       </div>
       <a
-        className="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle"
+        className="p-0 m-2 btn btn-sm bg-primary text-white w-40px h-40px rounded-circle border-1 border-black border shadow-sm"
         onClick={scrollToTop}
         data-uc-backtotop
       >
-        <i className="icon-2 unicon-chevron-up"></i>
+        <i className="icon-2 unicon-chevron-up fw-bold"></i>
       </a>
     </div>
   );
