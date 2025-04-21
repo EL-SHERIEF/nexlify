@@ -41,8 +41,8 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <About2 />
           <AboutValues />
+          <About2 />
           <Feedback />
           <Timeline />
           <Team />

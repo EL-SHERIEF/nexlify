@@ -21,8 +21,8 @@ export default function PricingPage() {
         <div id="wrapper" className="wrap">
           <Pricing />
           {/* <div className="pt-6 xl:pt-9"></div> */}
-          <Faq />
           <Testimonials />
+          <Faq />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"

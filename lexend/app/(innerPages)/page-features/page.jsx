@@ -22,8 +22,8 @@ export default function FeaturesPage() {
           <Hero />
           <KeyFeatures />
           <div className="pt-6 xl:pt-9"></div>
-          <Faq />
           <Testimonials />
+          <Faq />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
