@@ -17,15 +17,13 @@ export default function Cta() {
                   </div>
       <div className="section-outer panel">
         <div className="container max-w-xl">
-          <div className="section-inner panel rounded xl:rounded-2 py-4 sm:py-6 xl:py-9">
-
-            <div
-              className="vstack items-center gap-2 max-w-400px lg:max-w-600px mx-auto text-center"
-              data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
-            >
+          <div className="section-inner panel rounded xl:rounded-2 py-4 sm:py-6 xl:py-9 d-flex justify-center items-center flex-column">
+          <span className="my-3 fw-medium d-flex align-items-center px-2 py-1 text-primary  rounded-pill blur gap-1 border-1 border border-black shadow-sm d-flex justify-center items-center gap-2 bg-white" style={{width:"fit-content"}}>
+                   <div className="glowing-circle"></div> Nexlify
+                  </span> <div className="vstack items-center gap-2 max-w-400px lg:max-w-600px mx-auto text-center" data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
               <h2 className="h3 sm:h1 xl:display-6 m-0">
                 Get started with <br />
-                nexlify today
+                <span className="text-primary" style={{textShadow: "1px 1px 5px #00000030"}}> Nexlify </span>today.
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
                 With native CRM integrations that streamline your entire Tool
