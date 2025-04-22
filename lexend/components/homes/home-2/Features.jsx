@@ -24,15 +24,15 @@ export default function Features() {
                 creator.
               </p>
             </div>
-            <div className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-2">
+            <div className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2">
               {features.map((feature, index) => (
                 <div key={index}>
                   <div
-                    className="feature-item panel px-3 lg:px-4 py-4 rounded-2 bg-secondary dark:bg-gray-800"
+                    className="feature-item panel px-3  py-3 rounded-3 shadow-sm border-1 border border-black"
                     data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                   >
                     <div className="vstack gap-4 h-100">
-                      <div className="panel w-100 rounded lg:rounded-2 overflow-hidden">
+                      <div className="panel w-100 rounded-2 overflow-hidden border-1 border-black border">
                         <Image
                           src={feature.imgSrc}
                           width={780}
@@ -51,7 +51,8 @@ export default function Features() {
                               {feature.linkText && (
                                 <a
                                   href={feature.linkHref}
-                                  className="uc-link fw-bold hstack gap-narrow"
+                                  className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
+                                  style={{width: "fit-content"}}
                                 >
                                   <span>{feature.linkText}</span>
                                   <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />

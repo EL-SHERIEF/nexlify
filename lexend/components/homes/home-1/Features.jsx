@@ -105,7 +105,10 @@ export default function Features() {
                                   </p>
                                  <Link
                                     href="/page-features"
-                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
+                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2 text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold"
+                                    style={{
+                                      width: "fit-content",
+                                    }}
                                   >
                                     <span>Let's find out</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
@@ -149,7 +152,10 @@ export default function Features() {
                                   </p>
                                   <a
                                     href="#"
-                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
+                                        className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2 text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold"
+                                    style={{
+                                      width: "fit-content",
+                                    }}
                                   >
                                     <span>See all integrations</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
@@ -195,7 +201,10 @@ export default function Features() {
                                   </p>
                                 <Link
                                     href="/page-features"
-                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
+                                        className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2 text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold"
+                                    style={{
+                                      width: "fit-content",
+                                    }}
                                   >
                                     <span>Let's find out</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
@@ -240,7 +249,10 @@ export default function Features() {
                                   </p>
                                   <Link
                                     href="/page-features"
-                                    className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2"
+                                        className="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2 text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold"
+                                    style={{
+                                      width: "fit-content",
+                                    }}
                                   >
                                     <span>Let's find out</span>
                                     <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />

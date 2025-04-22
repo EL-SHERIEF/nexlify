@@ -6,7 +6,7 @@ export default function KeyFeatures() {
   return (
     <div
       id="key_features"
-      className="key-features section panel overflow-hidden bg-secondary dark:bg-gray-800"
+      className="key-features section panel overflow-hidden border-top border-bottom border-1 border-black"
     >
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-lg xl:max-w-xl">
@@ -30,8 +30,8 @@ export default function KeyFeatures() {
                       >
                         <div className="vstack panel min-h-250px">
                           <div className="vstack items-center text-center justify-between gap-2 h-100">
-                            <div className="cstack w-96px h-96px rounded-circle mt-2 bg-gray-900 dark:bg-white bg-opacity-5 dark:bg-opacity-15">
-                              <i className={`icon icon-4 ${feature.icon}`} />
+                            <div className="cstack w-96px h-96px rounded-circle mt-2 bg-primary">
+                              <i className={`icon icon-4 ${feature.icon} text-white`} />
                             </div>
                             <div className="panel">
                               <div className="vstack gap-1">
@@ -52,7 +52,7 @@ export default function KeyFeatures() {
               </div>
               <Link
                 href={`/page-features`}
-                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
+                className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
                 style={{
                   transform: "translateY(0.0097341px)",
                   opacity: "0.999797",

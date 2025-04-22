@@ -36,8 +36,8 @@ export default function Feedback() {
                               className="w-128px text-gray-900 dark:text-white image-filter"
                               src={item.brandImg}
                               alt="Brand"
-                              width={170}
-                              height={48}
+                              width={300}
+                              height={300}
                               data-uc-svg=""
                             />
                           </div>
