@@ -35,23 +35,47 @@ export default function Pricing() {
                   {tiers3.map((tier, index) => (
                     <div key={index} className="tier-wrapper">
                       <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded-3 border-1 border-black border shadow-sm overflow-hidden">
-                        {tier.isPopular && (
-                          <>
-                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 bg-white border-primary">
-                            Popular
-                          </span>
-                          <div className="d-block position-absolute w-1000px h-500px opacity-10"
-                               style={{zIndex: 0,objectFit: "cover",zIndex: 0,left:-140,top:-100,pointerEvents: "none",mask: "radial-gradient(28% 50% at 50% 50%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)"}}>
-             <Image
-                   className="d-block position-absolute w-100 h-100"
-                   alt="Main hero image"
-                   src="/assets/images/landing/hero-bg-3.png"
-                   width="1280"
-                   height="941"
-                 />
-         </div>
-                          </>
-                        )}
+                      {tier.isPopular && (
+  <>
+    <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-1 d-inline-flex py-narrow px-1 rounded-pill text-primary fs-7 fw-medium shadow-sm border border-1 bg-white border-primary">
+      Popular
+    </span>
+
+    {/* Gradient Div */}
+    <div
+      className="position-absolute w-1000px h-500px"
+      style={{
+        zIndex: 1,
+        left: -140,
+        top: -100,
+        pointerEvents: "none",
+        background: "linear-gradient(180deg, var(--bs-primary) 0%, transparent 100%)",
+        opacity: 0.2,
+      }}
+    />
+
+    {/* Image Background */}
+    <div
+      className="d-block position-absolute w-1000px h-500px opacity-10"
+      style={{
+        zIndex: 0,
+        left: -140,
+        top: -100,
+        pointerEvents: "none",
+        mask: "radial-gradient(28% 50% at 50% 50%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+      }}
+    >
+      <Image
+        className="d-block position-absolute w-100 h-100"
+        alt="Main hero image"
+        src="/assets/images/landing/hero-bg-3.png"
+        width="1280"
+        height="941"
+      />
+    </div>
+  </>
+)}
+
                         <div className="panel">
                           <h3 className="title h5 sm:h4 dark:text-white">
                             {tier.title}

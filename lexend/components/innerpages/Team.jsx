@@ -39,7 +39,7 @@ export default function Team() {
                     <div key={member.id}>
                       <div className="panel vstack gap-2 xl:gap-3">
                         <Image
-                          className="w-100 rounded-1 sm:rounded-1-5"
+                          className="w-100 rounded-3 object-fit-cover"
                           src={member.imageSrc}
                           width={560}
                           height={592}

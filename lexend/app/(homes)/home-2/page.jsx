@@ -8,6 +8,7 @@ import Feedback from "@/components/homes/home-2/Feedback";
 import Hero from "@/components/homes/home-2/Hero";
 import KeyFeatures from "@/components/homes/home-2/KeyFeatures";
 import Pricing from "@/components/common/Pricing";
+import Integretion from "@/components/homes/home-1/Integretion";
 import React from "react";
 export const metadata = {
   title:
@@ -22,11 +23,12 @@ export default function HomePage2() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <Hero />
-          <Features />
           <KeyFeatures />
+          <Features />
+          <Integretion />
+          <Feedback />
           <Pricing />
           <Faq />
-          <Feedback />
           <Blogs />
           <Cta />
         </div>

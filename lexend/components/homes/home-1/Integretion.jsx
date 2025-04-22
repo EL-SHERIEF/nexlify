@@ -30,12 +30,12 @@ export default function Integretion() {
                 </p>
               </div>
               <div
-                className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between"
+                className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 justify-between"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 {integrations.map((integration, index) => (
                   <div key={index}>
-                    <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 border border-1 border-black shadow-sm text-dark ">
+                    <div className="panel vstack justify-between gap-4 p-3 rounded-3 border border-1 border-black shadow-sm text-dark ">
                       <div className="vstack gap-3">
                         <div className="hstack justify-between items-center">
                           <div className="vstack">

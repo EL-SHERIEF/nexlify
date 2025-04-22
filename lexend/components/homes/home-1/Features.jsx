@@ -77,7 +77,7 @@ export default function Features() {
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
                         <div className="col-12 sm:col-6">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                          <figure className="featured-image m-0 rounded ratio ratio-1x1 shadow-sm border-1 border rounded-3 overflow-hidden">
                             <Image
                               className="media-cover image"
                               alt="Share tools quickly and confidently in minutes"
@@ -127,7 +127,7 @@ export default function Features() {
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
                         <div className="col-12 sm:col-6">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                          <figure className="featured-image m-0 rounded ratio ratio-1x1 shadow-sm border-1 border rounded-3 overflow-hidden">
                             <Image
                               className="media-cover image"
                               alt="Connect every part of your entire business"
@@ -174,7 +174,7 @@ export default function Features() {
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
                         <div className="col-12 sm:col-6">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                          <figure className="featured-image m-0 rounded ratio ratio-1x1  shadow-sm border-1 border rounded-3 overflow-hidden">
                             <Image
                               className="media-cover image"
                               alt="Maintain compliance and control your apps"
@@ -223,7 +223,7 @@ export default function Features() {
                     <div className="feature-item panel">
                       <div className="row child-cols col-match justify-between g-4">
                         <div className="col-12 sm:col-6">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
+                          <figure className="featured-image m-0 rounded ratio ratio-1x1 shadow-sm border-1 border rounded-3 overflow-hidden">
                             <Image
                               className="media-cover image"
                               alt="Review quickly and confidently"

@@ -28,7 +28,7 @@ export default function Feedback() {
               >
                 {testimonials2.map((item, index) => (
                   <div key={index} className="uc-grid-margin my-1 px-1 uc-first-column">
-                    <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border shadow-sm">
+                    <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-3 border shadow-sm">
                       <div className="panel vstack items-start gap-2">
                         <div className="panel">
                           <div className="hstack h-48px">
