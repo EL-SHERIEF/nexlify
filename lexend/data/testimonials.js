@@ -79,7 +79,7 @@ export const reviews = [
 
 export const testimonials2 = [
   {
-    brandImg: "/assets/images/brands/brand-07.svg",
+    brandImg: "/assets/images/brands/brand-07.png",
     testimonial:
       "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
     authorImg: "/assets/images/avatars/01.jpg",
@@ -87,7 +87,7 @@ export const testimonials2 = [
     authorRole: "CEO, Co-Founder",
   },
   {
-    brandImg: "/assets/images/brands/brand-06.svg",
+    brandImg: "/assets/images/brands/brand-06.png",
     testimonial:
       "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
     authorImg: "/assets/images/avatars/04.jpg",
@@ -95,7 +95,7 @@ export const testimonials2 = [
     authorRole: "Director of Sales",
   },
   {
-    brandImg: "/assets/images/brands/brand-08.svg",
+    brandImg: "/assets/images/brands/brand-08.png",
     testimonial:
       "“The sophisticated fraud detection AI they engineered identified anomalies that our legacy systems consistently missed, greatly strengthening our security protocols and protecting our clients.”",
     authorImg: "/assets/images/avatars/03.jpg",
@@ -103,7 +103,7 @@ export const testimonials2 = [
     authorRole: "Lead Marketing",
   },
   {
-    brandImg: "/assets/images/brands/brand-01.svg",
+    brandImg: "/assets/images/brands/brand-01.png",
     testimonial:
       "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
     authorImg: "/assets/images/avatars/08.jpg",
@@ -111,7 +111,7 @@ export const testimonials2 = [
     authorRole: "Senior UI/UX Designer",
   },
   {
-    brandImg: "/assets/images/brands/brand-02.svg",
+    brandImg: "/assets/images/brands/brand-02.png",
     testimonial:
       "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
     authorImg: "/assets/images/avatars/01.jpg",
@@ -119,7 +119,7 @@ export const testimonials2 = [
     authorRole: "CEO, Co-Founder",
   },
   {
-    brandImg: "/assets/images/brands/brand-03.svg",
+    brandImg: "/assets/images/brands/brand-03.png",
     testimonial:
       "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
     authorImg: "/assets/images/avatars/04.jpg",
@@ -127,7 +127,7 @@ export const testimonials2 = [
     authorRole: "Director of Sales",
   },
   {
-    brandImg: "/assets/images/brands/brand-04.svg",
+    brandImg: "/assets/images/brands/brand-04.png",
     testimonial:
       "“The sophisticated fraud detection AI they engineered identified anomalies that our legacy systems consistently missed, greatly strengthening our security protocols and protecting our clients.”",
     authorImg: "/assets/images/avatars/03.jpg",
@@ -135,7 +135,7 @@ export const testimonials2 = [
     authorRole: "Lead Marketing",
   },
   {
-    brandImg: "/assets/images/brands/brand-05.svg",
+    brandImg: "/assets/images/brands/brand-05.png",
     testimonial:
       "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
     authorImg: "/assets/images/avatars/08.jpg",
@@ -146,7 +146,7 @@ export const testimonials2 = [
 
 export const testimonials3 = [
   {
-    brandImgSrc: "/assets/images/brands/brand-07.svg",
+    brandImgSrc: "/assets/images/brands/brand-07.png",
     brandImgAlt: "Brand",
     text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
     avatarImgSrc: "/assets/images/avatars/01.jpg",
@@ -155,7 +155,7 @@ export const testimonials3 = [
     position: "CEO, Co-Founder.",
   },
   {
-    brandImgSrc: "/assets/images/brands/brand-06.svg",
+    brandImgSrc: "/assets/images/brands/brand-06.png",
     brandImgAlt: "Brand",
     text: "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
     avatarImgSrc: "/assets/images/avatars/04.jpg",
@@ -164,7 +164,7 @@ export const testimonials3 = [
     position: "Director of Sales",
   },
   {
-    brandImgSrc: "/assets/images/brands/brand-08.svg",
+    brandImgSrc: "/assets/images/brands/brand-08.png",
     brandImgAlt: "Brand",
     text: "“The sophisticated fraud detection AI they engineered identified anomalies that our legacy systems consistently missed, greatly strengthening our security protocols and protecting our clients.”",
     avatarImgSrc: "/assets/images/avatars/03.jpg",

@@ -133,7 +133,7 @@ export default function Testimonials() {
                             className="max-w-80px lg:max-w-128px"
                             alt="brand"
                             data-uc-svg=""
-                            src="/assets/images/brands/brand-01.svg"
+                            src="/assets/images/brands/brand-01.png"
                             width={165}
                             height={48}
                           />
@@ -145,7 +145,7 @@ export default function Testimonials() {
                             className="max-w-80px lg:max-w-128px"
                             alt="brand"
                             data-uc-svg=""
-                            src="/assets/images/brands/brand-05.svg"
+                            src="/assets/images/brands/brand-05.png"
                             width={179}
                             height={48}
                           />
@@ -157,7 +157,7 @@ export default function Testimonials() {
                             className="max-w-80px lg:max-w-128px"
                             alt="brand"
                             data-uc-svg=""
-                            src="/assets/images/brands/brand-03.svg"
+                            src="/assets/images/brands/brand-03.png"
                             width={178}
                             height={48}
                           />
@@ -169,7 +169,7 @@ export default function Testimonials() {
                             className="max-w-80px lg:max-w-128px"
                             alt="brand"
                             data-uc-svg=""
-                            src="/assets/images/brands/brand-07.svg"
+                            src="/assets/images/brands/brand-07.png"
                             width={170}
                             height={48}
                           />

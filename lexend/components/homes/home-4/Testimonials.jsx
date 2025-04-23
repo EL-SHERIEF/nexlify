@@ -35,7 +35,7 @@ export default function Testimonials() {
                                   <Image
                                     className="w-128px dark:d-none"
                                     alt="Brand"
-                                    src="/assets/images/brands/brand-08.svg"
+                                    src="/assets/images/brands/brand-08.png"
                                     width="500"
                                     height="500"
                                   />

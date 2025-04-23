@@ -25,7 +25,7 @@ export default function Testimonials() {
                         className="w-128px text-primary dark:text-tertiary"
                         alt="Brand"
                         data-uc-svg=""
-                        src="/assets/images/brands/brand-08.svg"
+                        src="/assets/images/brands/brand-08.png"
                         width={163}
                         height={48}
                       />
