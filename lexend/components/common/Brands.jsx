@@ -28,6 +28,7 @@ export default function Brands() {
   >
           <Image
             className="brand-item-image h-40px"
+            style={{objectFit:"contain"}}
             src={brand.src}
             width={300}
             height={100}
