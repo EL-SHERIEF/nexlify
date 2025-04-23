@@ -28,8 +28,8 @@ export default function Testimonials() {
                               className="w-128px dark:d-none"
                               alt="Brand"
                               src="/assets/images/brands/brand-01.svg"
-                              width="165"
-                              height="48"
+                              width="650"
+                              height="480"
                             />
                         
                           </div>
