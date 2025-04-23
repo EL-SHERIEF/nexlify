@@ -33,12 +33,17 @@ export default function Feedback() {
                         <div className="panel">
                           <div className="hstack h-48px">
                             <Image
-                              className="w-128px text-gray-900 dark:text-white image-filter"
-                              src={item.brandImg}
-                              alt="Brand"
-                              width={700}
-                              height={700}
-                              data-uc-svg=""
+                         className="w-128px text-gray-900 dark:text-white image-filter"
+                         src={item.brandImg}
+                         alt="Brand"
+                         width={700}
+                         height={700}
+                         srcSet={`${item.brandImg} 700w, ${item.brandImg2x} 1400w, ${item.brandImg3x} 2100w`}
+                         sizes="(max-width: 768px) 128px, 700px"
+                         loading="lazy"
+                         decoding="async"
+                         style={{ objectFit: 'contain' }}
+                         data-uc-svg=""
                             />
                           </div>
                         </div>
