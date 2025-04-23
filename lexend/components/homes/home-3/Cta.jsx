@@ -6,111 +6,70 @@ import { openContactModal } from "@/utlis/toggleContactModal";
 export default function Cta() {
   return (
     <div id="cta" className="cta section panel overflow-hidden">
-      <div className="section-outer panel py-4 sm:py-6 xl:py-9 bg-secondary dark:bg-gray-800">
-        <div
-          className="d-none lg:d-block"
-          data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
-        >
-          <div className="position-absolute top-50 start-0 translate-middle-y ms-n6">
-            <Image
-              className="w-200px xl:w-250px d-block dark:d-none"
-              alt="talking"
-              src="/assets/images/template/talking.svg"
-              width="195"
-              height="254"
-            />
-            <Image
-              className="w-200px xl:w-250px d-none dark:d-block"
-              alt="talking-dark"
-              src="/assets/images/template/talking-dark.svg"
-              width="195"
-              height="254"
-            />
-          </div>
-          <div className="position-absolute top-50 end-0 translate-middle-y me-n6">
-            <Image
-              className="w-200px xl:w-250px d-block dark:d-none"
-              alt="chatting"
-              src="/assets/images/template/chatting.svg"
-              width="255"
-              height="283"
-            />
-            <Image
-              className="w-200px xl:w-250px d-none dark:d-block"
-              alt="chatting-dark"
-              src="/assets/images/template/chatting-dark.svg"
-              width="255"
-              height="283"
-            />
-          </div>
-        </div>
-        <div
-          className="d-none lg:d-block"
-          data-anime="targets: >*; scale: [0, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
-        >
-          <div
-            className="position-absolute  rotate-45"
-            style={{ top: "40%", left: "24%" }}
-          >
-            <Image
-              className="w-32px text-gray-900 dark:text-white"
-              width={193}
-              height={216}
-              alt="star-1"
-              data-uc-svg=""
-              src="/assets/images/template/star-1.svg"
-            />
-          </div>
-          <div
-            className="position-absolute  rotate-45"
-            style={{ bottom: "40%", right: "24%" }}
-          >
-            <Image
-              className="w-32px text-gray-900 dark:text-white"
-              width={69}
-              height={95}
-              alt="star-2"
-              data-uc-svg=""
-              src="/assets/images/template/star-2.svg"
-            />
-          </div>
-          <div
-            className="position-absolute bottom-0 start-0"
-            style={{ bottom: "-4% !important", left: "28% !important" }}
-          >
-            <Image
-              className="w-100px xl:w-150px text-gray-900 dark:text-white text-opacity-20"
-              alt="arrow-1"
-              data-uc-svg=""
-              src="/assets/images/template/arrow-3.svg"
-              width="202"
-              height="133"
-            />
-          </div>
-        </div>
+      <div className="section-outer panel py-4 sm:py-6 xl:py-9 ">
+      <div className="w-100 h-250px position-absolute"
+                      style={{bottom:"8vh",left:0,width:'100%',height:"100%",zIndex:0}}>
+                      <Image
+                          className="w-100"
+                          alt="icon-trophy"
+                          src="/assets/images/landing/ground-item-bg.svg"
+                          width="600"
+                          height="600"
+                        />
+                      </div>
+                      
         <div className="container max-w-xl">
+           <div className="position-absolute overflow-hidden d-flex lg:d-flex sm:d-block flex-row" style={{maxWidth:"100vw",width:"100vw",height:"100vh",minHeight:"100vh",left:0,top:0}}>
+              <div className="blend-lighten-overlay w-100">
+                      <Image
+                      className="w-100 h-100 blend-lighten"
+                      alt="icon-trophy"
+                      src="/assets/images/landing/hero-bg-left.webp"
+                      width="1000"
+                      height="1000"
+                      />
+                </div>
+                <div className="blend-lighten-overlay">
+                      <Image
+                      className="w-100 h-100 blend-lighten"
+                      alt="icon-trophy"
+                      src="/assets/images/landing/hero-bg-right.webp"
+                      width="1000"
+                      height="1000"
+                      />
+                </div>
+               
+              </div>
           <div className="section-inner panel">
             <div
-              className="vstack items-center gap-2 sm:max-w-600px lg:max-w-650px mx-auto text-center"
+              className="vstack items-center gap-2 sm:max-w-600px lg:max-w-650px mx-auto text-center position-relative z-1"
               data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
+                  <Image
+              className="w-64px  pb-2"
+              width={169}
+              height={195}
+              alt="logo"
+              data-uc-svg=""
+              src="/assets/images/common/logo-mark.png"
+            />
               <h2 className="h3 sm:h1 xl:display-6 m-0">
-                Create stunning websites that fits{" "}
-                <span className="text-primary">your needs.</span>
+                Manage your Corp fully with{" "}
+                <span className="text-primary text-wow"> Nexlify AI</span>
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
-                Try nexlify today.
+                Ready to take the AI journey to the next level?
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column fdr">
                 <Link
                   href={`/page-pricing`}
-                  className="btn btn-md lg:btn-lg btn-primary text-white"
+                  className="btn btn-md lg:btn-lg btn-primary text-white rounded-pill"
                 >
                   Try nexlify today
                 </Link>
                 <a
                   onClick={openContactModal}
-                  className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
+                  className="btn btn-md lg:btn-lg rounded-pill bg-white"
                   data-uc-toggle=""
                 >
                   Contact sales

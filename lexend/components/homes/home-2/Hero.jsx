@@ -32,7 +32,7 @@ export default function Hero() {
                   </span>
                   <h1 className="h2 sm:display-6 lg:display-4 xl:display-4 mb-1 xl:mb-2">
                     Streamline your Tool
-                     <span className="text-primary" style={{textShadow: "1px 1px 5px #00000030"}}>  Workflow.</span>
+                     <span className="text-wow">  Workflow.</span>
                   </h1>
                   <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
                     Keep data consistent, with native CRM integrations that

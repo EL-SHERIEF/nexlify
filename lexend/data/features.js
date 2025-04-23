@@ -98,7 +98,7 @@ export const features3 = [
     description: `This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.`,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
-      imgSrc: "/assets/images/avatars/01.png",
+      imgSrc: "/assets/images/avatars/01.jpg",
       name: "John Edrissi",
       role: "Director of Human Resources.",
     },
@@ -116,7 +116,7 @@ export const features3 = [
     },
     testimonial: {
       quote: `“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”`,
-      imgSrc: "/assets/images/avatars/02.png",
+      imgSrc: "/assets/images/avatars/02.jpg",
       name: "Matt Henderson",
       role: "Client Success Manager",
     },
@@ -144,7 +144,7 @@ export const features3 = [
     description: `Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.`,
     testimonial: {
       quote: `“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”`,
-      imgSrc: "/assets/images/avatars/03.png",
+      imgSrc: "/assets/images/avatars/03.jpg",
       name: "Elloni Emad",
       role: "Lead Marketing",
     },

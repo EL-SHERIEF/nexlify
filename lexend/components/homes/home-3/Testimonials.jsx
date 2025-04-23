@@ -40,7 +40,7 @@ export default function Testimonials() {
             >
               <div className="row child-cols-12 sm:child-cols-6 col-match g-2 lg:g-4">
                 <div>
-                  <div className="panel rounded-2 overflow-hidden border border-1 border-black shadow-sm">
+                  <div className="panel rounded-2 overflow-hidden">
                     <Swiper
                       allowTouchMove={false}
                       onSwiper={setThumbsSwiper}
@@ -49,7 +49,7 @@ export default function Testimonials() {
                     >
                       {testimonials.map((elm, i) => (
                         <SwiperSlide key={i} className="swiper-slide">
-                          <figure className="featured-image m-0 rounded ratio ratio-3x4 uc-transition-toggle overflow-hidden">
+                          <figure className="featured-image m-0 rounded ratio ratio-3x4 uc-transition-toggle overflow-hidden cards-home-3-box">
                             <Image
                               className="media-cover image uc-transition-scale-up uc-transition-opaque"
                               src={elm.imgSrc}
@@ -64,7 +64,7 @@ export default function Testimonials() {
                   </div>
                 </div>
                 <div>
-                  <div className="panel p-3 border-1 border-black border rounded-2 shadow-sm">
+                  <div className="panel p-3 cards-home-3-box">
                     <Swiper
                       thumbs={{ swiper: thumbsSwiper }}
                       {...swiperOptions2}

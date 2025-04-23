@@ -50,32 +50,26 @@ export const reviewLogos = [
   {
     id: 13,
     lightSrc: "/assets/images/review-logo/01.svg",
-    darkSrc: "/assets/images/review-logo/dark-01.svg",
   },
   {
     id: 14,
     lightSrc: "/assets/images/review-logo/02.svg",
-    darkSrc: "/assets/images/review-logo/dark-02.svg",
   },
   {
     id: 15,
     lightSrc: "/assets/images/review-logo/03.svg",
-    darkSrc: "/assets/images/review-logo/dark-03.svg",
   },
   {
     id: 16,
     lightSrc: "/assets/images/review-logo/04.svg",
-    darkSrc: "/assets/images/review-logo/dark-04.svg",
   },
   {
     id: 17,
     lightSrc: "/assets/images/review-logo/05.svg",
-    darkSrc: "/assets/images/review-logo/dark-05.svg",
   },
   {
     id: 18,
     lightSrc: "/assets/images/review-logo/06.svg",
-    darkSrc: "/assets/images/review-logo/dark-06.svg",
   },
 ];
 

@@ -1,5 +1,5 @@
 import Header2 from "@/components/headers/Header2";
-import Pricing from "@/components/common/Pricing";
+import Pricing from "@/components/homes/home-3/Pricing";
 import Brands2 from "@/components/homes/home-3/Brands";
 import Features from "@/components/homes/home-3/Features";
 import Hero from "@/components/homes/home-3/Hero";
@@ -24,8 +24,8 @@ export default function HomePage3() {
         <div id="wrapper" className="wrap">
           <Hero />
           <Brands2 />
-          <Features />
           <KeyFeatures />
+          <Features />
           <Pricing />
           <Testimonials />
           <div

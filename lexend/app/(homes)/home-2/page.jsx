@@ -25,7 +25,6 @@ export default function HomePage2() {
           <Hero />
           <KeyFeatures />
           <Features />
-          <Integretion />
           <Feedback />
           <Pricing />
           <Faq />
