@@ -20,8 +20,8 @@ export default function Hero() {
             className="w-100"
             alt="icon-trophy"
             src="/assets/images/landing/ground-item-bg.svg"
-            width="300"
-            height="300"
+            width="700"
+            height="700"
           />
         </div>
     <div className="position-absolute overflow-hidden d-flex lg:d-flex sm:d-block flex-row" style={{maxWidth:"100vw",width:"100vw",height:"100vh",minHeight:"100vh",left:0}}>
@@ -54,8 +54,8 @@ export default function Hero() {
             className="w-250px cards-home-3"
             alt="icon-trophy"
             src="/assets/images/landing/g1.svg"
-            width="300"
-            height="300"
+            width="700"
+            height="700"
           />
         </div>
         <div
@@ -66,8 +66,8 @@ export default function Hero() {
             className="w-250px cards-home-3"
             alt="icon-chat"
             src="/assets/images/landing/g2.svg"
-            width="300"
-            height="300"
+            width="700"
+            height="700"
           />
         </div>
         <div
@@ -78,8 +78,8 @@ export default function Hero() {
             className="w-250px cards-home-3"
             alt="icon-globe"
             src="/assets/images/landing/g3.svg"
-            width="300"
-            height="300"
+            width="700"
+            height="700"
           />
         </div>
       </div>

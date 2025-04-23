@@ -40,8 +40,8 @@ export default function Footer1() {
                           alt="Google Play Store"
                           data-uc-svg=""
                           src="/assets/images/common/playstore.svg"
-                          width="135"
-                          height="40"
+                          width="1350"
+                          height="400"
                         />
                       </a>
                       <a href="#">
@@ -50,8 +50,8 @@ export default function Footer1() {
                           alt="Apple Store"
                           data-uc-svg=""
                           src="/assets/images/common/appstore.svg"
-                          width="134"
-                          height="40"
+                          width="1340"
+                          height="400"
                         />
                       </a>
                     </div>

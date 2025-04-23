@@ -36,15 +36,15 @@ export default function Testimonials() {
                                     className="w-128px dark:d-none"
                                     alt="Brand"
                                     src="/assets/images/brands/brand-08.svg"
-                                    width="163"
-                                    height="48"
+                                    width="500"
+                                    height="500"
                                   />
                                   <Image
                                     className="w-128px d-none dark:d-inline-flex"
                                     alt="Brand"
                                     src="/assets/images/brands/brand-08-dark.svg"
-                                    width="163"
-                                    height="48"
+                                    width="500"
+                                    height="500"
                                   />
                                 </div>
                               </div>
@@ -82,7 +82,7 @@ export default function Testimonials() {
                             </figure>
                             <a
                               onClick={() => setOpen(true)}
-                              className="position-absolute top-50 start-50 translate-middle cstack w-48px lg:w-64px h-48px lg:h-64px rounded-circle shadow-xs text-none bg-white bg-opacity-80 text-primary"
+                              className="position-absolute top-50 start-50 translate-middle cstack w-500px lg:w-64px h-500px lg:h-64px rounded-circle shadow-xs text-none bg-white bg-opacity-80 text-primary"
                               style={{ backdropFilter: "blur(2px)" }}
                             >
                               <i className="icon-1 unicon-play fw-bold" />
