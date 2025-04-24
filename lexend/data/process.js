@@ -2,22 +2,22 @@ export const cards = [
   {
     src: "/assets/images/custom-icons/home-8-icon-01.svg",
     alt: "icon",
-    title: "Enrich Data with Context & Risk Management",
+    title: "Enhance AI Models with Contextual Insights",
   },
   {
     src: "/assets/images/custom-icons/home-8-icon-02.svg",
     alt: "icon",
-    title: "Intuitive dashboard for at-a-glance insights",
+    title: "AI-Driven Dashboard for Instant Analytics",
   },
   {
     src: "/assets/images/custom-icons/home-8-icon-03.svg",
     alt: "icon",
-    title: "Automated data analysis and reporting",
+    title: "Automated AI Model Reporting",
   },
   {
     src: "/assets/images/custom-icons/home-8-icon-06.svg",
     alt: "icon",
-    title: "Scalable plans to fit any business size",
+    title: "Flexible AI Plans for Any Organization",
   },
 ];
 
@@ -25,25 +25,25 @@ export const steps = [
   {
     number: "1",
     imgSrc: "/assets/images/template/home-10-step-01.svg",
-    title: "Download, create account",
+    title: "Sign Up and Access AIInnovate",
     description:
-      "Quickly download the app and create your account in seconds. No complicated registrations or lengthy forms—just simple, fast onboarding.",
+      "Quickly create an account and access the AIInnovate platform in moments. Enjoy a streamlined onboarding process with no complex setup required.",
     minWidth: "min-w-1/4",
   },
   {
     number: "2",
     imgSrc: "/assets/images/template/home-10-step-02.svg",
-    title: "Connect with your circle",
+    title: "Integrate Your AI Tools",
     description:
-      "Automatically sync your contacts or manually add friends. Our intelligent network helps you connect seamlessly across multiple platforms.",
+      "Connect your existing AI frameworks and datasets effortlessly. Our platform supports seamless integration with tools like TensorFlow and PyTorch.",
     minWidth: "min-w-1/4",
   },
   {
     number: "3",
     imgSrc: "/assets/images/template/home-10-step-03.svg",
-    title: "Start communicating",
+    title: "Build and Deploy AI Models",
     description:
-      "Start chatting, make video calls, and share files instantly. Experience real-time communication with crystal-clear quality and ultimate privacy.",
+      "Start developing, training, and deploying AI models instantly. Leverage real-time analytics and secure workflows for optimal performance.",
     minWidth: "min-w-100 lg:min-w-1/4",
   },
 ];

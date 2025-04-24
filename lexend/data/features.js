@@ -4,27 +4,27 @@ export const panelData = [
     lightIcon: "/assets/images/template/icon-diamond.svg",
     darkIcon: "/assets/images/template/icon-diamond.svg",
     altText: "impact-icon",
-    title: "Drive Change",
+    title: "Transform Industries",
     description:
-      "We’re crafting something monumental. Our AI solutions can transform the path of any business, big or small, for the better.",
+      "Our AI platform delivers groundbreaking solutions that revolutionize businesses of all sizes, driving innovation and efficiency.",
   },
   {
     id: 2,
     lightIcon: "/assets/images/template/icon-giveLove.svg",
     darkIcon: "/assets/images/template/icon-giveLove.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Continuous Learning",
     description:
-      "Teams are masters of their craft though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Our team of AI experts is dedicated to mastering cutting-edge techniques while fostering a culture of knowledge-sharing and growth.",
   },
   {
     id: 3,
     lightIcon: "/assets/images/template/icon-work.svg",
     darkIcon: "/assets/images/template/icon-work.svg",
     altText: "empathy-icon",
-    title: "Understand",
+    title: "Empathetic AI",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we provide a better experience for all.",
+      "We design AI interactions with empathy, ensuring seamless experiences for users and stakeholders across all touchpoints.",
   },
 ];
 
@@ -33,57 +33,57 @@ export const features = [
     id: 4,
     imgSrc: "/assets/images/template/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    title: "Deploy AI models effortlessly in minutes",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Our AI platform streamlines model deployment, enabling you to create and share custom AI solutions with dynamic configurations directly within your workflow.",
   },
   {
     id: 5,
     imgSrc: "/assets/images/template/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    title: "Integrate AI across your organization",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
-    linkText: "See all integrations",
+      "Ensure seamless data flow with native integrations that enhance your AI workflows, connecting every aspect of your business.",
+    linkText: "Explore integrations",
     linkHref: "#",
   },
   {
     id: 6,
     imgSrc: "/assets/images/template/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    title: "Secure and compliant AI solutions",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.",
+      "Enhance trust with built-in compliance tools and secure AI model management, using pre-approved templates to avoid errors.",
   },
 ];
 
 export const features2 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "AI Model Blueprints",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Deploy AI solutions quickly with pre-built, customizable model templates.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Real-Time Insights",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Track model performance instantly with live monitoring and analytics.",
     backgroundColor: "bg-primary text-white",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "Data Pipelines",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Integrate customer data seamlessly with native AI platform integrations.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Secure AI APIs",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "Ensure data security with our robust, encrypted AI API endpoints.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
 ];
@@ -94,13 +94,15 @@ export const features3 = [
     imgSrc: "/assets/images/template/feature-01.jpg",
     altText: "Share tools quickly and confidently in minutes",
     step: "01.",
-    title: "Share tools quickly and confidently in minutes",
-    description: `This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.`,
+    title: "Deploy AI models effortlessly",
+    description:
+      "Streamline AI deployment with a platform that supports custom model creation and dynamic configurations, all within your existing workflow.",
     testimonial: {
-      quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
+      quote:
+        "Our team used to spend hours on model setup, but now we focus on refining algorithms and driving innovation.",
       imgSrc: "/assets/images/avatars/01.jpg",
-      name: "John Edrissi",
-      role: "Director of Human Resources.",
+      name: "Lila Carter",
+      role: "AI Research Lead",
     },
   },
   {
@@ -108,17 +110,19 @@ export const features3 = [
     imgSrc: "/assets/images/template/feature-02.jpg",
     altText: "Connect every part of your entire business",
     step: "02.",
-    title: "Connect every part of your entire business",
-    description: `Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.`,
+    title: "Integrate AI seamlessly",
+    description:
+      "Leverage native integrations to ensure consistent data flow, enhancing AI-driven workflows across your organization.",
     link: {
       href: "#",
-      text: "See all integrations",
+      text: "Explore integrations",
     },
     testimonial: {
-      quote: `“I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”`,
+      quote:
+        "I can deploy a custom AI model and get stakeholder approval in under an hour, all within the platform.",
       imgSrc: "/assets/images/avatars/02.jpg",
-      name: "Matt Henderson",
-      role: "Client Success Manager",
+      name: "Ethan Brooks",
+      role: "Data Science Manager",
     },
   },
   {
@@ -126,13 +130,15 @@ export const features3 = [
     imgSrc: "/assets/images/template/feature-03.jpg",
     altText: "Maintain compliance and control your apps",
     step: "03.",
-    title: "Maintain compliance and control your apps",
-    description: `Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.`,
+    title: "Ensure AI compliance",
+    description:
+      "Build trust with secure AI model management, using pre-approved templates and locked configurations to prevent compliance issues.",
     testimonial: {
-      quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
+      quote:
+        "This platform simplifies compliance without sacrificing AI performance.",
       imgSrc: "/assets/images/avatars/04.jpg",
-      name: "Sam Owesen",
-      role: "Director of Sales Operations",
+      name: "Nia Patel",
+      role: "Director of AI Operations",
     },
   },
   {
@@ -140,13 +146,15 @@ export const features3 = [
     imgSrc: "/assets/images/template/feature-04.jpg",
     altText: "Review quickly and confidently",
     step: "04.",
-    title: "Review quickly and confidently",
-    description: `Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.`,
+    title: "Optimize AI workflows",
+    description:
+      "Access real-time model monitoring, feedback, and version control, with smart features to eliminate errors in AI development.",
     testimonial: {
-      quote: `“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation.”`,
+      quote:
+        "The platform’s compliance tools ensure our AI solutions meet global data protection standards effortlessly.",
       imgSrc: "/assets/images/avatars/03.jpg",
-      name: "Elloni Emad",
-      role: "Lead Marketing",
+      name: "Omar Khalid",
+      role: "Chief Data Officer",
     },
   },
 ];
@@ -154,39 +162,39 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "AI Model Blueprints",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Launch AI solutions quickly with customizable, pre-built templates.",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Real-Time Insights",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Monitor AI model performance instantly with live analytics dashboards.",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "Data Pipelines",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Pull data seamlessly into your AI workflows with native integrations.",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Secure AI APIs",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "Protect your data with encrypted, legally compliant AI API endpoints.",
   },
   {
     icon: "unicon-sub-volume",
-    title: "Forms",
+    title: "AI Forms",
     description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
+      "Embed AI-driven forms on your site or share via direct links, no coding required.",
   },
   {
     icon: "unicon-currency",
-    title: "Payments",
+    title: "Model Licensing",
     description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+      "Monetize your AI models instantly, boosting adoption rates by 36%.",
   },
 ];
 
@@ -194,40 +202,40 @@ export const featureItems = [
   {
     imageSrc: "/assets/images/template/home-four-feature-01.png",
     altText: "Ensuring timely delivery and maximum efficiency",
-    title: "Ensuring timely delivery and maximum efficiency",
+    title: "Accelerate AI project delivery",
     description:
-      "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
-    linkText: "Let's find out",
+      "Our platform offers advanced AI project management with model training timelines, dependency tracking, and resource optimization.",
+    linkText: "Discover more",
     icon: "unicon-cloud-download",
     reverseOrder: false,
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-02.png",
     altText: "No more digging endless reports and spreadsheets",
-    title: "No more digging endless reports and spreadsheets",
+    title: "Simplify AI data insights",
     description:
-      "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-    linkText: "See all spreadsheets",
+      "An all-in-one AI analytics platform that delivers actionable insights, eliminating the need for complex reports.",
+    linkText: "Explore analytics",
     icon: "unicon-course",
     reverseOrder: true,
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-03.png",
     altText: "Share files, and communicate with your team in real-time",
-    title: "Share files, and communicate with your team in real-time",
+    title: "Collaborate on AI in real-time",
     description:
-      "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-    linkText: "See apps & integrations",
+      "Assign tasks, share model outputs, and collaborate with your AI team in real-time, regardless of location.",
+    linkText: "See collaboration tools",
     icon: "unicon-volume-block-storage",
     reverseOrder: false,
   },
   {
     imageSrc: "/assets/images/template/home-four-feature-04.jpg",
     altText: "Collaboration is made seamless with nexlify",
-    title: "Collaboration is made seamless with nexlify",
+    title: "Seamless AI collaboration",
     description:
-      "Get real-time access to approvals, comments and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
-    linkText: "Let's find out",
+      "Real-time access to model feedback, version tracking, and smart automation ensures error-free AI development.",
+    linkText: "Learn how",
     icon: "unicon-model",
     reverseOrder: true,
   },
@@ -238,17 +246,17 @@ export const featureItems2 = [
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Rapid AI Processing",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "From small teams to large enterprises, our AI platform ensures seamless model execution and scalability.",
   },
   {
     order: "order-0",
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Unified AI Data Hub",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Centralize your AI datasets for easy access and management, streamlining your workflows.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
   },
@@ -256,17 +264,17 @@ export const featureItems2 = [
     order: "order-2 sm:order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: "Context-Aware AI Models",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Enhance AI outputs with contextual data integration for more accurate predictions.",
   },
   {
     order: "order-1 lg:order-0",
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "AI Risk Mitigation",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Proactively manage AI model risks with built-in monitoring and compliance tools.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
   },
@@ -274,17 +282,17 @@ export const featureItems2 = [
     order: "order-3 lg:order-0",
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "AI Compliance Tools",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Ensure your AI solutions meet global data protection standards effortlessly.",
   },
   {
     order: "order-2 lg:order-0",
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Third-Party Management",
+    title: "Third-Party AI Integration",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Seamlessly connect third-party AI tools to enhance your platform’s capabilities.",
     bgClass:
       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
   },
@@ -294,37 +302,37 @@ export const features5 = [
   {
     iconSrc: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Drag-and-Drop Interface",
+    title: "AI Model Builder",
   },
   {
     iconSrc: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "Pre-Designed Templates",
+    title: "Pre-Trained AI Models",
   },
   {
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Fully Responsive Design",
+    title: "Scalable AI Architecture",
   },
   {
     iconSrc: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Website Customization",
+    title: "AI Workflow Automation",
   },
   {
     iconSrc: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "UI Elements Library",
+    title: "Real-Time AI Analytics",
   },
   {
     iconSrc: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Global & Local Styles",
+    title: "Custom AI Configurations",
   },
   {
     iconSrc: "/assets/images/common/icons/puzzle.svg",
     alt: "feature-icon",
-    title: "Third-Party Integrations",
+    title: "AI Platform Integrations",
   },
 ];
 
@@ -333,78 +341,77 @@ export const features6 = [
     id: 1,
     imgSrc: "/assets/images/template/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    title: "Launch AI models in minutes",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Our platform simplifies AI deployment, allowing you to create and share custom models with dynamic configurations within your workflow.",
     link: null,
   },
   {
     id: 2,
     imgSrc: "/assets/images/template/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    title: "Unify AI across your business",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
-    link: { text: "See all integrations", href: "#" },
+      "Maintain data consistency with native integrations that streamline your AI workflows.",
+    link: { text: "Explore integrations", href: "#" },
   },
   {
     id: 3,
     imgSrc: "/assets/images/template/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    title: "Secure AI deployments",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
+      "Enhance trust with secure AI model management and compliance tools, using pre-approved templates to prevent errors.",
     link: null,
   },
   {
     id: 4,
     imgSrc: "/assets/images/template/feature-04.jpg",
     imgAlt: "Review quickly and confidently",
-    title: "Review quickly and confidently",
+    title: "Optimize AI performance",
     description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+      "Real-time monitoring, feedback, and version control ensure error-free AI development.",
     link: null,
   },
 ];
 
 export const integrations = [
   {
-    title: "Mailchimp",
-    description: "Share your ideas with Mailchimp email newsletters.",
+    title: "TensorFlow",
+    description: "Build and deploy AI models with TensorFlow integration.",
     imgSrc: "/assets/images/integrations/mailchimp.png",
-    categories: ["Marketing Automation", "Finance", "Spreadsheets"],
+    categories: ["AI Frameworks", "Machine Learning", "Data Processing"],
   },
   {
-    title: "Asana",
-    description:
-      "Leading work management from daily tasks to strategic initiatives.",
+    title: "PyTorch",
+    description: "Leverage PyTorch for advanced AI model training and research.",
     imgSrc: "/assets/images/integrations/asana.png",
-    categories: ["Marketing Automation", "Scheduling", "Project Management"],
+    categories: ["AI Frameworks", "Machine Learning", "Research"],
   },
   {
-    title: "Zapier",
-    description: "Send and receive email via a custom Zapier.",
+    id: 3,
+    title: "AWS SageMaker",
+    description: "Scale AI model deployment with AWS SageMaker integration.",
     imgSrc: "/assets/images/integrations/zapier.png",
-    categories: ["Marketing Automation", "Scheduling", "Spreadsheets"],
+    categories: ["Cloud AI", "Machine Learning", "Data Processing"],
   },
   {
-    title: "Bitbucket",
-    description: "File sync app that lets you store all of your files online.",
+    title: "Google Cloud AI",
+    description: "Integrate Google Cloud AI for robust model training and analytics.",
     imgSrc: "/assets/images/integrations/bitbucket.png",
-    categories: ["Marketing Automation", "Scheduling", "Project Management"],
+    categories: ["Cloud AI", "Machine Learning", "Analytics"],
   },
   {
-    title: "Stripe",
-    description:
-      "Developer-friendly way to accept payments online and in mobile apps.",
+    title: "Hugging Face",
+    description: "Access pre-trained NLP models with Hugging Face integration.",
     imgSrc: "/assets/images/integrations/stripe.png",
-    categories: ["Marketing Automation", "Finance", "Spreadsheets"],
+    categories: ["AI Frameworks", "Natural Language Processing", "Machine Learning"],
   },
   {
-    title: "Google Drive",
-    description: "File sync app that lets you store all of your files online.",
+    title: "Azure AI",
+    description: "Deploy AI solutions with Azure AI’s powerful infrastructure.",
     imgSrc: "/assets/images/integrations/drive.png",
-    categories: ["Marketing Automation", "Finance", "Spreadsheets"],
+    categories: ["Cloud AI", "Machine Learning", "Data Processing"],
   },
 ];
 
@@ -412,47 +419,47 @@ export const features7 = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/icon-01.svg",
-    title: "Fast and Reliable",
+    title: "Rapid AI Execution",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/icon-02.svg",
-    title: "Discover Data Everywhere",
+    title: "AI Data Centralization",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     icon: "/assets/images/custom-icons/icon-03.svg",
-    title: "Enrich Data with Context",
+    title: "Context-Enhanced AI",
   },
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/icon-07.svg",
-    title: "Risk Management",
+    title: "AI Risk Monitoring",
   },
   {
     order: "order-3 lg:order-0",
     icon: "/assets/images/custom-icons/icon-05.svg",
-    title: "Privacy Compliance",
+    title: "AI Compliance",
   },
   {
     order: "order-2 lg:order-0",
     icon: "/assets/images/custom-icons/icon-06.svg",
-    title: "Third-Party Management",
+    title: "Third-Party AI Sync",
   },
 ];
 
 export const features8 = [
   {
     imgSrc: "/assets/images/features/home-8-feature-01.png",
-    title: "Seamless integrations with your existing tools",
+    title: "Seamless AI tool integrations",
   },
   {
     imgSrc: "/assets/images/features/home-8-feature-05.png",
-    title: "Intuitive dashboard for at-a-glance insights",
+    title: "AI-driven analytics dashboard",
   },
   {
     imgSrc: "/assets/images/features/home-8-feature-06.png",
-    title: "Automated data analysis and reporting",
+    title: "Automated AI model reporting",
   },
 ];
 
@@ -460,32 +467,32 @@ export const features9 = [
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-01.svg",
-    title: "Fast and Reliable",
+    title: "Rapid AI Execution",
   },
   {
     order: "order-0",
     icon: "/assets/images/custom-icons/home-8-icon-02.svg",
-    title: "Discover Data Everywhere",
+    title: "AI Data Centralization",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-03.svg",
-    title: "Enrich Data with Context",
+    title: "Context-Enhanced AI",
   },
   {
     order: "order-1 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-07.svg",
-    title: "Risk Management",
+    title: "AI Risk Monitoring",
   },
   {
     order: "order-3 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-05.svg",
-    title: "Privacy Compliance",
+    title: "AI Compliance",
   },
   {
     order: "order-2 lg:order-0",
     icon: "/assets/images/custom-icons/home-8-icon-06.svg",
-    title: "Third-Party Management",
+    title: "Third-Party AI Sync",
   },
 ];
 
@@ -493,32 +500,32 @@ export const features10 = [
   {
     src: "/assets/images/features/home-8-feature-01.png",
     alt: "",
-    title: "Seamless integrations with your app tools",
+    title: "Integrate with AI frameworks",
   },
   {
     src: "/assets/images/features/home-8-feature-02.png",
     alt: "",
-    title: "Intuitive dashboard for at-a-glance insights",
+    title: "AI-powered insights dashboard",
   },
   {
     src: "/assets/images/features/home-8-feature-03.png",
     alt: "",
-    title: "Get more value from your tools",
+    title: "Maximize AI platform value",
   },
   {
     src: "/assets/images/features/home-8-feature-04.png",
     alt: "",
-    title: "Enrich Data with Risk Management",
+    title: "AI-enhanced risk management",
   },
   {
     src: "/assets/images/features/home-8-feature-05.png",
     alt: "",
-    title: "Scalable plans to fit any business size",
+    title: "Scalable AI solutions",
   },
   {
     src: "/assets/images/features/home-8-feature-06.png",
     alt: "",
-    title: "Automated data analysis and reporting",
+    title: "Automated AI analytics",
   },
 ];
 
@@ -527,49 +534,49 @@ export const features11 = [
     order: "order-1 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-01.svg",
     alt: "feature-icon",
-    title: "Fast and Reliable",
+    title: "Rapid AI Processing",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Our AI platform scales effortlessly, ensuring teams of any size can execute models quickly and stay aligned.",
   },
   {
     order: "order-0",
     src: "/assets/images/custom-icons/home-8-icon-02.svg",
     alt: "feature-icon",
-    title: "Discover Data Everywhere",
+    title: "Unified AI Data Hub",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Centralize datasets for streamlined AI workflows, keeping your team in sync.",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-03.svg",
     alt: "feature-icon",
-    title: "Enrich Data with Context",
+    title: "Context-Aware AI Models",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Integrate contextual data to enhance AI predictions and decision-making.",
   },
   {
     order: "order-1 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-07.svg",
     alt: "feature-icon",
-    title: "Risk Management",
+    title: "AI Risk Mitigation",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Monitor and manage AI risks with proactive tools for seamless operations.",
   },
   {
     order: "order-3 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-05.svg",
     alt: "feature-icon",
-    title: "Privacy Compliance",
+    title: "AI Compliance Tools",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Ensure global compliance with built-in AI data protection features.",
   },
   {
     order: "order-2 lg:order-0",
     src: "/assets/images/custom-icons/home-8-icon-06.svg",
     alt: "feature-icon",
-    title: "Third-Party Management",
+    title: "Third-Party AI Integration",
     description:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "Connect third-party AI tools to enhance your platform’s functionality.",
   },
 ];
 
@@ -577,20 +584,20 @@ export const features12 = [
   {
     src: "/assets/images/custom-icons/icon-02.svg",
     alt: "icon",
-    text: "No Credit Card Required",
-    className: "", // No additional class for this item
+    text: "No Subscription Required",
+    className: "",
   },
   {
     src: "/assets/images/custom-icons/icon-07.svg",
     alt: "icon",
-    text: "End-to-End Encryption",
-    className: "", // No additional class for this item
+    text: "End-to-End AI Security",
+    className: "",
   },
   {
     src: "/assets/images/custom-icons/icon-02.svg",
     alt: "icon",
-    text: "Cutting-edge AI features",
-    className: "d-none lg:d-block", // Additional class for this item
+    text: "Advanced AI Capabilities",
+    className: "d-none lg:d-block",
   },
 ];
 
@@ -598,26 +605,26 @@ export const features13 = [
   {
     src: "/assets/images/common/icons/zap.svg",
     alt: "feature-icon",
-    title: "Fast Messaging",
+    title: "AI-Driven Messaging",
   },
   {
     src: "/assets/images/common/icons/database.svg",
     alt: "feature-icon",
-    title: "AI-Powered Translation",
+    title: "AI Language Processing",
   },
   {
     src: "/assets/images/common/icons/line-chart.svg",
     alt: "feature-icon",
-    title: "Smart File Sharing",
+    title: "Intelligent Data Sharing",
   },
   {
     src: "/assets/images/common/icons/target.svg",
     alt: "feature-icon",
-    title: "Collaboration Tools",
+    title: "AI Collaboration Suite",
   },
   {
     src: "/assets/images/common/icons/settings.svg",
     alt: "feature-icon",
-    title: "Customizable Privacy",
+    title: "AI Privacy Controls",
   },
 ];

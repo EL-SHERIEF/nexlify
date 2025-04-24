@@ -1,39 +1,41 @@
 export const accordionItems = [
   {
     id: 1,
-    question: "Do I need to know about how to code?",
+    question: "Do I need AI expertise to use the platform?",
     answer:
-      "Yes, you need to have a fair amount of knowledge in dealing with HTML/CSS as well as JavaScript in order to be able to use nexlify.",
+      "Yes, a basic understanding of AI concepts and familiarity with Python or machine learning frameworks like TensorFlow or PyTorch is recommended to fully leverage AIInnovate’s capabilities.",
     controls: "uc-accordion-24",
     expanded: true,
   },
   {
     id: 2,
-    question: "Can I use it for commercial projects?",
+    question: "Can I use it for commercial AI projects?",
     answer:
-      "Feel free to do so. nexlify does exist to evolve every commercial project. You can also use it to build stunning websites for your own clients (we won’t breathe a word).",
+      "Absolutely. AIInnovate is designed to empower commercial AI initiatives. You can deploy it to create cutting-edge AI solutions for your clients, and we’ll keep your projects confidential.",
     controls: "uc-accordion-26",
     expanded: false,
   },
   {
     id: 3,
-    question: "Can I use it for multiple projects?",
-    answer: "Definitely! Please use it however you like; we don’t limit it.",
+    question: "Can I use it for multiple AI projects?",
+    answer:
+      "Yes, AIInnovate supports unlimited use across multiple projects, allowing you to scale your AI solutions without restrictions.",
     controls: "uc-accordion-28",
     expanded: false,
   },
   {
     id: 4,
-    question: "Can I use this to create and sell a product?",
-    answer: "Do not ever consider doing it.",
+    question: "Can I use this to create and sell an AI product?",
+    answer:
+      "Selling a standalone AI product built with AIInnovate is not permitted, as our platform is intended for project deployment, not product resale.",
     controls: "uc-accordion-30",
     expanded: false,
   },
   {
     id: 5,
-    question: "What is your refund policy?",
+    question: "What is your refund policy for AIInnovate?",
     answer:
-      "We understand the importance of customer satisfaction and we strive to provide the best products and services. However, please note that due to the nature of our products and services, we do not offer refunds after a purchase has been made.",
+      "We prioritize user satisfaction and aim to deliver top-tier AI tools. Due to the digital nature of our platform, refunds are not available after purchase, but we offer robust support to ensure success.",
     controls: "uc-accordion-32",
     expanded: false,
   },
@@ -42,26 +44,26 @@ export const accordionItems = [
 export const accordionItems2 = [
   {
     id: 23,
-    title: "Manage tasks",
+    title: "Streamline AI workflows",
     icon: "/assets/images/common/icons/zap.svg",
     content:
-      "Offers a unified platform that fosters innovation while providing end-to-end data management.",
+      "Provides a unified AI platform that accelerates innovation with seamless model training and deployment.",
     isOpen: false,
   },
   {
     id: 25,
-    title: "Set priorities",
+    title: "Optimize AI model performance",
     icon: "/assets/images/common/icons/target.svg",
     content:
-      "Providing end-to-end data management. See how we help your team solve today’s biggest challenges.",
+      "Offers end-to-end AI model management, empowering your team to tackle complex challenges with precision.",
     isOpen: false,
   },
   {
     id: 27,
-    title: "Collaborate with your team",
+    title: "Collaborate on AI projects",
     icon: "/assets/images/common/icons/settings.svg",
     content:
-      "Our shared team inboxes keep everyone on the same page and in the loop.",
+      "Our shared AI project dashboards ensure your team stays aligned and informed throughout the development process.",
     isOpen: true,
   },
 ];

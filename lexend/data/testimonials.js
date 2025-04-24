@@ -1,146 +1,130 @@
 export const testimonials = [
   {
-    "quote": "Our team used to spend hours on data processing and report generation. Now, with Nexlify's advanced AI tools, we can focus on developing innovative strategies to enhance employee productivity and engagement.",
-    "name": "John Edrissi",
-    "position": "Director of Human Resources",
-    "imgSrc": "/assets/images/portrait/01.jpg"
+    quote: "Our team used to spend hours on manual data preprocessing. AIInnovate’s AI tools have streamlined our workflows, allowing us to focus on building cutting-edge AI models and strategies.",
+    name: "Alex Carter",
+    position: "Chief Data Officer",
+    imgSrc: "/assets/images/portrait/01.jpg"
   },
   {
-    "quote": "With Nexlify's AI-driven analytics, I can generate tailored business proposals with real-time insights and predictive pricing models, getting approvals in under 30 minutes. The results are professional and impactful.",
-    "name": "Marci Beckler",
-    "position": "Client Success Manager",
-    "imgSrc": "/assets/images/portrait/02.jpg"
+    quote: "AIInnovate’s real-time analytics dashboard enables me to generate AI-driven insights quickly, cutting project turnaround time by half. The platform is intuitive and highly effective.",
+    name: "Sophie Nguyen",
+    position: "AI Product Manager",
+    imgSrc: "/assets/images/portrait/02.jpg"
   },
   {
-    "quote": "Nexlify's seamless integration with our CRM platform allows us to leverage powerful AI capabilities without switching tools. It streamlines our sales processes, from lead scoring to forecasting, boosting efficiency like never before.",
-    "name": "Matt Henderson",
-    "position": "Director of Sales Operations",
-    "imgSrc": "/assets/images/portrait/03.jpg"
+    quote: "The seamless integration with our existing AI frameworks like TensorFlow has transformed our development process. AIInnovate’s tools boost efficiency and model performance effortlessly.",
+    name: "Liam Chen",
+    position: "AI Engineering Lead",
+    imgSrc: "/assets/images/portrait/03.jpg"
   }
 ];
+
 export const slidesData = [
   {
     rating: 5,
-    quote:
-      "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "John Edrissi",
-    title: "CEO, Co-Founder.",
+    quote: "AIInnovate has freed our developers to focus on innovation. Its automation tools eliminated repetitive tasks, enabling us to build advanced AI solutions faster.",
+    name: "Alex Carter",
+    title: "CEO, Co-Founder",
   },
   {
     rating: 5,
-    quote:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Sam Owesen",
-    title: "Director of Sales",
+    quote: "This platform’s integration with our CRM allows us to create AI-driven proposals with predictive analytics, getting approvals in under 30 minutes.",
+    name: "Maya Patel",
+    title: "Director of AI Operations",
   },
   {
     rating: 5,
-    quote:
-      "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!",
-    name: "Elloni Emad",
-    title: "Lead Marketing",
+    quote: "As a European company, we prioritize GDPR compliance. AIInnovate’s compliance tools and secure AI platform have been exceptional for our needs.",
+    name: "Elena Vargas",
+    title: "Lead Marketing Strategist",
   },
   {
     rating: 5,
-    quote:
-      "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Tom Smith",
-    title: "Senior UI/UX Designer",
+    quote: "AIInnovate’s model optimization tools have streamlined our development pipeline, letting our team focus on creating impactful AI applications.",
+    name: "Ethan Kim",
+    title: "Senior AI Developer",
   },
-  // ...add more slide data as needed
 ];
 
 export const reviews = [
   {
-    name: "John Edrissi",
+    name: "Alex Carter",
     position: "CEO, Co-Founder",
-    feedback:
-      "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    feedback: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on developing innovative AI solutions for our clients.",
   },
   {
-    name: "Sam Owesen",
-    position: "Director of Sales",
-    feedback:
-      "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
+    name: "Maya Patel",
+    position: "Director of AI Operations",
+    feedback: "The AI analytics platform transformed our data processing, improving our operational efficiency by 40% in just a few months.",
   },
   {
-    name: "Elloni Emad",
-    position: "Lead Marketing",
-    feedback:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!”",
+    name: "Elena Vargas",
+    position: "Lead Marketing Strategist",
+    feedback: "AIInnovate’s GDPR-compliant AI tools are outstanding, making it easy to build secure, regulation-ready AI applications.",
   },
   {
-    name: "Tom Smith",
-    position: "Senior UI/UX Designer",
-    feedback:
-      "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    name: "Ethan Kim",
+    position: "Senior AI Developer",
+    feedback: "The platform’s model optimization features have streamlined our workflows, enabling us to deliver high-performing AI solutions faster.",
   },
 ];
 
 export const testimonials2 = [
   {
     brandImg: "/assets/images/brands/brand-07.png",
-    testimonial:
-      "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
+    testimonial: "AIInnovate’s recommendation AI tripled our platform’s user engagement by delivering personalized content with unmatched precision.",
     authorImg: "/assets/images/avatars/01.jpg",
-    authorName: "John Edrissi",
+    authorName: "Alex Carter",
     authorRole: "CEO, Co-Founder",
   },
   {
     brandImg: "/assets/images/brands/brand-06.png",
-    testimonial:
-      "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
+    testimonial: "Their AI analytics tools boosted our data processing efficiency by 40%, transforming how we derive insights from complex datasets.",
     authorImg: "/assets/images/avatars/04.jpg",
-    authorName: "Sam Owesen",
-    authorRole: "Director of Sales",
+    authorName: "Maya Patel",
+    authorRole: "Director of AI Operations",
   },
   {
     brandImg: "/assets/images/brands/brand-08.png",
-    testimonial:
-      "“The sophisticated fraud detection AI they engineered identified anomalies that our legacy systems consistently missed, greatly strengthening our security protocols and protecting our clients.”",
+    testimonial: "AIInnovate’s fraud detection AI caught anomalies our previous systems missed, significantly enhancing our platform’s security.",
     authorImg: "/assets/images/avatars/03.jpg",
-    authorName: "Elloni Emad",
-    authorRole: "Lead Marketing",
+    authorName: "Elena Vargas",
+    authorRole: "Lead Marketing Strategist",
   },
   {
     brandImg: "/assets/images/brands/brand-01.png",
-    testimonial:
-      "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
+    testimonial: "Their recommendation AI tripled our platform’s user engagement by delivering personalized content with unmatched precision.",
     authorImg: "/assets/images/avatars/08.jpg",
-    authorName: "Tom Smith",
-    authorRole: "Senior UI/UX Designer",
+    authorName: "Ethan Kim",
+    authorRole: "Senior AI Developer",
   },
   {
     brandImg: "/assets/images/brands/brand-02.png",
-    testimonial:
-      "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
+    testimonial: "AIInnovate’s recommendation AI tripled our platform’s user engagement by delivering personalized content with unmatched precision.",
     authorImg: "/assets/images/avatars/01.jpg",
-    authorName: "John Edrissi",
+    authorName: "Alex Carter",
     authorRole: "CEO, Co-Founder",
   },
   {
     brandImg: "/assets/images/brands/brand-03.png",
-    testimonial:
-      "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
+    testimonial: "Their AI analytics tools boosted our data processing efficiency by 40%, transforming how we derive insights from complex datasets.",
     authorImg: "/assets/images/avatars/04.jpg",
-    authorName: "Sam Owesen",
-    authorRole: "Director of Sales",
+    authorName: "Maya Patel",
+    authorRole: "Director of AI Operations",
   },
   {
     brandImg: "/assets/images/brands/brand-04.png",
-    testimonial:
-      "“The sophisticated fraud detection AI they engineered identified anomalies that our legacy systems consistently missed, greatly strengthening our security protocols and protecting our clients.”",
+    testimonial: "AIInnovate’s fraud detection AI caught anomalies our previous systems missed, significantly enhancing our platform’s security.",
     authorImg: "/assets/images/avatars/03.jpg",
-    authorName: "Elloni Emad",
-    authorRole: "Lead Marketing",
+    authorName: "Elena Vargas",
+    authorRole: "Lead Marketing Strategist",
   },
   {
     brandImg: "/assets/images/brands/brand-05.png",
-    testimonial:
-      "“Their intelligent content recommendation AI doubled our user retention rates on our streaming platform, creating a more engaging experience for our audience.”",
+    testimonial: "Their recommendation AI tripled our platform’s user engagement by delivering personalized content with unmatched precision.",
     authorImg: "/assets/images/avatars/08.jpg",
-    authorName: "Tom Smith",
-    authorRole: "Senior UI/UX Designer",
+    authorName: "Ethan Kim",
+    authorRole: "Senior AI Developer",
   },
 ];
 
@@ -148,71 +132,71 @@ export const testimonials3 = [
   {
     brandImgSrc: "/assets/images/brands/brand-07.png",
     brandImgAlt: "Brand",
-    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on developing innovative AI solutions for our clients.",
     avatarImgSrc: "/assets/images/avatars/01.jpg",
-    avatarImgAlt: "John Edrissi",
-    name: "John Edrissi",
-    position: "CEO, Co-Founder.",
+    avatarImgAlt: "Alex Carter",
+    name: "Alex Carter",
+    position: "CEO, Co-Founder",
   },
   {
     brandImgSrc: "/assets/images/brands/brand-06.png",
     brandImgAlt: "Brand",
-    text: "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
+    text: "The AI analytics platform transformed our data processing, improving our operational efficiency by 40% in just a few months.",
     avatarImgSrc: "/assets/images/avatars/04.jpg",
-    avatarImgAlt: "Sam Owesen",
-    name: "Sam Owesen",
-    position: "Director of Sales",
+    avatarImgAlt: "Maya Patel",
+    name: "Maya Patel",
+    position: "Director of AI Operations",
   },
   {
     brandImgSrc: "/assets/images/brands/brand-08.png",
     brandImgAlt: "Brand",
-    text: "“The sophisticated fraud detection AI they engineered identified anomalies that our legacy systems consistently missed, greatly strengthening our security protocols and protecting our clients.”",
+    text: "AIInnovate’s fraud detection AI caught anomalies our previous systems missed, significantly enhancing our platform’s security.",
     avatarImgSrc: "/assets/images/avatars/03.jpg",
-    avatarImgAlt: "Elloni Emad",
-    name: "Elloni Emad",
-    position: "Lead Marketing",
+    avatarImgAlt: "Elena Vargas",
+    name: "Elena Vargas",
+    position: "Lead Marketing Strategist",
   },
 ];
 
 export const testimonials4 = [
   {
-    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "John Edrissi",
+    text: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on developing innovative AI solutions for our clients.",
+    name: "Alex Carter",
     imgSrc: "/assets/images/avatars/01.jpg",
   },
   {
-    text: "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Sam Owesen",
+    text: "This platform’s integration with our CRM allows us to create AI-driven proposals with predictive analytics, getting approvals in under 30 minutes.",
+    name: "Maya Patel",
     imgSrc: "/assets/images/avatars/04.jpg",
   },
   {
-    text: "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder is just outstanding!",
-    name: "Elloni Emad",
+    text: "As a European company, we prioritize GDPR compliance. AIInnovate’s compliance tools and secure AI platform have been exceptional for our needs.",
+    name: "Elena Vargas",
     imgSrc: "/assets/images/avatars/03.jpg",
   },
   {
-    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Tom Smith",
+    text: "AIInnovate’s model optimization tools have streamlined our development pipeline, letting our team focus on creating impactful AI applications.",
+    name: "Ethan Kim",
     imgSrc: "/assets/images/avatars/08.jpg",
   },
   {
-    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "John Edrissi",
+    text: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on developing innovative AI solutions for our clients.",
+    name: "Alex Carter",
     imgSrc: "/assets/images/avatars/01.jpg",
   },
   {
-    text: "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Sam Owesen",
+    text: "This platform’s integration with our CRM allows us to create AI-driven proposals with predictive analytics, getting approvals in under 30 minutes.",
+    name: "Maya Patel",
     imgSrc: "/assets/images/avatars/04.jpg",
   },
   {
-    text: "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder is just outstanding!",
-    name: "Elloni Emad",
+    text: "As a European company, we prioritize GDPR compliance. AIInnovate’s compliance tools and secure AI platform have been exceptional for our needs.",
+    name: "Elena Vargas",
     imgSrc: "/assets/images/avatars/03.jpg",
   },
   {
-    text: "AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Tom Smith",
+    text: "AIInnovate’s model optimization tools have streamlined our development pipeline, letting our team focus on creating impactful AI applications.",
+    name: "Ethan Kim",
     imgSrc: "/assets/images/avatars/08.jpg",
   },
 ];
@@ -221,81 +205,77 @@ export const testimonialsData = [
   {
     id: 1,
     avatarSrc: "/assets/images/avatars/01.jpg",
-    name: "John Edrissi",
-    role: "CEO, Co-Founder.",
-    quote:
-      "“AI Developer? We value your skills! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    name: "Alex Carter",
+    role: "CEO, Co-Founder",
+    quote: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on developing innovative AI solutions for our clients.",
   },
   {
     id: 2,
     avatarSrc: "/assets/images/avatars/04.jpg",
-    name: "Sam Owesen",
-    role: "Director of Sales",
-    quote:
-      "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
+    name: "Maya Patel",
+    role: "Director of AI Operations",
+    quote: "The AI analytics platform transformed our data processing, improving our operational efficiency by 40% in just a few months.",
   },
   {
     id: 3,
     avatarSrc: "/assets/images/avatars/03.jpg",
-    name: "Elloni Emad",
-    role: "Lead Marketing",
-    quote:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website, this builder is just outstanding!”",
+    name: "Elena Vargas",
+    role: "Lead Marketing Strategist",
+    quote: "AIInnovate’s GDPR-compliant AI tools are outstanding, making it easy to build secure, regulation-ready AI applications.",
   },
   {
     id: 4,
     avatarSrc: "/assets/images/avatars/08.jpg",
-    name: "Tom Smith",
-    role: "Senior UI/UX Designer",
-    quote:
-      "“AI Developer? We value your skills! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    name: "Ethan Kim",
+    role: "Senior AI Developer",
+    quote: "The platform’s model optimization features have streamlined our workflows, enabling us to deliver high-performing AI solutions faster.",
   },
 ];
 
 export const testimonials5 = [
   {
-    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate to help our employees.”",
-    name: "John Edrissi",
+    text: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on developing innovative AI solutions.",
+    name: "Alex Carter",
     imgSrc: "/assets/images/avatars/01.jpg",
   },
   {
-    text: "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
-    name: "Jason Barella",
+    text: "The AI analytics platform transformed our data processing, improving efficiency by 40% in just a few months.",
+    name: "Lucas Moreno",
     imgSrc: "/assets/images/avatars/02.jpg",
   },
   {
-    text: "“Look for service suppliers that comply with this regulation, and as we look to create our website, this builder is just outstanding!”",
-    name: "Elloni Emad",
+    text: "AIInnovate’s GDPR-compliant tools are exceptional for building secure, regulation-ready AI applications.",
+    name: "Elena Vargas",
     imgSrc: "/assets/images/avatars/03.jpg",
   },
   {
-    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
-    name: "Tom Smith",
+    text: "The platform’s model optimization features have streamlined our workflows, enabling faster AI solution delivery.",
+    name: "Ethan Kim",
     imgSrc: "/assets/images/avatars/08.jpg",
   },
   {
-    text: "“AI Developer? We value your skills! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
-    name: "Jaden Karl",
+    text: "AIInnovate’s automation tools have saved us countless hours, letting our team focus on innovative AI solutions.",
+    name: "Zara Ali",
     imgSrc: "/assets/images/avatars/05.jpg",
   },
   {
-    text: "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
-    name: "Ederson Hani",
+    text: "The AI analytics platform transformed our data processing, improving efficiency by 40% in just a few months.",
+    name: "Caleb Brooks",
     imgSrc: "/assets/images/avatars/06.jpg",
   },
   {
-    text: "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder is just outstanding!”",
-    name: "Matt Peterson",
+    text: "AIInnovate’s GDPR-compliant tools are exceptional for building secure, regulation-ready AI applications.",
+    name: "Isabella Tan",
     imgSrc: "/assets/images/avatars/07.jpg",
   },
   {
-    text: "“AI Developer? We value your skills! Most of our time used to be taken up by most of the alternate administrative work whereas now we can focus on building out to help our employees.”",
-    name: "jarry Cherry",
+    text: "The platform’s model optimization features have streamlined our workflows, enabling faster AI solution delivery.",
+    name: "Mason Liu",
     imgSrc: "/assets/images/avatars/10.jpg",
   },
   {
-    text: "“The AI solutions provided by this company transformed our data analytics process, increasing our efficiency by 40% within months.”",
-    name: "Muhammed Khan",
+    text: "The AI analytics platform transformed our data processing, improving efficiency by 40% in just a few months.",
+    name: "Omar Khalid",
     imgSrc: "/assets/images/avatars/11.jpg",
   },
 ];

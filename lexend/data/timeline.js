@@ -1,40 +1,38 @@
 export const timelineData = [
   {
     src: "/assets/images/template/timeline-01.jpg",
-    alt: "Where the idea come up of nexlify :)",
+    alt: "The spark for AIInnovate: envisioning an AI-driven future",
     year: "2014",
-    description: "Where the idea come up of nexlify :)",
+    description: "The spark for AIInnovate: envisioning an AI-driven future",
   },
   {
     src: "/assets/images/template/timeline-02.jpg",
-    alt: "Launched our first business that can be created in minutes, build meaningful relationships.",
+    alt: "Launched AIInnovate’s first AI platform for rapid model development",
     year: "2015",
-    description:
-      "Launched our first business that can be created in minutes, build meaningful relationships.",
+    description: "Launched AIInnovate’s first AI platform for rapid model development",
   },
   {
     src: "/assets/images/template/timeline-03.jpg",
-    alt: "Opened our new office in Toronto, CA",
+    alt: "Opened our AI research hub in Toronto, Canada",
     year: "2016",
-    description: "Opened our new office in Toronto, CA",
+    description: "Opened our AI research hub in Toronto, Canada",
   },
   {
     src: "/assets/images/template/timeline-04.jpg",
-    alt: "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+    alt: "Relocated to Silicon Valley to accelerate AI innovation",
     year: "2019",
-    description:
-      "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+    description: "Relocated to Silicon Valley to accelerate AI innovation",
   },
   {
     src: "/assets/images/template/timeline-05.jpg",
-    alt: "Opened a new office in London, UK.",
+    alt: "Established a new AI development center in London, UK",
     year: "2020",
-    description: "Opened a new office in London, UK.",
+    description: "Established a new AI development center in London, UK",
   },
   {
     src: "/assets/images/template/timeline-06.jpg",
-    alt: "Top-rated software solution for service suppliers.",
+    alt: "Recognized as a leading AI platform for enterprise solutions",
     year: "Today",
-    description: "Top-rated software solution for service suppliers.",
+    description: "Recognized as a leading AI platform for enterprise solutions",
   },
 ];
