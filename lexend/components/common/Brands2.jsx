@@ -31,6 +31,7 @@ export default function Brands2() {
         >
           <Image
             className="brand-item-image h-40px image-filter"
+            style={{objectFit:"contain"}}
             src={brand.src}
             width={165}
             height={48}
