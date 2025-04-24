@@ -14,7 +14,7 @@ export default function Shop1() {
             <div className="panel">
               <h1 className="h3 lg:h1 m-0">Shop listing</h1>
             </div>
-            <div className="vstack sm:hstack justify-between items-center gap-2 sm:gap-4">
+            <div className="vstack sm:hstack justify-between items-start gap-2 sm:gap-4">
               <div className="panel text-center sm:text-start">
                 <span className="fs-6 m-0 opacity-60">
                   Showed 16 products out of 100 total.
@@ -65,15 +65,15 @@ export default function Shop1() {
                         <i className="icon icon-narrow unicon-favorite-filled" />
                       </a>
                       {product.discount && (
-                        <span className="position-absolute top-0 start-0 m-1 md:m-2 ft-tertiary h-24px px-1 bg-yellow-400 text-dark">
+                        <span className="position-absolute top-0 start-0 m-1 md:m-2 ft-tertiary h-24px px-1 bg-yellow-400 text-dark rounded-pill">
                           {product.discount}
                         </span>
                       )}
                     </div>
-                    <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
+                    <div className="content vstack items-start gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
                         <Link
-                          className="text-none"
+                          className="text-primary"
                           href={`/shop-product-detail/${product.id}`}
                         >
                           {product.title}
@@ -93,7 +93,7 @@ export default function Shop1() {
                           </li>
                         ))}
                       </ul>
-                      <div className="hstack justify-center gap-narrow fs-7">
+                      <div className="hstack justify-center gap-narrow fs-7 w-fit">
                         {product.oldPrice && (
                           <span className="price-old text-line-through opacity-40">
                             ${product.oldPrice?.toFixed(2)}
@@ -104,7 +104,7 @@ export default function Shop1() {
                         </span>
                       </div>
                       <a
-                        className="btn btn-text text-none text-primary border-bottom fs-7 lg:fs-6 mt-1 pb-narrow"
+                        className="btn-text text-none text-primary border-bottom fs-7 lg:fs-6 mt-1 pb-narrow "
                         onClick={() => addProductToCart(product.id)}
                       >
                         {isAddedToCartProducts(product.id)

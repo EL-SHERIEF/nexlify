@@ -167,10 +167,10 @@ export default function Checkout1() {
                 <h3 className="h5 lg:h4 m-0">Your order:</h3>
                 <form
                   onSubmit={(e) => e.preventDefault()}
-                  className="panel max-h-sm overflow-auto border border-gray-50 dark:text-white dark:border-gray-700"
+                  className="panel max-h-sm overflow-auto border border-gray-50 rounded-3"
                 >
-                  <table className="table align-middle overflow-auto m-0 fs-6 dark:text-white dark:border-gray-700">
-                    <thead className="sticky-top ft-tertiary bg-gray-800 text-white z-1">
+                  <table className="table align-middle overflow-auto m-0 fs-6">
+                    <thead className="sticky-top ft-tertiary bg-gray-50 z-1">
                       <tr>
                         <th className="lg:w-1/3">Product</th>
                         <th className="lg:w-1/6">Subtotal</th>
@@ -235,20 +235,20 @@ export default function Checkout1() {
               </div>
               <div className="panel vstack gap-4">
                 <h3 className="h5 lg:h4 m-0">Select payment method:</h3>
-                <div className="panel vstack gap-2 lg:gap-4 p-2 lg:p-4 bg-gray-50 dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800 rounded">
+                <div className="panel vstack gap-2 lg:gap-4 p-2 lg:p-4  rounded-3">
                   <div className="vstack lg:hstack justify-stretch items-center gap-1 lg:gap-2 fs-6">
                     <div className="w-100">
-                      <div className="panel p-2 bg-white border-gray-100 w-100 rounded dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800">
+                      <div className="panel p-2 border-gray-100 border border-1 rounded-2 w-100">
                         <div className="form-check">
                           <input
-                            className="form-check-input dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-600"
+                            className="form-check-input"
                             type="radio"
                             name="payment_method"
                             id="payment_method_bacs"
                             defaultChecked=""
                           />
                           <label
-                            className="form-check-label fw-bold"
+                            className="form-check-label fw-bold w-100"
                             htmlFor="payment_method_bacs"
                           >
                             Direct bank transfer
@@ -257,8 +257,8 @@ export default function Checkout1() {
                       </div>
                     </div>
                     <div className="w-100">
-                      <div className="panel p-2 bg-white border-gray-100 w-100 rounded dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800">
-                        <div className="form-check">
+                    <div className="panel p-2 border-gray-100 border border-1 rounded-2 w-100">
+                    <div className="form-check">
                           <input
                             className="form-check-input dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-600"
                             type="radio"
@@ -266,7 +266,7 @@ export default function Checkout1() {
                             id="payment_method_cod"
                           />
                           <label
-                            className="form-check-label fw-bold"
+                            className="form-check-label fw-bold w-100"
                             htmlFor="payment_method_cod"
                           >
                             Cash on delivery
@@ -275,8 +275,8 @@ export default function Checkout1() {
                       </div>
                     </div>
                     <div className="w-100">
-                      <div className="panel p-2 bg-white border-gray-100 w-100 rounded dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-800">
-                        <div className="form-check">
+                    <div className="panel p-2 border-gray-100 border border-1 rounded-2 w-100">
+                    <div className="form-check">
                           <input
                             className="form-check-input dark:bg-gray-100 dark:bg-opacity-5 dark:text-white dark:border-gray-600"
                             type="radio"
@@ -284,7 +284,7 @@ export default function Checkout1() {
                             id="payment_method_paypal"
                           />
                           <label
-                            className="form-check-label fw-bold"
+                            className="form-check-label fw-bold w-100"
                             htmlFor="payment_method_paypal"
                           >
                             PayPal

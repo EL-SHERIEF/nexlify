@@ -69,7 +69,7 @@ export default function Nav() {
                               {item.label}
                               {item.badge && (
                                 <span
-                                  className={`fw-bold fs-8 ms-1 px-1 border rounded-pill ${item.badge.className}`}
+                                  className={`fw-bold text-white w-fit card-home-3 bg-primary fs-8 ms-1 px-1 border rounded-pill ${item.badge.className}`}
                                 >
                                   {item.badge.text}
                                 </span>

@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    name: "Elegant Watch",
+    title: "Elegant Watch",
     image: "/assets/images/common/products/img-01.jpg",
     alt: "Elegant Watch",
     discount: "51%",
@@ -11,7 +11,7 @@ export const products = [
   },
   {
     id: 2,
-    name: "Hemp Seed",
+    title: "Hemp Seed",
     image: "/assets/images/common/products/img-02.jpg",
     alt: "Hemp Seed",
     discount: null,
@@ -21,7 +21,7 @@ export const products = [
   },
   {
     id: 3,
-    name: "White Classic Watch",
+    title: "White Classic Watch",
     image: "/assets/images/common/products/img-03.jpg",
     alt: "White Classic Watch",
     discount: "67%",
@@ -31,7 +31,7 @@ export const products = [
   },
   {
     id: 4,
-    name: "Stylish Starbucks",
+    title: "Stylish Starbucks",
     image: "/assets/images/common/products/img-04.jpg",
     alt: "Stylish Starbucks",
     discount: null,
@@ -41,7 +41,7 @@ export const products = [
   },
   {
     id: 5,
-    name: "Black AirTag",
+    title: "Black AirTag",
     image: "/assets/images/common/products/img-05.jpg",
     alt: "Black AirTag",
     discount: null,
@@ -51,7 +51,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "Modern Headsets",
+    title: "Modern Headsets",
     image: "/assets/images/common/products/img-06.jpg",
     alt: "Modern Headsets",
     discount: null,
@@ -61,7 +61,7 @@ export const products = [
   },
   {
     id: 7,
-    name: "Laptop Cover",
+    title: "Laptop Cover",
     image: "/assets/images/common/products/img-07.jpg",
     alt: "Laptop Cover",
     discount: "70%",
@@ -71,7 +71,7 @@ export const products = [
   },
   {
     id: 8,
-    name: "Disney Toys",
+    title: "Disney Toys",
     image: "/assets/images/common/products/img-08.jpg",
     alt: "Disney Toys",
     discount: "75%",
@@ -81,7 +81,7 @@ export const products = [
   },
   {
     id: 9,
-    name: "Screen Axe",
+    title: "Screen Axe",
     image: "/assets/images/common/products/img-09.jpg",
     alt: "Screen Axe",
     discount: "50%",
@@ -91,7 +91,7 @@ export const products = [
   },
   {
     id: 10,
-    name: "Airpods Pro",
+    title: "Airpods Pro",
     image: "/assets/images/common/products/img-10.jpg",
     alt: "Airpods Pro",
     discount: "30%",
@@ -101,7 +101,7 @@ export const products = [
   },
   {
     id: 11,
-    name: "USB Cable",
+    title: "USB Cable",
     image: "/assets/images/common/products/img-11.jpg",
     alt: "USB Cable",
     discount: "80%",
@@ -111,7 +111,7 @@ export const products = [
   },
   {
     id: 12,
-    name: "Stylish Decoration",
+    title: "Stylish Decoration",
     image: "/assets/images/common/products/img-12.jpg",
     alt: "Stylish Decoration",
     discount: null,
@@ -121,7 +121,7 @@ export const products = [
   },
   {
     id: 13,
-    name: "Elegant Tree",
+    title: "Elegant Tree",
     image: "/assets/images/common/products/img-13.jpg",
     alt: "Elegant Tree",
     discount: "50%",
@@ -131,7 +131,7 @@ export const products = [
   },
   {
     id: 14,
-    name: "Classic Printer",
+    title: "Classic Printer",
     image: "/assets/images/common/products/img-14.jpg",
     alt: "Classic Printer",
     discount: null,
@@ -141,7 +141,7 @@ export const products = [
   },
   {
     id: 15,
-    name: "Sportive Shoes",
+    title: "Sportive Shoes",
     image: "/assets/images/common/products/img-15.jpg",
     alt: "Sportive Shoes",
     discount: "20%",
@@ -151,7 +151,7 @@ export const products = [
   },
   {
     id: 16,
-    name: "Old School Camera",
+    title: "Old School Camera",
     image: "/assets/images/common/products/img-16.jpg",
     alt: "Old School Camera",
     discount: null,

@@ -7,13 +7,13 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 export default function BlogDetails3({ blogItem }) {
   return (
     <>
-      <div className="position-absolute top-0 start-0 end-0 min-h-450px lg:min-h-600px xl:min-h-700px 2xl:800px bg-gray-900 z-0" />
+      <div className="position-absolute top-0 start-0 end-0 min-h-450px lg:min-h-600px xl:min-h-700px 2xl:800px bg-primary m-2 mt-6 md:mt-8 sm:mt-8 lg:mt-8-more rounded-3 z-0" />
       <article className="post type-post single-post py-4 lg:py-6 xl:py-9">
         <div className="container max-w-xl">
           <div className="post-header uc-dark">
             <div className="panel vstack gap-4 md:gap-6 xl:gap-9 text-center">
               <div className="panel vstack items-center max-w-400px sm:max-w-500px xl:max-w-md mx-auto gap-2 md:gap-3">
-                <h1 className="h4 sm:h3 xl:h1">{blogItem.title}</h1>
+                <h1 className="h4 sm:h3 xl:h1 mt-6">{blogItem.title}</h1>
                 <ul className="post-share-icons nav-x mt-2 gap-1 dark:text-white">
                   <li>
                     <a
@@ -66,7 +66,7 @@ export default function BlogDetails3({ blogItem }) {
                 </ul>
               </div>
               <figure className="featured-image m-0">
-                <figure className="featured-image m-0 rounded ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
+                <figure className="featured-image m-0 rounded-3 ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden">
                   <Image
                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                     alt="Maximizing your reach with marketing strategies"
@@ -189,7 +189,7 @@ export default function BlogDetails3({ blogItem }) {
                     height="853"
                   >
                     {({ ref, open }) => (
-                      <figure className="featured-image m-0 rounded ratio ratio-3x2 uc-transition-toggle overflow-hidden">
+                      <figure className="featured-image m-0 rounded-3 ratio ratio-3x2 uc-transition-toggle overflow-hidden">
                         <Image
                           className="media-cover image uc-transition-scale-up uc-transition-opaque"
                           alt="Pink Marketing, by Mak"

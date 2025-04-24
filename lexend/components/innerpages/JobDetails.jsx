@@ -47,7 +47,7 @@ export default function JobDetails() {
                 </div>
                 <div className="col-12 md:col-4 order-1">
                   <div data-uc-sticky="end: #job_details; offset: 80; media: @m;">
-                    <div className="panel vstack gap-3 lg:gap-4 p-2 lg:p-3 rounded bg-secondary dark:bg-gray-800">
+                    <div className="panel vstack gap-3 lg:gap-4 p-2 lg:p-3 rounded-2 border-1 border border-black">
                       <h4 className="h5 m-0 pb-2 border-bottom">Job details</h4>
                       <div className="vstack gap-2">
                         <div className="hstack gap-1">

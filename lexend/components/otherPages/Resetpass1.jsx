@@ -6,7 +6,7 @@ export default function Resetpass1() {
   return (
     <div
       id="sign-in"
-      className="sign-in section panel overflow-hidden bg-secondary dark:bg-gray-900"
+      className="sign-in section panel overflow-hidden"
     >
       <div className="section-outer panel">
         <div className="section-inner panel">
@@ -67,116 +67,6 @@ export default function Resetpass1() {
               </div>
               <div>
                 <div className="panel vstack justify-center h-100 overflow-hidden">
-                  <div
-                    className="d-none lg:d-block"
-                    data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 350;"
-                  >
-                    <div
-                      className="position-absolute bottom-0 start-0 rotate-45"
-                      style={{
-                        bottom: "15% !important",
-                        left: "18% !important",
-                      }}
-                    >
-                      <Image
-                        className="w-32px text-gray-900 dark:text-white"
-                        width={193}
-                        height={216}
-                        alt="star-1"
-                        data-uc-svg=""
-                        src="/assets/images/template/star-1.svg"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 end-0 rotate-45"
-                      style={{ top: "15% !important", right: "18% !important" }}
-                    >
-                      <Image
-                        className="w-24px text-gray-900 dark:text-white"
-                        alt="star-2"
-                        data-uc-svg=""
-                        src="/assets/images/template/star-2.svg"
-                        width="69"
-                        height="95"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 start-0 translate-middle-y -rotate-12"
-                      style={{ top: "15% !important", left: "10% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-issue"
-                        src="/assets/images/template/icon-issue.svg"
-                        width="100"
-                        height="100"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-issue"
-                        src="/assets/images/template/icon-issue.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 start-0 translate-middle-y ms-n3"
-                      style={{ top: "65% !important", left: "0% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-globe"
-                        src="/assets/images/template/icon-globe.svg"
-                        width="100"
-                        height="100"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-globe-dark"
-                        src="/assets/images/template/icon-globe-dark.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 end-0 translate-middle-y rotate-12"
-                      style={{ top: "80% !important", right: "12% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-diamond"
-                        src="/assets/images/template/icon-diamond.svg"
-                        width="100"
-                        height="100"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-diamond-dark"
-                        src="/assets/images/template/icon-diamond-dark.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                    <div
-                      className="position-absolute top-0 end-0 translate-middle-y -rotate-12 me-n2"
-                      style={{ top: "35% !important" }}
-                    >
-                      <Image
-                        className="w-64px d-block dark:d-none"
-                        alt="icon-community"
-                        src="/assets/images/template/icon-community.svg"
-                        width="101"
-                        height="87"
-                      />
-                      <Image
-                        className="w-64px d-none dark:d-block"
-                        alt="icon-community-dark"
-                        src="/assets/images/template/icon-community-dark.svg"
-                        width="100"
-                        height="100"
-                      />
-                    </div>
-                  </div>
                   <div className="panel py-4 px-2">
                     <div
                       className="panel vstack gap-3 w-100 sm:w-350px mx-auto text-center"
@@ -216,9 +106,7 @@ export default function Resetpass1() {
                       </form>
                       <p className="mt-2 sm:m-0">
                         Remember your password?
-                        <Link className="uc-link" href={`/sign-in`}>
-                          Sign in
-                        </Link>
+                        <Link className="uc-link" href={`/sign-in`}> Sign in</Link>
                       </p>
                     </div>
                   </div>

@@ -238,7 +238,7 @@ export default function Cart2() {
                                   </span>
                                 )}
                               </div>
-                              <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
+                              <div className="content vstack items-start gap-1 fs-6 text-center xl:mt-1">
                                 <h5 className="h6 m-0">
                                   <Link
                                     className="text-none"
@@ -262,7 +262,7 @@ export default function Cart2() {
                                     </li>
                                   ))}
                                 </ul>
-                                <div className="hstack justify-center gap-narrow fs-7">
+                                <div className="hstack justify-center gap-narrow fs-7 w-fit">
                                   {elm.oldPrice && (
                                     <span className="price-old text-line-through opacity-40">
                                       ${elm.oldPrice.toFixed(2)}
