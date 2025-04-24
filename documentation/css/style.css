@@ -332,8 +332,8 @@ button:focus {
   font-weight: 400;
   color: #fff;
   box-shadow: 0 20px 30px 0 rgba(88, 12, 142, 0.24);
-  border-radius: 8px;
-  background: #6500b7;
+  border-radius: 15px;
+  background: #8600f4;
   display: inline-block;
   padding: 14px 28px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -3581,6 +3581,7 @@ button:focus {
   cursor: pointer;
 }
 .nav-sidebar .nav-item .nav-link {
+  border-radius: 20px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -4391,15 +4392,16 @@ button:focus {
   display: none;
 }
 .onepage-doc .nav-sidebar .nav-item {
+  border-radius: 15px;
   padding-right: 0;
-  background: #f8fafb;
   margin-bottom: 0;
   margin-top: 3px;
   position: relative;
 }
 .onepage-doc .nav-sidebar .nav-item .docs-progress-bar {
   position: absolute;
-  background: #ebf0f1;
+  background: #efdcff;
+  border-radius: 15px;
   bottom: 0;
   left: 0;
   top: 0;
@@ -4442,7 +4444,7 @@ button:focus {
   content: "";
   width: 2px;
   bottom: 15px;
-  background: #edf1f3;
+  background: #efefef;
   position: absolute;
   top: 15px;
   left: 20px;
@@ -4488,7 +4490,7 @@ button:focus {
   font-size: 14px;
 }
 .doc_rightsidebar .dropdown-toggle {
-  background: #fafcfd;
+  background: #ffffff;
   border: 1px solid #e1e4e5;
   border-radius: 15px;
   font-size: 16px;
