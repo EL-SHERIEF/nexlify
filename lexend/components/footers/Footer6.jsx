@@ -23,14 +23,14 @@ export default function Footer6() {
                           <Image
                             className="dark:d-none"
                             alt="nexlify"
-                            src="/assets/images/common/logo-new-light.svg"
+                            src="/assets/images/common/logo-light.png"
                             width={128}
                             height={34}
                           />
                           <Image
                             className="d-none dark:d-block"
                             alt="nexlify"
-                            src="/assets/images/common/logo-new-dark.svg"
+                            src="/assets/images/common/logo-light.png"
                             width={128}
                             height={34}
                           />

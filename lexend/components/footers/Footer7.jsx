@@ -27,14 +27,14 @@ export default function Footer7() {
                           <Image
                             className="dark:d-none"
                             alt="nexlify"
-                            src="/assets/images/common/logo-8-light.svg"
+                            src="/assets/images/common/logo-light.png"
                             width={148}
                             height={39}
                           />
                           <Image
                             className="d-none dark:d-block"
                             alt="nexlify"
-                            src="/assets/images/common/logo-8-dark.svg"
+                            src="/assets/images/common/logo-light.png"
                             width={148}
                             height={39}
                           />

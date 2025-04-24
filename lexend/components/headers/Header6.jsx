@@ -83,14 +83,14 @@ export default function Header6({ staticPosition = false }) {
                         alt="nexlify"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-new-light.svg"
+                        src="/assets/images/common/logo-light.png"
                       />
                       <Image
                         className="d-none dark:d-block"
                         alt="nexlify"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-new-dark.svg"
+                        src="/assets/images/common/logo-light.png"
                       />
                     </Link>
                   </div>

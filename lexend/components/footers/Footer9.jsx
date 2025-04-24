@@ -56,7 +56,7 @@ export default function Footer9() {
                             className="text-primary dark:text-tertiary"
                             alt="nexlify"
                             data-uc-svg=""
-                            src="/assets/images/common/logo-8-light.svg"
+                            src="/assets/images/common/logo-light.png"
                             width={148}
                             height={39}
                           />
