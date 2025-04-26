@@ -5,9 +5,9 @@ import About from "@/components/innerpages/About";
 import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
 import AboutValues from "@/components/innerpages/AboutValues";
-import Feedback from "@/components/homes/home-2/Feedback";
-import Timeline from "@/components/homes/home-1/Timeline";
-import Team from "@/components/homes/home-1/Team";
+import Feedback from "@/components/homes/home-1/Feedback";
+import Timeline from "@/components/homes/home-2/Timeline";
+import Team from "@/components/homes/home-2/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
   title:

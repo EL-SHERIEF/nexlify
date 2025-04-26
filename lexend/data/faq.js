@@ -44,26 +44,26 @@ export const accordionItems = [
 export const accordionItems2 = [
   {
     id: 23,
-    title: "Streamline AI workflows",
+    title: "Rewards",
     icon: "/assets/images/common/icons/zap.svg",
     content:
-      "Provides a unified AI platform that accelerates innovation with seamless model training and deployment.",
+      "The best credit cards offer some tantalizing combinations of promotions and prizes.",
     isOpen: false,
   },
   {
     id: 25,
-    title: "Optimize AI model performance",
+    title: "100% Secured",
     icon: "/assets/images/common/icons/target.svg",
     content:
-      "Offers end-to-end AI model management, empowering your team to tackle complex challenges with precision.",
+      "Our secure platform ensuresend-to-end Data Security, empowering your team with confidence in their work.",
     isOpen: false,
   },
   {
     id: 27,
-    title: "Collaborate on AI projects",
+    title: "Balance Transfer",
     icon: "/assets/images/common/icons/settings.svg",
     content:
-      "Our shared AI project dashboards ensure your team stays aligned and informed throughout the development process.",
+      "A balance transfer credit card can save you a lot of money in interest charges.",
     isOpen: true,
   },
 ];

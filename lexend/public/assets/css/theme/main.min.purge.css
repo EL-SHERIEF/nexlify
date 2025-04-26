@@ -5663,8 +5663,9 @@ textarea.form-control-lg {
   width: 40px !important;
 }
 .w-fit{
-  width: fit-content;
+  width: fit-content!important;
 }
+.w-full{width: 100%!important;}
 .w-48px {
   width: 48px !important;
 }

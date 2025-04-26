@@ -3,7 +3,7 @@ import Header2 from "@/components/headers/Header2";
 import Footer2 from "@/components/footers/Footer2";
 import JobDetails from "@/components/innerpages/JobDetails";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";
-import Feedback from "@/components/homes/home-2/Feedback";
+import Feedback from "@/components/homes/home-1/Feedback";
 import Brands from "@/components/innerpages/Brands";
 import { jobListings } from "@/data/career";
 export const metadata = {

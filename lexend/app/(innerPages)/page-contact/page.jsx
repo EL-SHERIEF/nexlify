@@ -3,9 +3,9 @@ import Header2 from "@/components/headers/Header2";
 import Footer2 from "@/components/footers/Footer2";
 import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
-import Faq from "@/components/homes/home-2/Faq";
+import Faq from "@/components/homes/home-1/Faq";
 import Brands from "@/components/common/Brands2";
-import Blogs from "@/components/homes/home-2/Blogs";
+import Blogs from "@/components/homes/home-1/Blogs";
 export const metadata = {
   title:
     "Contact 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",

@@ -3,7 +3,7 @@ import Header2 from "@/components/headers/Header2";
 import Footer2 from "@/components/footers/Footer2";
 import Hero from "@/components/innerpages/features/Hero";
 import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
-import Faq from "@/components/homes/home-2/Faq";
+import Faq from "@/components/homes/home-1/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import Cta from "@/components/innerpages/features/Cta";
 import Brands2 from "@/components/common/Brands2";

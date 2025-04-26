@@ -60,32 +60,26 @@ export const features = [
 export const features2 = [
   {
     icon: "unicon-document",
-    title: "AI Model Blueprints",
+    title: "Scale & Build",
     description:
-      "Deploy AI solutions quickly with pre-built, customizable model templates.",
+      "For anyone to start building their real estate portfolio, no matter the size of your wallet.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
   {
     icon: "unicon-model",
-    title: "Real-Time Insights",
+    title: "Customize assets",
     description:
-      "Track model performance instantly with live monitoring and analytics.",
+      "Software as a Service integrations allow both clients and creators to extract maximum value from a tool",
     backgroundColor: "bg-primary text-white",
   },
   {
     icon: "unicon-task-approved",
-    title: "Data Pipelines",
+    title: "Real-Time Processing",
     description:
-      "Integrate customer data seamlessly with native AI platform integrations.",
+      "Grasping the cost of acquiring customers and the price of rendering the service.",
     backgroundColor: "bg-white dark:bg-gray-800",
   },
-  {
-    icon: "unicon-touch-interaction",
-    title: "Secure AI APIs",
-    description:
-      "Ensure data security with our robust, encrypted AI API endpoints.",
-    backgroundColor: "bg-white dark:bg-gray-800",
-  },
+  
 ];
 
 export const features3 = [

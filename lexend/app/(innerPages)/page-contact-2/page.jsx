@@ -1,9 +1,9 @@
 import Header2 from "@/components/headers/Header2";
 
 import Footer2 from "@/components/footers/Footer2";
-import Faq from "@/components/homes/home-2/Faq";
+import Faq from "@/components/homes/home-1/Faq";
 import Brands from "@/components/common/Brands2";
-import Blogs from "@/components/homes/home-2/Blogs";
+import Blogs from "@/components/homes/home-1/Blogs";
 import Contact2 from "@/components/innerpages/Contact2";
 import ContactLinks2 from "@/components/innerpages/ContactLinks2";
 export const metadata = {
