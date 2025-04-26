@@ -28,9 +28,7 @@ export default function Footer1() {
                         />
                       </Link>
                       <p>
-                        This powerfull tool eliminates the need to leave
-                        Salesforce to get things done as I can create a custom
-                        proposal with dynamic pricing tables.
+                        This advanced AI solution streamlines workflows within Salesforce, allowing me to effortlessly generate tailored proposals with adaptive pricing structures without switching platforms.
                       </p>
                     </div>
                     <div className="hstack items-start gap-1">
