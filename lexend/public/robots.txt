@@ -1,0 +1,3 @@
+User-agent: * Allow: / Disallow: /_next/ Disallow: /api/ Disallow: /admin/ Disallow: /private/ Disallow: /login Disallow: /signup Disallow: /drafts/ Disallow: /?preview=true Disallow: /.json$ Disallow: /.js$ Disallow: /.css$
+
+Sitemap: https://example.com/sitemap.xml

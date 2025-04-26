@@ -1,0 +1,70 @@
+
+export default function Sitemap() {
+  // This component is not rendered; the response is handled in getServerSideProps
+  return null;
+}
+
+export async function getServerSideProps({ res }) {
+  // Simulated function to fetch pages (replace with your CMS/API call)
+  const fetchPages = async () => {
+    // Example: Fetch from CMS, database, or static content
+    return [
+      {
+        slug: '/',
+        lastModified: new Date().toISOString(),
+        changeFreq: 'daily',
+        priority: 1.0,
+      },
+      {
+        slug: '/about',
+        lastModified: new Date('2025-01-01').toISOString(),
+        changeFreq: 'monthly',
+        priority: 0.8,
+      },
+      {
+        slug: '/blog',
+        lastModified: new Date().toISOString(),
+        changeFreq: 'weekly',
+        priority: 0.9,
+      },
+      {
+        slug: '/blog/post-1',
+        lastModified: new Date('2025-04-20').toISOString(),
+        changeFreq: 'weekly',
+        priority: 0.7,
+      },
+      {
+        slug: '/blog/post-2',
+        lastModified: new Date('2025-04-25').toISOString(),
+        changeFreq: 'weekly',
+        priority: 0.7,
+      },
+    ];
+  };
+
+  // Fetch pages
+  const pages = await fetchPages();
+
+  // Generate sitemap XML
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${pages
+    .map(
+      (page) => `
+    <url>
+      <loc>https://example.com${page.slug}</loc>
+      <lastmod>${page.lastModified}</lastmod>
+      <changefreq>${page.changeFreq}</changefreq>
+      <priority>${page.priority}</priority>
+    </url>`
+    )
+    .join('')}
+</urlset>`;
+
+  // Set response headers and send XML
+  res.setHeader('Content-Type', 'text/xml');
+  res.write(sitemap);
+  res.end();
+
+  return { props: {} };
+}
