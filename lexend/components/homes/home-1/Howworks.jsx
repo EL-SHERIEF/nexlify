@@ -60,7 +60,7 @@ export default function Howworks() {
                 <div className="child-cols-12 lg:child-cols-5 col-match items-center gap-5 mx-auto d-flex flex-row justify-center py-8 flex-sm-column flex-md-column">
                 <div
                   className="lg:order-2" data-anime="onview: -100; translateX: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;">
-                      <figure className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-md border-1 border border-black" style={{width:"100%",height:"740px",objectFit:"cover"}}>
+                      <figure className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-md border-1 border border-black" style={{width:"100%",height:"740px",objectFit:"cover",objectPosition:"start"}}>
                         <Image
                           className="media-cover image w-full h-full"
                           alt="image title"
