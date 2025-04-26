@@ -13,7 +13,7 @@ export default function Brands() {
               data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
             >
               <h3 className="title h6 sm:h5 lg:h5 fw-normal m-0">
-              Trusted by over 14,540 businesses to enhance learning and drive educational growth.</h3>
+              Trusted by over 1440 businesses to enhance thier work.</h3>
               <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white flex-sm-column">
               </div>
               <div className="panel mt-3 sm:mt-4">
