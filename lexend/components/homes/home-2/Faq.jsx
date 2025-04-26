@@ -20,7 +20,8 @@ export default function Faq() {
                             FAQ
                     </span>
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
-                Frequenlty asked questions:
+                Got Questions? We've 
+Got Answers!
               </h2>
               <div className="panel mt-4 sm:mt-6 lg:mt-8 p-3 lg:max-w-750px xl:w-auto m-auto">
                 <ul

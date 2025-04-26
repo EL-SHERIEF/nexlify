@@ -31,7 +31,7 @@ export default function Pricing() {
                 Simple, scalable pricing.
               </h1>
               <p className="fs-6 xl:fs-5 text-opacity-70 text-inherit">
-                Only and no hidden fees
+                Unlock Your Full Potential with Flexible Pricing
               </p>
               <ul
                 className="uc-switcher-nav nav-x gap-0 p-narrow border bg-white rounded-2 fs-7 fw-medium"

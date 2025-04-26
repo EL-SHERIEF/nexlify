@@ -21,7 +21,7 @@ export default function Pricing2() {
                   </span>
                 </h2>
                 <p className="fs-6 xl:fs-5">
-                  Only and no hidden fees
+                  Unlock Your Full Potential with Flexible Pricing
                 </p>
               </div>
               <div

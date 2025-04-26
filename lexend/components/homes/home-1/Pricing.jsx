@@ -26,7 +26,7 @@ export default function Pricing() {
                   Price plans as per your needs
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                  Only and no hidden fees
+                  Unlock Your Full Potential with Flexible Pricing
                 </p>
               </div>
               <div className="panel w-100 lg:max-w-900px border rounded-3 overflow-hidden"

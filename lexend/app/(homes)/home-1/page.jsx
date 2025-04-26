@@ -29,8 +29,8 @@ export default function HomePage() {
           <Howworks />
           <Features />
           <Pricing />
-          <Faq />
           <Testimonials />
+          <Faq />
           <Blogs />
           <Cta />
         </div>
