@@ -21,7 +21,7 @@ export default function KeyFeatures() {
                             Key Features
                     </span>
             <h2 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto mb-4">
-              Prevent costly mistakes
+            Drive <span className="text-wow">Business Growth </span> With AI
             </h2>
             <div className="panel">
               <div
