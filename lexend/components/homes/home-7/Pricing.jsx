@@ -22,7 +22,7 @@ export default function Pricing() {
                   </span>
                 </h2>
                 <p className="fs-6 xl:fs-5">
-                  No extra charges. No hidden fees.
+                  Only and no hidden fees
                 </p>
               </div>
               <div
