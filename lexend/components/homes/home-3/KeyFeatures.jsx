@@ -31,12 +31,12 @@ export default function KeyFeatures() {
                 {features4.map((feature, index) => (
                   <div key={index}>
                     <div
-                      className={`feature-item panel p-4 rounded-3 overflow-hidden hover:bg-primary hover:text-white hover:scale-105 duration-150 transition-all card-home-3 ${feature.backgroundColor}`}
+                      className={`feature-item panel p-4 rounded-3 bg-white overflow-hidden hover:bg-primary hover:text-white hover:scale-105 duration-150 transition-all card-home-3 ${feature.backgroundColor}`}
                     >
                       
                            <div className="blend-lighten-overlay position-absolute"  style={{width:'101%',height:"100%",left:0,top:0}}>
                            <Image
-                                  style={{width:'100%',height:"100%"}}
+                                  style={{width:'100%',height:"100%",objectFit:"cover"}}
                                   alt=""
                                   src="/assets/images/template/cards.svg"
                                   width="800"
