@@ -76,13 +76,6 @@ const nextConfig = {
   // Enable SWC minification for faster builds
   swcMinify: true,
 
-  // Configure internationalization (i18n) if needed
-  i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'en',
-    // Automatically redirect based on user's preferred language
-    localeDetection: true,
-  },
 
   // Optimize for production builds
   output: 'standalone', // For Docker or serverless deployments
