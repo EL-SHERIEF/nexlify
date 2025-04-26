@@ -3,6 +3,9 @@ const nextConfig = {
   // Enable trailing slashes for consistent URLs (SEO benefit)
   trailingSlash: true,
 
+  // Explicitly disable internationalization to prevent /en/ routes
+  i18n: null,
+
   // Optimize images for performance and SEO
   images: {
     // Define domains for external images
@@ -20,6 +23,11 @@ const nextConfig = {
   // Configure redirects for SEO and user experience
   async redirects() {
     return [
+      {
+        source: '/en/:path*',
+        destination: '/:path*', // Strip /en/ prefix
+        permanent: true, // 301 redirect for SEO
+      },
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'www.example.com' }],
@@ -75,7 +83,6 @@ const nextConfig = {
 
   // Enable SWC minification for faster builds
   swcMinify: true,
-
 
   // Optimize for production builds
   output: 'standalone', // For Docker or serverless deployments
