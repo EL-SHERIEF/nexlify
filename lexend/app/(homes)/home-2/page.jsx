@@ -1,34 +1,35 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header2 from "@/components/headers/Header2";
-import Blogs from "@/components/homes/home-2/Blogs";
-import Cta from "@/components/homes/home-2/Cta";
-import Faq from "@/components/homes/home-2/Faq";
-import Features from "@/components/homes/home-2/Features";
-import Feedback from "@/components/homes/home-2/Feedback";
-import Hero from "@/components/homes/home-2/Hero";
-import KeyFeatures from "@/components/homes/home-2/KeyFeatures";
-import Pricing from "@/components/common/Pricing";
+import Header1 from "@/components/headers/Header1";
+import Features from "@/components/homes/home-1/Features";
+import Hero from "@/components/homes/home-1/Hero";
 import Integretion from "@/components/homes/home-1/Integretion";
-import React from "react";
+import Facts from "@/components/homes/home-1/Facts";
+import Pricing from "@/components/homes/home-1/Pricing";
+import Feedback from "@/components/homes/home-1/Feedback";
+import Timeline from "@/components/homes/home-1/Timeline";
+import Team from "@/components/homes/home-1/Team";
+import Cta from "@/components/homes/home-1/Cta";
+import Footer1 from "@/components/footers/Footer1";
+import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
 export const metadata = {
   title:
-    "Home 2 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
-export default function HomePage2() {
+export default function HomePage1() {
   return (
     <>
       <div className="uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl-max dom-ready">
-        <Header2 />
+        <Header1 />
         <div id="wrapper" className="wrap">
           <Hero />
           <KeyFeatures />
+          <Integretion />
           <Features />
-          <Feedback />
           <Pricing />
-          <Faq />
-          <Blogs />
+          <Feedback />
+          <Team />
+          <Timeline />
           <Cta />
         </div>
         <Footer1 />
