@@ -24,7 +24,7 @@ export default function Brands() {
                         src={logo.lightSrc}
                         width={32}
                         height={42}
-                        style={{ height: "42px", width: "fit-content" }}
+                        style={{ height: "42px",objectFit:"contain", width: "fit-content" }}
                         alt="Trustpilot"
                         className="dark:d-none"
                       />

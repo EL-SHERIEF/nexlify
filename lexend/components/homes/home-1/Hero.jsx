@@ -70,20 +70,20 @@ export default function Hero() {
                   className="hero-scene panel rtl:me-6 rtl:ms-n6"
                   data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
                 >
-                  <div className="panel overflow-hidden gap-2 d-flex flex-row justify-center items-center">
+                  <div className="panel overflow-hidden gap-2 d-flex flex-row justify-center items-center py-2">
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
                    <Image
-                      className="d-block h-250px"
+                      className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-01.png"
+                      src="/assets/images/landing/Hero-1-2.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
                     />
                       <Image
-                      className="d-block h-150px"
+                      className="d-block h-150px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-02.png"
+                      src="/assets/images/landing/Hero-1-4.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -92,17 +92,17 @@ export default function Hero() {
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
                    <Image
                       
-                       className="d-block h-150px"
+                       className="d-block h-150px shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-03.png"
+                      src="/assets/images/landing/Hero-1-1.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
                     />
                       <Image
-                     className="d-block h-250px"
+                     className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-04.png"
+                      src="/assets/images/landing/Hero-1-5.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -110,9 +110,9 @@ export default function Hero() {
                    </div>
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
                    <Image
-                      className="d-block h-250px"
+                      className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-05.jpg"
+                      src="/assets/images/landing/Hero-1-3.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
