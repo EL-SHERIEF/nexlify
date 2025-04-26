@@ -125,13 +125,13 @@ export default function Hero() {
                                     </span>
                                   </div>
               <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
-                Streamlines all your <br className="d-none lg:d-block" />
-                project <span className="text-wow">workflows</span>
+              The AI-powered <span className="text-wow"> Customer Service</span> Platform
+              
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Drag-and-drop editing helps you build them fast,
-                <br className="d-none sm:d-block" />
-                with your choice of 750+ ready-to-use, free templates.
+              AI-powered customer service platform for teams who know great CX drives revenue.
+              <br className="d-none sm:d-block" />
+Unlock exceptional support that creates customers for life.
               </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column fdr">
                 <Link

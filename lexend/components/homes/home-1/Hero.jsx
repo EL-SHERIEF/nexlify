@@ -83,7 +83,7 @@ export default function Hero() {
                       <Image
                       className="d-block h-150px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-4.png"
+                      src="/assets/images/landing/hero-bg-2.jpg"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -94,7 +94,7 @@ export default function Hero() {
                       
                        className="d-block h-150px shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-1.png"
+                      src="/assets/images/landing/Hero-1-6.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"

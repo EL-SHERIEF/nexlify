@@ -90,10 +90,10 @@ export default function SignIn() {
                           <i className="icon icon-1 unicon-logo-github" />
                         </a>
                         <a
-                          href="#facebook"
-                          className="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded bg-blue-600 text-white"
+                          href="#google"
+                          className="hstack items-center justify-center flex-1 gap-1 h-48px border-1 border border-black rounded shadow-sm"
                         >
-                          <i className="icon icon-1 unicon-logo-facebook" />
+                          <i className="icon icon-1 unicon-logo-google" />
                         </a>
                       </div>
                       <div className="panel my-2">
