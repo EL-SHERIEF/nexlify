@@ -7,21 +7,21 @@ export default function Howworks() {
   return (
     <div
       id="how_it_works"
-      className="how-it-works section panel overflow-hidden rounded-1-5 lg:rounded-2"
+      className="how-it-works section panel overflow-hidden px-4"
     >
       <div className="section-outer panel">
         <div className="container container-full">
           <div className="section-inner panel">
-            <div className="row child-cols-12 col-match g-0">
+            <div className="row child-cols-12 col-match gap-5">
               <div>
                 <div className="panel">
-                  <div className="child-cols-12 lg:child-cols-5 col-match items-center gap-2 mx-auto d-flex flex-row justify-center">
+                  <div className="child-cols-12 lg:child-cols-5 col-match items-center gap-5 mx-auto d-flex flex-row justify-center py-8 flex-sm-column">
                     <div data-anime="onview: -100; translateX: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;">
-                      <figure className="featured-image m-0 rounded ratio-16x9 overflow-hidden rounded-3">
-                        <Image
-                          className="media-cover image"
+                    <figure className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-md border-1 border border-black" style={{width:"100%",height:"740px",objectFit:"cover"}}>
+                    <Image
+                          className="media-cover image w-full h-full"
                           alt="image title"
-                          src="/assets/images/template/dashboard-01.jpg"
+                          src="/assets/images/template/dashboard-04.png"
                           width="1200"
                           height="1200"
                         />
@@ -29,7 +29,7 @@ export default function Howworks() {
                     </div>
                     <div data-anime="onview: -100; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;">
                       <div
-                        className="panel vstack items-start gap-2 lg:gap-3 p-3 md:p-4 lg:p-6 xl:p-8 xl:px-9 my-2 lg:my-0"
+                        className="panel vstack items-start gap-2 lg:gap-3 my-2 lg:my-0"
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                            <span className="fw-medium d-flex align-items-center px-2 py-1 text-primary  rounded-pill blur gap-1 border-1 border border-black shadow-sm d-flex justify-center items-center gap-2 bg-white" style={{width:"fit-content"}}>
@@ -57,14 +57,14 @@ export default function Howworks() {
               </div>
               <div>
                 <div className="panel">
-                  <div className="child-cols-12 lg:child-cols-5 col-match items-center gap-2 mx-auto d-flex flex-row justify-center">
-                  <div
+                <div className="child-cols-12 lg:child-cols-5 col-match items-center gap-5 mx-auto d-flex flex-row justify-center py-8 flex-sm-column flex-md-column">
+                <div
                   className="lg:order-2" data-anime="onview: -100; translateX: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;">
-                      <figure className="featured-image m-0 rounded ratio-16x9 overflow-hidden rounded-3">
+                      <figure className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-md border-1 border border-black" style={{width:"100%",height:"740px",objectFit:"cover"}}>
                         <Image
-                          className="media-cover image"
+                          className="media-cover image w-full h-full"
                           alt="image title"
-                          src="/assets/images/template/dashboard-01.jpg"
+                          src="/assets/images/template/dashboard-01.png"
                           width="1200"
                           height="1200"
                         />
@@ -75,7 +75,7 @@ export default function Howworks() {
                       data-anime="onview: -100; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 400;"
                     >
                       <div
-                        className="panel vstack items-start gap-2 lg:gap-3 p-3 md:p-4 lg:p-6 xl:p-8 xl:px-9 my-2 lg:my-0"
+                        className="panel vstack items-start gap-2 lg:gap-3 my-2 lg:my-0"
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                       >
                         

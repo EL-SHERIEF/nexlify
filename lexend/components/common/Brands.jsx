@@ -15,7 +15,7 @@ export default function Brands() {
       modules={[Autoplay]}
       autoplay={{
         delay: 0, // Negative delay is not valid, setting to 0 for continuous autoplay
-        disableOnInteraction: true,
+        disableOnInteraction: false,
         pauseOnMouseEnter: false,
       }}
       breakpoints={{
@@ -33,12 +33,12 @@ export default function Brands() {
     >
       {brands.map((brand, index) => (
     <SwiperSlide
-    className="brand-item swiper-slide text-center btn-close-white-filter"
+    className="brand-item swiper-slide text-center btn-close-white-filter opacity-100"
     key={index}
   >
           <Image
-            className="brand-item-image h-40px"
-            style={{objectFit:"contain"}}
+            className="h-40px opacity-100"
+            style={{objectFit:"contain",width:"100%",height:"100%"}}
             src={brand.src}
             width={300}
             height={100}

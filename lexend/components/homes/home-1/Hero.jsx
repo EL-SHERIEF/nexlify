@@ -75,7 +75,7 @@ export default function Hero() {
                    <Image
                       className="d-block h-250px"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-01.jpg"
+                      src="/assets/images/template/dashboard-01.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -83,7 +83,7 @@ export default function Hero() {
                       <Image
                       className="d-block h-150px"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-02.jpg"
+                      src="/assets/images/template/dashboard-02.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -94,7 +94,7 @@ export default function Hero() {
                       
                        className="d-block h-150px"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-03.jpg"
+                      src="/assets/images/template/dashboard-03.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -102,7 +102,7 @@ export default function Hero() {
                       <Image
                      className="d-block h-250px"
                       alt="Main hero image"
-                      src="/assets/images/template/dashboard-04.jpg"
+                      src="/assets/images/template/dashboard-04.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
