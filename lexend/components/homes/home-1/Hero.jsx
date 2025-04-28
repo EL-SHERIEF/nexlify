@@ -75,7 +75,7 @@ export default function Hero() {
                    <Image
                       className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-2.png"
+                      src="/assets/images/landing/Hero-1-6.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -83,7 +83,7 @@ export default function Hero() {
                       <Image
                       className="d-block h-150px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/hero-bg-2.jpg"
+                      src="/assets/images/landing/hero-1-8.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -94,7 +94,7 @@ export default function Hero() {
                       
                        className="d-block h-150px shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-6.png"
+                      src="/assets/images/landing/Hero-1-14.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -102,7 +102,7 @@ export default function Hero() {
                       <Image
                      className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-5.png"
+                      src="/assets/images/landing/Hero-1-10.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"
@@ -112,7 +112,7 @@ export default function Hero() {
                    <Image
                       className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-3.png"
+                      src="/assets/images/landing/Hero-1-11.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                       width="1280"
                       height="941"

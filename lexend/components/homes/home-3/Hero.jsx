@@ -154,7 +154,7 @@ Unlock exceptional support that creates customers for life.
                            <Image
                              className="media-cover image"
                              alt="nexlify"
-                             src="/assets/images/template/home-01-hero-cover.webp"
+                             src="/assets/images/media/vid-02.png"
                              width="1280"
                              height="719"
                            />
@@ -173,7 +173,7 @@ Unlock exceptional support that creates customers for life.
       </div>
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/vid1.mp4"
+        src="/assets/images/media/vid-02.mp4"
         setIsOpen={() => setOpen(false)}
       />
     </div>
