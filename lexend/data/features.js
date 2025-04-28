@@ -31,7 +31,7 @@ export const panelData = [
 export const features = [
   {
     id: 4,
-    imgSrc: "/assets/images/template/feature-01.jpg",
+    imgSrc: "/assets/images/features/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Deploy AI models effortlessly in minutes",
     description:
@@ -39,7 +39,7 @@ export const features = [
   },
   {
     id: 5,
-    imgSrc: "/assets/images/template/feature-02.jpg",
+    imgSrc: "/assets/images/features/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
     title: "Integrate AI across your organization",
     description:
@@ -49,7 +49,7 @@ export const features = [
   },
   {
     id: 6,
-    imgSrc: "/assets/images/template/feature-03.jpg",
+    imgSrc: "/assets/images/features/feature-03.png",
     imgAlt: "Maintain compliance and control your apps",
     title: "Secure and compliant AI solutions",
     description:

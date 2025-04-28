@@ -48,11 +48,11 @@ export default function Accordion2() {
                   className="icon icon-1 text-white image-filter-white"
                   alt="feature-icon"
                   src={item.icon}
-                  width="24"
-                  height="24"
+                  width="30"
+                  height="30"
                 />
               </span>
-              <span>{item.title}</span>
+              <span className="fw-bold fs-1">{item.title}</span>
             </span>
           </a>
           <div

@@ -17,17 +17,21 @@ export default function Howworks() {
                 <div className="panel">
                   <div className="child-cols-12 lg:child-cols-5 col-match items-center gap-5 mx-auto d-flex flex-row justify-center py-8 flex-sm-column">
                     <div data-anime="onview: -100; translateX: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;">
-                    <figure className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-md border-1 border border-black" style={{width:"100%",height:"740px",objectFit:"cover"}}>
-                    <Image
-                          className="media-cover image w-full h-full"
-                          alt="image title"
-                          src="/assets/images/template/dashboard-04.png"
-                          width="1200"
-                          height="1200"
-                        />
+                    <figure
+        className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-sm border-1 border border-black"
+        style={{ width: "100%", aspectRatio: "1200 / 1200" }} 
+      >
+        <Image
+          className="media-cover image w-100 h-100"
+          alt="image title"
+          src="/assets/images/template/dashboard-04.png"
+          width={1200}
+          height={1200}
+          style={{ objectFit: "cover", objectPosition: "top" }} 
+        />
                       </figure>
                     </div>
-                    <div data-anime="onview: -100; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;">
+                    <div className="mx-3" data-anime="onview: -100; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;">
                       <div
                         className="panel vstack items-start gap-2 lg:gap-3 my-2 lg:my-0"
                         data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
@@ -38,7 +42,7 @@ export default function Howworks() {
                         <h3 className="h3 lg:h2 m-0">
                         Simplify intricate business operations with AI
                         </h3>
-                        <p className="fs-6 lg:fs-5">
+                        <p className="fs-6 lg:fs-5 mb-2">
                         Easily envisage forthcoming results. Enthrall clientele and enhance their trust. Simplify intricate corporate measures with AI. Facilitate quicker, more educated choices.
                         </p>
                         <div className="panel w-100 mt-2 lg:mt-4">
@@ -63,21 +67,21 @@ export default function Howworks() {
       data-anime="onview: -100; translateX: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;"
     >
       <figure
-        className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-md border-1 border border-black"
-        style={{ width: "100%" }} // Remove height to allow natural scaling
+        className="m-0 rounded overflow-hidden rounded-3 position-relative shadow-sm border-1 border border-black"
+        style={{ width: "100%", aspectRatio: "1200 / 1200" }} 
       >
         <Image
-          className="media-cover image w-100" // Use w-100 for full width
+          className="media-cover image w-100 h-100"
           alt="image title"
           src="/assets/images/template/dashboard-01.png"
-          width="1200"
-          height="1200"
-          style={{ objectFit: "cover", objectPosition: "top" }} // Use top instead of start for clarity
+          width={1200}
+          height={1200}
+          style={{ objectFit: "cover", objectPosition: "top" }} 
         />
                       </figure>
                     </div>
                     <div
-                      className="order-1"
+                      className="order-1 m-4"
                       data-anime="onview: -100; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 400;"
                     >
                       <div
@@ -92,8 +96,8 @@ export default function Howworks() {
                         We provide top-of-the-line software as a service (SaaS) solutions tailored to meet the unique needs of your business
                         </p>
                         <div className="panel mt-2 lg:mt-4">
-                          <div className="row child-cols-12 lg:child-cols-6 g-4">
-                            <div>
+                          <div className="row child-cols-12 lg:child-cols-6 gap-2 ">
+                            <div  className="m-0 p-0 w-full">
                               <div className="panel vstack items-start gap-2 border-1 border-black border rounded-3 p-4">
                                 <div className="cstack min-w-48px min-h-48px bg-primary rounded-circle">
                                   <Image
@@ -117,7 +121,7 @@ export default function Howworks() {
                                 </div>
                               </div>
                             </div>
-                            <div>
+                            <div className="m-0 p-0 w-full">
                               <div className="panel vstack items-start gap-2 border-1 border-black border rounded-3 p-4">
                                 <div className="cstack min-w-48px min-h-48px bg-primary rounded-circle">
                                   <Image
