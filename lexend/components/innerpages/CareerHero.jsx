@@ -26,13 +26,10 @@ export default function CareerHero() {
                     About Us
                     </span>
                 <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 text-inherit">
-                Careers.
+                Join Our Team
                 </h1>
                 <p className="fs-6 md:fs-5 text-inherit text-opacity-70 max-w-lg pb-4 px-4">
-                We are looking for people that share our vision. Are you
-                adaptable, driven, and friendly? Do you thrive in a fast-paced
-                work environment where collaboration is the norm? If the answer
-                is yes, then you’re a what we looking for.
+                We’re seeking individuals who align with our mission. Are you innovative, motivated, and a team player? Do you excel in a dynamic environment where creativity and collaboration drive success? If so, you’re exactly who we’re looking for!
                 </p>
                 </div>
       

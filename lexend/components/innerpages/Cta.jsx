@@ -26,7 +26,7 @@ export default function Cta() {
                 href={`/page-career`}
                 className="btn btn-md lg:btn-lg btn-primary text-white mt-1 xl:mt-2"
               >
-                View current openings
+                Career opportunities
               </Link>
             </div>
           </div>

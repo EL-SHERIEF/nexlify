@@ -138,7 +138,7 @@ export const features3 = [
   {
     id: 4,
     imgSrc: "/assets/images/template/feature-04.jpg",
-    altText: "Review quickly and confidently",
+    altText: "Do more work at less time ",
     step: "04.",
     title: "Optimize AI workflows",
     description:
@@ -188,7 +188,7 @@ export const features4 = [
     icon: "unicon-currency",
     title: "Model Licensing",
     description:
-      "Monetize your AI models instantly, boosting adoption rates by 36%.",
+      "Monetize your AI models instantly, boosting adoption rates by 60%.",
   },
 ];
 
@@ -361,7 +361,7 @@ export const features6 = [
   {
     id: 4,
     imgSrc: "/assets/images/template/feature-04.jpg",
-    imgAlt: "Review quickly and confidently",
+    imgAlt: "Do more work at less time ",
     title: "Optimize AI performance",
     description:
       "Real-time monitoring, feedback, and version control ensure error-free AI development.",

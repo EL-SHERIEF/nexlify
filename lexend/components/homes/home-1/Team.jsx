@@ -49,7 +49,7 @@ export default function Team() {
                 href={`/page-about`}
                 className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
               >
-                <span>More about us</span>
+                <span>Get to Know our team</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </Link>
             </div>

@@ -1,16 +1,16 @@
 export const benefitsData = [
-  "Attractive compensation package",
-  "Comprehensive medical coverage",
-  "Stock options program",
-  "Adaptable work hours",
-  "Team-building events",
-  "Company-sponsored retreats",
-  "Professional development opportunities",
-  "Dynamic and collaborative team",
-  "Learning and certification support",
-  "Transportation allowances",
-  "Paid time off for holidays",
-  "Generous vacation policy",
+  "💰 Competitive salary & bonuses",
+  "🩺 Full health & wellness plans",
+  "📈 Equity participation program",
+  "🕒 Flexible work scheduling",
+  "🎉 Fun team outings & events",
+  "✈️ Annual company getaways",
+  "🌟 Career growth & training programs",
+  "😄 Vibrant, supportive work culture",
+  "🎓 Education & certification stipends",
+  "🚌 Commuter benefits",
+  "🎄 Ample holiday leave",
+  "🏖️ Generous time-off policies",
 ];
 
 export const jobListings = [

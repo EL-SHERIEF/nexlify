@@ -28,7 +28,7 @@ export default function Pricing() {
                                  Pricing
                     </span>
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 text-inherit">
-                Flexible & Scalable
+                Simple, scalable pricing.
               </h1>
               <p className="fs-6 xl:fs-5 text-opacity-70 text-inherit">
                 Unlock Your Full Potential with Flexible Pricing
@@ -105,13 +105,7 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                              {tier.title === "Essentials"
-                                ? "What you'll get:"
-                                : `Everything in ${
-                                    tier.title === "Business"
-                                      ? "Essentials"
-                                      : "Business"
-                                  }, plus:`}
+                            Including:
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">

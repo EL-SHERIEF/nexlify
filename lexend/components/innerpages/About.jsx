@@ -29,7 +29,7 @@ export default function About() {
                 About nexlify.
               </h1>
               <p className="fs-6 md:fs-5 text-inherit text-opacity-70 max-w-lg pb-4 px-4">
-                In 2014, Sarah Thompson reclaimed valuable time, allowing us to focus on strategies that truly drive our company forward instead of scattering efforts aimlessly. Thus, Nexlify was born. Today, Nexlify enables teams to seamlessly connect with clients through tailored AI solutions crafted in minutes, fostering impactful relationships.
+                In 2020, Sarah Thompson reclaimed valuable time, allowing us to focus on strategies that truly drive our company forward instead of scattering efforts aimlessly. Thus, Nexlify was born. Today, Nexlify enables teams to seamlessly connect with clients through tailored AI solutions crafted in minutes, fostering impactful relationships.
               </p>
             </div>
             <div className="panel row child-cols-12 col-match g-1 sm:g-2">

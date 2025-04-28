@@ -22,7 +22,7 @@ export default function KeyFeatures() {
                 className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto pb-4"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Review quickly and confidently using
+                Do more work at less time  using
                 <span className="text-primary"> nexlify.</span>
               </h2>
               <div className="panel">

@@ -226,7 +226,7 @@ export default function Features() {
                           <figure className="featured-image m-0 rounded ratio ratio-1x1 shadow-sm border-1 border rounded-3 overflow-hidden">
                             <Image
                               className="media-cover image"
-                              alt="Review quickly and confidently"
+                              alt="Do more work at less time "
                               src="/assets/images/template/feature-image-04.jpg"
                               width="1200"
                               height="1200"
@@ -239,7 +239,7 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Review quickly and confidently
+                                    Do more work at less time using AI
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
                                     Get real-time access to approvals, comments

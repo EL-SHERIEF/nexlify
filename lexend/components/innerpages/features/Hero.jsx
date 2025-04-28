@@ -25,10 +25,10 @@ export default function Hero() {
                                  Features
                     </span>
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 text-inherit">
-                What separates you from others.
+                Features and benefits
               </h1>
               <p className="fs-6 sm:fs-5 text-opacity-70 text-inherit max-w-sm max-w-sm">
-                We’re here to make your creator life a breeze. Simple tools, effortless sharing, and a vibe that’s all about helping your content soar to new heights.
+                We’re here to make your work shine. Simple AI tools, effortless sharing, and a vibe that’s all about helping your content soar to new heights.
               </p>
             </div>
             <div className="sticky-scene panel vstack gap-3">

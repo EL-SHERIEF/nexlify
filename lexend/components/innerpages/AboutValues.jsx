@@ -20,7 +20,7 @@ export default function AboutValues() {
                 className="h4 sm:h2 m-0 text-center mb-3"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
               >
-                Our Values it’s Simple!
+                The Values we Respect
               </h2>
               <div
                 className="row child-cols-12 sm:child-cols-6 g-2 justify-between"

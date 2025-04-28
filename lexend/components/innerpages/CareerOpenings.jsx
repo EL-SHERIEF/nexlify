@@ -37,7 +37,7 @@ export default function CareerOpenings() {
                           href={`/page-career-detail/${job.id}`}
                           className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2 dark:text-white"
                         >
-                          <span>Apply now</span>
+                          <span>Easy Apply</span>
                           <i className="icon icon-narrow unicon-arrow-up-right fw-bold rtl:-rotate-90" />
                         </Link>
                       </div>

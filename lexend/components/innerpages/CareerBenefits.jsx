@@ -12,15 +12,11 @@ export default function CareerBenefits() {
         <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
-              className="panel vstack max-w-850px mx-auto"
+              className="panel vstack max-w-xl mx-auto"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <p className="fs-5 xl:fs-3 text-dark dark:text-white text-opacity-70">
-                We love our people and want to ensure that they are supported at
-                work and at home. That’s what helps us maintain our coveted best
-                work-life balance award. <br />
-                Here are just some of the perks you can expect to receive while
-                working for us:
+              We’re committed to supporting our employees both professionally and personally, fostering an environment that’s earned us top recognition for work-life balance. Here’s a glimpse of the benefits you’ll enjoy as part of our team:
               </p>
               <div className="panel mt-4 xl:mt-6">
                 <div className="row child-cols-6 lg:child-cols-4 col-match g-3">
