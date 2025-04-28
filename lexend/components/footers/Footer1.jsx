@@ -28,8 +28,10 @@ export default function Footer1() {
                         />
                       </Link>
                       <p>
-                        This advanced AI solution streamlines workflows within Salesforce, allowing me to effortlessly generate tailored proposals with adaptive pricing structures without switching platforms.
-                      </p>
+                       This cutting-edge AI tool supercharges Salesforce workflows,
+                        letting me whip up customized proposals with dynamic pricing
+                         right in the platform
+                         </p>
                     </div>
                     <div className="hstack items-start gap-1">
                       <a href="#">

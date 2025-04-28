@@ -62,7 +62,7 @@ export default function Integretion() {
                         href={`/page-integrations`}
                         className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
                       >
-                        <span>Explore</span>
+                        <span>Learn more</span>
                         <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
                       </Link>
                     </div>
@@ -73,7 +73,7 @@ export default function Integretion() {
                 href={`/page-integrations`}
                 className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow"
               >
-                <span>Explore all integrations</span>
+                <span>View All</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </Link>
             </div>

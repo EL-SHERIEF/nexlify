@@ -20,12 +20,10 @@ export default function Features() {
                             Features
                     </span>
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                Smart features for your business
+                The Features You Absolutely need
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                We’re here to make your creator life a breeze. Simple tools, effortless sharing, and a vibe that’s all about helping your content soar to new heights.
               </p>
             </div>
             <div className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2">

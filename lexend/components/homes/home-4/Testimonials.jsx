@@ -97,7 +97,7 @@ export default function Testimonials() {
                   href="#"
                   className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
                 >
-                  <span>See all feedbacks</span>
+                  <span>See more feedbacks</span>
                   <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
                 </a>
               </div>

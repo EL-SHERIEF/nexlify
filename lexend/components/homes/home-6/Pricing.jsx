@@ -98,7 +98,7 @@ export default function Pricing() {
                 className="text-center dark:text-white"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
               >
-                Prices exclude any applicable taxes.
+                All prices are free of taxes.
               </p>
             </div>
           </div>

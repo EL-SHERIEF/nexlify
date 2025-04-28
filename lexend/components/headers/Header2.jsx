@@ -52,9 +52,9 @@ export default function Header2() {
         }`}
       >
         <div className="container max-w-xl">
-          <div className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white">
+          <div className="uc-navbar min-h-64px lg:min-h-80px text-gray-900">
             <div className="uc-navbar-left">
-              <div className="uc-logo text-dark dark:text-white">
+              <div className="uc-logo text-dark">
                 <Link
                   className="panel text-none"
                   href={`/`}

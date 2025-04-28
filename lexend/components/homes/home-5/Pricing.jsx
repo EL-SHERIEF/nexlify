@@ -19,7 +19,7 @@ export default function Pricing() {
                   Pricing
                 </span>
                 <h2 className="title h3 lg:h2 xl:h1 m-0">
-                  Simple, scalable pricing.
+                  Flexible & Scalable
                 </h2>
                 <p className="fs-6 xl:fs-5">
                   Unlock Your Full Potential with Flexible Pricing
@@ -90,7 +90,7 @@ export default function Pricing() {
                 >
                   <span>Compare plans</span>
                 </Link>
-                <p className="mt-2">Prices exclude any applicable taxes.</p>
+                <p className="mt-2">All prices are free of taxes.</p>
               </div>
             </div>
           </div>

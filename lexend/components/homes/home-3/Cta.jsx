@@ -76,7 +76,7 @@ export default function Cta() {
                 </a>
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                14-day trial, no credit card required.
+                No credit card required.
               </p>
             </div>
           </div>

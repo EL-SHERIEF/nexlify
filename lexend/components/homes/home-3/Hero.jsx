@@ -138,11 +138,11 @@ Unlock exceptional support that creates customers for life.
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white py-3 rounded-pill"
                 >
-                  Start free 14-day trial
+                  Get Started Today
                 </Link>
               </div>
               <p className="text-dark dark:text-white text-opacity-70 sm:mt-1 lg:mt-0 ">
-               ⊛ No credit card required.
+               ⊛ No login, No credit card required.
               </p>
             </div>
                  <div className="panel m-auto"

@@ -28,9 +28,7 @@ export default function Hero() {
                 What separates you from others.
               </h1>
               <p className="fs-6 sm:fs-5 text-opacity-70 text-inherit max-w-sm max-w-sm">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                We’re here to make your creator life a breeze. Simple tools, effortless sharing, and a vibe that’s all about helping your content soar to new heights.
               </p>
             </div>
             <div className="sticky-scene panel vstack gap-3">

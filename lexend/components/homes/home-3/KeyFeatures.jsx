@@ -75,7 +75,7 @@ export default function KeyFeatures() {
                 opacity: "0.999797",
               }}
             >
-              <span>Discover all features</span>
+              <span>Discover more</span>
               <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
             </Link>
           </div>

@@ -83,8 +83,8 @@ export default function Pricing() {
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
                               {tier.popular
-                                ? "Everything in Essentials, plus:"
-                                : "Key features:"}
+                                ? "All the features, Plus:"
+                                : "What you'll get:"}
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
@@ -108,7 +108,7 @@ export default function Pricing() {
                   opacity: "0.999797",
                 }}
               >
-                <span>More detailed pricing</span>
+                <span>More pricing plans</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </Link>
             </div>

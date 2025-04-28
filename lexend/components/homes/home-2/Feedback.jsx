@@ -20,7 +20,7 @@ export default function Feedback() {
                             Testimonials
                     </span>
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center  mb-2 sm:mb-0 ">
-                Don’t just take our words
+                Our Customers Feedbacks
               </h2>
               <div
                 className="row child-cols-12 sm:child-cols-6 col-match g-2 lg:g-3 uc-grid"
@@ -73,7 +73,7 @@ export default function Feedback() {
                   opacity: "0.999797",
                 }}
               >
-                <span>See all feedbacks</span>
+                <span>See more feedbacks</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </a>
             </div>

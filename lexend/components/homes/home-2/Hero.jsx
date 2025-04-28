@@ -80,7 +80,7 @@ export default function Hero() {
                         </div>
                       </div>
                       <span className="fs-7 sm:fs-6 fw-medium text-white">
-                      Trusted by 4,600 Innovators Worldwide
+                      Trusted by 1200 Innovators Worldwide
                       </span>
                     </div>
                     <Link

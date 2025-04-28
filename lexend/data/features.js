@@ -44,7 +44,7 @@ export const features = [
     title: "Integrate AI across your organization",
     description:
       "Ensure seamless data flow with native integrations that enhance your AI workflows, connecting every aspect of your business.",
-    linkText: "Explore integrations",
+    linkText: "Explore",
     linkHref: "#",
   },
   {
@@ -109,7 +109,7 @@ export const features3 = [
       "Leverage native integrations to ensure consistent data flow, enhancing AI-driven workflows across your organization.",
     link: {
       href: "#",
-      text: "Explore integrations",
+      text: "Explore",
     },
     testimonial: {
       quote:
@@ -347,7 +347,7 @@ export const features6 = [
     title: "Unify AI across your business",
     description:
       "Maintain data consistency with native integrations that streamline your AI workflows.",
-    link: { text: "Explore integrations", href: "#" },
+    link: { text: "Explore", href: "#" },
   },
   {
     id: 3,

@@ -69,7 +69,7 @@ export default function Feedback() {
                 href="#"
                 className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
               >
-                <span>See all feedbacks</span>
+                <span>See more feedbacks</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </a>
             </div>

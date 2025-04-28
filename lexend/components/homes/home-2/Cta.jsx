@@ -45,7 +45,7 @@ export default function Cta() {
                 <i className="icon icon-1 unicon-arrow-up-right" />
               </Link>
               <p className="fs-7 text-inherit text-opacity-70">
-                14-day trial, no credit card required.
+                No credit card required.
               </p>
             </div>
           </div>

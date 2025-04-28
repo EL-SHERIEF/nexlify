@@ -35,7 +35,7 @@ export default function Cta2() {
                 </Link>
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70 mt-2">
-                14-day trial, no credit card required.
+                No credit card required.
               </p>
             </div>
           </div>

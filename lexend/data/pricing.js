@@ -1,14 +1,14 @@
 export const pricingTiers = [
   {
     id: 1,
-    title: "AI Essentials",
+    title: "AI Starter",
     description: "Ideal for individuals starting with AI-driven projects.",
     price: "$29 USD",
     priceInfo: "per user, up to 2 users",
     buttonLabel: "Start free trial",
     features: [
       "AI Data Processing",
-      "Live Model Tracking",
+      
       "Pre-Trained AI Models",
       "Basic AI Automation",
       "24/7 Email Support",
@@ -173,16 +173,16 @@ export const tiers2 = [
 
 export const tiers3 = [
   {
-    title: "AI Essentials",
+    title: "AI Starter",
     description: "For building impactful AI tools that drive results.",
-    price: "$19 USD",
+    price: "$25 USD",
     yearlyPrice: "$12 USD",
-    priceDetails: "Seat per month, 2 seats max",
+    priceDetails: "Per Seat or Per Model",
     linkText: "Start free trial",
     linkSubtext: "No credit card required",
     features: [
       "AI Data Processing",
-      "Live Model Tracking",
+      
       "Pre-Trained AI Models",
       "Basic AI Automation",
       "24/7 Email Support",
@@ -194,7 +194,7 @@ export const tiers3 = [
     description: "Perfect for teams scaling AI with advanced integrations.",
     price: "$59 USD",
     yearlyPrice: "$32 USD",
-    priceDetails: "Seat cost per month",
+    priceDetails: "Per Seat or Per Model",
     linkText: "Start free trial",
     linkSubtext: "No credit card required",
     features: [

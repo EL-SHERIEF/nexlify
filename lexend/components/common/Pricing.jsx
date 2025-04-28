@@ -21,7 +21,7 @@ export default function Pricing() {
                   Pricing
                     </span>
                 <h2 className="title h3 lg:h2 xl:h1">
-                  Simple, scalable pricing.
+                  Flexible & Scalable
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
                   Unlock Your Full Potential with Flexible Pricing
@@ -112,13 +112,7 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                              {tier.title === "Essentials"
-                                ? "Key features:"
-                                : `Everything in ${
-                                    tier.title === "Business"
-                                      ? "Essentials"
-                                      : "Business"
-                                  }, plus:`}
+                            Including:
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
@@ -137,7 +131,7 @@ export default function Pricing() {
                 className="text-center text-gray-900 dark:text-white text-opacity-70"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
               >
-                Prices exclude any applicable taxes.
+                All prices are free of taxes.
               </p>
             </div>
           </div>

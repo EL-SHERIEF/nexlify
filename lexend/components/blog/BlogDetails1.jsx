@@ -29,7 +29,7 @@ export default function BlogDetails1({ blogItem }) {
               <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
             </li>
             <li>
-              <Link href={`/blog`}>Insights</Link>
+              <Link href={`/blog`}>Blog</Link>
             </li>
             <li>
               <i className="unicon-chevron-right fw-medium opacity-50 rtl:rotate-180" />
@@ -127,13 +127,7 @@ export default function BlogDetails1({ blogItem }) {
                 data-uc-lightbox="animation: scale"
               >
                 <p>
-                  Launched just three months ago, our tech blog has quickly become
-                  a go-to resource for innovators and developers. We aim to explore
-                  cutting-edge trends that shape the future of technology. From AI
-                  advancements to cloud solutions, our content is designed to spark
-                  curiosity and inspire action. Industry leaders share insights on
-                  what makes their ecosystems thrive, emphasizing collaboration and
-                  creativity over traditional approaches.
+                Kicking off just three months ago, our tech blog’s already a hot spot for developers and trailblazers. We dive deep into the trends reshaping tech’s future—from AI breakthroughs to slick cloud solutions. Our posts are crafted to ignite your curiosity and push you to act. Top industry voices spill the beans on what fuels their success, betting big on teamwork and fresh ideas over old-school methods.
                 </p>
                 <p className="mt-3">
                   We interviewed CTOs, data scientists, and startup founders to

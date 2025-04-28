@@ -91,13 +91,7 @@ export default function BlogDetails2({ blogItem }) {
                 data-uc-lightbox="animation: scale"
               >
                 <p>
-                  Our tech platform, launched four months ago, has become a hub
-                  for developers and innovators exploring the latest in AI and
-                  cloud computing. We’re redefining how tech insights are shared,
-                  focusing on practical solutions for 2025. Industry pioneers
-                  emphasize that visual storytelling, not jargon-heavy text, drives
-                  engagement. Diverse teams in tech hubs like Seattle and Austin
-                  bring unique perspectives, fostering creativity and collaboration.
+                Kicking off just three months ago, our tech blog’s already a hot spot for developers and trailblazers. We dive deep into the trends reshaping tech’s future—from AI breakthroughs to slick cloud solutions. Our posts are crafted to ignite your curiosity and push you to act. Top industry voices spill the beans on what fuels their success, betting big on teamwork and fresh ideas over old-school methods.
                 </p>
                 <p className="mt-3">
                   We connected with software engineers, product managers, and
@@ -443,7 +437,7 @@ export default function BlogDetails2({ blogItem }) {
               </div>
             </div>
             <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
-              <h4 className="h5 xl:h4 mb-5 xl:mb-6">Explore Related Insights:</h4>
+              <h4 className="h5 xl:h4 mb-5 xl:mb-6">Explore Related Articles & Insights:</h4>
               <div className="row child-cols-6 md:child-cols-4 gx-2 gy-4 sm:gx-3 sm:gy-6">
                 <RelatedBlogs />
               </div>

@@ -18,7 +18,7 @@ export default function Pricing() {
               >
                 <span className="fw-bold text-secondary">Pricing</span>
                 <h2 className="title h3 lg:h2 xl:h1 text-white m-0">
-                  Simple, scalable pricing.
+                  Flexible & Scalable
                 </h2>
                 <p className="fs-6 xl:fs-5 text-white text-opacity-70">
                   Unlock Your Full Potential with Flexible Pricing
@@ -91,7 +91,7 @@ export default function Pricing() {
                 className="text-center text-white text-opacity-70"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
               >
-                Prices exclude any applicable taxes.
+                All prices are free of taxes.
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ export default function Blogs() {
                             Read
                     </span>
               <h2 className="h3 lg:h2 xl:h1 max-w-400px lg:max-w-750px m-auto text-center mb-2">
-                Gain valuable insights
+                insights
               </h2>
               <div className="panel">
                 <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 justify-center g-2 xl:g-4">
@@ -94,7 +94,7 @@ export default function Blogs() {
                 href={`/blog`}
                 className="uc-link text-white py-1 px-3 shadow-sm bg-primary rounded-2 border border-1 border-black fw-bold d-inline-flex items-center gap-narrow mt-2"
               >
-                <span>View more articles</span>
+                <span>View more</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </Link>
             </div>

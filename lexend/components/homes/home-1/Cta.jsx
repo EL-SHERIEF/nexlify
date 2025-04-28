@@ -26,8 +26,7 @@ export default function Cta() {
                 <span className="text-primary" style={{textShadow: "1px 1px 5px #00000030"}}> Nexlify </span>today.
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
-                With native CRM integrations that streamline your entire Tool
-                workflow.
+                With Plenty of Ai models you can choose from. Get started with Nexlify today and unlock the power of AI.
               </p>
               <form
                 onSubmit={(e) => e.preventDefault()}
