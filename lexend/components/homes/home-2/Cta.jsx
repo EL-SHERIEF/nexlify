@@ -32,10 +32,10 @@ export default function Cta() {
                                  height="60"
                                />
               <h2 className="h3 sm:h1 xl:display-6 m-0 text-inherit">
-                Prevent costly mistakes
+                Start Today & Get 30% Off Your Yearly Subscription
               </h2>
               <p className="fs-6 sm:fs-5 text-inherit text-opacity-70 ">
-                Create pre-approved templates and lock all legal information.
+                Create AI applications with AIInnovate and unlock the full potential of AI.
               </p>
               <Link
                 href={`/page-pricing`}

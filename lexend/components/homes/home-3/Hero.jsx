@@ -90,40 +90,7 @@ export default function Hero() {
               className="vstack items-center gap-2 lg:gap-3 mt-2 sm:mt-4 lg:mt-0 mb-5 max-w-750px mx-auto text-center"
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-                  <div className="hstack justify-center gap-1 mt-1 sm:mt-2 bg-white rounded-pill px-3-narrow py-narrow w-fit mx-auto border border-1 border-black">
-                                    <div className="hstack justify-center gap-0">
-                                      <div className="rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
-                                      <Image
-                                        className="object-fit-cover h-full"
-                                        alt="Avatar image"
-                                        src="/assets/images/avatars/01.jpg"
-                                        width="32"
-                                        height="32"
-                                      />
-                                      </div>
-                                      <div className="rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
-                                      <Image
-                                        className="object-fit-cover h-100"
-                                        alt="Avatar image"
-                                        src="/assets/images/avatars/02.jpg"
-                                        width="32"
-                                        height="32"
-                                      />
-                                      </div>
-                                      <div className="rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white overflow-hidden">
-                                      <Image
-                                        className="object-fit-cover h-full"
-                                        alt="Avatar image"
-                                        src="/assets/images/avatars/03.jpg"
-                                        width="32"
-                                        height="32"
-                                      />
-                                      </div>
-                                    </div>
-                                    <span className="fs-7 sm:fs-2 text-black">
-                                    4,600 Pro users
-                                    </span>
-                                  </div>
+              
               <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
               The AI-powered <span className="text-wow"> Customer Service</span> Platform
               
