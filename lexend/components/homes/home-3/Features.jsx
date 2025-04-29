@@ -15,8 +15,8 @@ export default function Features() {
                     className="feature-item panel"
                     data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                   >
-                    <div className="row child-cols col-match justify-between p-4 bg-gray-25 border-1 border-gray-25 border rounded-3">
-                      <div className="col-12 sm:col-6 order-0 lg:order-1">
+<div className="row child-cols col-match flex-row sm:flex-column md:flex-column justify-between p-4 bg-gray-25 border-1 border-gray-25 border rounded-3">
+                        <div className="col-12 sm:col-6 order-0 lg:order-1">
                         <div className="panel w-100">
                           <Image
                             style={{width:"100%",height:"100%",objectFit:"cover"}}
@@ -24,14 +24,14 @@ export default function Features() {
                             width={780}
                             height={728}
                             alt={feature.altText}
-                            className="rounded-3 cards-home-3"
+                            className="rounded-3 cards-home-3 bg-transparent"
                           />
                         </div>
                       </div>
                       <div className="col-12 sm:col-6 order-1 lg:order-0">
                         <div className="panel vstack justify-between gap-4 sm:gap-6 h-100">
                           <div>
-                            <div className="panel vstack gap-2">
+                            <div className="panel vstack gap-2 mt-4 sm:mt-4 md:mt-4 lg:mt-0">
                             <span className="fw-medium fs-6 d-flex align-items-center px-2 py-1 text-gray-500 rounded-pill blur gap-1 bg-white border border-black border-1 w-fit">{feature.step}</span>
 
                               <h3 className="h4 lg:h3 xl:h2 m-0">
