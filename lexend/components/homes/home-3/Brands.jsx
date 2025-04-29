@@ -22,11 +22,11 @@ export default function Brands() {
                     <React.Fragment key={index}>
                       <Image
                         src={logo.lightSrc}
-                        width={32}
-                        height={42}
-                        style={{ height: "42px",objectFit:"contain", width: "fit-content" }}
-                        alt="Trustpilot"
-                        className="dark:d-none"
+                        width={102}
+                        height={52}
+                        style={{ height: "42px",objectFit:"contain", width: "100%" }}
+                        alt="logo"
+                        className="w-fit"
                       />
                       <span className="opacity-25">|</span>
                     </React.Fragment>

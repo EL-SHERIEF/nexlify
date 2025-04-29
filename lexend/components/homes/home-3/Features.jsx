@@ -15,8 +15,8 @@ export default function Features() {
                     className="feature-item panel"
                     data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                   >
-<div className="row child-cols col-match flex-row sm:flex-column md:flex-column justify-between p-4 bg-gray-25 border-1 border-gray-25 border rounded-3">
-                        <div className="col-12 sm:col-6 order-0 lg:order-1">
+                    <div className="row child-cols col-match flex-row sm:flex-column md:flex-column justify-between p-4 bg-gray-25 border-1 border-gray-25 border rounded-3">
+                      <div className="col-12 sm:col-6 order-0 lg:order-1">
                         <div className="panel w-100">
                           <Image
                             style={{width:"100%",height:"100%",objectFit:"cover"}}
