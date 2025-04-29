@@ -23,7 +23,7 @@ export default function Brands() {
                       <Image
                         src={logo.lightSrc}
                         width={102}
-                        height={52}
+                        height={72}
                         style={{ height: "42px",objectFit:"contain", width: "100%" }}
                         alt="logo"
                         className="w-fit"
