@@ -42,7 +42,7 @@ export default function Hero() {
       <div className={`order-0 ${feature.id % 2 === 1 ? 'lg:order-0' : 'lg:order-1'}`}>
         <div className="panel w-100 rounded lg:rounded-2 overflow-hidden border border-1 border-black">
           <Image
-          style={{width:"100%", height:"100%",objectFit:"cover"}}
+          style={{width:"100%", height:"100%",objectFit:"cover",background:"none"}}
             src={feature.imgSrc}
             width={780}
             height={728}

@@ -91,7 +91,7 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               
-              <h1 className="h2 sm:h1 lg:display-6 xl:display-4 m-0">
+              <h1 className="h2 sm:h1 lg:display-6 xl:display-4 mt-4">
               The AI-powered <span className="text-wow"> Customer Service</span> Platform
               
               </h1>
