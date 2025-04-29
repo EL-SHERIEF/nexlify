@@ -77,8 +77,8 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-6.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
-                      width="1280"
-                      height="941"
+                      width="580"
+                      height="741"
                     />
                       <Image
                       className="d-block h-150px shadow-md border-1 border border-black"
@@ -96,16 +96,16 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-14.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
-                      width="1280"
-                      height="941"
+                      width="580"
+                      height="541"
                     />
                       <Image
                      className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-10.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
-                      width="1280"
-                      height="941"
+                      width="500"
+                      height="400"
                     />
                    </div>
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
@@ -114,8 +114,8 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-11.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
-                      width="1280"
-                      height="941"
+                      width="580"
+                      height="500"
                     />
                    </div>
                   </div>
