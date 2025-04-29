@@ -10,7 +10,7 @@ export default function KeyFeatures() {
     className="key-features section panel overflow-hidden border-top border-bottom border-1 border-black"
   >
     <div className="section-outer panel py-6 xl:py-9">
-      <div className="container sm:max-w-lg xl:max-w-xl">
+      <div className="container sm:max-w-lg xl:max-w-lg">
         <div className="section-inner panel">
           <div
             className="panel vstack items-center gap-4"
@@ -25,7 +25,7 @@ export default function KeyFeatures() {
             </h2>
             <div className="panel">
               <div
-                className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 xl:child-cols-3 items-center justify-center col-match g-3"
+                className="row child-cols-12 sm:child-cols-6 lg:child-cols-5 xl:child-cols-4 items-center justify-center g-3"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 {features4.map((feature, index) => (

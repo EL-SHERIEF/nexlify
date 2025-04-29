@@ -115,7 +115,10 @@
     border-radius: 17px;
   box-shadow: 3.208684206008911px 16.043420791625977px 24.065128326416016px #00003308, 1.5097060203552246px 7.548528671264648px 11.322793006896973px #0000d108, 0 0 0 4px #fff9;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .opacity-when-small{
+    opacity: 0.4!important;
+  }
 }
   .text-wow{
     color: var(--bs-primary);

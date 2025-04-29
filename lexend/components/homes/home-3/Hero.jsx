@@ -51,7 +51,7 @@ export default function Hero() {
           style={{ top: "10%", left: -30 }}
         >
           <Image
-            className="w-250px cards-home-3"
+            className="w-250px cards-home-3 opacity-when-small"
             alt="icon-trophy"
             src="/assets/images/landing/g1.svg"
             width="700"
@@ -63,7 +63,7 @@ export default function Hero() {
           style={{ top: "43%", left: -30 }}
         >
           <Image
-            className="w-250px cards-home-3"
+            className="w-250px cards-home-3  opacity-when-small"
             alt="icon-chat"
             src="/assets/images/landing/g2.svg"
             width="700"
@@ -75,7 +75,7 @@ export default function Hero() {
           style={{ top: "70%", left: "0%" }}
         >
           <Image
-            className="w-250px cards-home-3"
+            className="w-250px cards-home-3  opacity-when-small"
             alt="icon-globe"
             src="/assets/images/landing/g3.svg"
             width="700"
@@ -100,10 +100,10 @@ export default function Hero() {
               <br className="d-none sm:d-block" />
 Unlock exceptional support that creates customers for life.
               </p>
-              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column fdr">
+              <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 sm:mt-2 flex-sm-column items-center">
                 <Link
                   href={`/page-pricing`}
-                  className="btn btn-md lg:btn-lg btn-primary text-white py-3 rounded-pill"
+                  className="btn btn-sm w-fit btn-primary text-white py-3 rounded-pill"
                 >
                   Get Started Today
                 </Link>
