@@ -167,7 +167,7 @@
   --font-code-family: var(--font-family-code);
   --font-code-weight: 400;
   --root-size: 1rem;
-  --radius: 10px;
+  --radius: 14px;
   --border-size: 1px;
   --border-color: rgba(131, 131, 131, 0.25);
   --shadow-color: rgba(0, 0, 0, 0.093);
@@ -4377,15 +4377,20 @@ progress {
   border-radius: var(--bs-btn-border-radius);
   background: var(--bs-btn-bg);
   transition:
- all  0.15s ease-in-out,
+ all box-shadow color background  0.15s ease-in-out,
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
   }
 }
+.logo{transition: all 0.3s ease-in-out;}
+.logo:hover{
+  transform: scale(1.05);
+}
 .btn:hover {
-  filter: brightness(1.1);
+  transition: shadow 0.3 ease-in-out;
+  box-shadow: 0px 10px 30px  #ffffff60!important;
 }
 .btn:focus-visible {
   color: var(--bs-btn-hover-color);

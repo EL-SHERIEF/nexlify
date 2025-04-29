@@ -8,7 +8,7 @@ export default function Cta() {
     <div id="cta" className="cta section panel overflow-hidden">
       <div className="section-outer panel py-4 xl:py-9">
         <div className="container max-w-xl">
-          <div className="section-inner panel p-4 sm:p-6 xl:p-8 rounded-2 bg-secondary dark:bg-gray-800 overflow-hidden text-white"
+          <div className="section-inner panel p-4 sm:p-6 xl:p-8 rounded-2 overflow-hidden text-white"
            style={{
                         borderRadius: '20px',
                         backgroundImage: `url(${bg.src})`,

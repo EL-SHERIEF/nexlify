@@ -61,19 +61,13 @@ export default function Header2() {
                   style={{ width: 140 }}
                 >
                   <Image
-                    className="dark:d-none"
+                    className="dark:d-none logo"
                     alt="nexlify"
                     src="/assets/images/common/logo-light.png"
                     width="117"
                     height="40"
                   />
-                  <Image
-                    className="d-none dark:d-block"
-                    alt="nexlify"
-                    src="/assets/images/common/logo-dark.png"
-                    width="117"
-                    height="40"
-                  />
+                 
                 </Link>
               </div>
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
