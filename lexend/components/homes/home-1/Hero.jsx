@@ -16,8 +16,11 @@ export default function Hero() {
                       className="d-block position-absolute w-100 h-100"
                       alt="Main hero image"
                       src="/assets/images/landing/hero-bg-3.png"
-                      width="1280"
-                      height="941"
+                      placeholder="blur"
+                      priority
+                      quality={80}
+                      width="680"
+                      height="741"
                     />
             </div>
         
@@ -77,6 +80,9 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-6.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
+                      placeholder="blur"
+                      priority
+                      quality={80}
                       width="580"
                       height="741"
                     />
@@ -85,6 +91,9 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-8.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
+                      placeholder="blur"
+                      priority
+                      quality={80}
                       width="580"
                       height="541"
                     />
@@ -96,6 +105,9 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-14.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
+                      placeholder="blur"
+                      priority
+                      quality={80}
                       width="580"
                       height="541"
                     />
@@ -104,6 +116,9 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-10.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
+                      placeholder="blur"
+                      priority
+                      quality={80}
                       width="500"
                       height="400"
                     />
@@ -114,6 +129,9 @@ export default function Hero() {
                       alt="Main hero image"
                       src="/assets/images/landing/Hero-1-11.png"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
+                      placeholder="blur"
+                      priority
+                      quality={80}
                       width="580"
                       height="500"
                     />
