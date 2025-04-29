@@ -47,9 +47,7 @@ export default function Contact2() {
                 Contact us
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Feel free to reach out to us using the options below, and our
-                dedicated team will respond to your inquiries promptly.
-              </p>
+              We’re here to help! Contact us through the options provided, and our responsive team will address your questions swiftly.              </p>
             </div>
             <div className="panel max-w-750px mx-auto">
               <form

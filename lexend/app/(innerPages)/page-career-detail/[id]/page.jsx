@@ -31,7 +31,7 @@ export default async function CareerDetailsPage(props) {
                 <div className="section-inner panel">
                   <div className="vstack items-center text-center gap-2 lg:gap-4">
                     <span className="fs-6 fw-bold text-uppercase text-primary">
-                      We are looking for a
+                      We are Searching for a
                     </span>
                     <h1 className="h2 sm:h1 lg:display-6 xl:display-5 max-w-600px my-0 mx-auto">
                       {jobItem.title}
@@ -45,7 +45,6 @@ export default async function CareerDetailsPage(props) {
           <JobDetails />
           <CareerOpenings />
           <Feedback />
-          <Brands />
         </div>
         <Footer2 />
       </div>

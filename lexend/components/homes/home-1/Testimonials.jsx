@@ -55,7 +55,7 @@ export default function Testimonials() {
               >
                 {slidesData.map((slide, index) => (
                   <SwiperSlide className="swiper-slide" key={index}>
-                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 bg-white text-black rounded-3 h-100 border-1 border-black border my-1 shadow-sm">
+                    <div className="panel vstack justify-between gap-3 p-3 bg-white text-black rounded-3 h-100 border-1 border-black border my-1 shadow-sm">
                       <div className="panel vstack items-start gap-2 lg:gap-4">
                         <div className="rating d-flex gap-0">
                           {Array.from({ length: slide.rating }).map((_, i) => (
@@ -115,7 +115,7 @@ export default function Testimonials() {
                     className="swiper-slide"
                     key={index}
                   >
-                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 bg-white text-black rounded-3 h-100 border-1 border-black border my-1 shadow-sm">
+                    <div className="panel vstack justify-between gap-3 p-3 bg-white text-black rounded-3 h-100 border-1 border-black border my-1 shadow-sm">
                     <div className="panel vstack items-start gap-2 lg:gap-4">
                         <div className="rating d-flex gap-0">
                           {[...Array(5)].map((_, starIndex) => (

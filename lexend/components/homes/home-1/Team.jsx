@@ -18,7 +18,7 @@ export default function Team() {
                            Our team
                     </span>
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center  mb-3 sm:mb-0 ">
-                Our Executive Team
+                Our Lovely Team
               </h2>
               <div
                 className="row child-cols-6 sm:child-cols-4 lg:child-cols-3 col-match gx-2 gy-4"

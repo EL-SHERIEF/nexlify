@@ -26,12 +26,10 @@ export default function Contact1() {
                                  Contact Us
                     </span>
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 text-inherit">
-                Let's get in touch.
+                Connect With Us
               </h1>
               <p className="fs-6 sm:fs-5 text-opacity-70 text-inherit max-w-sm px-2">
-                Feel free to reach out to us using the options below, and our
-                dedicated team will respond to your inquiries promptly.
-              </p>
+              We’re here to help! Contact us through the options provided, and our responsive team will address your questions swiftly.              </p>
             </div>
             <div className="panel rounded-3 overflow-hidden border border-1 border-black-400">
               <div className="panel row child-cols-12 lg:child-cols-6 g-0">
@@ -52,16 +50,14 @@ export default function Contact1() {
                       <div className="panel z-1">
                         <div className="vstack gap-3">
                           <p className="fs-5 xl:fs-4 fw-medium">
-                            “This software simplifies the website building
-                            process, making it a breeze to manage our online
-                            presence.”
+                            “AI is the future, From writing books to Leading big teams it will help you in every step”
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              David Jack
+                              Mr. Sam
                             </p>
                             <span className="fs-7 opacity-80">
-                              Founder &amp; CEO
+                             The Founder of Nexlify
                             </span>
                           </div>
                         </div>
@@ -75,7 +71,7 @@ export default function Contact1() {
                     className="vstack gap-2 p-3 sm:p-6 xl:p-8"
                   >
                     <p className="fs-6 text-dark dark:text-white text-opacity-70 mb-2">
-                      Have a question or feedback? Fill out the form below, and
+                      Fill out the form below, and
                       we'll get back to you as soon as possible.
                     </p>
                     <div className="row child-cols-12 sm:child-cols-6 g-2">
@@ -114,7 +110,7 @@ export default function Contact1() {
                       Send message
                     </button>
                     <p className="text-center">
-                      Or drop us a message via 
+                      Or Send us an 
                       <a className="uc-link" href="mailto:hello@nexlify.co"> email</a>.
                     </p>
                   </form>

@@ -70,7 +70,7 @@ export default function Blogs() {
                                   className="w-24px h-24px rounded-circle me-narrow"
                                 />
                                 <Link
-                                  href={`/blog-author/Amir Khan`}
+                                  href={`/blog-author/Jackie`}
                                   className="text-none fw-bold text-dark dark:text-white"
                                 >
                                   {article.author}

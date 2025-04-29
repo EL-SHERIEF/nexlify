@@ -28,7 +28,7 @@ export default function Pricing() {
                                  Pricing
                     </span>
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0 text-inherit">
-                Simple, scalable pricing.
+                Pricing That Fits Every Scale
               </h1>
               <p className="fs-6 xl:fs-5 text-opacity-70 text-inherit">
                 Unlock Your Full Potential with Flexible Pricing

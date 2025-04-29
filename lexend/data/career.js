@@ -16,7 +16,7 @@ export const benefitsData = [
 export const jobListings = [
   {
     id: 1,
-    title: "Lead Frontend Developer, Platform",
+    title: "Senior Frontend Engineer, AI-Driven Interfaces",
     location: "Remote",
   },
   {

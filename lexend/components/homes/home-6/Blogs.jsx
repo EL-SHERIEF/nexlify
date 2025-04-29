@@ -76,7 +76,7 @@ export default function Blogs() {
                             {post.excerpt}
                           </p>
                           <div className="post-meta hstack gap-1 panel overflow-hidden mt-2">
-                            <Link href={`/blog-author/Amir Khan`}>
+                            <Link href={`/blog-author/Jackie`}>
                               <Image
                                 alt={post.authorName}
                                 className="w-40px h-40px rounded-circle"
@@ -87,7 +87,7 @@ export default function Blogs() {
                             </Link>
                             <div className="vstack gap-0">
                               <Link
-                                href={`/blog-author/Amir Khan`}
+                                href={`/blog-author/Jackie`}
                                 className="text-none fw-bold text-black dark:text-white"
                               >
                                 {post.authorName}

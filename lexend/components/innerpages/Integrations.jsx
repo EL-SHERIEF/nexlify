@@ -27,7 +27,8 @@ export default function Integrations() {
                           Our Integrations 
                           </h1>
                           <p className="fs-6 md:fs-5 text-inherit text-opacity-70 max-w-lg pb-4 px-4">
-                          Boost your efficiency with integrations that will simplify your workflow.                          </p>
+                          You can Integerate Nexlify with everything to ensure you get your work done faster and at low cost.
+                                                  </p>
                         </div>
             <div className="panel">
               <div

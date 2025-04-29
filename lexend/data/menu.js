@@ -420,7 +420,7 @@ export const pagesData = [
         label: "Category",
       },
       {
-        href: "/blog-author/Amir Khan",
+        href: "/blog-author/Jackie",
         label: "Author",
       },
       {

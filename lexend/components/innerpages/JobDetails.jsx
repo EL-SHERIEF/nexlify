@@ -11,13 +11,6 @@ export default function JobDetails() {
               <div className="row g-3 gy-6 lg:g-6 lg:gy-8" data-uc-grid="">
                 <div className="col-12 md:col-8 md:order-2">
                   <div className="panel fs-5 vstack gap-2">
-                    <p>
-                      A Senior Product Designer is a creative and technical
-                      professional dedicated to designing the aesthetics,
-                      functionality, and usability of a product, ensuring it
-                      delivers an exceptional user experience and aligns with
-                      the company’s goals.
-                    </p>
                     <h3 className="h5 mt-2 mb-0">Tasks:</h3>
                     <ul className="m-0">
                       {tasks.map((item, index) => (
@@ -59,7 +52,7 @@ export default function JobDetails() {
                             Full-time
                           </span>
                           <span className="px-1 py-narrow bg-white dark:bg-gray-800 rounded">
-                            Remotly
+                            On-Site
                           </span>
                         </div>
                       </div>
@@ -69,7 +62,7 @@ export default function JobDetails() {
                           <h5 className="h6 m-0">Location</h5>
                         </div>
                         <div className="hstack gap-narrow fs-7 fw-bold">
-                          <span>Salé, Morocco</span>
+                          <span>Madrid, Espana</span>
                         </div>
                       </div>
                       <div className="vstack gap-1">
@@ -78,7 +71,7 @@ export default function JobDetails() {
                           <h5 className="h6 m-0">Salary</h5>
                         </div>
                         <div className="hstack gap-narrow fs-7 fw-bold">
-                          <span>$60k – $90k USD</span>
+                          <span>$80k – $120k USD</span>
                         </div>
                       </div>
                       <div>
@@ -86,7 +79,7 @@ export default function JobDetails() {
                           href="#apply"
                           className="btn btn-md btn-primary text-white w-100"
                         >
-                          Apply job
+                          Apply for this
                         </a>
                       </div>
                     </div>
