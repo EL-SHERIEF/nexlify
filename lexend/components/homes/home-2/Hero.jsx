@@ -5,7 +5,6 @@ import Image from "next/image";
 import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
 import { useState } from "react";
 import ModalVideo from "@/components/common/ModalVideo";
-
 export default function Hero() {
   const [isOpen, setOpen] = useState(false);
   return (

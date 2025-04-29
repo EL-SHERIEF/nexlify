@@ -9,20 +9,26 @@ const ModalVideo = ({ videoId, isOpen, setIsOpen, src }) => {
         <div style={overlayStyle} onClick={closeModal}>
           <div style={modalStyle} onClick={(e) => e.stopPropagation()}>
             <button onClick={closeModal} style={closeButtonStyle}>
-              ×
+              &times;
             </button>
             <div style={responsiveIframeContainerStyle}>
-              <iframe
-                src={
-                  src
-                    ? src
-                    : `https://www.youtube.com/embed/${videoId}?autoplay=1`
-                }
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                style={iframeStyle}
-              ></iframe>
+              {src ? (
+                <video
+                  src={src}
+                  controls
+                  autoPlay
+                  style={iframeStyle}
+                  title="Local video player"
+                />
+              ) : (
+                <iframe
+                  src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={iframeStyle}
+                />
+              )}
             </div>
           </div>
         </div>
@@ -31,8 +37,7 @@ const ModalVideo = ({ videoId, isOpen, setIsOpen, src }) => {
   );
 };
 
-// Styles
-
+// Styles (unchanged)
 const overlayStyle = {
   position: "fixed",
   top: 0,
@@ -50,8 +55,7 @@ const modalStyle = {
   position: "relative",
   width: "90%",
   maxWidth: "1100px",
-  backgroundColor: "#fff",
-  borderRadius: "4px",
+  borderRadius: "18px",
   overflow: "hidden",
   boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.2)",
 };

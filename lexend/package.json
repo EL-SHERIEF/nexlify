@@ -1,20 +1,18 @@
 {
-  "name": "nexlify-next",
+  "name": "lexend-next",
   "version": "2.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "lint": "next lint"
   },
   "dependencies": {
     "animejs": "^3.2.2",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "next": "15.1.7",
-    "next-sitemap": "^4.2.3",
     "photoswipe": "^5.4.4",
     "rc-slider": "^11.1.5",
     "react": "19.0.0",
@@ -24,7 +22,6 @@
     "react-scroll-parallax": "^3.4.5",
     "react-type-animation": "^3.2.0",
     "sass": "^1.83.4",
-    "sitemap": "^8.0.0",
     "swiper": "^11.2.2"
   }
 }
