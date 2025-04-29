@@ -19,9 +19,9 @@ export default function Hero() {
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
                       priority
-                      quality={80}
-                      width="680"
-                      height="741"
+                      quality={20}
+                      width="180"
+                      height="141"
                     />
             </div>
         
@@ -29,7 +29,6 @@ export default function Hero() {
               <div className="col-12 sm:col-10 lg:col-5">
                 <div
                   className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end"
-                  data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
                   <span className="fw-medium d-flex align-items-center px-2 py-1 text-primary  rounded-pill blur gap-1 border-1 border border-black shadow-sm d-flex justify-center items-center gap-2 bg-white" style={{width:"fit-content"}}>
                    <div className="glowing-circle"></div> AI SAAS Future
@@ -72,7 +71,6 @@ export default function Hero() {
               <div className="col-12 lg:col-5 xl:col-4">
                 <div
                   className="hero-scene panel rtl:me-6 rtl:ms-n6"
-                  data-anime="targets: >*; scale: [0.9, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
                 >
                   <div className="panel overflow-hidden gap-2 d-flex flex-row justify-center items-center py-2">
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
@@ -84,9 +82,9 @@ export default function Hero() {
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
                       priority
-                      quality={80}
-                      width="580"
-                      height="741"
+                      quality={20}
+                      width="100"
+                      height="101"
                     />
                       <Image
                       className="d-block h-150px shadow-md border-1 border border-black"
@@ -96,9 +94,9 @@ export default function Hero() {
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
                       priority
-                      quality={80}
-                      width="580"
-                      height="541"
+                      quality={20}
+                      width="180"
+                      height="141"
                     />
                    </div>
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
@@ -112,8 +110,8 @@ export default function Hero() {
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
                       priority
                       quality={80}
-                      width="580"
-                      height="541"
+                      width="180"
+                      height="141"
                     />
                       <Image
                      className="d-block h-250px  shadow-md border-1 border border-black"
@@ -123,9 +121,9 @@ export default function Hero() {
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
                       priority
-                      quality={80}
-                      width="500"
-                      height="400"
+                      quality={20}
+                      width="100"
+                      height="100"
                     />
                    </div>
                    <div className="d-flex flex-column gap-2 justify-content-center align-items-center">
@@ -137,9 +135,9 @@ export default function Hero() {
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
                       priority
-                      quality={80}
-                      width="580"
-                      height="500"
+                      quality={20}
+                      width="180"
+                      height="100"
                     />
                    </div>
                   </div>
