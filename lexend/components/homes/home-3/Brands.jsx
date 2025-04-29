@@ -24,7 +24,7 @@ export default function Brands() {
                         src={logo.lightSrc}
                         width={102}
                         height={42}
-                        style={{ height: "42px",objectFit:"contain", width: "100%" }}
+                        style={{ height: "42px",objectFit:"contain", width: "102px" }}
                         alt="logo"
                         className="w-fit"
                       />
