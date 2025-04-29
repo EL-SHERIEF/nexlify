@@ -247,70 +247,6 @@ export const pagesData = [
         href: "/home-3",
         label: "Home 03",
       },
-      {
-        href: "/home-4",
-        label: "Home 04",
-        // badge: {
-        //   text: "New",
-        //   className: "text-primary",
-        // },
-      },
-      {
-        href: "/home-5",
-        label: "Home 05",
-        // badge: {
-        //   text: "New",
-        //   className: "text-primary",
-        // },
-      },
-      {
-        href: "/home-6",
-        label: "Home 06",
-        // badge: {
-        //   text: "New",
-        //   className: "text-primary",
-        // },
-      },
-      {
-        href: "/rtl",
-        label: "Home RTL",
-        // badge: {
-        //   text: "New",
-        //   className: "text-primary",
-        // },
-      },
-      {
-        href: "/home-7",
-        label: "Home 07",
-        badge: {
-          text: "New",
-          className: "text-primary",
-        },
-      },
-      {
-        href: "/home-8",
-        label: "Home 08",
-        badge: {
-          text: "New",
-          className: "text-primary",
-        },
-      },
-      {
-        href: "/home-9",
-        label: "Home 09",
-        badge: {
-          text: "New",
-          className: "text-primary",
-        },
-      },
-      {
-        href: "/home-10",
-        label: "Home 10",
-        badge: {
-          text: "New",
-          className: "text-primary",
-        },
-      },
     ],
   },
   {
@@ -324,14 +260,6 @@ export const pagesData = [
       {
         href: "/page-pricing",
         label: "Pricing",
-      },
-      {
-        href: "/page-pricing-2",
-        label: "Pricing 2",
-        badge: {
-          text: "New",
-          className: "text-primary",
-        },
       },
       {
         href: "/page-integrations",
@@ -362,15 +290,11 @@ export const pagesData = [
         label: "Contact",
       },
       {
-        href: "/page-contact-2",
-        label: "Contact v2",
-      },
-      {
         href: "#",
         label: "Services",
         badge: {
           text: "Soon",
-          className: "text-gray-400",
+          className: "text-primary",
         },
       },
     ],
@@ -466,25 +390,15 @@ export const pagesData = [
         label: "Product detail",
       },
       {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail v2",
-      },
-      {
         href: "/shop-cart",
         label: "Cart",
       },
-      {
-        href: "/shop-cart-2",
-        label: "Cart v2",
-      },
+
       {
         href: "/shop-checkout",
         label: "Checkout",
       },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout v2",
-      },
+
       {
         href: "/shop-order",
         label: "Order confirmation",
@@ -501,7 +415,7 @@ export const pagesData = [
       },
       {
         href: "/sign-in-2",
-        label: "Sign in v2",
+        label: "Sign in 2",
       },
       {
         href: "/sign-up",
@@ -509,7 +423,7 @@ export const pagesData = [
       },
       {
         href: "/sign-up-2",
-        label: "Sign up v2",
+        label: "Sign up 2",
       },
       {
         href: "/reset-password",
@@ -517,7 +431,7 @@ export const pagesData = [
       },
       {
         href: "/reset-password-2",
-        label: "Reset password v2",
+        label: "Reset password 2",
       },
       {
         href: "/page-not-found",

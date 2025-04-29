@@ -45,7 +45,7 @@ export default function Cart1() {
                 </p>
               ) : (
                 <table className="table align-middle overflow-auto m-0 fs-6 dark:text-white dark:border-gray-700">
-                  <thead className="bg-gray-800 text-white sticky-top ft-tertiary bg-gray-50 dark:bg-gray-800 z-1">
+                  <thead className="bg-gray-50 text-black sticky-top ft-tertiary bg-gray-50 z-1">
                     <tr>
                       <th className="w-100px" />
                       <th className="w-100px" />
@@ -168,19 +168,19 @@ export default function Cart1() {
                       <table className="table align-middle overflow-auto m-0 fs-6 dark:text-white dark:border-gray-700">
                         <tbody>
                           <tr>
-                            <th className="ft-tertiary bg-gray-800 text-white">
+                            <th className="ft-tertiary bg-gray-50 text-black">
                               Subtotal
                             </th>
                             <td>${totalPrice.toFixed(2)}</td>
                           </tr>
                           <tr>
-                            <th className="ft-tertiary bg-gray-800 text-white">
+                            <th className="ft-tertiary bg-gray-50 text-black">
                               Shipping
                             </th>
                             <td>
                               <div className="nav-y">
                                 <span>Flat rate: $23.00</span>
-                                <span>Shipping to Morocco</span>
+                                <span>Shipping to Madrid, Espana</span>
                                 <a className="text-primary" href="#">
                                   Edit address
                                 </a>
@@ -188,7 +188,7 @@ export default function Cart1() {
                             </td>
                           </tr>
                           <tr>
-                            <th className="ft-tertiary bg-gray-800 text-white">
+                            <th className="ft-tertiary bg-gray-50 text-black">
                               Total
                             </th>
                             <td>

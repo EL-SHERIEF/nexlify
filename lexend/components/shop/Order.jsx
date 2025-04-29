@@ -28,7 +28,7 @@ export default function Order() {
                   onSubmit={(e) => e.preventDefault()}
                 >
                   <table className="table align-middle overflow-auto m-0 fs-6 dark:text-white dark:border-gray-700">
-                    <thead className="sticky-top ft-tertiary bg-gray-800 text-white z-1">
+                    <thead className="sticky-top ft-tertiary bg-gray-50 text-black z-1">
                       <tr>
                         <th className="lg:w-1/3">Product</th>
                         <th className="lg:w-1/6">Subtotal</th>
