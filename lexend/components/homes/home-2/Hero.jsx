@@ -100,7 +100,7 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="nexlify"
-                      src="/assets/images/media/vid-05.png"
+                      src="/assets/images/media/vid-06.png"
                       width="1280"
                       height="719"
                     />
@@ -132,7 +132,7 @@ export default function Hero() {
 
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/vid-05.mp4"
+        src="/assets/images/media/vid-06.mp4"
         setIsOpen={() => setOpen(false)}
       />
     </>
