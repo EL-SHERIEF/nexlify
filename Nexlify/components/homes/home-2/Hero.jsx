@@ -58,7 +58,7 @@ export default function Hero() {
                     </Link>
                     
                     <Link
-                      href={`/page-pricing`}
+                      href={`/page-features`}
                       className="btn btn-md lg:btn-lg  bg-white hover:text-black text-primary duraton-300 transition-all transiton-ease  min-w-150px sm:mt-1 lg:mt-2"
                       style={{border:'solid 1px rgba(255, 255, 255, 0.38)'}}
                     >
