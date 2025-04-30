@@ -8,7 +8,7 @@ import Brands from "@/components/common/Brands2";
 import Blogs from "@/components/homes/home-1/Blogs";
 export const metadata = {
   title:
-    "Contact 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Contact | nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

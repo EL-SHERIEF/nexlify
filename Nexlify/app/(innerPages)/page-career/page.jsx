@@ -5,11 +5,10 @@ import CareerHero from "@/components/innerpages/CareerHero";
 import CareerBenefits from "@/components/innerpages/CareerBenefits";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";
 import Feedback from "@/components/homes/home-1/Feedback";
-import Brands from "@/components/innerpages/Brands";
 import Blogs from "@/components/homes/home-1/Blogs";
 export const metadata = {
   title:
-    "Career || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Careers | nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

@@ -11,7 +11,7 @@ import Team from "@/components/homes/home-2/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
   title:
-    "About || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About | nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

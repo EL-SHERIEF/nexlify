@@ -5,7 +5,7 @@ import Breadcumb from "@/components/shop/Breadcumb";
 import Shop1 from "@/components/shop/Shop1";
 export const metadata = {
   title:
-    "Shop 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop 1 - nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
