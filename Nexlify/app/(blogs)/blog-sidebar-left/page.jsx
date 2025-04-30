@@ -1,7 +1,7 @@
 import BlogSidebarLeft from "@/components/blog/BlogSidebarLeft";
 import Breadcumb3 from "@/components/blog/Breadcumb3";
-import Footer6 from "@/components/footers/Footer6";
-import Header6 from "@/components/headers/Header6";
+import Footer2 from "@/components/footers/Footer2";
+import Header2 from "@/components/headers/Header2";
 import Topbar from "@/components/headers/Topbar";
 
 import React from "react";
@@ -20,12 +20,12 @@ export default function page() {
           style={{ overflowX: "clip" }}
         >
           <Topbar />
-          <Header6 staticPosition={true} />
+          <Header2  />
           <div id="wrapper" className="wrap">
             <Breadcumb3 pageName="Blog Sidebar Left" />
             <BlogSidebarLeft />
           </div>
-          <Footer6 />
+          <Footer2 />
         </div>
       </div>
     </>
