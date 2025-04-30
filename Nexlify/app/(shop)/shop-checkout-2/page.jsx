@@ -2,7 +2,7 @@ import Header1 from "@/components/headers/Header1";
 
 import Footer2 from "@/components/footers/Footer2";
 import Breadcumb from "@/components/shop/Breadcumb";
-import Checkout2 from "@/components/shop/Checkout2";
+import Checkout1 from "@/components/shop/Checkout1";
 export const metadata = {
   title:
     "Shop Checkout 2 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -16,7 +16,7 @@ export default function ShopcheckoutPage2() {
         <Header1 />
         <div id="wrapper" className="wrap">
           <Breadcumb />
-          <Checkout2 />
+          <Checkout1 />
         </div>
         <Footer2 />
       </div>

@@ -2,7 +2,7 @@ import Header1 from "@/components/headers/Header1";
 
 import Footer2 from "@/components/footers/Footer2";
 import Breadcumb2 from "@/components/shop/Breadcumb2";
-import ShopDetails2 from "@/components/shop/ShopDetails2";
+import ShopDetails1 from "@/components/shop/ShopDetails1";
 import { products } from "@/data/products";
 export const metadata = {
   title:
@@ -23,7 +23,7 @@ export default async function ShopDetailsPage2(props) {
         <Header1 />
         <div id="wrapper" className="wrap">
           <Breadcumb2 product={product} />
-          <ShopDetails2 product={product} />
+          <ShopDetails1 product={product} />
         </div>
         <Footer2 />
       </div>
