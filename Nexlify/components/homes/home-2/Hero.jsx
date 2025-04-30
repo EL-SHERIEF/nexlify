@@ -76,7 +76,7 @@ export default function Hero() {
                     <Image
                       className="media-cover image"
                       alt="nexlify"
-                      src="/assets/images/media/vid-06.png"
+                      src="/assets/images/media/vid-06.webp"
                       width="1280"
                       height="719"
                     />

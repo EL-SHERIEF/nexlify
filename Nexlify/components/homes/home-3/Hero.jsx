@@ -121,7 +121,7 @@ Unlock exceptional support that creates customers for life.
                            <Image
                              className="media-cover image"
                              alt="nexlify"
-                             src="/assets/images/media/vid-08.png"
+                             src="/assets/images/media/vid-08.webp"
                              width="1280"
                              height="719"
                            />
