@@ -45,24 +45,7 @@ export default function Contact1() {
                         height="1000"
                       />
                     </figure>
-                    <div className="position-cover text-white vstack justify-end p-4 lg:p-6 xl:p-9">
-                      <div className="position-cover bg-gradient-to-t from-primary to-transparent opacity-50" />
-                      <div className="panel z-1">
-                        <div className="vstack gap-3">
-                          <p className="fs-5 xl:fs-4 fw-medium">
-                            “AI is the future, From writing books to Leading big teams it will help you in every step”
-                          </p>
-                          <div className="vstack gap-0">
-                            <p className="fs-6 lg:fs-5 fw-medium">
-                              Mr. Sam
-                            </p>
-                            <span className="fs-7 opacity-80">
-                             The Founder of Nexlify
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+        
                   </div>
                 </div>
                 <div className="order-0 lg:order-1 ">

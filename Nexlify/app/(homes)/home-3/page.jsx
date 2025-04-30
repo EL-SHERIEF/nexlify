@@ -1,4 +1,4 @@
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 import Pricing from "@/components/homes/home-3/Pricing";
 import Brands2 from "@/components/homes/home-3/Brands";
 import Features from "@/components/homes/home-3/Features";
@@ -20,7 +20,7 @@ export default function HomePage3() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900  overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header1 />
         <div id="wrapper" className="wrap">
           <Hero />
           <Brands2 />

@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="row child-cols justify-center lg:justify-between items-center gy-4 sm:gy-6 gx-0 position-relative px-2" style={{zIndex: 2}}>
               <div className="col-12 sm:col-10 lg:col-5">
                 <div
-                  className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end"
+                  className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start items-center sm:items-start d-flex justify-center lg:justify-start lg:justify-start lg:items-start"
                 >
                   <span className="fw-medium d-flex align-items-center px-2 py-1 text-primary  rounded-pill blur gap-1 border-1 border border-black shadow-sm d-flex justify-center items-center gap-2 bg-white" style={{width:"fit-content"}}>
                    <div className="glowing-circle"></div> AI SAAS Future
