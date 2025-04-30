@@ -3,7 +3,7 @@ import { blogsPosts4 } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import Pagination from "../common/Pagination";
-import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 export default function Blogs7() {
   return (

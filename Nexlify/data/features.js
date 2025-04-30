@@ -31,7 +31,7 @@ export const panelData = [
 export const features = [
   {
     id: 4,
-    imgSrc: "/assets/images/features/feature-01.jpg",
+    imgSrc: "/assets/images/features/feature-01.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Deploy AI models effortlessly in minutes",
     description:
@@ -39,7 +39,7 @@ export const features = [
   },
   {
     id: 5,
-    imgSrc: "/assets/images/features/feature-02.jpg",
+    imgSrc: "/assets/images/features/feature-02.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Integrate AI across your organization",
     description:
@@ -85,7 +85,7 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.jpg",
+    imgSrc: "/assets/images/template/feature-01.webp",
     altText: "Share tools quickly and confidently in minutes",
     step: "01.",
     title: "Deploy AI models effortlessly",
@@ -101,7 +101,7 @@ export const features3 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.jpg",
+    imgSrc: "/assets/images/template/feature-02.webp",
     altText: "Connect every part of your entire business",
     step: "02.",
     title: "Integrate AI seamlessly",
@@ -121,7 +121,7 @@ export const features3 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.jpg",
+    imgSrc: "/assets/images/template/feature-03.webp",
     altText: "Maintain compliance and control your apps",
     step: "03.",
     title: "Ensure AI compliance",
@@ -239,7 +239,7 @@ export const featureItems = [
 export const features6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.jpg",
+    imgSrc: "/assets/images/template/feature-01.webp",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Launch AI models in minutes",
     description:
@@ -248,7 +248,7 @@ export const features6 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.jpg",
+    imgSrc: "/assets/images/template/feature-02.webp",
     imgAlt: "Connect every part of your entire business",
     title: "Unify AI across your business",
     description:
@@ -257,7 +257,7 @@ export const features6 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.jpg",
+    imgSrc: "/assets/images/template/feature-03.webp",
     imgAlt: "Maintain compliance and control your apps",
     title: "Secure AI deployments",
     description:

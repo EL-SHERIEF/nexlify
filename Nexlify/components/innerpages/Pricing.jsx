@@ -3,7 +3,7 @@ import { tiers3 } from "@/data/pricing";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 export default function Pricing() {
   const [isYearly, setIsYearly] = useState(false);

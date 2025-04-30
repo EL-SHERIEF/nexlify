@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
-import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 import { footerLinks, socialLinks } from "@/data/footer";
 

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 export default function Contact1() {
   return (

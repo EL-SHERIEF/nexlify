@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 export default function About() {
   return (

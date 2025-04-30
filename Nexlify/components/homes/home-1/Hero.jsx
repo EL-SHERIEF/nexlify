@@ -77,7 +77,7 @@ export default function Hero() {
                    <Image
                       className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-6.png"
+                      src="/assets/images/landing/Hero-1-6.webp"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
@@ -89,7 +89,7 @@ export default function Hero() {
                       <Image
                       className="d-block h-150px shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-8.png"
+                      src="/assets/images/landing/Hero-1-8.webp"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
@@ -104,7 +104,7 @@ export default function Hero() {
                       
                        className="d-block h-150px shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-14.png"
+                      src="/assets/images/landing/Hero-1-14.webp"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
@@ -116,7 +116,7 @@ export default function Hero() {
                       <Image
                      className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-10.png"
+                      src="/assets/images/landing/Hero-1-10.webp"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
@@ -130,7 +130,7 @@ export default function Hero() {
                    <Image
                       className="d-block h-250px  shadow-md border-1 border border-black"
                       alt="Main hero image"
-                      src="/assets/images/landing/Hero-1-11.png"
+                      src="/assets/images/landing/Hero-1-11.webp"
                       style={{objectFit: "cover",borderRadius:"60px",width:"140px" }}
                        placeholder="blur"
                       blurDataURL="/assets/images/landing/hero-bg-3.png"
