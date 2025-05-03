@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "../common/LanguageSelect";
 import { footerLinks, socialLinks } from "@/data/footer";
-import bg from "@/public/assets/images/landing/hero-bg-2.jpg";
+import bg from "@/public/assets/images/landing/hero-bg-2.webp";
 
 export default function Footer2() {
   return (
