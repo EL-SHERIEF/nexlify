@@ -61,7 +61,7 @@ export default function Header1() {
                   style={{ width: 140 }}
                 >
                   <Image
-                    className="logo"
+                    className="dark:d-none logo"
                     alt="nexlify"
                     src="/assets/images/common/logo-light.png"
                     width="117"

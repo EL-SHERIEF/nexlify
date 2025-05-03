@@ -1,3 +1,25 @@
+export const cards = [
+  {
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "icon",
+    title: "Enhance AI Models with Contextual Insights",
+  },
+  {
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "icon",
+    title: "AI-Driven Dashboard for Instant Analytics",
+  },
+  {
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "icon",
+    title: "Automated AI Model Reporting",
+  },
+  {
+    src: "/assets/images/custom-icons/home-8-icon-06.svg",
+    alt: "icon",
+    title: "Flexible AI Plans for Any Organization",
+  },
+];
 
 export const steps = [
   {

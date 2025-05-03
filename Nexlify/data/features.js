@@ -235,6 +235,100 @@ export const featureItems = [
   },
 ];
 
+export const featureItems2 = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "Rapid AI Processing",
+    description:
+      "From small teams to large enterprises, our AI platform ensures seamless model execution and scalability.",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Unified AI Data Hub",
+    description:
+      "Centralize your AI datasets for easy access and management, streamlining your workflows.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "Context-Aware AI Models",
+    description:
+      "Enhance AI outputs with contextual data integration for more accurate predictions.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "AI Risk Mitigation",
+    description:
+      "Proactively manage AI model risks with built-in monitoring and compliance tools.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-start-0 lg:rounded-top-end-0 lg:rounded-start-1-5",
+  },
+  {
+    order: "order-3 lg:order-0",
+    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "AI Compliance Tools",
+    description:
+      "Ensure your AI solutions meet global data protection standards effortlessly.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    iconSrc: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "Third-Party AI Integration",
+    description:
+      "Seamlessly connect third-party AI tools to enhance your platform’s capabilities.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+];
+
+export const features5 = [
+  {
+    iconSrc: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "AI Model Builder",
+  },
+  {
+    iconSrc: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "Pre-Trained AI Models",
+  },
+  {
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "Scalable AI Architecture",
+  },
+  {
+    iconSrc: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "AI Workflow Automation",
+  },
+  {
+    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "Real-Time AI Analytics",
+  },
+  {
+    iconSrc: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "Custom AI Configurations",
+  },
+  {
+    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    alt: "feature-icon",
+    title: "AI Platform Integrations",
+  },
+];
 
 export const features6 = [
   {
@@ -315,7 +409,86 @@ export const integrations = [
   },
 ];
 
+export const features7 = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/icon-01.svg",
+    title: "Rapid AI Execution",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/icon-02.svg",
+    title: "AI Data Centralization",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/icon-03.svg",
+    title: "Context-Enhanced AI",
+  },
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/icon-07.svg",
+    title: "AI Risk Monitoring",
+  },
+  {
+    order: "order-3 lg:order-0",
+    icon: "/assets/images/custom-icons/icon-05.svg",
+    title: "AI Compliance",
+  },
+  {
+    order: "order-2 lg:order-0",
+    icon: "/assets/images/custom-icons/icon-06.svg",
+    title: "Third-Party AI Sync",
+  },
+];
 
+export const features8 = [
+  {
+    imgSrc: "/assets/images/features/home-8-feature-01.png",
+    title: "Seamless AI tool integrations",
+  },
+  {
+    imgSrc: "/assets/images/features/home-8-feature-05.png",
+    title: "AI-driven analytics dashboard",
+  },
+  {
+    imgSrc: "/assets/images/features/home-8-feature-06.png",
+    title: "Automated AI model reporting",
+  },
+];
+
+export const features9 = [
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    title: "Rapid AI Execution",
+  },
+  {
+    order: "order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    title: "AI Data Centralization",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    title: "Context-Enhanced AI",
+  },
+  {
+    order: "order-1 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    title: "AI Risk Monitoring",
+  },
+  {
+    order: "order-3 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    title: "AI Compliance",
+  },
+  {
+    order: "order-2 lg:order-0",
+    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    title: "Third-Party AI Sync",
+  },
+];
 
 export const features10 = [
   {
@@ -347,5 +520,105 @@ export const features10 = [
     src: "/assets/images/features/home-8-feature-06.png",
     alt: "",
     title: "Automated AI analytics",
+  },
+];
+
+export const features11 = [
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-01.svg",
+    alt: "feature-icon",
+    title: "Rapid AI Processing",
+    description:
+      "Our AI platform scales effortlessly, ensuring teams of any size can execute models quickly and stay aligned.",
+  },
+  {
+    order: "order-0",
+    src: "/assets/images/custom-icons/home-8-icon-02.svg",
+    alt: "feature-icon",
+    title: "Unified AI Data Hub",
+    description:
+      "Centralize datasets for streamlined AI workflows, keeping your team in sync.",
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-03.svg",
+    alt: "feature-icon",
+    title: "Context-Aware AI Models",
+    description:
+      "Integrate contextual data to enhance AI predictions and decision-making.",
+  },
+  {
+    order: "order-1 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-07.svg",
+    alt: "feature-icon",
+    title: "AI Risk Mitigation",
+    description:
+      "Monitor and manage AI risks with proactive tools for seamless operations.",
+  },
+  {
+    order: "order-3 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-05.svg",
+    alt: "feature-icon",
+    title: "AI Compliance Tools",
+    description:
+      "Ensure global compliance with built-in AI data protection features.",
+  },
+  {
+    order: "order-2 lg:order-0",
+    src: "/assets/images/custom-icons/home-8-icon-06.svg",
+    alt: "feature-icon",
+    title: "Third-Party AI Integration",
+    description:
+      "Connect third-party AI tools to enhance your platform’s functionality.",
+  },
+];
+
+export const features12 = [
+  {
+    src: "/assets/images/custom-icons/icon-02.svg",
+    alt: "icon",
+    text: "No Subscription Required",
+    className: "",
+  },
+  {
+    src: "/assets/images/custom-icons/icon-07.svg",
+    alt: "icon",
+    text: "End-to-End AI Security",
+    className: "",
+  },
+  {
+    src: "/assets/images/custom-icons/icon-02.svg",
+    alt: "icon",
+    text: "Advanced AI Capabilities",
+    className: "d-none lg:d-block",
+  },
+];
+
+export const features13 = [
+  {
+    src: "/assets/images/common/icons/zap.svg",
+    alt: "feature-icon",
+    title: "AI-Driven Messaging",
+  },
+  {
+    src: "/assets/images/common/icons/database.svg",
+    alt: "feature-icon",
+    title: "AI Language Processing",
+  },
+  {
+    src: "/assets/images/common/icons/line-chart.svg",
+    alt: "feature-icon",
+    title: "Intelligent Data Sharing",
+  },
+  {
+    src: "/assets/images/common/icons/target.svg",
+    alt: "feature-icon",
+    title: "AI Collaboration Suite",
+  },
+  {
+    src: "/assets/images/common/icons/settings.svg",
+    alt: "feature-icon",
+    title: "AI Privacy Controls",
   },
 ];
