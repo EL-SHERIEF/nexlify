@@ -27,8 +27,7 @@ export default function Hero() {
     backgroundRepeat: 'no-repeat',
   }}
   data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 250; delay: anime.stagger(50, {start: 500});"
->
-</div>
+/>
         <div className="section-outer panel pb-2 pt-9 sm:pt-10">
           <div className="container max-w-xl">
             <div className="section-inner panel">

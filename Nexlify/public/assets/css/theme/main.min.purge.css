@@ -208,12 +208,12 @@
   --color-slate-800: #2b2e33;
   --color-slate-900: #15171a;
 
-  /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
+  /* home 1 to 3 and inner pages and rtl version main color plate change from bellow  */
   --color-primary: linear-gradient(#9443ff, #6128ff);
   --bs-primary-rgb:141, 35, 255;
   --btn-hover-bg: #3c0069;
   --btn-hover-border-color: #4c1b685d;
-  /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
+  /* home 1 to 3 and inner pages and rtl version main color plate change from top  */
 
   --color-primary-10: #f8f9fb;
   --color-primary-25: #f3f5f8;
@@ -3396,9 +3396,7 @@ select:disabled {
 }
 [type="button"],
 [type="submit"],
-button {
-  -webkit-appearance: button;
-}
+
 [type="button"]:not(:disabled),
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
@@ -3431,7 +3429,6 @@ fieldset {
 }
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
 }
 ::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -3441,7 +3438,6 @@ fieldset {
 }
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
 }
 progress {
   vertical-align: baseline;
@@ -6968,10 +6964,10 @@ textarea.form-control-lg {
   background-size: contain !important;
 }
 .text-truncate-1 {
-  -webkit-line-clamp: 1 !important;
+  line-clamp: 1 !important;
 }
 .text-truncate-3 {
-  -webkit-line-clamp: 3 !important;
+  line-clamp: 3 !important;
 }
 .min-w-24px {
   min-width: 24px !important;

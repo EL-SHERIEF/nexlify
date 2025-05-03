@@ -22,10 +22,11 @@ export const metadata = {
 export default function HomePage6() {
   return (
     <>
-      <div
-        style={{ overflow: "clip" }}
-        className="uni-body page-wrapper panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 home-6  bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready"
-      >
+    {" "}
+    <div className="theme-6">
+        <div className="bp-xs bp-sm page-wrapper bp-md bp-lg bp-xl dom-ready bp-xxl-max">
+          <div className=" uni-body panel uni-body panel bg-black overflow-x-hidden disable-cursor">
+
         <Header5 />
         <div id="wrapper" className="wrap">
           <Hero />
@@ -42,7 +43,9 @@ export default function HomePage6() {
           <Cta />
         </div>
         <Footer5 />
-      </div>
+        </div>{" "}
+        </div>
+      </div>{" "}
     </>
   );
 }

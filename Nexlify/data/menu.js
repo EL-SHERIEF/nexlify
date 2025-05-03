@@ -247,6 +247,10 @@ export const pagesData = [
         href: "/home-3",
         label: "Home 03",
       },
+      {
+        href: "/home-6",
+        label: "Home 06",
+      },
     ],
   },
   {
