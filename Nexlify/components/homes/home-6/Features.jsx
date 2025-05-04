@@ -32,7 +32,7 @@ export default function Features() {
                     className="panel vstack items-start gap-2 p-3 lg:p-4 xl:p-6"
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
-                    <p className="fs-6 md:fs-5 lg:fs-4 m-0">
+                    <p className="fs-6 md:fs-5 lg:fs-4 m-0  text-opacity-70">
                       Intuitive interface Drag-and-Drop for building pages by
                       dragging and dropping elements.
                     </p>
@@ -75,7 +75,7 @@ export default function Features() {
                   >
                     <div className="content vstack items-start gap-2">
                       <h4 className="h4 m-0">Dashboard Components</h4>
-                      <p className="fs-6 lg:fs-5 text-white">
+                      <p className="fs-6 lg:fs-5 text-white text-opacity-70">
                         Unlock your productivity potential with our intuitive
                         and powerful Dashboard UI Components.
                       </p>
@@ -115,7 +115,7 @@ export default function Features() {
                   >
                     <div className="content vstack items-start gap-2">
                       <h4 className="h4 m-0">UI Components</h4>
-                      <p className="fs-6 lg:fs-5 text-white">
+                      <p className="fs-6 lg:fs-5 text-white text-opacity-70">
                         Easy-to-use and powerful page builder, your gateway to
                         intuitive tools and expansive customization options that
                         transform how you build websites.
@@ -139,7 +139,7 @@ export default function Features() {
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
                     <h4 className="m-0 grad-tag"><span>Drag-and-Drop Interface</span></h4>
-                    <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center">
+                    <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center  text-opacity-70">
                       Unleash your creativity with our builder's intuitive UI
                       Components, experience the difference.
                     </p>

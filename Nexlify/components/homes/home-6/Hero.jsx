@@ -70,6 +70,7 @@ export default function Hero() {
                       height="719"
                     />
                   </figure>
+                  <div className="shadow-lg-primary-box"/>
                 </div>
           </div>
         </div>

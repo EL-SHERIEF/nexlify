@@ -44,21 +44,21 @@ export default function Elements() {
                 }}
               >
                 {slides.map((slide, index) => (
-                  <SwiperSlide className="swiper-slide" key={index}>
-                    <div className="cstack gap-1 md:gap-2 p-1 md:p-2 custom-element">
-                      <Image
-                        className="icon icon-1 md:icon-3 lg:icon-4 text-white"
-                        src={slide.src}
-                        width={32}
-                        height={32}
-                        alt={slide.alt}
-                        data-uc-svg=""
-                      />
-                      <span className="fs-7 md:fs-6 lg:fs-5 fw-medium">
-                        {slide.label}
-                      </span>
-                    </div>
-                  </SwiperSlide>
+         <SwiperSlide key={index}>
+         <div className="cstack gap-2 md:gap-3 p-1 md:p-2 custom-element">
+           <Image
+             className="icon icon-1 md:icon-3 lg:icon-4 text-white"
+             src={slide.src}
+             width={32}
+             height={32}
+             alt={slide.alt}
+             data-uc-svg=""
+           />
+           <span className="fs-7 md:fs-6 lg:fs-5 fw-medium">
+             {slide.label}
+           </span>
+         </div>
+       </SwiperSlide>
                 ))}
               </Swiper>
               <Swiper

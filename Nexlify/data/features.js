@@ -294,7 +294,7 @@ export const featureItems2 = [
 
 export const features5 = [
   {
-    iconSrc: "/assets/images/common/icons/zap.svg",
+    iconSrc: "/assets/images/common/icons/archive.svg",
     alt: "feature-icon",
     title: "AI Model Builder",
   },
@@ -304,27 +304,27 @@ export const features5 = [
     title: "Pre-Trained AI Models",
   },
   {
-    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    iconSrc: "/assets/images/common/icons/code-file.svg",
     alt: "feature-icon",
     title: "Scalable AI Architecture",
   },
   {
-    iconSrc: "/assets/images/common/icons/target.svg",
+    iconSrc: "/assets/images/common/icons/delivery.svg",
     alt: "feature-icon",
     title: "AI Workflow Automation",
   },
   {
-    iconSrc: "/assets/images/common/icons/line-chart.svg",
+    iconSrc: "/assets/images/common/icons/cloud-bolt.svg",
     alt: "feature-icon",
     title: "Real-Time AI Analytics",
   },
   {
-    iconSrc: "/assets/images/common/icons/settings.svg",
+    iconSrc: "/assets/images/common/icons/magic-stick.svg",
     alt: "feature-icon",
     title: "Custom AI Configurations",
   },
   {
-    iconSrc: "/assets/images/common/icons/puzzle.svg",
+    iconSrc: "/assets/images/common/icons/bolt.svg",
     alt: "feature-icon",
     title: "AI Platform Integrations",
   },
