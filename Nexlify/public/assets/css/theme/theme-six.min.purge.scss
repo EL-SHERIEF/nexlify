@@ -106,7 +106,7 @@
   --font-code-family: var(--font-family-code);
   --font-code-weight: 400;
   --root-size: 1rem;
-  --radius: 13px;
+  --radius: 15px;
   --border-size: 1px;
   --border-color: rgba(131, 131, 131, 0.25);
   --shadow-color: rgba(0, 0, 0, 0.15);
@@ -148,7 +148,7 @@
   --color-primary: rgb(138, 55, 255);
   --color-primary-rgb: 138, 55, 255;
   --btn-hover-bg: rgb(138, 55, 255);
-  --btn-hover-border-color: #0e5d51;
+  --btn-hover-border-color: rgb(138, 55, 255);
   --color-tertiary-rgb: 229, 253, 197;
   // End home-6 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
 
@@ -783,7 +783,7 @@
   --bs-warning: #ffb307;
   --bs-danger: #e44b4b;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: #121212;
   --bs-gray: #292352;
   --bs-gray-10: #f9f8fa;
   --bs-gray-25: #f4f4f6;
@@ -1071,7 +1071,7 @@
   --bs-warning-rgb: 255, 179, 7;
   --bs-danger-rgb: 228, 75, 75;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 12, 12, 12;
   --bs-gray-rgb: 41, 35, 82;
   --bs-gray-10-rgb: 249, 248, 250;
   --bs-gray-25-rgb: 244, 244, 246;
@@ -1353,7 +1353,7 @@
   --bs-quaternary-800-rgb: 85, 86, 78;
   --bs-quaternary-900-rgb: 42, 43, 39;
   --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
+  --bs-black-rgb: 1, 1, 1;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans",
@@ -1368,7 +1368,7 @@
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: rgba(131, 131, 131, 0.25);
+  --bs-border-color: rgba(100, 100, 100, 0.17);
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -1391,7 +1391,19 @@
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-
+  .grad-tag{
+    border-radius: 100px;
+    background-color: #191624;
+    padding: 8px 30px;
+    line-height: 1;
+    font-size: 18px;
+  }
+.grad-tag span{
+  background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    background-image: linear-gradient(90deg, #bd9cff 0%, #f2f9fe 125%)!important;
+  
+}
   .link,
   a {
     color: var(--link-color-text);
@@ -2166,6 +2178,10 @@
   .uc-navbar .uc-navbar-right,
   .uc-navbar [class*="uc-navbar-center"] {
     gap: 1.5rem;
+  }
+  .uc-navbar-nav {
+    padding: 0!important;
+    margin: 0!important;
   }
   .uc-navbar-nav > li > a {
     position: relative;
@@ -3012,14 +3028,24 @@
   header.uc-header.header-six > .uc-navbar-sticky {
     max-width: 1140px;
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.15);
+    box-shadow: none;
+    border:none
+  }
+  .uc-navbar-sticky::after{
+    content:'';
+    position: absolute;
+width: 100vw;
+height: 100%;
+background: linear-gradient(180deg, #000000 0%, transparent 95%);
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
   }
   header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main {
     --uc-nav-height: 64px !important;
   }
   header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main .uc-navbar {
-    min-height: 64px !important;
+    min-height: 80px !important;
   }
 
   :root:where(.uc-dark),
@@ -3216,6 +3242,9 @@
   .uc-subnav-outline-pill > li.uc-active > a:where(.uc-dark),
   :where(.uc-dark) .uc-subnav-outline-pill > li.uc-active > a {
     border-color: var(--color-primary-400);
+  }
+  .uc-navbar-transparent{
+    backdrop-filter: blur(20px);
   }
   .uc-navbar-container:not(.uc-navbar-transparent) {
     background: 0 0 !important;
@@ -4434,10 +4463,8 @@
     --bs-btn-border-color: var(--color-primary);
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: var(--btn-hover-bg);
-    --bs-btn-hover-border-color: var(--btn-hover-border-color);
     --bs-btn-focus-shadow-rgb: 53, 137, 124;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: var(--btn-hover-border-color);
     --bs-btn-active-border-color: #0d574c;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
@@ -4445,20 +4472,21 @@
     --bs-btn-disabled-border-color: var(--color-primary);
   }
   .btn-secondary {
+    box-shadow: 0;
+    transition: box-shadow .2s;
     border-width: 0px;
     --bs-btn-color: #000;
     --bs-btn-bg: #fef1e7;
-
     --bs-btn-hover-color: #000;
     --bs-btn-hover-bg: #fef3eb;
-    --bs-btn-focus-shadow-rgb: 216, 205, 196;
     --bs-btn-active-color: #000;
     --bs-btn-active-bg: #fef4ec;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #000;
     --bs-btn-disabled-bg: #fef1e7;
     --bs-btn-disabled-border-color: #fef1e7;
+    will-change:none,transform;
   }
+  .btn-secondary:hover {box-shadow: 0px 0px 15px 0px #f2f9fe!important;}
   .btn-success {
     --bs-btn-color: #fff;
     --bs-btn-bg: #4caf50;

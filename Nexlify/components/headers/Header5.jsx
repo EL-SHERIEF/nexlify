@@ -40,7 +40,7 @@ export default function Header5() {
       data-uc-sticky="start: 1200px; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
     >
       <nav
-        className={`uc-navbar-container lg:mt-3 rounded-0 lg:rounded-pill uc-navbar-float ft-tertiary z-1 ${
+        className={`uc-navbar-container  uc-navbar-float ft-tertiary z-1 ${
           scrolledPast ? "uc-navbar-sticky" : "uc-navbar-transparent"
         } `}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
@@ -48,7 +48,7 @@ export default function Header5() {
         <div className="uc-navbar-main" style={{ "--uc-nav-height": "80px" }}>
           <div className="container max-w-lg lg:max-w-950px xl:max-w-xl">
             <div
-              className="uc-navbar min-h-64px lg:min-h-80px px-2 lg:px-0 text-gray-900 dark:text-white"
+              className="uc-navbar min-h-64px lg:min-h-80px px-2 lg:px-0 text-white"
               data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"
             >
               <div className="uc-navbar-left">
@@ -56,8 +56,8 @@ export default function Header5() {
                   <Link className="panel text-none" href={`/`}>
                     <Image
                       alt="Lexend"
-                      src="/assets/images/common/logo-icon.svg"
-                      width="40"
+                      src="/assets/images/common/logo-dark.png"
+                      width="140"
                       height="40"
                     />
                   </Link>

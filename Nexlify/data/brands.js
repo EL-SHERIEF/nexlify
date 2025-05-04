@@ -46,6 +46,54 @@ export const brands = [
   }
 ];
 
+export const brandsDark = [
+  {
+    id: 1,
+    src: "/assets/images/brands/brand-dark-01.png",
+    alt: "Something",
+  },
+  {
+    id: 2,
+    src: "/assets/images/brands/brand-dark-02.png",
+    alt: "Nirror",
+  },
+  {
+    id: 3,
+    src: "/assets/images/brands/brand-dark-03.png",
+    alt: "Sometimes",
+  },
+  {
+    id: 4,
+    src: "/assets/images/brands/brand-dark-04.png",
+    alt: "Moonheat",
+  },
+  {
+    id: 5,
+    src: "/assets/images/brands/brand-dark-05.png",
+    alt: "Justarrow",
+  },
+  {
+    id: 6,
+    src: "/assets/images/brands/brand-dark-06.png",
+    alt: "TiltedSquare",
+  },
+  {
+    id: 7,
+    src: "/assets/images/brands/brand-dark-01.png",
+    alt: "Nexcell",
+  },
+  {
+    id: 8,
+    src: "/assets/images/brands/brand-dark-02.png",
+    alt: "LifyNext",
+  },
+  {
+    id: 9,
+    src: "/assets/images/brands/brand-dark-03.png",
+    alt: "Nextly",
+  }
+];
+
 export const reviewLogos = [
   {
     id: 13,

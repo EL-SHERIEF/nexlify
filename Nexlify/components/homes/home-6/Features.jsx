@@ -11,30 +11,23 @@ export default function Features() {
               className="panel vstack items-center gap-2 xl:gap-3 mb-4 lg:mb-8 max-w-650px mx-auto text-center"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <div className="cstack gap-1 py-1 px-2 border rounded-pill">
-                <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" />
-                <span className="fs-8 fw-bold text-uppercase">
-                  Main features
-                </span>
+              <div className="grad-tag">
+                  <span>Main features</span>
               </div>
-              <h2 className="h3 lg:h2 xl:h1 m-0 px-2">
-                No{" "}
-                <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                  coding skills
-                </span>{" "}
-                required.
+              <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
+              Boost Your Workflow with Our Powerful Tools
               </h2>
-              <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70">
-                Unleash your creativity with our builder's powerful features and
-                intuitive interface, experience the difference.
+              <p className="fs-6 xl:fs-5 text-white text-opacity-70">
+              Explore the advanced tools made to streamline your processes, enhance productivity, and drive business growth powerfully
               </p>
             </div>
             <div className="row child-cols-12 lg:child-cols-5 col-match g-2">
               <div className="lg:col-7">
                 <div
-                  className="panel overflow-hidden bg-secondary text-gray-900 dark:bg-gray-800 dark:text-white rounded-2 lg:rounded-3"
+                  className="panel overflow-hidden bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3 position-relative"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 0;"
                 >
+                 <div className="glow-div"/>
                   <div
                     className="panel vstack items-start gap-2 p-3 lg:p-4 xl:p-6"
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
@@ -43,7 +36,7 @@ export default function Features() {
                       Intuitive interface Drag-and-Drop for building pages by
                       dragging and dropping elements.
                     </p>
-                    <a href="#" className="btn btn-sm btn-primary px-2 mt-2">
+                    <a href="#" className="btn btn-sm btn-secondary px-2 mt-2">
                       <span>Try it now</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
@@ -61,16 +54,11 @@ export default function Features() {
               </div>
               <div>
                 <div
-                  className="panel vstack items-start overflow-hidden bg-primary-700 rounded-2 lg:rounded-3 uc-dark"
+                  className="panel position-relative vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3 uc-dark"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;"
                 >
-                  <div
-                    className="position-cover opacity-70 bg-cover"
-                    style={{ backgroundPosition: "50% 85%" }}
-                    data-src="/assets/images/template/feature-06-bg-masked.png"
-                    data-uc-img=""
-                  />
-                  <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
+                   <div className="glow-div end"/>
+                  <div className="position-cover bg-gradient-to-t from-primary via-transparent to-primary" />
                   <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />
                   <div className="panel p-3">
                     <Image
@@ -87,15 +75,12 @@ export default function Features() {
                   >
                     <div className="content vstack items-start gap-2">
                       <h4 className="h4 m-0">Dashboard Components</h4>
-                      <p className="fs-6 lg:fs-5 dark:text-white">
+                      <p className="fs-6 lg:fs-5 text-white">
                         Unlock your productivity potential with our intuitive
                         and powerful Dashboard UI Components.
                       </p>
                     </div>
-                    <a
-                      href="#"
-                      className="btn btn-sm btn-secondary text-primary px-2 mt-2"
-                    >
+                    <a href="#" className="btn btn-sm btn-secondary px-2 mt-2">
                       <span>Let's find out</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
@@ -104,16 +89,16 @@ export default function Features() {
               </div>
               <div>
                 <div
-                  className="panel vstack items-start overflow-hidden bg-gray-800 rounded-2 lg:rounded-3 uc-dark"
+                  className="panel vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white  rounded-2 lg:rounded-3 uc-dark position-relative"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
                 >
+                  <div className="glow-div start"/>
                   <div
                     className="position-cover opacity-70 bg-cover"
                     style={{ backgroundPosition: "50% 85%" }}
-                    data-src="/assets/images/template/feature-06-bg-masked-2.png"
                     data-uc-img=""
                   />
-                  <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
+                  <div className="position-cover bg-gradient-to-t from-primary via-transparent to-grimary" />
                   <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />
                   <div className="panel px-3 lg:px-4 xl:px-6">
                     <Image
@@ -130,16 +115,13 @@ export default function Features() {
                   >
                     <div className="content vstack items-start gap-2">
                       <h4 className="h4 m-0">UI Components</h4>
-                      <p className="fs-6 lg:fs-5 dark:text-white">
+                      <p className="fs-6 lg:fs-5 text-white">
                         Easy-to-use and powerful page builder, your gateway to
                         intuitive tools and expansive customization options that
                         transform how you build websites.
                       </p>
                     </div>
-                    <a
-                      href="#"
-                      className="btn btn-sm btn-secondary text-primary px-2 mt-2"
-                    >
+                    <a href="#" className="btn btn-sm btn-secondary px-2 mt-2">
                       <span>Let's find out</span>
                       <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
                     </a>
@@ -148,14 +130,15 @@ export default function Features() {
               </div>
               <div className="lg:col-7">
                 <div
-                  className="panel vstack items-start overflow-hidden bg-secondary text-gray-900 dark:bg-gray-800 dark:text-white rounded-2 lg:rounded-3"
+                  className="panel vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white  text-white rounded-2 lg:rounded-3 position-relative"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 300;"
                 >
+                <div className="glow-div bottom"/>
                   <div
                     className="panel vstack items-center gap-2 p-3 lg:p-4 xl:p-6"
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
-                    <h4 className="h4 m-0">Drag-and-Drop Interface</h4>
+                    <h4 className="m-0 grad-tag"><span>Drag-and-Drop Interface</span></h4>
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center">
                       Unleash your creativity with our builder's intuitive UI
                       Components, experience the difference.

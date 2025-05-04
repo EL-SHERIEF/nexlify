@@ -6,7 +6,8 @@ import { useParallax } from "react-scroll-parallax";
 export default function VideoComponent() {
   const [isOpen, setOpen] = useState(false);
   const parallax = useParallax({
-    scale: [0.8, 1],
+    scale: [0.9, 1],
+    translateY: [0, 20],
   });
 
   return (
@@ -14,20 +15,21 @@ export default function VideoComponent() {
       <div
         id="how_it_works"
         ref={parallax.ref}
-        className="how-it-works section panel  scrollSpysection"
+        className="how-it-works section panel  scrollSpysection pb-3 mb-5"
       >
         <div
           className="section-outer panel"
           data-anime="onscroll: .how-it-works; onscroll-trigger: 1; translateY: [80, 0]; scale: [0.8, 1]; opacity: [0, 1]; easing: linear;"
         >
           <div className="container xl:max-w-xl">
-            <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-white dark:border-gray-700">
+            <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-gray-10 ">
+            <div className="glow-div"/>
               <video
-                src="/assets/images/media/nexlify_vid_home-6.webm"
+                src="/assets/images/media/vid-02.webp"
                 preload="none"
                 loop
                 autoPlay
-                poster="/assets/images/media/nexlify_vid_home-6.jpg"
+                poster="/assets/images/media/vid-02.webp"
                 muted
                 playsInline
                 data-uc-cover
@@ -47,7 +49,7 @@ export default function VideoComponent() {
       </div>
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/nexlify_vid_home-6.webm"
+        src="/assets/images/media/vid-02.mp4"
         setIsOpen={() => setOpen(false)}
       />
     </>

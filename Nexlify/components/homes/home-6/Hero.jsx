@@ -1,13 +1,13 @@
 "use client";
 
-import Brands from "@/components/common/Brands";
+import Brands from "./Brands";
 import Link from "next/link";
 import Image from "next/image";
 import bg from "@/public/assets/images/landing/home-4-bg.png";
 import { useParallax } from "react-scroll-parallax";
 export default function Hero() {
   const parallax = useParallax({
-    translateY: [-10, 20],
+    translateY: [-5, 20],
     scale: [.8,1],
     rotateX: [20, -10],
   });
@@ -48,7 +48,7 @@ export default function Hero() {
                   </p>
                   <Link
                     href={`/page-pricing`}
-                    className="btn btn-md lg:btn-lg btn-secondary text-primary min-w-150px mt-2"
+                    className="btn btn-md lg:btn-lg btn-secondary text-black min-w-150px mt-2"
                   >
                     <span>Book A Free Demo</span>
                     <i className="icon icon-narrow unicon-arrow-right fw-bold ltr:ms-narrow rtl:rotate-180 rtl:me-narrow" />
@@ -80,7 +80,7 @@ export default function Hero() {
                   className="block-panel panel"
                   data-anime="onview: -100; opacity: [0, 1]; duration: 450; delay: 200;"
                 >
-                  <div className="element-brands text-gray-900 dark:text-white">
+                  <div className="element-brands max-w-1000px mx-auto mx-2 px-2 ">
                     <Brands />
                   </div>
                 </div>

@@ -7,7 +7,7 @@ export default function KeyFeatures() {
   return (
     <div
       id="key_features"
-      className="key-features section panel overflow-hidden  scrollSpysection"
+      className="key-features section panel overflow-hidden  scrollSpysection pt-3 mt-5"
     >
       <div className="section-outer panel py-6 lg:py-8 xl:py-10">
         <div className="container xl:max-w-lg">

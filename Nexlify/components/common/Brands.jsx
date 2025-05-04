@@ -14,7 +14,7 @@ export default function Brands() {
       speed={10000}
       modules={[Autoplay]}
       autoplay={{
-        delay: 0, // Negative delay is not valid, setting to 0 for continuous autoplay
+        delay: 0, 
         disableOnInteraction: false,
         pauseOnMouseEnter: false,
       }}

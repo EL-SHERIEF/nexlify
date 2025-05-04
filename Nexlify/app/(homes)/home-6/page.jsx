@@ -1,7 +1,6 @@
 import Footer5 from "@/components/footers/Footer5";
 import Header5 from "@/components/headers/Header5";
 import Blogs from "@/components/homes/home-6/Blogs";
-import Brands from "@/components/homes/home-6/Brands";
 import Cta from "@/components/homes/home-6/Cta";
 import Elements from "@/components/homes/home-6/Elements";
 import Faq from "@/components/homes/home-6/Faq";
@@ -15,9 +14,9 @@ import VideoComponent from "@/components/homes/home-6/VideoComponent";
 import React from "react";
 export const metadata = {
   title:
-    "Home 6 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 6 || Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage6() {
   return (
@@ -31,7 +30,6 @@ export default function HomePage6() {
         <div id="wrapper" className="wrap">
           <Hero />
           <Features />
-          <Brands />
           <VideoComponent />
           <KeyFeatures />
           <Elements />
