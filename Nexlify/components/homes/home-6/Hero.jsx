@@ -65,7 +65,7 @@ export default function Hero() {
                     <Image
                       className="w-full h-full position-relative"
                       alt="nexlify"
-                      src="/assets/images/landing/hero-4.jpg"
+                      src="/assets/images/landing/Hero-4.webp"
                       width="1280"
                       height="719"
                     />
