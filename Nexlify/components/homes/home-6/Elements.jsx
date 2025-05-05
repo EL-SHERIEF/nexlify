@@ -11,7 +11,7 @@ export default function Elements() {
       className="builder-elements section panel  scrollSpysection"
     >
       <div className="section-outer panel pb-6 lg:pb-8 xl:pb-10">
-        <div className="container xl:max-w-xl  p-4 md:p-6 lg:p-8  bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3">
+        <div className="container xl:max-w-xl  p-4 md:p-6 lg:p-8  bg-dark  border border-2 border-gray-10 text-white rounded-2 lg:rounded-4">
         <div className="position-cover bg-gradient-to-t from-primary via-transparent to-primary" />
         <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />          <div
             className="section-inner panel vstack items-center gap-3 xl:gap-4 text-center max-w-100"

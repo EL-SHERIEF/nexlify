@@ -1,17 +1,25 @@
 import React from "react";
 import Image from "next/image";
+import bg from "@/public/assets/images/landing/home-4-bg.png";
 
 export default function Cta() {
   return (
-    <div id="cta" className="cta section panel  scrollSpysection">
-      <div className="section-outer panel py-4 sm:py-6 xl:py-8 bg-secondary text-black rounded-2 lg:rounded-3 mx-2 overflow-hidden">
-        <div className="container xl:max-w-xl">
-          <div className="section-inner vstack lg:hstack items-center gap-4 lg:gap-6 text-center ltr:lg:text-start rtl:lg:text-end flex-sm-column home-6-cta">
+    <div className="mx-2 px-2 sm:px-0">
+      <div className="d-flex items-center position-relative  border border-2 border-gray-10 justify-center py-4 sm:py-6 xl:py-8 text-white uc-dark rounded-2 lg:rounded-4 mx-2 "
+         style={{
+              backgroundImage: `url(${bg.src})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center center',
+                backgroundRepeat: 'no-repeat',
+            }}>
+                    <div className="glow-div"/>
             <div
-              className="content panel vstack items-center lg:items-start justify-center gap-2 lg:max-w-3/5 px-4 lg:px-0 "
-              data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-            >
-              <h2 className="h2 xl:display-5 text-black">
+              className="vstack items-center justify-center gap-2 max-w-md px-4 lg:px-0 tex-center"
+              data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+               <div className="grad-tag w-fit">
+               <span>We've Released New Feature</span>
+              </div>
+              <h2 className="h2 xl:display-5 text-center">
                 Unleash your creativity with nexlify.
               </h2>
               <p className="fs-5 my-0">
@@ -25,21 +33,9 @@ export default function Cta() {
                 <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
               </a>
             </div>
-            <div
-              className="image-wrap lg:max-w-1/2 mt-2"
-              data-anime="onview:-100; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 500;"
-            >
-              <Image
-                className="image"
-                alt="builder-tools"
-                src="/assets/images/template/home-06-builder-tools.png"
-                width="1280"
-                height="800"
-              />
-            </div>
-          </div>
-        </div>
+            <div className="shadow-lg-primary-box z-0 bottom-0 opacity-50"/>
       </div>
+      
     </div>
   );
 }

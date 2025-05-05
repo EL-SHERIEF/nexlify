@@ -7,7 +7,7 @@ import { footerLinks4, socialLinks } from "@/data/footer";
 export default function Footer5() {
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
-      <div className="footer-outer pb-4 lg:pb-6 dark:bg-gray-800 dark:text-white m-2 rounded-2 lg:rounded-3">
+      <div className="footer-outer pb-4 lg:pb-6 dark:text-white m-2 rounded-2 lg:rounded-3">
         <div className="uc-footer-content pt-6 lg:pt-8">
           <div className="container xl:max-w-xl">
             <div className="uc-footer-inner vstack gap-4 lg:gap-6 xl:gap-8">

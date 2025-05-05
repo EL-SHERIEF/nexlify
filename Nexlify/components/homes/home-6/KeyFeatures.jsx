@@ -36,7 +36,7 @@ export default function KeyFeatures() {
               >
                 {features5.map((feature, index) => (
                   <div key={index}>
-                    <div className="features-item vstack justify-between gap-4 p-2 md:p-4  custom-element hover:scale-105 transition-all duration-150 rounded-1-5 md:min-h-250px">
+                    <div className="features-item vstack justify-between gap-4 p-2 md:p-4  custom-element hover:scale-105 transition-all duration-150 rounded-2 lg:rounded-3 md:min-h-250px">
                       <div className="icon icon-box w-40px md:w-48px h-40px md:h-48px rounded-circle cstack">
                         <Image
                           className="w-20px xl:w-24px"

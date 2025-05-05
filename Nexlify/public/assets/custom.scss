@@ -475,10 +475,16 @@ html:not(.uc-dark) {
   padding: 7px;
   box-shadow: 0 0 10px 1.5px var(--color-primary);
 }
+.shadow-none{
+  box-shadow: none!important;
+}
 .shadow-lg-primary-box{
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
   z-index: -1;
   margin-top: 10px;
-  transform: translateZ(-100px);
+  transform: translateZ(-100px) translateX( -50%);
   box-shadow: 0 0 120px 10px var(--color-primary);
   height: 1px;
   width: 50%!important;
@@ -498,4 +504,10 @@ html:not(.uc-dark) {
 .grad-box{
    border:solid 1px #202020;
     background: radial-gradient(94.79997781055154% 94.79999776367805% at 6.367042537459778% 5.199996515206351%, rgba(0, 0, 0, 0.151) /* {"name":"Neutral 700"} */ 0%, #ffffff02 /* {"name":"Dark 500"} */ 100%);
+}
+
+.dark-card{
+  border:solid 1px #1a1822;
+  background: radial-gradient(105% 117% at 6.367042537459778% 5.199996515206351%, #80808020  0%, rgba(var(--color-primary-rgb), 0.08) 100%);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 33px 0px;
 }

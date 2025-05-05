@@ -7,7 +7,7 @@ export default function Blogs() {
   return (
     <div
       id="insights"
-      className="insights section panel overflow-hidden  scrollSpysection"
+      className="insights section panel overflow-hidden  scrollSpysection uc-dark"
     >
       <div className="section-outer panel py-6 xl:py-10">
         <div className="container xl:max-w-xl">
@@ -21,23 +21,17 @@ export default function Blogs() {
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
                 <div className="vstack items-center lg:items-start gap-2 text-center lg:text-start ">
-                  <div className="cstack gap-1 py-1 px-3 border rounded-pill">
-                    <span className="d-inline-block w-4px h-4px rounded-circle bg-primary dark:bg-secondary" />
-                    <span className="fs-8 fw-bold text-uppercase">
-                      Insights
-                    </span>
-                  </div>
+                <div className="grad-tag">
+                  <span>Insights</span>
+              </div>
                   <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
-                    Latest posts, tutorials{" "}
-                    <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                      and updates
-                    </span>
+                    Latest AI News & Updates
                   </h2>
                 </div>
                 <div>
                   <Link
                     href={`/blog`}
-                    className="btn btn-sm lg:btn-md btn-primary px-3"
+                    className="btn btn-sm lg:btn-md btn-secondary px-3"
                   >
                     <span>View all posts</span>
                     <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
@@ -48,8 +42,8 @@ export default function Blogs() {
                 <div className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 justify-center g-2">
                   {blogPosts5.map((post) => (
                     <div key={post.id}>
-                      <article className="post type-post panel overflow-hidden vstack gap-2 p-2 border rounded-1-5">
-                        <figure className="featured-image m-0 rounded ratio ratio-16x9 rounded-1 uc-transition-toggle overflow-hidden">
+                      <article className="post type-post panel overflow-hidden vstack gap-2 p-2 border rounded-2 lg:rounded-3 dark-card">
+                        <figure className="featured-image m-0 rounded ratio ratio-16x9 rounded-2 uc-transition-toggle overflow-hidden">
                           <Image
                             className="media-cover image uc-transition-scale-up uc-transition-opaque"
                             alt={post.imageAlt}
@@ -72,7 +66,7 @@ export default function Blogs() {
                               {post.title}
                             </Link>
                           </h3>
-                          <p className="post-excrept fs-6 opacity-70">
+                          <p className="post-excrept text-white fs-6 opacity-70">
                             {post.excerpt}
                           </p>
                           <div className="post-meta hstack gap-1 panel overflow-hidden mt-2">
@@ -92,7 +86,7 @@ export default function Blogs() {
                               >
                                 {post.authorName}
                               </Link>
-                              <div className="post-date hstack gap-narrow fs-7 opacity-70">
+                              <div className="post-date hstack gap-narrow fs-7 opacity-70 text-white">
                                 <span>{post.date}</span>
                               </div>
                             </div>
@@ -105,10 +99,10 @@ export default function Blogs() {
                     <div className="row child-cols-12 g-2">
                       {blogPosts3.slice(0, 3).map((post, index) => (
                         <div key={index}>
-                          <article className="post type-post panel overflow-hidden p-2 border rounded-1-5">
+                          <article className="post type-post panel overflow-hidden p-1 border rounded-2 lg:rounded-3 custom-element">
                             <div className="panel hstack gap-2">
                               <div className="w-80px lg:w-100px">
-                                <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-1 uc-transition-toggle overflow-hidden">
+                                <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 uc-transition-toggle overflow-hidden">
                                   <Image
                                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                     src={post.imgSrc}
@@ -124,9 +118,9 @@ export default function Blogs() {
                                 </figure>
                               </div>
                               <div className="panel vstack gap-narrow">
-                                <div className="post-date hstack gap-narrow fs-7 opacity-70">
-                                  <span>{post.date}</span>
-                                </div>
+                              <div className="grad-tag w-fit px-1 py-narrow mb-narrow fs-7">
+                              <span>{post.date}</span>
+                                 </div>
                                 <h3 className="post-title panel h5 m-0">
                                   <Link
                                     className="text-none"
@@ -146,10 +140,10 @@ export default function Blogs() {
                     <div className="row child-cols-12 g-2">
                       {blogPosts3.slice(3, 6).map((post, index) => (
                         <div key={index}>
-                          <article className="post type-post panel overflow-hidden p-2 border rounded-1-5">
+                          <article className="post type-post panel overflow-hidden p-1 border rounded-2 lg:rounded-3 custom-element">
                             <div className="panel hstack gap-2">
                               <div className="w-80px lg:w-100px">
-                                <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-1 uc-transition-toggle overflow-hidden">
+                                <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 uc-transition-toggle overflow-hidden">
                                   <Image
                                     className="media-cover image uc-transition-scale-up uc-transition-opaque"
                                     src={post.imgSrc}
@@ -165,9 +159,9 @@ export default function Blogs() {
                                 </figure>
                               </div>
                               <div className="panel vstack gap-narrow">
-                                <div className="post-date hstack gap-narrow fs-7 opacity-70">
-                                  <span>{post.date}</span>
-                                </div>
+                              <div className="grad-tag w-fit px-1 py-narrow mb-narrow fs-7">
+                              <span>{post.date}</span>
+                                 </div>
                                 <h3 className="post-title panel h5 m-0">
                                   <Link
                                     className="text-none"

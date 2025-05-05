@@ -12,12 +12,7 @@ export default function Pricing() {
       className="pricing section panel overflow-hidden uc-dark  scrollSpysection mx-2"
     >
       <div className="section-outer panel py-4 overflow-hidden md:py-6 xl:py-10 mx-2 rounded-2 lg:rounded-3 bg-primary text-white bg-opacity-10">
-        <div
-          className="position-cover opacity-70 bg-contain"
-          style={{ backgroundPosition: "50% 85%" }}
-          data-src="/assets/images/template/pricing-06-bg-masked.png"
-          data-uc-img=""
-        />
+        <div className="position-cover opacity-70 bg-contain" style={{ backgroundPosition: "50% 85%" }} data-src="/assets/images/template/pricing-06-bg-masked.png" data-uc-img=""  />
         <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
         <div className="container xl:max-w-xl">
           <div className="section-inner panel">

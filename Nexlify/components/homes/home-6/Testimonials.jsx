@@ -9,41 +9,32 @@ export default function Testimonials() {
       id="clients_feedback"
       className="clients-feedback section panel  scrollSpysection"
     >
-      <div className="section-outer panel py-6 lg:py-8 xl:py-10 bg-secondary text-black rounded-2 lg:rounded-3 m-2">
+      <div className="section-outer panel py-6 lg:py-8 xl:py-10  rounded-2 lg:rounded-3">
         <div className="container xl:max-w-xl">
           <div
             className="section-inner panel vstack items-center gap-4 md:gap-6 lg:gap-8 max-w-100"
             data-anime="onview: -100; targets: >*; translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(200);"
           >
             <div
-              className="panel vstack items-center gap-2 xl:gap-3 text-center"
+              className="panel  hstack items-start justify-content-between w-full gap-2 xl:gap-3 text-start text-white"
               data-anime="onview: -100; targets: >*; translateY: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <div className="cstack gap-1 py-1 px-3 border rounded-pill">
-                <span className="d-inline-block w-4px h-4px rounded-circle bg-primary" />
-                <span className="fs-8 fw-bold text-uppercase">
-                  Clients feedback
-                </span>
-              </div>
-              <p className="h3 lg:h2 xl:h1 m-0 px-2 text-black">
-                Don't{" "}
-                <span className="d-inline-flex px-1 bg-primary text-secondary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                  just take our words
-                </span>{" "}
-                for it!
+              <h5 className="h3 lg:h2 xl:h1 m-0 text-white">What Our Satisfied Customers Say</h5>
+              <p className="h4 lg:h4 xl:h4 fw-medium m-0 text-white text-opacity-70">
+              Hear from satisfied customers who've transformed their businesses. Real experiences, real results – see what's possible with us.
               </p>
             </div>
             <div className="panel w-100 mask-x">
               <Swiper
                 className="swiper"
-                slidesPerView={1}
-                spaceBetween={16}
+                slidesPerView={4}
+                spaceBetween={15}
                 centeredSlides={true}
                 loop={true}
-                speed={10000}
+                speed={5000}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 0, // Negative delay is not valid, setting to 0 for continuous autoplay
+                  delay: 0, 
                   disableOnInteraction: true,
                   pauseOnMouseEnter: true,
                 }}
@@ -58,12 +49,12 @@ export default function Testimonials() {
               >
                 {slidesData.map((slide, index) => (
                   <SwiperSlide className="swiper-slide" key={index}>
-                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 bg-white text-black rounded-1-5 h-100">
+                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 text-white dark-card rounded-2 lg:rounded-4  h-100">
                       <div className="panel vstack items-start gap-2 lg:gap-4">
                         <div className="rating d-flex gap-0">
                           {Array.from({ length: slide.rating }).map((_, i) => (
                             <Image
-                              className="icon icon-1"
+                              className="icon icon-1 p-0 bg-transparent shadow-none"
                               alt="star"
                               data-uc-svg=""
                               key={i}
@@ -77,7 +68,7 @@ export default function Testimonials() {
                       </div>
                       <div className="panel mt-2 lg:mt-4">
                         <div className="panel vstack items-start gap-narrow">
-                          <h6 className="h5 m-0 text-black">{slide.name}</h6>
+                          <h6 className="h5 m-0 text-white">{slide.name}</h6>
                           <span className="fs-7 lg:h6 opacity-70">
                             {slide.title}
                           </span>
@@ -89,11 +80,11 @@ export default function Testimonials() {
               </Swiper>
               <Swiper
                 className="swiper mt-2 lg:mt-3"
-                slidesPerView={1}
-                spaceBetween={16}
+                slidesPerView={2}
+                spaceBetween={15}
                 centeredSlides={true}
                 loop={true}
-                speed={10000}
+                speed={5000}
                 modules={[Autoplay]}
                 autoplay={{
                   delay: 0, // Negative delay is not valid, setting to 0 for continuous autoplay
@@ -118,13 +109,13 @@ export default function Testimonials() {
                     className="swiper-slide"
                     key={index}
                   >
-                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 bg-white text-black rounded-1-5 h-100">
+                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 text-white dark-card rounded-2 lg:rounded-4  h-100">
                       <div className="panel vstack items-start gap-2 lg:gap-4">
                         <div className="rating d-flex gap-0">
                           {[...Array(5)].map((_, starIndex) => (
                             <Image
                               key={starIndex}
-                              className="icon icon-1"
+                              className="icon icon-1  bg-transparent shadow-none p-0"
                               alt="star"
                               data-uc-svg=""
                               src="/assets/images/star.svg"
@@ -137,7 +128,7 @@ export default function Testimonials() {
                       </div>
                       <div className="panel mt-2 lg:mt-4">
                         <div className="panel vstack items-start gap-narrow">
-                          <h6 className="h5 m-0 text-black">{review.name}</h6>
+                          <h6 className="h5 m-0 text-white">{review.name}</h6>
                           <span className="fs-7 lg:h6 opacity-70">
                             {review.position}
                           </span>
