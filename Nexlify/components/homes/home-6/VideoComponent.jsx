@@ -25,11 +25,11 @@ export default function VideoComponent() {
             <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-gray-10 ">
             <div className="glow-div"/>
               <video
-                src="/assets/images/media/vid-02.webp"
+                src="/assets/images/media/vid-09.webp"
                 preload="none"
                 loop
                 autoPlay
-                poster="/assets/images/media/vid-02.webp"
+                poster="/assets/images/media/vid-09.webp"
                 muted
                 playsInline
                 data-uc-cover
@@ -49,7 +49,7 @@ export default function VideoComponent() {
       </div>
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/vid-02.mp4"
+        src="/assets/images/media/vid-09.mp4"
         setIsOpen={() => setOpen(false)}
       />
     </>
