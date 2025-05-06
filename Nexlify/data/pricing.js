@@ -232,7 +232,6 @@ export const pricingPlans3 = [
     price: 49,
     features: [
       "Rapid AI Processing",
-      "Unified AI Data Hub",
       "Context-Aware AI Models",
       "AI Risk Mitigation",
       "AI Compliance Tools",
@@ -240,7 +239,7 @@ export const pricingPlans3 = [
     ],
     included: [true, true, false, false, false, false],
     link: "/sign-up",
-    buttonClass: "btn-ghost-tertiary",
+    buttonClass: "btn-normal",
   },
   {
     title: "Growth",
@@ -272,7 +271,7 @@ export const pricingPlans3 = [
     ],
     included: [true, true, true, true, true, true],
     link: "/page-contact-2",
-    buttonClass: "btn-ghost-tertiary",
+    buttonClass: "btn-normal",
   },
 ];
 

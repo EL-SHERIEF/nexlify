@@ -106,7 +106,7 @@
   --font-code-family: var(--font-family-code);
   --font-code-weight: 400;
   --root-size: 1rem;
-  --radius: 8px;
+  --radius: 15px;
   --border-size: 1px;
   --border-color: rgba(131, 131, 131, 0.25);
   --shadow-color: rgba(0, 0, 0, 0.15);
@@ -144,11 +144,48 @@
   --color-slate-800: #2b2e33;
   --color-slate-900: #15171a;
 
-  // Start home-9 main color plate changes from here (rgb must replace with rgb and hex code must replace with hex code)
-  --color-primary: #c1ffb4;
-  --color-primary-rgb: 193, 255, 180;
-  // End  home-9 main color plate changes from here (rgb must replace with rgb and hex code must replace with hex code)
-
+  // Start home-5 main color plate changes from here (rgb must replace with rgb and hex code must replace with hex code)
+  --color-primary: rgb(138, 55, 255);
+  --color-primary-rgb: 138, 55, 255;
+  // End  home-5 main color plate changes from here (rgb must replace with rgb and hex code must replace with hex code)
+   --website-bg-color: #f7faffe6;
+   .website-bg-color{
+     background-color: var(--website-bg-color);
+   }
+   .bg-box{
+    background-color: #f6fbff!important;
+   }
+   .bg-box-600{
+    background-color: #d8dfe5!important;
+   }
+   .box-style{
+    box-shadow: rgba(16, 49, 77, 0.055) 0px 0.706592px 0.706592px -0.291667px, rgba(16, 49, 77, 0.055) 0px 1.80656px 1.80656px -0.583333px, rgba(16, 49, 77, 0.06) 0px 3.62176px 3.62176px -0.875px, rgba(16, 49, 77, 0.063) 0px 6.8656px 6.8656px -1.16667px, rgba(16, 49, 77, 0.075) 0px 13.6468px 13.6468px -1.45833px, rgba(16, 49, 77, 0.098) 0px 30px 30px -1.75px!important;
+  }
+  .box-style-sm{
+    box-shadow: rgba(16, 49, 77, 0.055) 0px 0.597144px 0.597144px -0.4375px, rgba(16, 49, 77, 0.06) 0px 1.81088px 1.81088px -0.875px, rgba(16, 49, 77, 0.067) 0px 4.78699px 4.78699px -1.3125px, rgba(16, 49, 77, 0.098) 0px 15px 15px -1.75px;;
+  }
+  .btn-normal{
+    background: linear-gradient(125deg, #5e788f80 -44%, #f0f8ffe6 100%)!important;
+    box-shadow: inset 0px 1px 2px 0px var(--token-781d11f5-bf5d-4746-9aec-b794f5ae2c6e, rgb(216, 223, 229)), 0px 0.7961918735236395px 0.7961918735236395px -0.875px rgba(121, 152, 189, 0.34204), 0px 2.414506143104518px 2.414506143104518px -1.75px rgba(121, 152, 189, 0.32585), 0px 6.382653521484461px 6.382653521484461px -2.625px rgba(121, 152, 189, 0.28617), 0px 20px 20px -3.5px rgba(121, 152, 189, 0.15)!important;
+  }
+  .custom-tag{
+    padding: 9px 20px;
+    border-radius: 40px;
+    box-shadow: inset 0 -3px 0 2px #b6b6b640, 0 .7065919983928324px .7065919983928324px -.5833333333333333px #44444436, 0 1.8065619053231785px 1.8065619053231785px -1.1666666666666665px #2f2f2f33, 0 3.6217592146567767px 3.6217592146567767px -1.75px #3b3b3b33, 0 6.8655999097303715px 6.8655999097303715px -2.333333333333333px #42424225, 0 13.646761411524492px 13.646761411524492px -2.916666666666667px #48484829, 0 30px 30px -3.5px #51515117;
+    background-color: #f6fbff;
+  }
+  .custom-tag-sm{
+    font-size: 15px;
+    position: relative;
+    padding: 3px 20px;
+    background: #ffffffe6;
+    outline: solid 3px #ffffffe6;
+    box-shadow: 0 0 30px 1px #00000011;
+    outline-offset: 2px;
+    border-radius: 40px;
+    transform: none;
+    transform-origin: 50% 50% 0px;
+  }
   --color-primary-10: #fdfffd;
   --color-primary-25: #fcfffb;
   --color-primary-50: #f9fff8;
@@ -1366,7 +1403,7 @@
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: rgba(131, 131, 131, 0.25);
+  --bs-border-color: rgba(131, 131, 131, 0.140);
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -2946,15 +2983,10 @@
     transform: translateY(0);
   }
   .uc-navbar-container.uc-navbar-sticky {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(18px);
   }
-  .uc-navbar-container.uc-navbar-sticky {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  .uc-navbar-container.uc-navbar-sticky:where(.uc-dark),
-  :where(.uc-dark) .uc-navbar-container.uc-navbar-sticky {
-    background-color: rgba(31, 31, 31, 0.75);
-  }
+
+
   .uc-navbar-sticky .hide-on-sticky {
     display: none;
   }
@@ -2992,12 +3024,19 @@
     left: -70vw;
   }
   header.uc-header.header-six > :not(.uc-navbar-sticky) .uc-navbar-main a {
-    color: #fff;
-    transition: opacity 250ms ease;
+    color: black;
+    transition: opacity 100ms ease;
   }
   header.uc-header.header-six > :not(.uc-navbar-sticky) .uc-navbar-main a:hover {
-    color: #fff !important;
-    opacity: 0.7;
+    color: black !important;
+    opacity: 0.4;
+  }
+  header.uc-header.header-six > :not(.uc-navbar-sticky) .uc-navbar-main .btn{
+    color: white !important;
+  }
+  header.uc-header.header-six > :not(.uc-navbar-sticky) .uc-navbar-main .btn:hover{
+    color: white !important;
+    opacity: 1;
   }
   header.uc-header.header-six .uc-navbar-nav > li.uc-active > a {
     color: var(--color-primary);
@@ -3009,8 +3048,6 @@
   header.uc-header.header-six > .uc-navbar-sticky {
     max-width: 1140px;
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.15);
   }
   header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main {
     --uc-nav-height: 64px !important;
@@ -4363,7 +4400,7 @@
     --bs-btn-padding-y: 0px;
     --bs-btn-font-family: var(--font-family-tertiary);
     --bs-btn-font-size: 1rem;
-    --bs-btn-font-weight: 700;
+    --bs-btn-font-weight: 500;
     --bs-btn-line-height: 48px;
     --bs-btn-color: #212529;
     --bs-btn-bg: transparent;
@@ -4436,16 +4473,18 @@
     opacity: var(--bs-btn-disabled-opacity);
   }
   .btn-primary {
-    --bs-btn-color: #000;
+    --bs-btn-color: white;
+      background: linear-gradient(125deg, #774be5 /* {"name":"ascent"} */ -4%, #774be5 /* {"name":"ascent"} */ 100%);
+      box-shadow: rgb(192, 176, 232) 0px 1px 2px 0px inset, rgba(99, 69, 173, 0.345) 0px 0.706592px 0.706592px -0.583333px, rgba(99, 69, 173, 0.337) 0px 1.80656px 1.80656px -1.16667px, rgba(99, 69, 173, 0.325) 0px 3.62176px 3.62176px -1.75px, rgba(99, 69, 173, 0.306) 0px 6.8656px 6.8656px -2.33333px, rgba(99, 69, 173, 0.26) 0px 13.6468px 13.6468px -2.91667px, rgba(99, 69, 173, 0.15) 0px 30px 30px -3.5px !important;
     --bs-btn-bg: var(--color-primary);
-    --bs-btn-border-color: var(--color-primary);
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #caffbf;
-    --bs-btn-hover-border-color: #c7ffbc;
-    --bs-btn-focus-shadow-rgb: 164, 217, 153;
-    --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #cdffc3;
-    --bs-btn-active-border-color: #c7ffbc;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: #ffffff!important;
+    --bs-btn-hover-bg: var(--color-primary);
+    --bs-btn-hover-border-color: var(--color-primary);
+    --bs-btn-focus-shadow-rgb: 100,100,100;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: var(--color-primary);
+    --bs-btn-active-border-color: var(--color-primary);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #000;
     --bs-btn-disabled-bg: var(--color-primary);
@@ -4699,13 +4738,13 @@
   .btn-lg {
     --bs-btn-padding-y: 0.5rem;
     --bs-btn-padding-x: 1rem;
-    --bs-btn-font-size: 1.25rem;
+    --bs-btn-font-size: 1.15rem;
     --bs-btn-border-radius: 0.5rem;
   }
   .btn-sm {
     --bs-btn-padding-y: 0.25rem;
     --bs-btn-padding-x: 0.5rem;
-    --bs-btn-font-size: 0.875rem;
+    --bs-btn-font-size: 0.85rem;
     --bs-btn-border-radius: var(--radius);
   }
   .accordion {
@@ -5479,6 +5518,8 @@
   .shadow-sm {
     box-shadow: 0 0.25rem 0.5rem -0.1rem var(--shadow-color) !important;
   }
+ 
+
   .hover\:shadow-md:hover,
   .shadow-md {
     box-shadow: 0 0.5rem 1rem -0.1rem var(--shadow-color) !important;
@@ -5971,6 +6012,12 @@
   }
   .max-h-400px {
     max-height: 400px !important;
+  }
+  .max-h-450px {
+    max-height: 450px !important;
+  }
+  .max-h-500px {
+    max-height: 500px !important;
   }
   .max-h-xs {
     max-height: 320px !important;
@@ -6762,6 +6809,12 @@
   .text-opacity-20 {
     --bs-text-opacity: 0.2;
   }
+  .text-opacity-40 {
+    --bs-text-opacity: 0.4;
+  }
+  .text-opacity-50 {
+    --bs-text-opacity: 0.5;
+  }
   .text-opacity-60 {
     --bs-text-opacity: 0.6;
   }
@@ -7219,6 +7272,9 @@
   }
   .contrast-shadow-lg {
     box-shadow: 8px 8px 0 0 var(--shadowColor, #000) !important;
+  }
+  .ls-1 {
+    letter-spacing: .1px !important;
   }
   .ls-0 {
     letter-spacing: 0 !important;
@@ -7743,6 +7799,7 @@
     .md\:pb-0 {
       padding-bottom: 0 !important;
     }
+
     .md\:pb-6 {
       padding-bottom: 3rem !important;
     }

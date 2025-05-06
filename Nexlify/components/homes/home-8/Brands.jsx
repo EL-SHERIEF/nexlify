@@ -1,4 +1,4 @@
-import { brands5 } from "@/data/brands";
+import { brands } from "@/data/brands";
 import Image from "next/image";
 import React from "react";
 
@@ -15,20 +15,26 @@ export default function Brands() {
               className="brands panel vstack gap-3 sm:gap-4 xl:gap-5 text-center"
               data-anime="onview: -200; translateY: [-16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 350;"
             >
-              <h5 className="h5 lg:h4 m-0">
-                Trusted by over most popular companies worldwide
+              <div className="panel hstack gap-3 text-center items-center justify-center">
+                <div className="custom-v-skyline"></div>
+                <h5 className="h6 fw-medium m-0">
+              Adopted by renowned, trusted, and leading enterprises
               </h5>
+              <div className="custom-v-skyline"></div>
+
+              </div>
               <div className="panel">
-                <div className="row child-cols items-center text-center">
-                  {brands5.map((brand, index) => (
+                <div className="row child-cols items-center text-center g-6">
+                {brands.slice(0, 5).map((brand, index) => (
                     <div key={index}>
                       <div className="panel">
                         <Image
-                          className="max-w-40px lg:max-w-56px"
+                          className="object-contain opacity-60"
+                          style={{filter: "brightness(0)"}}
                           alt="brand"
                           src={brand.src}
-                          width={brand.width}
-                          height={brand.height}
+                          width={130}
+                          height={100}
                         />
                       </div>
                     </div>
