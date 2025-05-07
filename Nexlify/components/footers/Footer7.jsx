@@ -8,9 +8,9 @@ export default function Footer7() {
   return (
     <footer
       id="uc-footer"
-      className="uc-footer panel overflow-hidden uc-dark uc-dark"
+      className="uc-footer panel overflow-hidden"
     >
-      <div className="footer-outer py-6 lg:py-8 xl:py-9 bg-tertiary-700 text-white text-opacity-70 m-2 mt-0 rounded-2">
+      <div className="footer-outer py-6 lg:py-8 xl:py-9 bg-box box-style text-dark text-opacity-70 m-2 mt-0 rounded-2">
         <div className="uc-footer-content">
           <div className="container xl:max-w-xl">
             <div className="uc-footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
@@ -49,7 +49,7 @@ export default function Footer7() {
                   </div>
                   {footerLinks6.map((section, index) => (
                     <div key={index} className={section.className || ""}>
-                      <ul className="nav-y gap-2 fw-medium dark:text-white">
+                      <ul className="nav-y gap-2 fw-medium">
                         {section.links.map((link, linkIndex) => (
                           <li key={linkIndex}>
                             {link.isLink ? (
