@@ -106,7 +106,7 @@
   --font-code-family: var(--font-family-code);
   --font-code-weight: 400;
   --root-size: 1rem;
-  --radius: 15px;
+  --radius: 10px;
   --border-size: 1px;
   --border-color: rgba(131, 131, 131, 0.25);
   --shadow-color: rgba(0, 0, 0, 0.15);
@@ -148,7 +148,7 @@
   --color-primary: rgb(138, 55, 255);
   --color-primary-rgb: 138, 55, 255;
   // End  home-5 main color plate changes from here (rgb must replace with rgb and hex code must replace with hex code)
-   --website-bg-color: #f7faffe6;
+   --website-bg-color: #dce1e65f;
    .website-bg-color{
      background-color: var(--website-bg-color);
    }
@@ -171,21 +171,55 @@
   .custom-tag{
     padding: 9px 20px;
     border-radius: 40px;
-    box-shadow: inset 0 -3px 0 2px #b6b6b640, 0 .7065919983928324px .7065919983928324px -.5833333333333333px #44444436, 0 1.8065619053231785px 1.8065619053231785px -1.1666666666666665px #2f2f2f33, 0 3.6217592146567767px 3.6217592146567767px -1.75px #3b3b3b33, 0 6.8655999097303715px 6.8655999097303715px -2.333333333333333px #42424225, 0 13.646761411524492px 13.646761411524492px -2.916666666666667px #48484829, 0 30px 30px -3.5px #51515117;
-    background-color: #f6fbff;
+    box-shadow: inset 0 -3px 0 2px #8dc2eb40, 0 .7065919983928324px .7065919983928324px -.5833333333333333px #10314d36, 0 1.8065619053231785px 1.8065619053231785px -1.1666666666666665px #10314d33, 0 3.6217592146567767px 3.6217592146567767px -1.75px #10314d33, 0 6.8655999097303715px 6.8655999097303715px -2.333333333333333px #10314d2e, 0 13.646761411524492px 13.646761411524492px -2.916666666666667px #10314d29, 0 30px 30px -3.5px #10314d17;    background-color: #f6fbff;
   }
   .custom-tag-sm{
     font-size: 15px;
     position: relative;
     padding: 3px 20px;
-    background: #ffffffe6;
-    outline: solid 3px #ffffffe6;
+    background: #f4f9ff;
+    outline: solid 3px #f4f9ff;
     box-shadow: 0 0 30px 1px #00000011;
     outline-offset: 2px;
     border-radius: 40px;
     transform: none;
     transform-origin: 50% 50% 0px;
   }
+
+  .custom-noise-bg{
+    background-image: url(/assets/images/template/noise.webp);
+    background-repeat: repeat;
+    background-size: 120px;
+    background-position: center center;
+   width: 100vw;
+   height: 100vh;
+   opacity: .2;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   pointer-events: none;
+   mix-blend-mode: overlay;
+   }
+   
+   .custom-v-skyline{
+       border-bottom:2px solid #5e788f80;
+       border-radius: 8px;
+       flex: 1 0 0px;
+       height: 2px;
+       opacity: .1;
+       overflow: hidden;
+       position: relative;
+   }
+   .little-elements{
+     color: #1a1822a8;
+     background-color: #d7d7d72f;
+     border-radius: 100px;
+     padding: 15px 0;
+   }
+   .bg-little-elements{
+       background-color: #e8ecf0d1
+   }
   --color-primary-10: #fdfffd;
   --color-primary-25: #fcfffb;
   --color-primary-50: #f9fff8;
@@ -532,7 +566,7 @@
   --sizes-heading-display-3-size: 5rem;
   --sizes-heading-display-3-lh: 1;
   --sizes-heading-display-3-lp: -0.1rem;
-  --sizes-heading-display-4-size: 4.5rem;
+  --sizes-heading-display-4-size: 5rem;
   --sizes-heading-display-4-lh: 1;
   --sizes-heading-display-4-lp: -0.09rem;
   --sizes-heading-display-5-size: 4rem;

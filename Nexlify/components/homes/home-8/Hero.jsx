@@ -8,7 +8,7 @@ export default function Hero() {
       id="hero_header"
       className="hero-header section panel overflow-hidden"
     >
-       <SunRaysBackground opacity={.7} />
+       <SunRaysBackground opacity={.5} />
       <div className="section-outer panel py-8 lg:py-9 xl:py-10">
         <div className="container">
           <div className="section-inner panel">
@@ -44,21 +44,21 @@ export default function Hero() {
                       <div className="hstack justify-center gap-1">
                       <div className="hstack justify-center gap-0">
                         <Image
-                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white"
+                          className="w-40px box-style rounded-1-5 ltr:ms-n2 rtl:me-n2 border border-2 border-white"
                           alt="Avatar image"
                           src="/assets/images/avatars/01.jpg"
                           width="150"
                           height="150"
                         />
                         <Image
-                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white"
+                          className="w-40px box-style rounded-1-5 ltr:ms-n2 rtl:me-n2 border border-2 border-white"
                           alt="Avatar image"
                           src="/assets/images/avatars/02.jpg"
                           width="150"
                           height="150"
                         />
                         <Image
-                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-white"
+                          className="w-40px box-style rounded-1-5 ltr:ms-n2 rtl:me-n2 border border-2 border-white"
                           alt="Avatar image"
                           src="/assets/images/avatars/03.jpg"
                           width="150"

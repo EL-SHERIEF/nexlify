@@ -33,7 +33,6 @@ export default function page() {
               <Elements />
               <Features2 />
               <Tools />
-             
               <Pricing />
               <Testimonials />
               <Faqs />

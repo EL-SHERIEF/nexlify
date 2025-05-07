@@ -9,7 +9,7 @@ export default function Features2() {
       id="key_features"
       className="key-features section panel mt-6"
     >
-      <div className="panel lg:rounded-3 rounded-2 bg-box text-gray-500 text-opacity-70 box-style-sm max-w-xl px-3 mx-auto py-6 sm:py-8 xl:py-9">
+      <div className="panel rounded-2 bg-box text-gray-500 text-opacity-70 box-style-sm max-w-xl px-3 mx-auto py-6 sm:py-8 xl:py-9">
         <div className="container">
           <div className="section-inner panel">
             <div

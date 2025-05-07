@@ -512,37 +512,3 @@ html:not(.uc-dark) {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 33px 0px;
 }
 
-.custom-noise-bg{
- background-image: url(/assets/images/template/noise.webp);
- background-repeat: repeat;
- background-size: auto;
- background-position: center center;
-width: 100vw;
-height: 100vh;
-opacity: .1;
-position: fixed;
-top: 0;
-left: 0;
-z-index: 1;
-pointer-events: none;
-mix-blend-mode: overlay;
-}
-
-.custom-v-skyline{
-    border-bottom:2px solid #5e788f80;
-    border-radius: 8px;
-    flex: 1 0 0px;
-    height: 2px;
-    opacity: .1;
-    overflow: hidden;
-    position: relative;
-}
-.little-elements{
-  color: #1a1822a8;
-  background-color: #d7d7d72f;
-  border-radius: 100px;
-  padding: 15px 0;
-}
-.bg-little-elements{
-    background-color: #d9d9d919
-}

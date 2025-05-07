@@ -18,7 +18,7 @@ export default function Elements() {
           >
             <div className="panel w-100">
             <Swiper
-                className="swiper mask-x py-1"
+                className="swiper mask-x pb-2"
                 slidesPerView={4}
                 slidesPerGroup={3}
                 spaceBetween={16}
@@ -32,22 +32,22 @@ export default function Elements() {
                 }}
                 delay={0}
                 transition={'linear'}
-                speed={3000}
+                speed={2000}
                 allowTouchMove={true}
                 breakpoints={{
                   768: {
-                    slidesPerView: 5,
+                    slidesPerView: 3,
                     spaceBetween: 10,
                   },
                   1024: {
-                    slidesPerView: 4,
+                    slidesPerView: 5,
                     spaceBetween: 10,
                   },
                 }}
                        >
                 {slideData.map((slide, index) => (
                   <SwiperSlide key={index}>
-                  <div className="cstack little-elements">
+                  <div className="cstack box-style-sm py-1 rounded-1-5 bg-box">
                     <span className="fs-7 md:fs-6 lg:fs-5 fw-medium">
                       {slide.label}
                     </span>
@@ -56,7 +56,7 @@ export default function Elements() {
                 ))}
               </Swiper>
               <Swiper
-                className="swiper mask-x py-1"
+                className="swiper mask-x pb-4"
                 slidesPerView={4}
                 slidesPerGroup={3}
                 spaceBetween={16}
@@ -85,7 +85,7 @@ export default function Elements() {
                        >
                 {slideData.map((slide, index) => (
                   <SwiperSlide key={index}>
-                  <div className="cstack little-elements">
+                  <div className="cstack box-style-sm py-1 rounded-1-5 bg-box">
                     <span className="fs-7 md:fs-6 lg:fs-5 fw-medium">
                       {slide.label}
                     </span>

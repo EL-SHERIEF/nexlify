@@ -460,32 +460,32 @@ export const features8 = [
 export const features9 = [
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-01.svg",
+    icon: "/assets/images/custom-icons/home-5/icon-1.svg",
     title: "Rapid AI Execution",
   },
   {
     order: "order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-02.svg",
+    icon: "/assets/images/custom-icons/home-5/icon-2.svg",
     title: "AI Data Centralization",
   },
   {
     order: "order-2 sm:order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-03.svg",
+    icon: "/assets/images/custom-icons/home-5/icon-3.svg",
     title: "Context-Enhanced AI",
   },
   {
     order: "order-1 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-07.svg",
+    icon: "/assets/images/custom-icons/home-5/icon-4.svg",
     title: "AI Risk Monitoring",
   },
   {
     order: "order-3 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-05.svg",
+    icon: "/assets/images/custom-icons/home-5/icon-5.svg",
     title: "AI Compliance",
   },
   {
     order: "order-2 lg:order-0",
-    icon: "/assets/images/custom-icons/home-8-icon-06.svg",
+    icon: "/assets/images/custom-icons/home-5/icon-6.svg",
     title: "Third-Party AI Sync",
   },
 ];
