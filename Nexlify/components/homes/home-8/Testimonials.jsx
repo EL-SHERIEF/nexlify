@@ -22,7 +22,7 @@ export default function Testimonials() {
                 <span className="custom-tag-sm mb-2">Trusted by Innovators Worldwide</span>
                 <h2 className="h1 fw-light m-0 text-inherit ls-1 text-dark text-center">
                 What Our Users Say</h2>
-                <p className="fs-6 fw-light text-center">Hear from businesses who’ve transformed their workflows with our solutions</p>
+                <p className="fs-6 fw-light text-center">Hear from businesses who’ve transformed their workflows with our AI solutions</p>
               </div>
               <div className="panel w-100">
                 <Swiper
