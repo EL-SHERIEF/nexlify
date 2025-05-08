@@ -8,7 +8,7 @@ import Brands from "@/components/innerpages/Brands";
 import { jobListings } from "@/data/career";
 export const metadata = {
   title:
-    "Career Details || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career Details 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

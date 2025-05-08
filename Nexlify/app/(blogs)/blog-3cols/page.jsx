@@ -6,7 +6,7 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs6 from "@/components/blog/Blogs6";
 export const metadata = {
   title:
-    "Blog 3 Cols || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog 3 Cols 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

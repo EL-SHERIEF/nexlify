@@ -1,115 +1,147 @@
 "use client";
+import { reviews, slidesData } from "@/data/testimonials";
+import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { useState } from "react";
-import ModalVideo from "@/components/common/ModalVideo";
 export default function Testimonials() {
-  const [isOpen, setOpen] = useState(false);
   return (
-    <>
-      <div
-        id="clients_feedbacks"
-        className="clients-feedbacks section panel overflow-hidden"
-      >
-        <div className="section-outer panel pt-4 md:pt-6 xl:pt-9">
-          <div className="container max-w-xl">
-            <div className="section-inner panel">
-              <div
-                className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"
-                data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+    <div
+      id="clients_feedback"
+      className="clients-feedback section panel  scrollSpysection"
+    >
+      <div className="section-outer panel py-6 lg:py-8 xl:py-10  rounded-2 lg:rounded-3">
+        <div className="container xl:max-w-xl">
+          <div
+            className="section-inner panel vstack items-center gap-4 md:gap-6 lg:gap-8 max-w-100"
+            data-anime="onview: -100; targets: >*; translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(200);"
+          >
+            <div
+              className="panel  hstack items-start justify-content-between w-full gap-2 xl:gap-3 text-start text-white"
+              data-anime="onview: -100; targets: >*; translateY: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+            >
+              <h5 className="h3 lg:h2 xl:h1 m-0 text-white">What Our Satisfied Customers Say</h5>
+              <p className="h4 lg:h4 xl:h4 fw-medium m-0 text-white text-opacity-70">
+              Hear from satisfied customers who've transformed their businesses. Real experiences, real results – see what's possible with us.
+              </p>
+            </div>
+            <div className="panel w-100 mask-x">
+              <Swiper
+                className="swiper"
+                slidesPerView={4}
+                spaceBetween={15}
+                centeredSlides={true}
+                loop={true}
+                speed={5000}
+                modules={[Autoplay]}
+                autoplay={{
+                  delay: 0, 
+                  disableOnInteraction: true,
+                  pauseOnMouseEnter: true,
+                }}
+                allowTouchMove={false}
+                breakpoints={{
+                  1024: {
+                    // Adjust according to your responsive design
+                    slidesPerView: 2,
+                    spaceBetween: 24,
+                  },
+                }}
               >
-                <div
-                  className="row child-cols-12 justify-center col-match g-2 lg:g-3"
-                  data-uc-grid=""
-                >
-                  <div>
-                    <div className="panel vstack justify-between gap-3 rounded-2 bg-secondary dark:bg-gray-800 overflow-hidden">
-                      <div
-                        className="row child-cols-12 col-match g-0"
-                        data-uc-grid=""
-                      >
-                        <div className="sm:col-6 lg:col-8">
-                          <div className="panel vstack justify-between gap-3 px-3 py-4 lg:px-5 lg:py-6">
-                            <div className="panel vstack items-start gap-2">
-                              <div className="panel">
-                                <div className="hstack h-48px">
-                                  <Image
-                                    className="w-128px dark:d-none"
-                                    alt="Brand"
-                                    src="/assets/images/brands/brand-08.png"
-                                    width="500"
-                                    height="500"
-                                  />
-                                  <Image
-                                    className="w-128px d-none dark:d-inline-flex"
-                                    alt="Brand"
-                                    src="/assets/images/brands/brand-08-dark.svg"
-                                    width="500"
-                                    height="500"
-                                  />
-                                </div>
-                              </div>
-                              <p className="fs-5 lg:fs-4 xl:fs-3 fw-medium text-dark dark:text-white">
-                                “We are based in Europe and the latest Data
-                                Protection Regulation forces us to look for
-                                service suppliers than comply with this
-                                regulation and as we look to create our website
-                                and this builder just outstanding!”
-                              </p>
-                            </div>
-                            <div className="panel mt-2 lg:mt-4">
-                              <div className="panel vstack items-start gap-0 lg:gap-1">
-                                <h6 className="h6 lg:h5 m-0">Elloni Emad</h6>
-                                <span className="fs-7 lg:h6 opacity-70">
-                                  Lead Marketing
-                                </span>
-                              </div>
-                            </div>
-                          </div>
+                {slidesData.map((slide, index) => (
+                  <SwiperSlide className="swiper-slide" key={index}>
+                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 text-white dark-card rounded-2 lg:rounded-4  h-100">
+                      <div className="panel vstack items-start gap-2 lg:gap-4">
+                        <div className="rating d-flex gap-0">
+                          {Array.from({ length: slide.rating }).map((_, i) => (
+                            <Image
+                              className="icon icon-1 p-0 bg-transparent shadow-lg"
+                              alt="star"
+                              data-uc-svg=""
+                              key={i}
+                              src="/assets/images/star.svg"
+                              width="24"
+                              height="25"
+                            />
+                          ))}
                         </div>
-                        <div className="sm:col-6 lg:col-4">
-                          <div
-                            className="panel overflow-hidden h-100"
-                            data-uc-lightbox="video-autoplay: true;"
-                          >
-                            <figure className="featured-image m-0 rounded ratio ratio-1x1 h-100 uc-transition-toggle overflow-hidden">
-                              <Image
-                                className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                                alt="image"
-                                src="/assets/images/common/login.jpg"
-                                width="1500"
-                                height="1000"
-                              />
-                            </figure>
-                            <a
-                              onClick={() => setOpen(true)}
-                              className="position-absolute top-50 start-50 translate-middle cstack w-500px lg:w-64px h-500px lg:h-64px rounded-circle shadow-xs text-none bg-white bg-opacity-80 text-primary"
-                              style={{ backdropFilter: "blur(2px)" }}
-                            >
-                              <i className="icon-1 unicon-play fw-bold" />
-                            </a>
-                          </div>
+                        <p className="fs-5 lg:fs-4">“{slide.quote}”</p>
+                      </div>
+                      <div className="panel mt-2 lg:mt-4">
+                        <div className="panel vstack items-start gap-narrow">
+                          <h6 className="h5 m-0 text-white">{slide.name}</h6>
+                          <span className="fs-7 lg:h6 opacity-70">
+                            {slide.title}
+                          </span>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <a
-                  href="#"
-                  className="uc-link dark:text-secondary fw-bold d-inline-flex items-center gap-narrow"
-                >
-                  <span>See more feedbacks</span>
-                  <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-                </a>
-              </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+              <Swiper
+                className="swiper mt-2 lg:mt-3"
+                slidesPerView={2}
+                spaceBetween={15}
+                centeredSlides={true}
+                loop={true}
+                speed={5000}
+                modules={[Autoplay]}
+                autoplay={{
+                  delay: 0, // Negative delay is not valid, setting to 0 for continuous autoplay
+                  disableOnInteraction: true,
+                  pauseOnMouseEnter: true,
+                }}
+                allowTouchMove={false}
+                breakpoints={{
+                  1024: {
+                    // Adjust according to your responsive design
+                    slidesPerView: 2,
+                    spaceBetween: 24,
+                  },
+                }}
+                style={{
+                  transform: "rotate(180deg)",
+                }}
+              >
+                {reviews.map((review, index) => (
+                  <SwiperSlide
+                    style={{ transform: "rotate(180deg)" }}
+                    className="swiper-slide"
+                    key={index}
+                  >
+                    <div className="panel vstack justify-between gap-3 p-3 lg:p-4 xl:p-6 text-white dark-card rounded-2 lg:rounded-4  h-100">
+                      <div className="panel vstack items-start gap-2 lg:gap-4">
+                        <div className="rating d-flex gap-0">
+                          {[...Array(5)].map((_, starIndex) => (
+                            <Image
+                              key={starIndex}
+                              className="icon icon-1  bg-transparent shadow-none p-0"
+                              alt="star"
+                              data-uc-svg=""
+                              src="/assets/images/star.svg"
+                              width="24"
+                              height="25"
+                            />
+                          ))}
+                        </div>
+                        <p className="fs-5 lg:fs-4">{review.feedback}</p>
+                      </div>
+                      <div className="panel mt-2 lg:mt-4">
+                        <div className="panel vstack items-start gap-narrow">
+                          <h6 className="h5 m-0 text-white">{review.name}</h6>
+                          <span className="fs-7 lg:h6 opacity-70">
+                            {review.position}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
           </div>
         </div>
       </div>
-      <ModalVideo
-        isOpen={isOpen}
-        src="/assets/images/media/nexlify_vid.webm"
-        setIsOpen={() => setOpen(false)}
-      />
-    </>
+    </div>
   );
 }

@@ -9,7 +9,7 @@ import Cta from "@/components/innerpages/features/Cta";
 import Integrations from "@/components/innerpages/Integrations";
 export const metadata = {
   title:
-    "Integrations || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Integrations 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

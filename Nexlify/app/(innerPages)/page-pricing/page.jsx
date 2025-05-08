@@ -9,7 +9,7 @@ import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
   title:
-    "Pricing || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Pricing 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

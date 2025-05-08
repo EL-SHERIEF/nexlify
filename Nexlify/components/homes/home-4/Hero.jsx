@@ -1,97 +1,90 @@
 "use client";
+
+import Brands from "./Brands";
 import Link from "next/link";
 import Image from "next/image";
+import bg from "@/public/assets/images/landing/home-4-bg.png";
+import { useParallax } from "react-scroll-parallax";
 export default function Hero() {
+  const parallax = useParallax({
+    translateY: [-5, 20],
+    scale: [.8,1],
+    rotateX: [20, -10],
+  });
   return (
-    <div id="hero_header" className="hero-header section panel overflow-hidden">
-      <div className="position-cover bg-secondary dark:bg-gray-800" />
-      <div className="section-outer panel pt-8">
-        <div className="container max-w-xl">
-          <div className="section-inner panel">
-            <div className="row child-cols justify-center lg:justify-between items-center g-0">
-              <div className="col-12 sm:col-10 md:col-8 lg:col-5">
+    <>
+    <div
+      id="overview"
+      className="overview section panel overflow-hidden scrollSpysection"
+      style={{
+        backgroundImage: `url(${bg.src})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          backgroundRepeat: 'no-repeat',
+      }}
+    >
+      <div className="section-outer panel pt-9  xl:pt-10">
+        <div className="container xl:max-w-xl pt-4">
+          <div className="section-inner panel pt-0 lg:pt-4 xl:pt-0 ">
+            <div className="row child-cols-12 justify-center items-center g-6 xl:g-8">
+              <div>
                 <div
-                  className="panel vstack gap-2 sm:text-center lg:text-start rtl:lg:text-end py-4"
+                  className="panel vstack justify-center items-center gap-3 max-w-600px lg:max-w-750px mx-auto px-2 lg:px-0 text-center"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
-                  <h1 className="h2 xl:display-5 mb-1 xl:mb-2">
-                    Tools that cover <br />
-                    <span className="text-primary dark:text-secondary">
-                      all aspects{" "}
+                  <div className="cstack gap-2 py-1 px-1 pe-3 bg-white bg-opacity-10 rounded-pill fs-7 text-white">
+                    <span className="rounded-pill bg-primary px-2 lh-0 py-narrow ">NEW</span>
+                    <span className="">
+                      Theme 4 Now Available!
                     </span>
-                    of your growing business.
+                  </div>
+                  <h1 className="h1 sm:display-6 md:display-5 lg:display-4 xl:display-3 m-0 text-white">
+                    Build Your
+                    <br />
+                   AI Employees
                   </h1>
-                  <p className="fs-6 lg:fs-5 text-dark dark:text-white text-opacity-70">
-                    Say goodbye to the hassle of managing multiple software and
-                    tools for different tasks. nexlify offers a comprehensive
-                    suite of tools that cover all aspects of your business.
+                  <p className="fs-5 xl:fs-4 text-white opacity-50 lh-sm">
+                  Boost your efficiency and streamline tasks effortlessly
                   </p>
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    className="row child-cols g-1 mt-1 sm:mt-2"
+                  <Link
+                    href={`/page-pricing`}
+                    className="btn btn-md lg:btn-lg btn-secondary text-black min-w-150px mt-2"
                   >
-                    <div>
-                      <div className="form-icon-group inline-block">
-                        <input
-                          type="email"
-                          className="form-control rounded-default h-48px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                          placeholder="Your email.."
-                          required
-                        />
-                        <span className="form-icon text-gray dark:text-gray-300">
-                          <i className="unicon-email icon-1" />
-                        </span>
-                      </div>
-                    </div>
-                    <div className="col-12 sm:col-auto">
-                      <Link
-                        href={`/page-pricing`}
-                        className="btn btn-md btn-primary rounded-default h-48px w-100 lg:min-w-150px text-white"
-                      >
-                        <span className="d-none md:d-block">
-                          Try it out for free
-                        </span>
-                        <span className="d-block md:d-none">Sign up</span>
-                      </Link>
-                    </div>
-                  </form>
-                  <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                    We care about your data in our
-                    <Link
-                      href={`/page-privacy`}
-                      className="uc-link text-underline dark:text-secondary"
-                    >
-                      privacy policy
-                    </Link>
-                    .
-                  </p>
-                </div>
-              </div>
-              <div className="col-12 lg:col-6">
-                <div
-                  className="expand-container mt-0 lg:mt-4 ltr:ms-n2 rtl:me-n2"
-                  data-anime="translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-                >
-                  <Image
-                    className="ltr:d-block rtl:d-none"
-                    alt="hero-mockup"
-                    src="/assets/images/template/hero-mockup.png"
-                    width="1492"
-                    height="1250"
-                  />
-                  <Image
-                    className="ltr:d-none rtl:d-block"
-                    alt="hero-mockup-rtl"
-                    src="/assets/images/template/hero-mockup-rtl.png"
-                    width="1492"
-                    height="1250"
-                  />
+                    <span>Book A Free Demo</span>
+                    <i className="icon icon-narrow unicon-arrow-right fw-bold ltr:ms-narrow rtl:rotate-180 rtl:me-narrow" />
+                  </Link>
                 </div>
               </div>
             </div>
+            <div className="panel mb-6 pb-6 prespective" 
+               data-anime="scale: [1.2, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 500;" >
+                  <figure className=" scroll-animation featured-image m-0 rounded-2 lg:rounded-4  overflow-hidden border border-2 border-gray-10 mx-auto position-relative"
+                   ref={parallax.ref}
+                  style={{ maxHeight: "600px",maxWidth: "1000px" }}>
+                    <div className="glow-div"/>
+                    <Image
+                      className="w-full h-full position-relative"
+                      alt="nexlify"
+                      src="/assets/images/landing/Hero-4.webp"
+                      width="1280"
+                      height="719"
+                    />
+                  </figure>
+                  <div className="shadow-lg-primary-box"/>
+                </div>
           </div>
         </div>
       </div>
     </div>
+    <div className="brands panel overflow-hidden mt-4 sm:mt-6 xl:mt-8 opacity-50">
+                <div
+                  className="block-panel panel"
+                  data-anime="onview: -100; opacity: [0, 1]; duration: 450; delay: 200;"
+                >
+                  <div className="element-brands max-w-1000px mx-auto mx-2 px-2 ">
+                    <Brands />
+                  </div>
+                </div>
+              </div></>
   );
 }

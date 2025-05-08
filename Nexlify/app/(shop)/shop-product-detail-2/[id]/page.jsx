@@ -6,7 +6,7 @@ import ShopDetails1 from "@/components/shop/ShopDetails1";
 import { products } from "@/data/products";
 export const metadata = {
   title:
-    "Shop Details 2 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop Details 2 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

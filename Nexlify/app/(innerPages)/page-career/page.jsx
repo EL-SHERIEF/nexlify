@@ -9,7 +9,7 @@ import Brands from "@/components/innerpages/Brands";
 import Blogs from "@/components/homes/home-1/Blogs";
 export const metadata = {
   title:
-    "Career || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

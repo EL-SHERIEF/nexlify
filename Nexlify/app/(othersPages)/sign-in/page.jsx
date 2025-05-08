@@ -1,7 +1,7 @@
 import SignIn from "@/components/otherPages/SignIn";
 export const metadata = {
   title:
-    "Signin 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Signin 1 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
