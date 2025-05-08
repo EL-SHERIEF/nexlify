@@ -14,7 +14,7 @@ import Tools from "@/components/homes/home-8/Tools";
 import React from "react";
 export const metadata = {
   title:
-    "Home 8 || Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 8 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
