@@ -31,7 +31,7 @@ export const panelData = [
 export const features = [
   {
     id: 4,
-    imgSrc: "/assets/images/features/feature-01.webp",
+    imgSrc: "/assets/images/features/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Deploy AI models effortlessly in minutes",
     description:
@@ -39,7 +39,7 @@ export const features = [
   },
   {
     id: 5,
-    imgSrc: "/assets/images/features/feature-02.webp",
+    imgSrc: "/assets/images/features/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
     title: "Integrate AI across your organization",
     description:
@@ -49,7 +49,7 @@ export const features = [
   },
   {
     id: 6,
-    imgSrc: "/assets/images/features/feature-03.webp",
+    imgSrc: "/assets/images/features/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
     title: "Secure and compliant AI solutions",
     description:
@@ -85,7 +85,7 @@ export const features2 = [
 export const features3 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.webp",
+    imgSrc: "/assets/images/template/feature-01.jpg",
     altText: "Share tools quickly and confidently in minutes",
     step: "01.",
     title: "Deploy AI models effortlessly",
@@ -101,7 +101,7 @@ export const features3 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.webp",
+    imgSrc: "/assets/images/template/feature-02.jpg",
     altText: "Connect every part of your entire business",
     step: "02.",
     title: "Integrate AI seamlessly",
@@ -121,7 +121,7 @@ export const features3 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.webp",
+    imgSrc: "/assets/images/template/feature-03.jpg",
     altText: "Maintain compliance and control your apps",
     step: "03.",
     title: "Ensure AI compliance",
@@ -194,7 +194,7 @@ export const features4 = [
 
 export const featureItems = [
   {
-    imageSrc: "/assets/images/template/home-four-feature-01.webp",
+    imageSrc: "/assets/images/template/home-four-feature-01.jpg",
     altText: "Ensuring timely delivery and maximum efficiency",
     title: "Accelerate AI project delivery",
     description:
@@ -204,7 +204,7 @@ export const featureItems = [
     reverseOrder: false,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-02.webp",
+    imageSrc: "/assets/images/template/home-four-feature-02.jpg",
     altText: "No more digging endless reports and spreadsheets",
     title: "Simplify AI data insights",
     description:
@@ -214,7 +214,7 @@ export const featureItems = [
     reverseOrder: true,
   },
   {
-    imageSrc: "/assets/images/template/home-four-feature-03.webp",
+    imageSrc: "/assets/images/template/home-four-feature-03.jpg",
     altText: "Share files, and communicate with your team in real-time",
     title: "Collaborate on AI in real-time",
     description:
@@ -333,7 +333,7 @@ export const features5 = [
 export const features6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.webp",
+    imgSrc: "/assets/images/template/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Launch AI models in minutes",
     description:
@@ -342,7 +342,7 @@ export const features6 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.webp",
+    imgSrc: "/assets/images/template/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
     title: "Unify AI across your business",
     description:
@@ -351,7 +351,7 @@ export const features6 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.webp",
+    imgSrc: "/assets/images/template/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
     title: "Secure AI deployments",
     description:
