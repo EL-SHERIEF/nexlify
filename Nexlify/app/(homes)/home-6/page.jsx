@@ -1,5 +1,5 @@
 import Footer5 from "@/components/footers/Footer5";
-import Header5 from "@/components/headers/Header5";
+import Header6 from "@/components/headers/Header5";
 import Blogs from "@/components/homes/home-6/Blogs";
 import Cta from "@/components/homes/home-6/Cta";
 import Elements from "@/components/homes/home-6/Elements";
@@ -26,7 +26,7 @@ export default function HomePage6() {
         <div className="bp-xs bp-sm page-wrapper bp-md bp-lg bp-xl dom-ready bp-xxl-max">
           <div className=" uni-body panel uni-body panel bg-black overflow-x-hidden disable-cursor">
 
-        <Header5 />
+        <Header6 />
         <div id="wrapper" className="wrap">
           <Hero />
           <Features />

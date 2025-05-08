@@ -512,3 +512,6 @@ html:not(.uc-dark) {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 33px 0px;
 }
 
+.bg-blur-lg{
+  backdrop-filter: blur(40px);
+}

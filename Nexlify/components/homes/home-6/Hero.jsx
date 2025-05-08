@@ -7,21 +7,16 @@ import bg from "@/public/assets/images/landing/home-4-bg.png";
 import { useParallax } from "react-scroll-parallax";
 export default function Hero() {
   const parallax = useParallax({
-    translateY: [-5, 20],
-    scale: [.8,1],
-    rotateX: [20, -10],
+    translateY: [0, 50],
+  });
+  const parallax2 = useParallax({
+    scale: [1, 1.1],
   });
   return (
     <>
     <div
       id="overview"
-      className="overview section panel overflow-hidden scrollSpysection"
-      style={{
-        backgroundImage: `url(${bg.src})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center center',
-          backgroundRepeat: 'no-repeat',
-      }}
+      className="overview section panel overflow-hidden scrollSpysection bg-section"
     >
       <div className="section-outer panel pt-9  xl:pt-10">
         <div className="container xl:max-w-xl pt-4">
@@ -29,52 +24,58 @@ export default function Hero() {
             <div className="row child-cols-12 justify-center items-center g-6 xl:g-8">
               <div>
                 <div
-                  className="panel vstack justify-center items-center gap-3 max-w-600px lg:max-w-750px mx-auto px-2 lg:px-0 text-center"
+                  className="panel vstack justify-center items-center gap-3 max-w-500px pt-4 mx-auto px-2 lg:px-0 text-center"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
                 >
-                  <div className="cstack gap-2 py-1 px-1 pe-3 bg-white bg-opacity-10 rounded-pill fs-7 text-white">
-                    <span className="rounded-pill bg-primary px-2 lh-0 py-narrow ">NEW</span>
-                    <span className="">
-                      Theme 4 Now Available!
-                    </span>
-                  </div>
-                  <h1 className="h1 sm:display-6 md:display-5 lg:display-4 xl:display-3 m-0 text-white">
-                    Build Your
-                    <br />
-                   AI Employees
+             
+                  <h1 className="h1 sm:display-5 md:display-4 lg:display-4 xl:display-3 mb-1 text-white">
+                  <span className="opacity-40">Turn data</span>{' '} 
+                  <br/>
+                  into decisions.
                   </h1>
-                  <p className="fs-5 xl:fs-4 text-white opacity-50 lh-sm">
-                  Boost your efficiency and streamline tasks effortlessly
+                  <p className="fs-5 xl:fs-4 fw-light text-white opacity-50">
+                  Powerful analytics and reporting that empowers your team to make smarter business choices.
                   </p>
                   <Link
                     href={`/page-pricing`}
-                    className="btn btn-md lg:btn-lg btn-secondary text-black min-w-150px mt-2"
+                    className="btn btn-md btn-secondary text-black min-w-150px px-narrow mt-2 gap-0 items-center d-flex justify-center"
                   >
-                    <span>Book A Free Demo</span>
-                    <i className="icon icon-narrow unicon-arrow-right fw-bold ltr:ms-narrow rtl:rotate-180 rtl:me-narrow" />
-                  </Link>
+                    <span className="px-3-narrow">Book A Free Demo</span>
+                     <div className=" bg-black text-white rounded-2  ltr:ms-narrow rtl:rotate-180 d-flex justify-center items-center"
+                     style={{width:"50px",height:"40px"}}>
+                     <i className="icon icon-narrow unicon-arrow-right fw-bold" />
+                     </div>       
+                   </Link>
                 </div>
               </div>
             </div>
-            <div className="panel mb-6 pb-6 prespective" 
+            <div className="panel prespective mt-6 pt-6" 
                data-anime="scale: [1.2, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 500;" >
-                  <figure className=" scroll-animation featured-image m-0 rounded-2 lg:rounded-4  overflow-hidden border border-2 border-gray-10 mx-auto position-relative"
-                   ref={parallax.ref}
-                  style={{ maxHeight: "600px",maxWidth: "1000px" }}>
-                    <div className="glow-div"/>
+                  <figure className="bg-blur-lg z-2 scroll-animation featured-image mt-8 mb-0 pb-0 rounded-2 lg:rounded-4  overflow-hidden border border-2 border-gray-10 mx-auto position-relative"
+                  style={{maxWidth: "1300px" }}
+                  ref={parallax2.ref}>
                     <Image
-                      className="w-full h-full position-relative"
+                      className="w-full h-full position-relative opacity-70"
                       alt="nexlify"
-                      src="/assets/images/landing/Hero-4.webp"
-                      width="1280"
-                      height="719"
+                      src="/assets/images/landing/home-6-dashboard.png"
+                      fill
                     />
                   </figure>
-                  <div className="shadow-lg-primary-box"/>
+                  <figure className="scroll-animation featured-image m-0 mx-auto position-absolute mx-auto"
+                   ref={parallax.ref}
+                  style={{maxWidth: "1300px",top: "-100px" }}>
+                    <Image
+                      className="w-full h-full position-relative opacity-70"
+                      alt="nexlify"
+                      src="/assets/images/landing/home-6-chips.webp"
+                      fill
+                    />
+                  </figure>
                 </div>
           </div>
         </div>
       </div>
+      <div className="gradient-black-spacer"/>
     </div>
     <div className="brands panel overflow-hidden mt-4 sm:mt-6 xl:mt-8 opacity-50">
                 <div
