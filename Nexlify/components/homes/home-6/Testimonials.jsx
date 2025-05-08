@@ -54,7 +54,7 @@ export default function Testimonials() {
                         <div className="rating d-flex gap-0">
                           {Array.from({ length: slide.rating }).map((_, i) => (
                             <Image
-                              className="icon icon-1 p-0 bg-transparent shadow-none"
+                              className="icon icon-1 p-0 bg-transparent shadow-lg"
                               alt="star"
                               data-uc-svg=""
                               key={i}
