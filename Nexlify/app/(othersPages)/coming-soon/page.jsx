@@ -1,7 +1,7 @@
 import CommingSoon from "@/components/otherPages/CommingSoon";
 export const metadata = {
   title:
-    "Comming Soon || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Comming Soon 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

@@ -1,94 +1,123 @@
-import { tiers } from "@/data/pricing";
-import Link from "next/link";
+"use client";
+import { tiers3 } from "@/data/pricing";
+import { useState } from "react";
 import React from "react";
+import Link from "next/link";
 
 export default function Pricing() {
+  const [isYearly, setIsYearly] = useState(false);
   return (
     <div
-      id="pricing_tiers"
-      className="pricing-tiers section panel overflow-hidden"
+      id="pricing"
+      className="pricing section panel overflow-hidden uc-dark  scrollSpysection mx-2"
     >
-      <div className="section-outer panel py-4 md:py-6 xl:py-9 rounded-1-5 lg:rounded-2 bg-primary-600 dark:bg-primary text-white">
-        <div className="container sm:max-w-lg xl:max-w-xl">
+      <div className="section-outer panel py-4 overflow-hidden md:py-6 xl:py-10 mx-2 rounded-2 lg:rounded-3 bg-primary text-white bg-opacity-10">
+        <div className="position-cover opacity-70 bg-contain" style={{ backgroundPosition: "50% 85%" }} data-src="/assets/images/template/pricing-06-bg-masked.png" data-uc-img=""  />
+        <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
+        <div className="container xl:max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <div
-                className="heading vstack gap-2 panel max-w-550px mx-auto text-center"
+                className="heading vstack items-center gap-2 panel max-w-550px mx-auto text-center"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <span className="fw-bold text-secondary">Pricing</span>
-                <h2 className="title h3 lg:h2 xl:h1 text-white m-0">
-                  Flexible & Scalable
+                <div className="grad-tag">
+                  <span>Pricing</span>
+              </div>
+                <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
+                Find your perfect plan
                 </h2>
-                <p className="fs-6 xl:fs-5 text-white text-opacity-70">
+                <p className="fs-6 xl:fs-5 text-opacity-70">
                   Unlock Your Full Potential with Flexible Pricing
                 </p>
+                <ul
+                className="uc-switcher-nav nav-x gap-0 p-narrow grad-tag rounded-pill fs-7 fw-medium"
+                data-uc-switcher="connect: .pricing-switcher;"
+              >
+                <li className={!isYearly ? " text-white inside-gard-tag" : "text-white border-transparent"}>
+                  <a
+                    onClick={() => setIsYearly(false)}
+                    className="text-none w-128px cstack p-1 text-white"
+                  >
+                    Monthly
+                  </a>
+                </li>
+                <li className={isYearly ? "inside-gard-tag text-white" : "text-white border-transparent"}>
+                  <a
+                    onClick={() => setIsYearly(true)}
+                    className="text-none w-128px cstack p-1 text-white"
+                  >
+                    Yearly
+                  </a>
+                </li>
+              </ul>
               </div>
               <div className="content panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-2"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
                 >
-                  {tiers.map((tier, index) => (
-                    <div key={index}>
-                      <div
-                        className={`tier panel vstack justify-between rounded-1-5 lg:rounded-2 bg-secondary text-dark text-center ${
-                          tier.highlight ? "position-relative" : ""
-                        }`}
-                      >
-                        {tier.highlight && (
-                          <span className="fs-7 position-absolute top-0 end-0 fw-bold text-uppercase text-primary my-2 mx-3">
+                  {tiers3.map((tier, index) => (
+                    <div key={index} className="tier-wrapper">
+                      <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded-2 lg:rounded-4 grad-box">
+                        {tier.isPopular && (
+                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-1 px-2  rounded-2 text-white fs-7 fw-medium custom-element">
                             Popular
                           </span>
                         )}
-                        <header className="tier-header vstack gap-2 items-center p-3 md:p-4 pb-0 md:pb-0 pt-4 md:pt-6">
-                          <span className="icon-box cstack w-48px h-48px rounded-circle bg-white text-primary shadow-xs">
-                            <i className={`icon-1 ${tier.icon} fw-bold`} />
-                          </span>
-                          <h5 className="h5 lg:h4 m-0 text-primary">
-                            {tier.plan}
-                          </h5>
-                          <div className="d-flex gap-narrow items-end mt-1">
-                            <h3 className="h1 lg:display-6 price m-0 text-dark">
-                              {tier.price}
-                            </h3>
-                            <span className="h6 lg:h3 m-0 pb-narrow text-dark">
-                              {tier.priceSuffix}
-                            </span>
-                          </div>
-                          <p className="desc">{tier.description}</p>
-                        </header>
-                        <div className="tier-body p-3 md:p-4">
-                          <ul className="nav-y gap-2 text-start">
-                            {tier.features.map((feature, idx) => (
-                              <li
-                                key={idx}
-                                className="hstack items-start gap-1"
-                              >
-                                <i className="cstack w-24px h-24px bg-primary-100 text-primary rounded-circle unicon-checkmark fw-bold" />
-                                <span
-                                  className="d-inline"
-                                  dangerouslySetInnerHTML={{ __html: feature }}
-                                />
-                              </li>
-                            ))}
-                          </ul>
+                        <div className="panel">
+                          <h3 className="title h5 sm:h4 dark:text-white">
+                            {tier.title}
+                          </h3>
+                          <p className="desc dark:text-white opacity-70 dark:opacity-80">
+                            {tier.description}
+                          </p>
                         </div>
-                        <footer className="tier-footer p-3 md:p-4 border-top">
-                          <Link
-                            className="btn btn-md btn-primary text-white rounded-default w-100"
-                            href={"/sign-up"}
-                          >
-                            <span>{tier.buttonText}</span>
-                          </Link>
-                        </footer>
+                        <div className="panel">
+                          <div className="panel vstack gap-narrow">
+                            <h5 className="title h3 sm:h2 m-0 dark:text-white">
+                              {isYearly ? tier.yearlyPrice : tier.price}
+                            </h5>
+                            <span className="fs-7 opacity-70">
+                              {tier.priceDetails}
+                            </span>
+                            <div className="vstack gap-1 justify-center text-center mt-3">
+                              <Link
+                                href={`/sign-up`}
+                                className={`btn btn-md sm:btn-sm lg:btn-md ${
+                                  tier.title === "Enterprise"
+                                    ? "btn-secondary text-black"
+                                    : "border-primary text-white shadow-none"
+                                } `}
+                              >
+                                {tier.linkText}
+                                <svg width={20} height={20} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g strokeWidth="0"></g><g strokeLinecap="round" strokeLinejoin="round"></g><g> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
+                              </Link>
+                              <span className="fs-7 opacity-70 min-h-24px">
+                                {tier.linkSubtext}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="panel">
+                          <div className="panel vstack gap-2">
+                            <span className="fs-6 fw-bold dark:text-white">
+                            Including:
+                            </span>
+                            {tier.features.map((feature, idx) => (
+                              <div key={idx} className="hstack gap-1 fs-7">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>                                <span>{feature}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
                       </div>
                     </div>
                   ))}
                 </div>
               </div>
               <p
-                className="text-center text-white text-opacity-70"
+                className="text-center dark:text-white"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
               >
                 All prices are free of taxes.

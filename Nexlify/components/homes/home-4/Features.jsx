@@ -1,94 +1,159 @@
-import { featureItems } from "@/data/features";
 import React from "react";
 import Image from "next/image";
 
 export default function Features() {
   return (
-    <div
-      id="main_features"
-      className="main-features section panel overflow-hidden"
-    >
-      <div className="section-outer panel py-4 md:py-6 xl:py-9">
-        <div className="container sm:max-w-lg xl:max-w-xl">
+    <div id="features" className="features section panel  scrollSpysection">
+      <div className="section-outer panel pt-6 lg:pt-8 xl:pt-10">
+        <div className="container xl:max-w-xl">
           <div className="section-inner panel">
             <div
               className="panel vstack items-center gap-2 xl:gap-3 mb-4 lg:mb-8 max-w-650px mx-auto text-center"
-              data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+              data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <span className="fw-bold text-primary dark:text-secondary">
-                Main features
-              </span>
-              <h2 className="h3 lg:h2 xl:h1 m-0">
-                A CRM tools help you keep track of leads
+              <div className="grad-tag">
+                  <span>Main features</span>
+              </div>
+              <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
+              Boost Your Workflow with Our Powerful Tools
               </h2>
-              <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                Join the thousands of satisfied users and take your business to
-                the next level. Trusted by over 2,500 startups.
+              <p className="fs-6 xl:fs-5 text-white text-opacity-70">
+              Explore the advanced tools made to streamline your processes, enhance productivity, and drive business growth powerfully
               </p>
             </div>
-            <div
-              className="row child-cols-12 g-6 md:g-8 xl:g-6"
-              data-uc-scrollspy="target: >*; delay: 500; cls: uc-animation-slide-bottom-medium"
-            >
-              {featureItems.map((elm, i) => (
-                <div key={i}>
-                  <div className="feature-item panel">
-                    <div className="row child-cols items-center justify-between g-2 md:g-4">
-                      <div
-                        className={
-                          elm.reverseOrder
-                            ? "col-12 md:col-6 lg:col-5 md:order-2"
-                            : "col-12 md:col-6 lg:col-5"
-                        }
-                      >
-                        <div className="panel overflow-hidden rounded-1-5 lg:rounded-2">
-                          <figure className="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
-                            <Image
-                              className="media-cover image"
-                              src={elm.imageSrc}
-                              width={1400}
-                              height={1412}
-                              alt="Ensuring timely delivery and maximum efficiency"
-                            />
-                          </figure>
-                        </div>
-                      </div>
-                      <div
-                        className={
-                          elm.reverseOrder
-                            ? "col-12 md:col-6 lg:col-6 md:order-1"
-                            : "col-12 md:col-6 lg:col-6"
-                        }
-                      >
-                        <div className="panel">
-                          <div className="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
-                            <div>
-                              <div className="panel vstack gap-2">
-                                <span className="cstack w-48px h-48px bg-primary text-secondary rounded-1-5 mb-2 d-none lg:d-inline-flex">
-                                  <i className={`icon-1 ${elm.icon}`} />
-                                </span>
-                                <h3 className="h4 sm:h3 xl:h2 m-0">
-                                  {elm.title}
-                                </h3>
-                                <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                  {elm.description}
-                                </p>
-                                <a
-                                  href="#"
-                                  className="uc-link dark:text-secondary fw-bold hstack gap-narrow sm:mt-1 lg:mt-2"
-                                >
-                                  <span>Let's find out</span>
-                                  <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <div className="row child-cols-12 lg:child-cols-5 col-match g-2">
+              <div className="lg:col-7">
+                <div
+                  className="panel overflow-hidden bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3 position-relative"
+                  data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 0;"
+                >
+                 <div className="glow-div"/>
+                  <div
+                    className="panel vstack items-start gap-2 p-3 lg:p-4 xl:p-6"
+                    data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
+                  >
+                    <p className="fs-6 md:fs-5 lg:fs-4 m-0  text-opacity-70">
+                      Intuitive interface Drag-and-Drop for building pages by
+                      dragging and dropping elements.
+                    </p>
+                    <a href="#" className="btn btn-sm btn-secondary px-2 mt-2">
+                      <span>Try it now</span>
+                      <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
+                    </a>
+                  </div>
+                  <div className="panel ltr:ps-3 ltr:lg:ps-4 ltr:xl:ps-6 rtl:pe-3 rtl:lg:pe-4 rtl:xl:pe-6">
+                    <Image
+                      className="ltr:rounded-top-start-1-5 rtl:rounded-top-end-1-5"
+                      alt=""
+                      src="/assets/images/template/home-06-main-app.png"
+                      width="1280"
+                      height="837"
+                    />
                   </div>
                 </div>
-              ))}
+              </div>
+              <div>
+                <div
+                  className="panel position-relative vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3 uc-dark"
+                  data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;"
+                >
+                   <div className="glow-div end"/>
+                  <div className="position-cover bg-gradient-to-t from-primary via-transparent to-primary" />
+                  <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />
+                  <div className="panel p-3">
+                    <Image
+                      className="rounded-bottom-1-5 lg:rounded-bottom-3"
+                      alt="dashboard-components"
+                      src="/assets/images/template/home-06-dashboard-components.png"
+                      width="664"
+                      height="496"
+                    />
+                  </div>
+                  <div
+                    className="panel vstack items-start justify-between gap-2 p-3 lg:p-4 xl:p-6 pt-0 lg:pt-0 xl:pt-0"
+                    data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
+                  >
+                    <div className="content vstack items-start gap-2">
+                      <h4 className="h4 m-0">Dashboard Components</h4>
+                      <p className="fs-6 lg:fs-5 text-white text-opacity-70">
+                        Unlock your productivity potential with our intuitive
+                        and powerful Dashboard UI Components.
+                      </p>
+                    </div>
+                    <a href="#" className="btn btn-sm btn-secondary px-2 mt-2">
+                      <span>Let's find out</span>
+                      <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  className="panel vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white  rounded-2 lg:rounded-3 uc-dark position-relative"
+                  data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
+                >
+                  <div className="glow-div start"/>
+                  <div
+                    className="position-cover opacity-70 bg-cover"
+                    style={{ backgroundPosition: "50% 85%" }}
+                    data-uc-img=""
+                  />
+                  <div className="position-cover bg-gradient-to-t from-primary via-transparent to-grimary" />
+                  <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />
+                  <div className="panel px-3 lg:px-4 xl:px-6">
+                    <Image
+                      className="rounded-bottom-1-5 border border-top-0"
+                      alt="ui components"
+                      src="/assets/images/template/home-06-components.png"
+                      width="800"
+                      height="620"
+                    />
+                  </div>
+                  <div
+                    className="panel vstack items-start justify-between gap-2 p-3 lg:p-4 xl:p-6"
+                    data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
+                  >
+                    <div className="content vstack items-start gap-2">
+                      <h4 className="h4 m-0">UI Components</h4>
+                      <p className="fs-6 lg:fs-5 text-white text-opacity-70">
+                        Easy-to-use and powerful page builder, your gateway to
+                        intuitive tools and expansive customization options that
+                        transform how you build websites.
+                      </p>
+                    </div>
+                    <a href="#" className="btn btn-sm btn-secondary px-2 mt-2">
+                      <span>Let's find out</span>
+                      <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:col-7">
+                <div
+                  className="panel vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white  text-white rounded-2 lg:rounded-3 position-relative"
+                  data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 300;"
+                >
+                <div className="glow-div bottom"/>
+                  <div
+                    className="panel vstack items-center gap-2 p-3 lg:p-4 xl:p-6"
+                    data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
+                  >
+                    <h4 className="m-0 grad-tag"><span>Drag-and-Drop Interface</span></h4>
+                    <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center  text-opacity-70">
+                      Unleash your creativity with our builder's intuitive UI
+                      Components, experience the difference.
+                    </p>
+                  </div>
+                  <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
+                    <Image
+                      alt="builder-tools"
+                      src="/assets/images/template/home-06-builder-tools.png"
+                      width="1280"
+                      height="800"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

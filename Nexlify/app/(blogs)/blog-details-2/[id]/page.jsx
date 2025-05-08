@@ -5,7 +5,7 @@ import BlogDetails2 from "@/components/blog/BlogDetails2";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
-    "Blog Details 2 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Details 2 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

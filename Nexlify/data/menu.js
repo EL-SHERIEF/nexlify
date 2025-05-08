@@ -24,7 +24,7 @@ export const menuItems = [
         label: "Home 5",
       },
       {
-        href: "/home-6",
+        href: "/home-4",
         label: "Home 6",
       },
       {
@@ -248,8 +248,8 @@ export const pagesData = [
         label: "Home 03",
       },
       {
-        href: "/home-6",
-        label: "Home 06",
+        href: "/home-4",
+        label: "Home 04",
       },
     ],
   },

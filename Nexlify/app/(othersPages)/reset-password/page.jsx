@@ -1,7 +1,7 @@
 import Resetpass1 from "@/components/otherPages/Resetpass1";
 export const metadata = {
   title:
-    "Reset Password || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Reset Password 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

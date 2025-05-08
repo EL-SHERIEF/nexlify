@@ -5,7 +5,7 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import SignIn2 from "@/components/otherPages/SignIn2";
 export const metadata = {
   title:
-    "Signin 2 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Signin 2 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

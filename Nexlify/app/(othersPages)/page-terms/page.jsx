@@ -5,7 +5,7 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import Terms from "@/components/otherPages/Terms";
 export const metadata = {
   title:
-    "Terms || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Terms 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

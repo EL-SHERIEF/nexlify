@@ -181,7 +181,7 @@ html[dir="rtl"] .nav-y .uc-parent::after {
 .nav-y .uc-parent.active::after {
   transform: rotate(-90deg);
 }
-.home-6 {
+.home-4 {
   --bs-secondary-rgb: 241, 226, 222;
   .bg-secondary {
     --bs-bg-opacity: 1;
@@ -330,7 +330,7 @@ html:not(.uc-dark) {
 .uc-navbar-nav > li > a {
   padding: 0 0;
 }
-.home-6-cta {
+.home-4-cta {
   flex-direction: row;
   @media (max-width: 992px) {
     flex-direction: column;

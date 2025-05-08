@@ -12,7 +12,7 @@ import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Home 3 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 3 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
