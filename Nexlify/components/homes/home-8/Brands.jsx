@@ -23,20 +23,18 @@ export default function Brands() {
               <div className="custom-v-skyline"></div>
 
               </div>
-              <div className="panel">
-                <div className="row child-cols items-center text-center g-6">
+              <div className="panel ">
+                <div className="flex-row d-flex items-center text-center flex-wrap justify-center gap-5">
                 {brands.slice(0, 5).map((brand, index) => (
                     <div key={index}>
-                      <div className="panel">
                         <Image
                           className="object-contain opacity-60"
-                          style={{filter: "brightness(0)"}}
+                          style={{filter: "brightness(0)",objectFit: "contain", maxWidth: "150px", height: "40px"}}
                           alt="brand"
                           src={brand.src}
-                          width={130}
-                          height={100}
+                          width={110}
+                          height={40}
                         />
-                      </div>
                     </div>
                   ))}
                 </div>

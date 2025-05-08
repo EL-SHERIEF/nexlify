@@ -35,7 +35,7 @@ export default function Hero() {
                       Streamline your workflows, boost productivity, and drive
                       growth with our cutting-edge SaaS platform.
                     </p>
-                    <div className="hstack md:vstack justify-center items-center gap-2 lg:gap-4 my-1 lg:my-3"
+                    <div className="hstack md:vstack justify-center items-center gap-4 lg:gap-4 my-1 lg:my-3"
                       data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
                     >
                       <a href="#" className="btn btn-md btn-primary border px-3 w-auto">
