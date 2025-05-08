@@ -8,16 +8,16 @@ export default function Features() {
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container sm:max-w-md lg:max-w-lg xl:max-w-xl">
           <div className="section-inner panel">
-            <div className="panel vstack gap-5 sm:gap-6 lg:gap-8">
-              {features3.map((feature, i) => (
+          <div className="panel vstack gap-4 sm:gap-6 lg:gap-8">
+          {features3.map((feature, i) => (
                 <React.Fragment key={i}>
                   <div
                     className="feature-item panel"
                     data-anime="onview: -200; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 100;"
                   >
-                    <div className="row child-cols col-match flex-row sm-flex-column md-flex-column lg-flex-row justify-between p-4 bg-gray-25 border-1 border-gray-25 border rounded-3">
-                      <div className="col-12 sm:col-1 lg:col-5 order-0 lg:order-1">
-                        <div className="panel w-100">
+                    <div className="row child-cols col-match justify-between p-4 bg-gray-25 border-1 border-gray-25 border rounded-3">
+                    <div className="col-12 sm:col-6 order-0 lg:order-1">
+                    <div className="panel w-100">
                           <Image
                             style={{width:"100%",height:"100%",objectFit:"cover"}}
                             src={feature.imgSrc}
@@ -28,7 +28,7 @@ export default function Features() {
                           />
                         </div>
                       </div>
-                      <div className="col-12 sm:col-1 order-1 lg:order-0">
+                      <div className="col-12 sm:col-6 order-1 lg:order-0">
                         <div className="panel vstack justify-between gap-4 sm:gap-6 h-100">
                           <div>
                             <div className="panel vstack gap-2 mt-4 sm:mt-4 md:mt-4 lg:mt-0">

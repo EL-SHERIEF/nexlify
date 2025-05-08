@@ -33,7 +33,7 @@ export default function Brands() {
                   ))}
                 </div>
                 <div className="h-1 border-1 border-black border-top mt-5 mx-auto" style={{width:"60%"}}/>
-                <div className="mt-5 mx-auto d-flex flex-row flex-md-row flex-lg-row flex-wrap justify-center items-center gap-4 sm:gap-3 w-fit" style={{transform:"scale(0.9)"}}>   
+                <div className="review-wrapper gap-4 sm:gap-3" style={{transform:"scale(0.9)"}}>   
                    <div className="cards-home-3-box p-1 d-flex flex-row justify-center items-center gap-2">
                   <Image className="cards-home-3-box p-1 bg-white" src="/assets/images/review-logo/google.webp" width={62} height={62} style={{ height: "62px", width: "fit-content" }} alt="" />
                    <div className="flex-column justify-center items-start d-flex gap-narrow">
