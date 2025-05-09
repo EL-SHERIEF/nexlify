@@ -1,5 +1,5 @@
 import Footer5 from "@/components/footers/Footer5";
-import Header6 from "@/components/headers/Header5";
+import Header6 from "@/components/headers/Header6";
 import Blogs from "@/components/homes/home-6/Blogs";
 import Cta from "@/components/homes/home-6/Cta";
 import Elements from "@/components/homes/home-6/Elements";
@@ -19,6 +19,7 @@ export const metadata = {
     "Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage6() {
+  
   return (
     <>
     {" "}

@@ -538,7 +538,7 @@
   --sizes-heading-display-4-size: 4.5rem;
   --sizes-heading-display-4-lh: 1;
   --sizes-heading-display-4-lp: -0.18rem;
-  --sizes-heading-display-5-size: 4.5rem;
+  --sizes-heading-display-5-size: 4rem;
   --sizes-heading-display-5-lh: 1;
   --sizes-heading-display-5-lp: -0.16rem;
   --sizes-heading-display-6-size: 3.5rem;
@@ -2429,6 +2429,10 @@ header.uc-header.header-six > .uc-navbar-sticky {
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.15);
 }
+.header-6 .uc-navbar-sticky{
+min-width: 100% !important;
+}
+
 header.uc-header.header-six > .uc-navbar-sticky .uc-navbar-main {
   --uc-nav-height: 64px !important;
 }

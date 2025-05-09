@@ -2302,7 +2302,7 @@ select.uc-form-width-xsmall {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -270px;
+  left: -570px;
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
@@ -2311,7 +2311,7 @@ select.uc-form-width-xsmall {
 }
 @media (min-width: 576px) {
   .uc-offcanvas-bar {
-    left: -350px;
+    left: -550px;
     width: 350px;
     padding: 30px 30px;
   }

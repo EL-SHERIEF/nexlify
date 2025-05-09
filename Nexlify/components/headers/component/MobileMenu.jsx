@@ -76,12 +76,12 @@ export default function MobileMenu() {
     >
       <div
         ref={elementRef}
-        className="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white uc-offcanvas-bar-animation uc-offcanvas-slide "
+        className="uc-offcanvas-bar bg-white rounded-3 border-1 border-black border bg-opacity-100 text-dark uc-offcanvas-bar-animation uc-offcanvas-slide "
         role="dialog"
         aria-modal="true"
-        style={{ maxWidth: 876 }}
+        style={{ maxWidth: 876,margin:'10px 20px' }}
       >
-        <header className="uc-offcanvas-header hstack justify-between items-center pb-2 bg-white dark:bg-gray-900">
+        <header className="uc-offcanvas-header hstack justify-between items-center pb-2">
           <div className="uc-logo">
             <Link
               href={`/`}

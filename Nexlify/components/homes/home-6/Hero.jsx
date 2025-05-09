@@ -18,7 +18,7 @@ export default function Hero() {
       id="overview"
       className="overview section panel overflow-hidden scrollSpysection bg-section"
     >
-      <div className="section-outer panel pt-9  xl:pt-10">
+      <div className="section-outer panel pt-9">
         <div className="container xl:max-w-xl pt-4">
           <div className="section-inner panel pt-0 lg:pt-4 xl:pt-0 ">
             <div className="row child-cols-12 justify-center items-center g-6 xl:g-8">

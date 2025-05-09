@@ -34,7 +34,7 @@ export default function Header6() {
   }, []);
   return (
     <header
-      className={`uc-header header-six uc-navbar-sticky-wrap z-999 uc-sticky ${
+      className={`uc-header header-six uc-navbar-sticky-wrap z-999 uc-sticky header-6 ${
         scrolledPast ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
       }`}
       data-uc-sticky="start: 1200px; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
@@ -45,8 +45,9 @@ export default function Header6() {
         } `}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
       >
-        <div className="uc-navbar-main" style={{ "--uc-nav-height": "80px" }}>
-          <div className="container max-w-lg lg:max-w-950px xl:max-w-xl">
+        <div className="uc-navbar-main position-relative" style={{ "--uc-nav-height": "80px" }}>
+          <div className="container w-full"
+          style={{minWidth:"100%"}}>
             <div
               className="uc-navbar min-h-64px lg:min-h-80px px-2 lg:px-0 text-white"
               data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"
@@ -63,43 +64,17 @@ export default function Header6() {
                   </Link>
                 </div>
               </div>
-              <div className="uc-navbar-center">
-                <ul className="uc-navbar-nav gap-3 xl:gap-5 d-none lg:d-flex fs-5 fw-medium scrollSpyLinks">
-                  {navItems.map((item, index) => (
-                    <li key={index}>
-                      <a
-                        className={item.active ? "uc-active" : ""}
-                        href={item.href}
-                      >
-                        {item.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+
               <div className="uc-navbar-right">
-                <Link
-                  href={`/page-pricing`}
-                  className="btn btn-sm btn-primary px-3 d-none lg:d-inline-flex"
-                >
-                  <span>See pricing</span>
-                </Link>
-                <a
-                  className="d-block uc-icon uc-navbar-toggle-icon"
+            
+                <button
+                  className="d-flex flex-row text-black bg-white rounded-pill justify-between items-center"
                   onClick={openMobileMenu}
+                  style={{width: "130px",padding:"10px 20px"}}
                 >
-                  <svg width="20" height="20" viewBox="0 0 20 20">
-                    <rect className="line-1" y="3" width="20" height="2"></rect>
-                    <rect className="line-2" y="9" width="20" height="2"></rect>
-                    <rect className="line-3" y="9" width="20" height="2"></rect>
-                    <rect
-                      className="line-4"
-                      y="15"
-                      width="20"
-                      height="2"
-                    ></rect>
-                  </svg>
-                </a>
+                 <svg width={30} height={30} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" strokeWidth="1.4"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#000000" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
+                  <span className="fs-5 fw-medium">Menu</span>
+                </button>
               </div>
             </div>
           </div>
