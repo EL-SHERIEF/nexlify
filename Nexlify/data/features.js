@@ -191,7 +191,34 @@ export const features4 = [
       "Monetize your AI models instantly, boosting adoption rates by 60%.",
   },
 ];
-
+export const features14 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/feature-10.png",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    title: "No complex setup or technical expertise required. ",
+    description:
+      "Sign up, connect your data, and start discovering valuable insights right away. ",
+  },
+  {
+    id: 5,
+    imgSrc: "/assets/images/template/feature-09.png",
+    imgAlt: "Connect every part of your entire business",
+    title: "Create it, until you make it.",
+    description:
+      "Shape Feature to match what you actually need and how your brand looks. "
+  },
+  {
+    id: 6,
+    imgSrc: "/assets/images/features/feature-03.webp",
+    imgAlt: "Maintain compliance and control your apps",
+    title: "Reach a product expert in minutes, not a chatbot. ",
+    description:
+      "3-minute average response time with solutions on the first contact.",
+      linkText: "Explore",
+      linkHref: "#",
+  },
+];
 export const featureItems = [
   {
     imageSrc: "/assets/images/template/home-four-feature-01.webp",

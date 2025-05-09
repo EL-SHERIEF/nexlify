@@ -3,7 +3,6 @@
 import Brands from "./Brands";
 import Link from "next/link";
 import Image from "next/image";
-import bg from "@/public/assets/images/landing/home-4-bg.png";
 import { useParallax } from "react-scroll-parallax";
 export default function Hero() {
   const parallax = useParallax({
@@ -51,8 +50,8 @@ export default function Hero() {
             </div>
             <div className="panel prespective mt-6 pt-6" 
                data-anime="scale: [1.2, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 500;" >
-                  <figure className="bg-blur-lg z-2 scroll-animation featured-image mt-8 mb-0 pb-0 rounded-2 lg:rounded-4  overflow-hidden border border-2 border-gray-10 mx-auto position-relative"
-                  style={{maxWidth: "1300px" }}
+                  <figure className="bg-blur-lg z-2 scroll-animation featured-image mt-8 mb-0 pb-0 px-1 rounded-2 lg:rounded-4  overflow-hidden  mx-auto position-relative"
+                  style={{maxWidth: "1400px" }}
                   ref={parallax2.ref}>
                     <Image
                       className="w-full h-full position-relative opacity-70"
@@ -77,6 +76,7 @@ export default function Hero() {
       </div>
       <div className="gradient-black-spacer"/>
     </div>
+{/* 
     <div className="brands panel overflow-hidden mt-4 sm:mt-6 xl:mt-8 opacity-50">
                 <div
                   className="block-panel panel"
@@ -86,6 +86,8 @@ export default function Hero() {
                     <Brands />
                   </div>
                 </div>
-              </div></>
+              </div>
+
+*/}</>
   );
 }
