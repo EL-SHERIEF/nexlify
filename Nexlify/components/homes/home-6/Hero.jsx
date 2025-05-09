@@ -31,7 +31,7 @@ export default function Hero() {
                   <h1 className="h1 sm:display-5 md:display-4 lg:display-4 xl:display-3 mb-1 text-white">
                   <span className="opacity-40">Turn data</span>{' '} 
                   <br/>
-                  into decisions.
+                  into decisions
                   </h1>
                   <p className="fs-5 xl:fs-4 fw-light text-white opacity-50">
                   Powerful analytics and reporting that empowers your team to make smarter business choices.
