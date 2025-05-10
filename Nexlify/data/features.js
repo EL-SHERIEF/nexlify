@@ -360,7 +360,7 @@ export const features5 = [
 export const features6 = [
   {
     id: 1,
-    imgSrc: "/assets/images/template/feature-01.webp",
+    imgSrc: "/assets/images/template/feature-01.jpg",
     imgAlt: "Share tools quickly and confidently in minutes",
     title: "Launch AI models in minutes",
     description:
@@ -369,7 +369,7 @@ export const features6 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/template/feature-02.webp",
+    imgSrc: "/assets/images/template/feature-02.jpg",
     imgAlt: "Connect every part of your entire business",
     title: "Unify AI across your business",
     description:
@@ -378,7 +378,7 @@ export const features6 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/template/feature-03.webp",
+    imgSrc: "/assets/images/template/feature-03.jpg",
     imgAlt: "Maintain compliance and control your apps",
     title: "Secure AI deployments",
     description:
@@ -396,6 +396,28 @@ export const features6 = [
   },
 ];
 
+export const featuresHome6 = [
+  {
+    id: 1,
+    imgSrc: "/assets/images/template/feature-11.png",
+    imgAlt: "Share tools quickly and confidently in minutes",
+    tag: { pre: "New", text: "Pricing modal" },
+    title: "Smart analysis, simply delivered",
+    description:
+      "Our AI-powered analytics spots trends, anomalies, and opportunities, delivering clear, actionable reports—no spreadsheets or complex queries, just instant insights.",
+      link: null,
+    },
+  {
+    id: 2,
+    tag:null,
+    imgSrc: "/assets/images/template/feature-12.png",
+    imgAlt: "Connect every part of your entire business",
+    title: "Unify AI across your business",
+    description:
+      "Our smart data connectors automatically sync information from over 200 apps, databases, and services, so you always have the most up-to-date insights when you need them.",
+      link: { text: "Explore", href: "#" },
+    },
+];
 export const integrations = [
   {
     title: "TensorFlow",

@@ -12,6 +12,9 @@ import Team from "@/components/homes/home-6/Team";
 import Testimonials from "@/components/homes/home-6/Testimonials";
 import VideoComponent from "@/components/homes/home-6/VideoComponent";
 import RowBentoGrid from "@/components/homes/home-6/RowBentoGrid";
+import Brands from "@/components/homes/home-6/Brands";
+
+import Features2 from "@/components/homes/home-6/Features2";
 import React from "react";
 export const metadata = {
   title:
@@ -32,12 +35,14 @@ export default function HomePage6() {
         <div id="wrapper" className="wrap">
           <Hero />
           <RowBentoGrid />
+          <Features2/>
+          <Brands/>
+          <Testimonials />
           <Features />
           <VideoComponent />
           <KeyFeatures />
           <Elements />
           <Pricing />
-          <Testimonials />
           <Faq />
           <Team />
           <Blogs />

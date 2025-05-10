@@ -14,7 +14,7 @@ import Testimonials from "@/components/homes/home-1/Testimonials";
 import Howworks from "@/components/homes/home-1/Howworks";
 export const metadata = {
   title:
-    "Home 1 💜 Nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 1 || nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
     "nexlify - Full-featured, professional-looking software, saas and startup nextjs template.",
 };

@@ -6,13 +6,16 @@ import { Autoplay } from "swiper/modules";
 
 export default function Brands() {
   return (
-    <Swiper
-    className=" black-shadow-marquee"
+  <div className="max-w-xl position-relative overflow-hidden mx-auto marquee-wrapper-home-6">
+    <p className="fs-7 lh-md opacity-60 text-white flex">Our product is featured on</p>
+      <Swiper
+    className="black-shadow-marquee-without-scale"
       slidesPerView={5}
+      spaceBetween={16}
       centeredSlides={true}
       centeredSlidesBounds={true}
       loop={true}
-      speed={5000}
+      speed={9000}
       modules={[Autoplay]}
       autoplay={{
         delay: 0, 
@@ -39,7 +42,7 @@ export default function Brands() {
         >
           <Image
             className="brand-item-image image-filter"
-            style={{objectFit:'contain',height:"150px",width:"250px"}}
+            style={{objectFit:'contain'}}
             src={brand.src}
             width={250}
             height={120}
@@ -48,5 +51,6 @@ export default function Brands() {
         </SwiperSlide>
       ))}
     </Swiper>
+  </div>
   );
 }
