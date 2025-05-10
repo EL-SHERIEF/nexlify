@@ -1448,6 +1448,27 @@ transition: all 0.25s ease; }
    .testimonial-card-home-6:hover{
     background-color:#1e1e1e;
    }
+
+   .uc-accordion li{
+    transition: .3s ease;
+    border-radius: 16px 36px 36px 16px!important;
+    background-color: #121212;
+    border: none!important;
+   }
+   .uc-accordion-title{
+    color: white !important;
+   }
+      .uc-accordion li p{
+        font-weight: 400;
+        color: #808080;
+      }
+      .pricing-card-home-6{
+    border: solid 1px #ffffff0f;
+    background: linear-gradient(180deg, #1c1c1c 0%, rgb(0, 0, 0) 100%);
+    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%);
+    border-radius: 24px 24px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0.796192px 2.38858px -0.625px, rgba(0, 0, 0, 0.05) 0px 2.41451px 7.24352px -1.25px, rgba(0, 0, 0, 0.05) 0px 6.38265px 19.148px -1.875px, rgba(0, 0, 0, 0.05) 0px 20px 60px -2.5px;
+      }
   .link,
   a {
     color: var(--link-color-text);

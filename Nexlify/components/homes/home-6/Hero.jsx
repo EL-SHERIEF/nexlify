@@ -6,11 +6,9 @@ import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
 export default function Hero() {
   const parallax = useParallax({
-    translateY: [0, 50],
+    translateY: [10, 30],
   });
-  const parallax2 = useParallax({
-    scale: [1, 1.1],
-  });
+  
   return (
     <>
     <div
@@ -19,7 +17,7 @@ export default function Hero() {
     >
       <div className="section-outer panel pt-9">
         <div className="container xl:max-w-xl pt-4">
-          <div className="section-inner panel pt-0 lg:pt-4 xl:pt-0 ">
+          <div className="section-inner panel pt-3 ">
             <div className="row child-cols-12 justify-center items-center g-6 xl:g-8">
               <div>
                 <div
@@ -32,12 +30,12 @@ export default function Hero() {
                   <br/>
                   into decisions
                   </h1>
-                  <p className="fs-5 xl:fs-4 fw-light text-white opacity-50">
+                  <p className="fs-5 fw-light text-white opacity-50">
                   Powerful analytics and reporting that empowers your team to make smarter business choices.
                   </p>
                   <Link
                     href={`/page-pricing`}
-                    className="btn btn-md btn-secondary text-black min-w-150px px-narrow mt-2 gap-0 items-center d-flex justify-center"
+                    className="btn btn-md btn-secondary text-black min-w-150px px-narrow mt-narrow gap-0 items-center d-flex justify-center"
                   >
                     <span className="px-3-narrow">Book A Free Demo</span>
                      <div className=" bg-black text-white rounded-2  ltr:ms-narrow rtl:rotate-180 d-flex justify-center items-center"
@@ -52,7 +50,7 @@ export default function Hero() {
                data-anime="scale: [1.2, 1]; opacity: [0, 1]; easing: easeOutCubic; duration: 750; delay: 500;" >
                   <figure className="bg-blur-lg z-2 scroll-animation featured-image mt-8 mb-0 pb-0 px-1 rounded-2 lg:rounded-4  overflow-hidden  mx-auto position-relative"
                   style={{maxWidth: "1400px" }}
-                  ref={parallax2.ref}>
+                >
                     <Image
                       className="w-full h-full position-relative opacity-70"
                       alt="nexlify"
@@ -62,7 +60,7 @@ export default function Hero() {
                   </figure>
                   <figure className="scroll-animation featured-image m-0 mx-auto position-absolute mx-auto"
                    ref={parallax.ref}
-                  style={{maxWidth: "1300px",top: "-100px" }}>
+                  style={{maxWidth: "1000px",top: "-100px",left: "50px" }}>
                     <Image
                       className="w-full h-full position-relative opacity-70"
                       alt="nexlify"
@@ -76,18 +74,6 @@ export default function Hero() {
       </div>
       <div className="gradient-black-spacer"/>
     </div>
-{/* 
-    <div className="brands panel overflow-hidden mt-4 sm:mt-6 xl:mt-8 opacity-50">
-                <div
-                  className="block-panel panel"
-                  data-anime="onview: -100; opacity: [0, 1]; duration: 450; delay: 200;"
-                >
-                  <div className="element-brands max-w-1000px mx-auto mx-2 px-2 ">
-                    <Brands />
-                  </div>
-                </div>
-              </div>
-
-*/}</>
+</>
   );
 }

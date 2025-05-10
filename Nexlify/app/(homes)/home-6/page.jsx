@@ -38,12 +38,12 @@ export default function HomePage6() {
           <Features2/>
           <Brands/>
           <Testimonials />
-          <Features />
+          <Faq />
+           <Pricing />
+            <Features />
           <VideoComponent />
           <KeyFeatures />
           <Elements />
-          <Pricing />
-          <Faq />
           <Team />
           <Blogs />
           <Cta />

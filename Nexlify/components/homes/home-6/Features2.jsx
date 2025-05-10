@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Features2() {
 
   return (
-    <div id="hero_header" className="hero-header section panel overflow-hidden">
+    <div id="hero_header" className="hero-header section panel overflow-hidden  bg-section">
       <div className="section-outer panel pt-4 lg:pt-8 pb-6 xl:pb-9">
         <div className="container max-w-xl">
           <div className="section-inner panel mt-2 sm:mt-4 lg:mt-0">
@@ -50,7 +50,7 @@ export default function Features2() {
               {feature.link && (
                   <Link
                   href={feature.link.href}
-                  className="btn btn-md btn-secondary text-black min-w-150px px-narrow mt-2 gap-0 items-center d-flex justify-center w-fit"
+                  className="btn btn-md btn-primary text-black min-w-150px px-narrow mt-2 gap-0 items-center d-flex justify-center w-fit"
                 >
                   <span className="px-3-narrow">{feature.link.text}</span>
                    <div className=" bg-black text-white rounded-2  ltr:ms-narrow rtl:rotate-180 d-flex justify-center items-center"

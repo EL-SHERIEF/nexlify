@@ -1,23 +1,37 @@
 import { testimonials2 } from "@/data/testimonials";
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Testimonials() {
   return (
     <div
       id="clients_feedbacks"
-      className="clients-feedbacks section panel overflow-hidden"
+      className="clients-feedbacks section panel overflow-hidden "
     >
-      <div className="section-outer panel pb-6 xl:pb-9">
-        <div className="container max-w-lg">
+      <div className="section-outer panel pb-6 xl:pb-9 mt-8 pt-4">
+        <div className="container w-full">
           <div className="section-inner panel">
             <div
               className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
-              <h2 className="h4 sm:h3 lg:h2 m-0 text-center text-white">
-                Don’t just take our words
+              <div className="d-flex flex-row justify-between w-full items-end">
+              <h2 className="h4 sm:h3 lg:h2 m-0 text-start fw-light text-white">
+                <span className="opacity-40">Reviews that </span>{' '} 
+                  <br/>
+                  make us proud
               </h2>
+                      <Link
+                    href={`/page-pricing`}
+                    className="btn btn-md btn-primary text-black px-narrow mt-2 gap-0 items-center d-flex justify-center"
+                  >
+                    <span className="sm:px-1 px-3-narrow">Leave a review</span>
+                     <div className=" bg-black text-white rounded-2  ltr:ms-narrow rtl:rotate-180 d-flex justify-center items-center"
+                     style={{width:"50px",height:"40px"}}>
+                     <i className="icon icon-narrow unicon-arrow-right fw-bold" />
+                     </div>       
+                   </Link>
+              </div>
               <div
                 className="row child-cols-12 sm:child-cols-6 col-match g-2 uc-grid"
                 data-uc-grid=""

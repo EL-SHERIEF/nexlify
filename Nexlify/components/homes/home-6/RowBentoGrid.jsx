@@ -3,6 +3,7 @@ import { features14 } from "@/data/features";
 import React from "react";
 import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
+import Link from "next/link";
 export default function RowBentoGrid() {
     const parallax = useParallax({
         translateY: [0, 50],
@@ -47,14 +48,17 @@ export default function RowBentoGrid() {
                   <span className="opacity-60">{feature.description}</span>
                 </h3>
                 {feature.linkText && (
-                  <a
-                    href={feature.linkHref}
-                    className="uc-link text-white h-fit btn btn-primary w-full"
-                    style={{ width: "fit-content" }}
+                         <Link
+                     href={feature.linkHref}
+                    className="btn btn-md btn-primary text-black px-narrow mt-2 gap-0 items-center d-flex justify-between w-full"
                   >
-                    <span>{feature.linkText}</span>
-                    <i className="position-relative icon icon-1 unicon-arrow-right rtl:rotate-180 translate-y-px" />
-                  </a>
+                    <span className="sm:px-1 px-3-narrow">{feature.linkText}</span>
+                     <div className=" bg-black text-white rounded-2  ltr:ms-narrow rtl:rotate-180 d-flex justify-center items-center"
+                     style={{width:"50px",height:"40px"}}>
+                     <i className="icon icon-narrow unicon-arrow-right fw-bold" />
+                     </div>       
+                   </Link>
+       
                 )}
               </div>
             </div>

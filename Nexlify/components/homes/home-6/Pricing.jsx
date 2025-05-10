@@ -11,30 +11,26 @@ export default function Pricing() {
       id="pricing"
       className="pricing section panel overflow-hidden uc-dark  scrollSpysection mx-2"
     >
-      <div className="section-outer panel py-4 overflow-hidden md:py-6 xl:py-10 mx-2 rounded-2 lg:rounded-3 bg-primary text-white bg-opacity-10">
-        <div className="position-cover opacity-70 bg-contain" style={{ backgroundPosition: "50% 85%" }} data-src="/assets/images/template/pricing-06-bg-masked.png" data-uc-img=""  />
-        <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
+      <div className="section-outer panel py-4 overflow-hidden md:py-6 xl:py-10 mx-2  text-white bg-opacity-10  bg-section">
         <div className="container xl:max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <div
-                className="heading vstack items-center gap-2 panel max-w-550px mx-auto text-center"
+                className="heading vstack items-center panel max-w-550px mx-auto text-center"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <div className="grad-tag">
-                  <span>Pricing</span>
-              </div>
-                <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
-                Find your perfect plan
-                </h2>
-                <p className="fs-6 xl:fs-5 text-opacity-70">
-                  Unlock Your Full Potential with Flexible Pricing
-                </p>
+            <h2 className="h4 sm:h3 lg:h2 m-0 text-center fw-light text-white">
+               What will it cost?
+              </h2>
+                 <p className="fs-5 xl:fs-4 fw-light text-white text-center mt-3 opacity-50">
+                  Flexible monthly plans, cancel at any time.
+                  </p>
                 <ul
-                className="uc-switcher-nav nav-x gap-0 p-narrow grad-tag rounded-pill fs-7 fw-medium"
+                className="uc-switcher-nav nav-x gap-0 p-narrow mt-5  rounded-pill fs-7 fw-medium"
+                style={{background: "#1c1c1c"}}
                 data-uc-switcher="connect: .pricing-switcher;"
               >
-                <li className={!isYearly ? " text-white inside-gard-tag" : "text-white border-transparent"}>
+                <li className={!isYearly ? " text-white bg-black rounded-pill py-narrow" : "text-white opacity-60"}>
                   <a
                     onClick={() => setIsYearly(false)}
                     className="text-none w-128px cstack p-1 text-white"
@@ -42,7 +38,7 @@ export default function Pricing() {
                     Monthly
                   </a>
                 </li>
-                <li className={isYearly ? "inside-gard-tag text-white" : "text-white border-transparent"}>
+                <li className={isYearly ? " text-white bg-black rounded-pill py-narrow" : "text-white opacity-60"}>
                   <a
                     onClick={() => setIsYearly(true)}
                     className="text-none w-128px cstack p-1 text-white"
@@ -59,9 +55,9 @@ export default function Pricing() {
                 >
                   {tiers3.map((tier, index) => (
                     <div key={index} className="tier-wrapper">
-                      <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 rounded-2 lg:rounded-4 grad-box">
+                      <div className="tier panel vstack gap-2 xl:gap-4 px-3 py-4 sm:p-4 lg:p-6 pricing-card-home-6">
                         {tier.isPopular && (
-                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-1 px-2  rounded-2 text-white fs-7 fw-medium custom-element">
+                          <span className="position-absolute top-0 ltr:end-0 rtl:start-0 m-2 d-inline-flex py-1 px-2  rounded-pill text-white fs-7 fw-medium bg-black">
                             Popular
                           </span>
                         )}
@@ -69,9 +65,6 @@ export default function Pricing() {
                           <h3 className="title h5 sm:h4 dark:text-white">
                             {tier.title}
                           </h3>
-                          <p className="desc dark:text-white opacity-70 dark:opacity-80">
-                            {tier.description}
-                          </p>
                         </div>
                         <div className="panel">
                           <div className="panel vstack gap-narrow">
@@ -82,28 +75,25 @@ export default function Pricing() {
                               {tier.priceDetails}
                             </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">
-                              <Link
-                                href={`/sign-up`}
-                                className={`btn btn-md sm:btn-sm lg:btn-md ${
-                                  tier.title === "Enterprise"
-                                    ? "btn-secondary text-black"
-                                    : "border-primary text-white shadow-none"
-                                } `}
+                                <Link
+                   href={`/sign-up`}
+                    className={`btn btn-md text-black px-narrow mt-2 gap-0 items-center d-flex justify-between ${ 
+                       tier.title === "Enterprise"
+                                    ? "btn-primary"
+                                    : "btn-secondary"
+                    } `}
                               >
-                                {tier.linkText}
-                                <svg width={20} height={20} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g strokeWidth="0"></g><g strokeLinecap="round" strokeLinejoin="round"></g><g> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
-                              </Link>
-                              <span className="fs-7 opacity-70 min-h-24px">
-                                {tier.linkSubtext}
-                              </span>
+                    <span className="sm:px-1 px-3-narrow"> {tier.linkText}</span>
+                     <div className=" bg-black text-white rounded-2  ltr:ms-narrow rtl:rotate-180 d-flex justify-center items-center"
+                     style={{width:"50px",height:"40px"}}>
+                     <i className="icon icon-narrow unicon-arrow-right fw-bold" />
+                     </div>       
+                   </Link>
                             </div>
                           </div>
                         </div>
                         <div className="panel">
                           <div className="panel vstack gap-2">
-                            <span className="fs-6 fw-bold dark:text-white">
-                            Including:
-                            </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
                                  <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>                                <span>{feature}</span>
@@ -116,12 +106,6 @@ export default function Pricing() {
                   ))}
                 </div>
               </div>
-              <p
-                className="text-center dark:text-white"
-                data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
-              >
-                All prices are free of taxes.
-              </p>
             </div>
           </div>
         </div>
