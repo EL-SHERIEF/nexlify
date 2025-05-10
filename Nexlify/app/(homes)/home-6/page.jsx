@@ -42,6 +42,7 @@ export default function HomePage6() {
            <Pricing />
           <Blogs />
           <Cta />
+           <div className="divider-home-6"/>
         </div>
         <Footer5 />
         </div>{" "}

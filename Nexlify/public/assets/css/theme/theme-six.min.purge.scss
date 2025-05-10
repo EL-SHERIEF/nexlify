@@ -199,6 +199,18 @@
   .diff .img{
     transform: translateX(20.9668px) skewX(20deg) scale(1.1);
   }
+  .cta-home-6{
+        background: linear-gradient(180deg, rgb(0, 0, 0) 0%, #121212 100%);
+  }
+  .uc-footer{
+    background: radial-gradient(50% 50% at 50% 0%, #121212 0%, rgb(0, 0, 0) 100%);
+  }
+  .divider-home-6{
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.15;
+    height: 1px;
+    width: 100%;
+  }
   --color-primary-10: #f8fbfa;
   --color-primary-25: #f3f8f7;
   --color-primary-50: #e7f1f0;

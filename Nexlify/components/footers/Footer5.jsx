@@ -36,7 +36,7 @@ export default function Footer5() {
                   {footerLinks4.map((section, index) => (
                     <div key={index} className={section.extraClass || ""}>
                       <ul className="nav-y gap-2 fw-medium">
-                        <li className="fs-7 text-uppercase dark:text-gray-300">
+                        <li className="fs-7 text-uppercase text-white opacity-50">
                           {section.title}
                         </li>
                         {section.links.map((link, linkIndex) => (
@@ -57,7 +57,7 @@ export default function Footer5() {
                 <p className="opacity-60">
                   nexlify © {new Date().getFullYear()}, All rights reserved.
                 </p>
-                <ul className="nav-x justify-center gap-2 text-gray-300">
+                <ul className="nav-x justify-center gap-2 text-white">
                   {socialLinks.map((link, index) => (
                     <li key={index}>
                       <a href={link.href}>
