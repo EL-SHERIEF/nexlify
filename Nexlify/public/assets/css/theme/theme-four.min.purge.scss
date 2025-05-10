@@ -106,7 +106,7 @@
   --font-code-family: var(--font-family-code);
   --font-code-weight: 400;
   --root-size: 1rem;
-  --radius: 15px;
+  --radius: 35px;
   --border-size: 1px;
   --border-color: rgba(131, 131, 131, 0.25);
   --shadow-color: rgba(0, 0, 0, 0.15);
@@ -145,13 +145,60 @@
   --color-slate-900: #15171a;
 
   // Start home-4 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
-  --color-primary: rgb(106, 0, 255);
+  --color-primary: rgb(154, 82, 255);
   --color-primary-rgb: 138, 55, 255;
   --btn-hover-bg: rgb(138, 55, 255);
   --btn-hover-border-color: rgb(138, 55, 255);
   --color-tertiary-rgb: 229, 253, 197;
   // End home-4 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
 
+ 
+  .bg-section{
+    background: radial-gradient(50% 50% at 50% 50%, #121212 0%, rgb(0, 0, 0) 100%);
+  }
+  .gradient-black-spacer{
+    background: linear-gradient(180deg, #0000, #000);
+    bottom: 0;
+    flex: none;
+    height: 96px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    z-index: 6;
+  }
+  .bg-box-home-6{
+    border: solid 1px #ffffff0f;
+    -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
+    background: linear-gradient(135deg, #121212 0%, rgb(0, 0, 0) 100%);
+    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
+  }
+  .box-home-6{
+    border: solid 1px #ffffff19;
+    -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
+    align-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #121212 0%, rgb(0, 0, 0) 100%);
+    border-radius: 18px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    will-change:none, transform;
+  }
+  .diff{
+    transform: perspective(1000px);
+  }
+  .diff .img{
+    transform: translateX(20.9668px) skewX(20deg) scale(1.1);
+  }
   --color-primary-10: #f8fbfa;
   --color-primary-25: #f3f8f7;
   --color-primary-50: #e7f1f0;
@@ -507,7 +554,7 @@
   --sizes-heading-display-6-size: 3.25rem;
   --sizes-heading-display-6-lh: 1;
   --sizes-heading-display-6-lp: -0.105rem;
-  --sizes-heading-h1-size: 3rem;
+  --sizes-heading-h1-size: 3.4rem;
   --sizes-heading-h1-lh: 1.1;
   --sizes-heading-h1-lp: -0.09rem;
   --sizes-heading-h2-size: 2.5rem;
@@ -1368,7 +1415,7 @@
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: rgba(100, 100, 100, 0.17);
+  --bs-border-color: rgba(100, 100, 100, 0.30);
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
