@@ -40,11 +40,6 @@ export default function HomePage6() {
           <Testimonials />
           <Faq />
            <Pricing />
-            <Features />
-          <VideoComponent />
-          <KeyFeatures />
-          <Elements />
-          <Team />
           <Blogs />
           <Cta />
         </div>
