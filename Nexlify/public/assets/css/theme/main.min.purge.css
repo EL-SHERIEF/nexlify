@@ -6349,8 +6349,14 @@ textarea.form-control-lg {
 .pt-9 {
   padding-top: 6rem !important;
 }
+.pe-2 {
+  padding-inline-end: 1.1rem !important;
+}
 .pe-3 {
-  padding-right: 1.5rem !important;
+  padding-inline-end: 1.4rem !important;
+}
+.pe-4{
+  padding-inline-end: 1.7rem !important;
 }
 [dir="rtl"] .rtl\:pe-3 {
   padding-right: 1.5rem !important;

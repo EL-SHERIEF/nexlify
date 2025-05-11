@@ -152,47 +152,7 @@
   --color-tertiary-rgb: 229, 253, 197;
   // End home-4 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
 
- 
-  .bg-section{
-    background: radial-gradient(50% 50% at 50% 50%, #121212 0%, rgb(0, 0, 0) 100%);
-  }
-  .gradient-black-spacer{
-    background: linear-gradient(180deg, #0000, #000);
-    bottom: 0;
-    flex: none;
-    height: 96px;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    z-index: 6;
-  }
-  .bg-box-home-6{
-    border: solid 1px #ffffff0f;
-    -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
-    background: linear-gradient(135deg, #121212 0%, rgb(0, 0, 0) 100%);
-    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
-  }
-  .box-home-6{
-    border: solid 1px #ffffff19;
-    -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
-    align-content: flex-start;
-    align-items: flex-start;
-    background: linear-gradient(135deg, #121212 0%, rgb(0, 0, 0) 100%);
-    border-radius: 18px;
-    display: flex;
-    flex: 1 0 0px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 0px;
-    height: min-content;
-    justify-content: flex-start;
-    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 43%) add;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    will-change:none, transform;
-  }
+
   .diff{
     transform: perspective(1000px);
   }

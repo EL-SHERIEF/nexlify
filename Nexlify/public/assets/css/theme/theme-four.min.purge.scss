@@ -165,7 +165,7 @@
     overflow: hidden;
     position: absolute;
     right: 0;
-    z-index: 6;
+    z-index: 2;
   }
   .bg-box-home-6{
     border: solid 1px #ffffff0f;
@@ -1438,21 +1438,7 @@
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
-  .grad-tag{
-    border-radius: 100px;
-    background-color: #191624;
-    padding: 8px 30px;
-    line-height: 1;
-    font-size: 18px;
-  }
-  .bg-grad-tag{
-    background-color: #191624;
-  }
-.grad-tag span{
-  background-clip: text!important;
-    -webkit-text-fill-color: transparent!important;
-    background-image: linear-gradient(90deg, #bd9cff 0%, #f2f9fe 125%)!important;
-}
+
 .p-2.rounded-2.border.border-1.border-black-400.panel{
   background-color: #191624;
 
