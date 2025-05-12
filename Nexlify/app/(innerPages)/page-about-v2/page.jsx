@@ -4,6 +4,7 @@ import BrandsV2 from "@/components/common/BrandsV2";
 import About2V2 from "@/components/innerpages/About2V2";
 import AboutValuesV2 from "@/components/innerpages/AboutValuesV2";
 import Testimonials from "@/components/homes/home-6/Testimonials";
+import FeaturesV2 from "@/components/innerpages/features/FeaturesV2";
 import TeamV2 from "@/components/innerpages/TeamV2";
 import Cta from "@/components/homes/home-6/Cta";
 import Footer5 from "@/components/footers/Footer5";

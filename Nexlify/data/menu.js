@@ -269,6 +269,14 @@ export const pagesData = [
         href: "/page-features",
         label: "Features",
       },
+        {
+        href: "/page-features-v2",
+        label: "Features V2",
+            badge: {
+          text: "New",
+          className: "text-primary",
+        },
+      },
       {
         href: "/page-pricing",
         label: "Pricing",
@@ -280,6 +288,14 @@ export const pagesData = [
       {
         href: "/page-about",
         label: "About",
+      },
+       {
+        href: "/page-about-v2",
+        label: "About V2",
+            badge: {
+          text: "New",
+          className: "text-primary",
+        },
       },
       {
         href: "/page-career",
@@ -301,6 +317,14 @@ export const pagesData = [
         href: "/page-contact",
         label: "Contact",
       },
+          {
+        href: "/page-contact-V2",
+        label: "Contact V2",
+          badge: {
+          text: "New",
+          className: "text-primary",
+        },
+      },
       {
         href: "#",
         label: "Services",
@@ -318,6 +342,14 @@ export const pagesData = [
       {
         href: "/blog",
         label: "Modern",
+      },
+            {
+        href: "/blog-V2",
+        label: "Blog V2",
+          badge: {
+          text: "New",
+          className: "text-primary",
+        }
       },
       {
         href: "/blog-classic",

@@ -57,7 +57,7 @@ export default function Footer5() {
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 border-top dark:text-white">
                 <p className="opacity-60">
                   nexlify © {new Date().getFullYear()}, All rights reserved.
-                </p>
+                </p> 
                 <ul className="nav-x justify-center gap-2 text-white">
                   {socialLinks.map((link, index) => (
                     <li key={index}>

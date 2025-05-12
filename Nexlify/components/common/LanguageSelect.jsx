@@ -31,7 +31,7 @@ export default function LanguageSelect() {
         </span>
       </a>
       <div
-        className={`p-2 bg-white dark:bg-gray-800 shadow-xs rounded w-150px uc-drop ${
+        className={`p-2 bg-white dark:bg-gray-800 shadow-xs rounded-1-5 w-150px uc-drop ${
           langOpen ? "uc-open" : ""
         } `}
         style={{

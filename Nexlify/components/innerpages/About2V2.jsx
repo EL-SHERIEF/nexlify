@@ -1,7 +1,5 @@
 'use client';
-import { panelsData } from "@/data/facts";
 import React from "react";
-import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
 
 export default function About2V2() {
