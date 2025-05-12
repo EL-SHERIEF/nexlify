@@ -34,8 +34,8 @@ export default function HomePage6() {
           <Brands/>
           <Testimonials />
           <div className="home-6-faq">
-                     <Faq />
-                   </div>
+          <Faq />
+          </div>
            <Pricing />
           <Blogs />
           <Cta />

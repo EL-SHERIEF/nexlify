@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Contact2() {
   return (
-    <div id="hero_header" className="hero-header section panel overflow-hidden">
+    <div id="hero_header" className="hero-header section panel overflow-hidden bg-section">
       <div className="section-outer panel pt-8 lg:pt-9 pb-6 sm:pb-8 lg:pb-9">
         <div className="container max-w-xl">
           <div
