@@ -153,24 +153,8 @@
   // End home-4 color plate changer from here. rgb must replace with rgb and hex code must replace with hex code
 
 
-  .diff{
-    transform: perspective(1000px);
-  }
-  .diff .img{
-    transform: translateX(20.9668px) skewX(20deg) scale(1.1);
-  }
-  .cta-home-6{
-        background: linear-gradient(180deg, rgb(0, 0, 0) 0%, #121212 100%);
-  }
-  .uc-footer{
-    background: radial-gradient(50% 50% at 50% 0%, #121212 0%, rgb(0, 0, 0) 100%);
-  }
-  .divider-home-6{
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
-    opacity: 0.15;
-    height: 1px;
-    width: 100%;
-  }
+
+
   --color-primary-10: #f8fbfa;
   --color-primary-25: #f3f8f7;
   --color-primary-50: #e7f1f0;
@@ -1411,29 +1395,7 @@
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 
-
-
-  .testimonial-card-home-6{
-    cursor: pointer;
-    background-color:#121212;
-transition: all 0.25s ease; }
-   .testimonial-card-home-6:hover{
-    background-color:#1e1e1e;
-   }
-
-   .uc-accordion li{
-    transition: .3s ease;
-    border-radius: 16px 36px 36px 16px!important;
-    background-color: #121212;
-    border: none!important;
-   }
-   .uc-accordion-title{
-    color: white !important;
-   }
-      .uc-accordion li p{
-        font-weight: 400;
-        color: #808080;
-      }
+   
       .pricing-card-home-6{
     border: solid 1px #ffffff0f;
     background: linear-gradient(180deg, #1c1c1c 0%, rgb(0, 0, 0) 100%);

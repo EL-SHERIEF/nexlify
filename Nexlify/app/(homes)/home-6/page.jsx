@@ -2,15 +2,10 @@ import Footer5 from "@/components/footers/Footer5";
 import Header6 from "@/components/headers/Header6";
 import Blogs from "@/components/homes/home-6/Blogs";
 import Cta from "@/components/homes/home-6/Cta";
-import Elements from "@/components/homes/home-6/Elements";
 import Faq from "@/components/homes/home-6/Faq";
-import Features from "@/components/homes/home-6/Features";
 import Hero from "@/components/homes/home-6/Hero";
-import KeyFeatures from "@/components/homes/home-6/KeyFeatures";
 import Pricing from "@/components/homes/home-6/Pricing";
-import Team from "@/components/homes/home-6/Team";
 import Testimonials from "@/components/homes/home-6/Testimonials";
-import VideoComponent from "@/components/homes/home-6/VideoComponent";
 import RowBentoGrid from "@/components/homes/home-6/RowBentoGrid";
 import Brands from "@/components/homes/home-6/Brands";
 
@@ -38,7 +33,9 @@ export default function HomePage6() {
           <Features2/>
           <Brands/>
           <Testimonials />
-          <Faq />
+          <div className="home-6-faq">
+                     <Faq />
+                   </div>
            <Pricing />
           <Blogs />
           <Cta />

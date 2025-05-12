@@ -6243,6 +6243,9 @@ textarea.form-control-lg {
 .p-1 {
   padding: 0.5rem !important;
 }
+.p-2-narrow {
+  padding: 0.6rem !important;
+}
 .p-2 {
   padding: 1rem !important;
 }
@@ -6717,6 +6720,14 @@ textarea.form-control-lg {
 .hover\:bg-gray-50:hover {
   --bs-bg-opacity: 1;
   background: rgba(var(--bs-gray-50-rgb), var(--bs-bg-opacity)) !important;
+}
+.bg-\#121212{
+  background: #121212 !important;
+  --bs-bg-opacity: 1;
+}
+.bg-\#1c1c1c{
+  background: #1c1c1c !important;
+  --bs-bg-opacity: 1;
 }
 .bg-gray-100 {
   --bs-bg-opacity: 1;

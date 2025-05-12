@@ -17,7 +17,7 @@ export default function RowBentoGrid() {
         <div className="container sm:max-w-lg xl:max-w-xl">
           <div className="section-inner panel">
             <div
-              className="panel vstack items-center gap-narrow b-4 sm:mb-8 xl:mb-9 max-w-700px mx-auto text-center"
+              className="panel vstack items-center gap-narrow mb-4 sm:mb-8 xl:mb-9 max-w-700px mx-auto text-center"
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
                  <span className="fw-medium9 fs-5 d-flex align-items-center text-primary" style={{width:'fit-content'}}>

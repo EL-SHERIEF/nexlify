@@ -1872,7 +1872,7 @@
     border-color: var(--border-color) !important;
   }
   .form-control {
-    background-color: #fff !important;
+    background-color: #fff;
   }
   .form-control:where(.uc-dark),
   :where(.uc-dark) .form-control {
