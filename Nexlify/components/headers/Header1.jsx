@@ -1,54 +1,54 @@
-"use client";
-import { useEffect, useState, useRef } from "react";
-import Link from "next/link";
-import Nav from "./component/Nav";
-import Image from "next/image";
-import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import { openContactModal } from "@/utlis/toggleContactModal";
-import LanguageSelect2 from "../common/LanguageSelect2";
+'use client'
+import { useEffect, useState, useRef } from 'react'
+import Link from 'next/link'
+import Nav from './component/Nav'
+import Image from 'next/image'
+import { openMobileMenu } from '@/utlis/toggleMobileMenu'
+import { openContactModal } from '@/utlis/toggleContactModal'
+import LanguageSelect2 from '../common/LanguageSelect2'
 
 export default function Header1() {
-  const prevScrollPos = useRef(0);
-  const ticking = useRef(false);
-  const [scrollingUp, setScrollingUp] = useState(false);
+  const prevScrollPos = useRef(0)
+  const ticking = useRef(false)
+  const [scrollingUp, setScrollingUp] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
       if (!ticking.current) {
         requestAnimationFrame(() => {
-          const currentScrollPos = window.scrollY;
-          const isScrollingUp = currentScrollPos < prevScrollPos.current;
+          const currentScrollPos = window.scrollY
+          const isScrollingUp = currentScrollPos < prevScrollPos.current
 
           if (currentScrollPos <= 80) {
-            setScrollingUp(false);
+            setScrollingUp(false)
           } else if (isScrollingUp !== scrollingUp) {
-            setScrollingUp(isScrollingUp);
+            setScrollingUp(isScrollingUp)
           }
 
-          prevScrollPos.current = currentScrollPos;
-          ticking.current = false;
-        });
+          prevScrollPos.current = currentScrollPos
+          ticking.current = false
+        })
 
-        ticking.current = true;
+        ticking.current = true
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener('scroll', handleScroll, { passive: true })
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [scrollingUp]); // Depend on `scrollingUp` only
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [scrollingUp]) // Depend on `scrollingUp` only
 
   return (
     <header
       className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky ${
-        scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
+        scrollingUp ? ' uc-sticky-below uc-sticky-fixed headerFixed' : ''
       }`}
     >
       <nav
         className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 ${
-          scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
+          scrollingUp ? 'uc-navbar-sticky' : 'uc-navbar-transparent'
         }`}
       >
         <div className="container max-w-xl">
@@ -67,7 +67,6 @@ export default function Header1() {
                     width="117"
                     height="40"
                   />
-                 
                 </Link>
               </div>
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
@@ -112,5 +111,5 @@ export default function Header1() {
         </div>
       </nav>
     </header>
-  );
+  )
 }

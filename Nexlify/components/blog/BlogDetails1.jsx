@@ -1,14 +1,14 @@
-"use client";
-import Link from "next/link";
-import RelatedBlogs from "./RelatedBlogs";
-import Image from "next/image";
-import { Gallery, Item } from "react-photoswipe-gallery";
+'use client'
+import Link from 'next/link'
+import RelatedBlogs from './RelatedBlogs'
+import Image from 'next/image'
+import { Gallery, Item } from 'react-photoswipe-gallery'
 
 export default function BlogDetails1({ blogItem }) {
   return (
     <>
       <div
-        style={{ marginTop: "80px" }}
+        style={{ marginTop: '80px' }}
         className="breadcrumbs panel z-1 py-2 border-1 border-bottom border-top border-black shadow-sm"
       >
         <div className="container max-w-xl">
@@ -127,7 +127,13 @@ export default function BlogDetails1({ blogItem }) {
                 data-uc-lightbox="animation: scale"
               >
                 <p>
-                Kicking off just three months ago, our tech blog’s already a hot spot for developers and trailblazers. We dive deep into the trends reshaping tech’s future—from AI breakthroughs to slick cloud solutions. Our posts are crafted to ignite your curiosity and push you to act. Top industry voices spill the beans on what fuels their success, betting big on teamwork and fresh ideas over old-school methods.
+                  Kicking off just three months ago, our tech blog’s already a
+                  hot spot for developers and trailblazers. We dive deep into
+                  the trends reshaping tech’s future—from AI breakthroughs to
+                  slick cloud solutions. Our posts are crafted to ignite your
+                  curiosity and push you to act. Top industry voices spill the
+                  beans on what fuels their success, betting big on teamwork and
+                  fresh ideas over old-school methods.
                 </p>
                 <p className="mt-3">
                   We interviewed CTOs, data scientists, and startup founders to
@@ -164,10 +170,11 @@ export default function BlogDetails1({ blogItem }) {
                     </figcaption>
                   </figure>
                   <p>
-                    Robust infrastructure, including high-speed networks and cloud
-                    platforms, enables seamless access to tools and resources.
-                    Diverse teams, representing varied backgrounds, drive innovation
-                    by bringing unique perspectives to problem-solving.
+                    Robust infrastructure, including high-speed networks and
+                    cloud platforms, enables seamless access to tools and
+                    resources. Diverse teams, representing varied backgrounds,
+                    drive innovation by bringing unique perspectives to
+                    problem-solving.
                   </p>
                   <p className="mt-3">
                     While Silicon Valley remains a tech hub, it’s not the only
@@ -176,25 +183,28 @@ export default function BlogDetails1({ blogItem }) {
                     and enterprises alike, according to a local tech analyst.
                   </p>
                   <p className="mt-3">
-                    Effective communication in tech relies on clarity and visuals.
-                    Leading firms prioritize data-driven storytelling to convey
-                    complex ideas simply and powerfully.
+                    Effective communication in tech relies on clarity and
+                    visuals. Leading firms prioritize data-driven storytelling
+                    to convey complex ideas simply and powerfully.
                   </p>
                 </div>
-                <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">Hub of Innovation</h4>
+                <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
+                  Hub of Innovation
+                </h4>
                 <p>
-                  The tech industry thrives on visual and interactive storytelling.
-                  In 2025, brands are shifting toward immersive experiences to
-                  engage users. A key principle in tech communication is to minimize
-                  reliance on text, favoring intuitive designs and dynamic visuals.
-                  This approach, inspired by early innovators, remains timeless.
-                  Pioneering companies leverage tools like AR and VR to showcase
-                  solutions without lengthy explanations.
+                  The tech industry thrives on visual and interactive
+                  storytelling. In 2025, brands are shifting toward immersive
+                  experiences to engage users. A key principle in tech
+                  communication is to minimize reliance on text, favoring
+                  intuitive designs and dynamic visuals. This approach, inspired
+                  by early innovators, remains timeless. Pioneering companies
+                  leverage tools like AR and VR to showcase solutions without
+                  lengthy explanations.
                 </p>
                 <p className="mt-3">
-                  Austin, for example, has become a magnet for tech talent due to
-                  its collaborative culture and access to resources, though it’s
-                  distinct from coastal hubs, as a local expert noted.
+                  Austin, for example, has become a magnet for tech talent due
+                  to its collaborative culture and access to resources, though
+                  it’s distinct from coastal hubs, as a local expert noted.
                 </p>
                 <figure className="my-3 sm:my-4">
                   <Item
@@ -226,31 +236,34 @@ export default function BlogDetails1({ blogItem }) {
                   </figcaption>
                 </figure>
                 <p>
-                  Emerging tech hubs foster collaboration among developers, designers,
-                  and entrepreneurs. These ecosystems prioritize accessibility and
-                  inclusivity, creating opportunities for diverse talent to shine.
+                  Emerging tech hubs foster collaboration among developers,
+                  designers, and entrepreneurs. These ecosystems prioritize
+                  accessibility and inclusivity, creating opportunities for
+                  diverse talent to shine.
                   <br />
                   Visual storytelling remains a cornerstone of effective tech
-                  communication, enabling brands to connect with audiences instantly.
+                  communication, enabling brands to connect with audiences
+                  instantly.
                 </p>
                 <p className="mt-3">
-                  A fundamental rule in tech content creation is to let visuals lead.
-                  This approach, adopted by industry leaders, ensures clarity and
-                  impact in a fast-paced digital landscape.
+                  A fundamental rule in tech content creation is to let visuals
+                  lead. This approach, adopted by industry leaders, ensures
+                  clarity and impact in a fast-paced digital landscape.
                 </p>
                 <h4 className="h4 xl:h3 mt-4 mb-2 xl:mb-3">
                   Talent and Opportunity
                 </h4>
                 <p>
-                  Access to education and mentorship is critical for nurturing tech
-                  talent. Universities like MIT and UT Austin, with their robust
-                  programs, anchor cities as innovation hubs. These institutions
-                  drive economic growth and foster a culture of lifelong learning.
+                  Access to education and mentorship is critical for nurturing
+                  tech talent. Universities like MIT and UT Austin, with their
+                  robust programs, anchor cities as innovation hubs. These
+                  institutions drive economic growth and foster a culture of
+                  lifelong learning.
                 </p>
                 <p className="mt-3">
-                  Cities like Seattle offer a blend of corporate giants and nimble
-                  startups, creating a dynamic environment for tech professionals,
-                  as a local founder explained.
+                  Cities like Seattle offer a blend of corporate giants and
+                  nimble startups, creating a dynamic environment for tech
+                  professionals, as a local founder explained.
                 </p>
                 <div className="panel my-3">
                   <figure className="float-start me-3 mb-0">
@@ -284,25 +297,28 @@ export default function BlogDetails1({ blogItem }) {
                   </figure>
                   <p>
                     Vibrant tech communities offer accelerators, hackathons, and
-                    networking events, making it easy for professionals to connect
-                    and grow. Diversity in these ecosystems fuels creativity and
-                    drives breakthroughs.
+                    networking events, making it easy for professionals to
+                    connect and grow. Diversity in these ecosystems fuels
+                    creativity and drives breakthroughs.
                   </p>
                   <p>
-                    Industry experts, from AI researchers to blockchain developers,
-                    highlight the importance of collaborative spaces in fostering
-                    innovation. Visual communication, free from jargon, allows
-                    teams to align on complex projects efficiently.
+                    Industry experts, from AI researchers to blockchain
+                    developers, highlight the importance of collaborative spaces
+                    in fostering innovation. Visual communication, free from
+                    jargon, allows teams to align on complex projects
+                    efficiently.
                   </p>
                 </div>
                 <p>
-                  The tech industry’s unwritten rule is clear: prioritize visuals
-                  and simplicity to tell a compelling story. This approach defines
-                  how leading brands engage their audiences today.
+                  The tech industry’s unwritten rule is clear: prioritize
+                  visuals and simplicity to tell a compelling story. This
+                  approach defines how leading brands engage their audiences
+                  today.
                 </p>
                 <p className="mt-3">
                   We spoke with engineers, product managers, and tech educators
-                  about what makes their communities hubs for innovation and growth.
+                  about what makes their communities hubs for innovation and
+                  growth.
                 </p>
               </div>
             </Gallery>
@@ -393,8 +409,8 @@ export default function BlogDetails1({ blogItem }) {
                     <h4 className="h5 m-0">Sophie Carter</h4>
                     <p className="fs-6">
                       Seasoned tech journalist with over 8 years of experience,
-                      passionate about crafting insightful content for TechTrend to
-                      inspire readers and drive digital transformation.
+                      passionate about crafting insightful content for TechTrend
+                      to inspire readers and drive digital transformation.
                     </p>
                     <ul className="nav-x gap-1 text-gray-400 dark:text-white">
                       <li>
@@ -491,5 +507,5 @@ export default function BlogDetails1({ blogItem }) {
         </div>
       </article>
     </>
-  );
+  )
 }

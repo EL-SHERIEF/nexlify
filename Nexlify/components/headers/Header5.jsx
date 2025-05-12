@@ -1,51 +1,51 @@
-"use client";
+'use client'
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import { navItems } from "@/data/menu";
-import addScrollspy from "@/utlis/addScrollSpy";
+import { useEffect, useState } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import { openMobileMenu } from '@/utlis/toggleMobileMenu'
+import { navItems } from '@/data/menu'
+import addScrollspy from '@/utlis/addScrollSpy'
 
 export default function Header5() {
-  const [scrolledPast, setScrolledPast] = useState(false);
+  const [scrolledPast, setScrolledPast] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      const isScrolledPast = currentScrollPos >= 500;
+      const currentScrollPos = window.pageYOffset
+      const isScrolledPast = currentScrollPos >= 500
 
-      setScrolledPast(isScrolledPast);
-    };
+      setScrolledPast(isScrolledPast)
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   useEffect(() => {
-    window.addEventListener("scroll", addScrollspy);
+    window.addEventListener('scroll', addScrollspy)
 
     return () => {
-      window.removeEventListener("scroll", addScrollspy);
-    };
-  }, []);
+      window.removeEventListener('scroll', addScrollspy)
+    }
+  }, [])
   return (
     <header
       className={`uc-header header-six uc-navbar-sticky-wrap z-999 uc-sticky ${
-        scrolledPast ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
+        scrolledPast ? ' uc-sticky-below uc-sticky-fixed headerFixed' : ''
       }`}
       data-uc-sticky="start: 1200px; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
     >
       <nav
         className={`uc-navbar-container  uc-navbar-float ft-tertiary z-1 ${
-          scrolledPast ? "uc-navbar-sticky" : "uc-navbar-transparent"
+          scrolledPast ? 'uc-navbar-sticky' : 'uc-navbar-transparent'
         } `}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
       >
-        <div className="uc-navbar-main" style={{ "--uc-nav-height": "80px" }}>
+        <div className="uc-navbar-main" style={{ '--uc-nav-height': '80px' }}>
           <div className="container max-w-lg lg:max-w-950px xl:max-w-xl">
             <div
               className="uc-navbar min-h-64px lg:min-h-80px px-2 lg:px-0 text-white"
@@ -68,7 +68,7 @@ export default function Header5() {
                   {navItems.map((item, index) => (
                     <li key={index}>
                       <a
-                        className={item.active ? "uc-active" : ""}
+                        className={item.active ? 'uc-active' : ''}
                         href={item.href}
                       >
                         {item.label}
@@ -106,5 +106,5 @@ export default function Header5() {
         </div>
       </nav>
     </header>
-  );
+  )
 }

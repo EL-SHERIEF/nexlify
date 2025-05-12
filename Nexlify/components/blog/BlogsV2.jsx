@@ -1,8 +1,8 @@
-import { blogsPosts4 } from "@/data/blogs";
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import Pagination from "../common/Pagination";
+import { blogsPosts4 } from '@/data/blogs'
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import Pagination from '../common/Pagination'
 
 export default function BlogsV2() {
   return (
@@ -11,21 +11,21 @@ export default function BlogsV2() {
         <div className="container max-w-xl">
           <div
             className="section-inner panel vstack gap-2"
-            data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100);">
-                           <div
-                  className="panel vstack justify-center items-center gap-3 max-w-500px py-4 mb-4 mx-auto px-2 lg:px-0 text-center"
-                  data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
-                >
-                       <div className="border border-1 text-white d-flex flex-row items-center gap-1 justify-center rounded-pill w-fit bg-black">
-                  <span className="fw-medium fs-7 pe-2">Articles</span>
-             </div>
-             
-                  <h1 className="h1 sm:display-5 md:display-4 lg:display-4 xl:display-3 mb-1 text-white">
-                  <span className="opacity-40">Nexlify</span>{' '} 
-                  <br/>
-                 Insights
-                  </h1>
-                </div>
+            data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100);"
+          >
+            <div
+              className="panel vstack justify-center items-center gap-3 max-w-500px py-4 mb-4 mx-auto px-2 lg:px-0 text-center"
+              data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
+            >
+              <div className="border border-1 text-white d-flex flex-row items-center gap-1 justify-center rounded-pill w-fit bg-black">
+                <span className="fw-medium fs-7 pe-2">Articles</span>
+              </div>
+
+              <h1 className="h1 sm:display-5 md:display-4 lg:display-4 xl:display-3 mb-1 text-white">
+                <span className="opacity-40">Nexlify</span> <br />
+                Insights
+              </h1>
+            </div>
             <div className="row child-cols-12 sm:child-cols-4 col-match gy-4 xl:gx-4 ">
               {blogsPosts4.slice(0, 1).map((elm, i) => (
                 <div key={i} className="col-12">
@@ -49,7 +49,7 @@ export default function BlogsV2() {
                       </div>
                       <div>
                         <div className="vstack items-start gap-2 lg:gap-3">
-                                  <ul className="post-meta nav-x ft-tertiary justify-center fs-7 gap-1">
+                          <ul className="post-meta nav-x ft-tertiary justify-center fs-7 gap-1">
                             <li>
                               <div className="hstack gap-narrow ft-tertiary">
                                 <Image
@@ -99,58 +99,58 @@ export default function BlogsV2() {
               ))}
               {blogsPosts4.slice(1, 7).map((elm, i) => (
                 <div key={i}>
-                     <article className="post type-post panel vstack gap-2">
+                  <article className="post type-post panel vstack gap-2">
+                    <Link
+                      className="position-absolute ltr:end-0 rtl:start-0 rounded-1-5 fs-7 fw-light z-1  text-white bg-black py-narrow px-1"
+                      style={{ top: '-10px' }}
+                      href={`/blog`}
+                    >
+                      {elm.category}
+                    </Link>
+                    <figure className="featured-image m-0 ratio-1x1 rounded-1-5 uc-transition-toggle overflow-hidden">
+                      <Image
+                        className="media-cover image uc-transition-scale-up uc-transition-opaque"
+                        src={elm.imgSrc}
+                        width={1280}
+                        height={854}
+                        alt={elm.imgAlt}
+                      />
+                      <Link
+                        href={`/blog-details/${elm.id}`}
+                        className="position-cover"
+                        data-caption={elm.imgAlt}
+                      ></Link>
+                    </figure>
+                    <header className="panel vstack items-start gap-1 lg:gap-2 px-2">
+                      <h3 className="fs-4 fw-light m-0 text-start m-0 text-white">
                         <Link
-                          className="position-absolute ltr:end-0 rtl:start-0 rounded-1-5 fs-7 fw-light z-1  text-white bg-black py-narrow px-1"
-                          style={{ top: "-10px" }}
-                          href={`/blog`}
+                          className="text-none"
+                          href={`/blog-details/${elm.id}`}
                         >
-                          {elm.category}
+                          {elm.title}
                         </Link>
-                        <figure className="featured-image m-0 ratio-1x1 rounded-1-5 uc-transition-toggle overflow-hidden">
-                          <Image
-                            className="media-cover image uc-transition-scale-up uc-transition-opaque"
-                            src={elm.imgSrc}
-                            width={1280}
-                            height={854}
-                            alt={elm.imgAlt}
-                          />
-                          <Link
-                            href={`/blog-details/${elm.id}`}
-                            className="position-cover"
-                            data-caption={elm.imgAlt}
-                          ></Link>
-                        </figure>
-                        <header className="panel vstack items-start gap-1 lg:gap-2 px-2">
-                          <h3 className="fs-4 fw-light m-0 text-start m-0 text-white">
+                      </h3>
+                      <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
+                        <li>
+                          <div className="hstack gap-narrow ft-tertiary">
+                            <Image
+                              src={elm.authorImg}
+                              width={150}
+                              height={150}
+                              alt={elm.authorName}
+                              className="w-24px h-24px rounded-circle me-narrow"
+                            />
                             <Link
-                              className="text-none"
-                              href={`/blog-details/${elm.id}`}
+                              href={`/blog-author/Jackie`}
+                              className="fw-light opacity-50 text-white"
                             >
-                              {elm.title}
+                              {elm.authorName}
                             </Link>
-                          </h3>
-                          <ul className="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
-                            <li>
-                              <div className="hstack gap-narrow ft-tertiary">
-                                <Image
-                                  src={elm.authorImg}
-                                  width={150}
-                                  height={150}
-                                  alt={elm.authorName}
-                                  className="w-24px h-24px rounded-circle me-narrow"
-                                />
-                                <Link
-                                  href={`/blog-author/Jackie`}
-                                  className="fw-light opacity-50 text-white"
-                                >
-                                  {elm.authorName}
-                                </Link>
-                              </div>
-                            </li>
-                          </ul>
-                        </header>
-                      </article>
+                          </div>
+                        </li>
+                      </ul>
+                    </header>
+                  </article>
                 </div>
               ))}
             </div>
@@ -166,5 +166,5 @@ export default function BlogsV2() {
         </div>
       </div>
     </div>
-  );
+  )
 }

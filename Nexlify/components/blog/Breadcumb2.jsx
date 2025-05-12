@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Breadcumb2({ category }) {
   return (
     <div
-      style={{ marginTop: "80px" }}
+      style={{ marginTop: '80px' }}
       className="breadcrumbs panel z-1 py-2 border-1 border-bottom border-top border-black shadow-sm"
     >
       <div className="container max-w-xl">
@@ -38,5 +38,5 @@ export default function Breadcumb2({ category }) {
         </ul>
       </div>
     </div>
-  );
+  )
 }
