@@ -250,14 +250,26 @@ export const pagesData = [
       {
         href: '/home-4',
         label: 'Home 04',
+        badge: {
+          text: 'New',
+          className: 'text-primary',
+        },
+      },
+      {
+        href: '/home-5',
+        label: 'Home 05',
+        badge: {
+          text: 'New',
+          className: 'text-primary',
+        },
       },
       {
         href: '/home-6',
         label: 'Home 06',
-      },
-      {
-        href: '/home-8',
-        label: 'Home 08',
+        badge: {
+          text: 'New',
+          className: 'text-primary',
+        },
       },
     ],
   },
