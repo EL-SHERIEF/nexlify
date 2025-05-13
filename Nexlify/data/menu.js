@@ -34,6 +34,7 @@ export const menuItems = [
     href: '/page-features',
     label: 'Features',
   },
+
   {
     id: 3,
     href: '/page-pricing',
@@ -60,7 +61,23 @@ export const menuItems = [
     label: 'Contact',
   },
   {
+    href: '/page-contact-v2',
+    label: 'Contact V2',
     id: 7,
+  },
+  {
+    href: '/page-about-v2',
+    label: 'About V2',
+    id: 8,
+  },
+  {
+    href: '/page-features-v2',
+    label: 'Features V2',
+    id: 9,
+  },
+
+  {
+    id: 10,
     label: 'Inner Pages',
     subItems: [
       {
@@ -69,6 +86,10 @@ export const menuItems = [
           {
             href: '/blog',
             label: 'Full Width',
+          },
+          {
+            href: '/blog-V2',
+            label: 'Blog V2',
           },
           {
             href: '/blog-2cols',
@@ -150,7 +171,7 @@ export const menuItems = [
     ],
   },
   {
-    id: 8,
+    id: 11,
     label: 'Shop',
     subItems: [
       {
