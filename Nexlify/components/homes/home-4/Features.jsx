@@ -45,7 +45,7 @@ export default function Features() {
                     <Image
                       className="ltr:rounded-top-start-1-5 rtl:rounded-top-end-1-5"
                       alt=""
-                      src="/assets/images/template/home-06-main-app.png"
+                      src="/assets/images/template/home-06-main-app.webp"
                       width="1280"
                       height="837"
                     />
@@ -64,7 +64,7 @@ export default function Features() {
                     <Image
                       className="rounded-bottom-1-5 lg:rounded-bottom-3"
                       alt="dashboard-components"
-                      src="/assets/images/template/home-06-dashboard-components.png"
+                      src="/assets/images/template/home-06-dashboard-components.webp"
                       width="664"
                       height="496"
                     />
@@ -104,7 +104,7 @@ export default function Features() {
                     <Image
                       className="rounded-bottom-1-5 border border-top-0"
                       alt="ui components"
-                      src="/assets/images/template/home-06-components.png"
+                      src="/assets/images/template/home-06-components.webp"
                       width="800"
                       height="620"
                     />
@@ -147,7 +147,7 @@ export default function Features() {
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
                     <Image
                       alt="builder-tools"
-                      src="/assets/images/template/home-06-builder-tools.png"
+                      src="/assets/images/template/home-06-builder-tools.webp"
                       width="1280"
                       height="800"
                     />
