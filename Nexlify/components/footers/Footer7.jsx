@@ -50,9 +50,13 @@ export default function Footer7() {
                         {section.links.map((link, linkIndex) => (
                           <li key={linkIndex}>
                             {link.isLink ? (
-                              <Link href={link.href}>{link.text}</Link>
+                              <Link className="text-black" href={link.href}>
+                                {link.text}
+                              </Link>
                             ) : (
-                              <a href={link.href}>{link.text}</a>
+                              <a className="text-black" href={link.href}>
+                                {link.text}
+                              </a>
                             )}
                           </li>
                         ))}

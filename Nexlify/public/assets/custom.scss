@@ -649,3 +649,12 @@ transition: all 0.25s ease; }
         font-weight: 400;
         color: #808080;
       }
+.home-6-doodle {
+  max-width: 1000px;
+  top: -100px;
+  left: 50px;
+
+  @media (max-width: 700px) {
+    top: -20px;
+    left: 0px;
+  }}

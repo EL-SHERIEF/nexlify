@@ -1,4 +1,4 @@
-import { features } from '@/data/features'
+import { features15 } from '@/data/features'
 import Image from 'next/image'
 import React from 'react'
 
@@ -28,29 +28,37 @@ export default function Features() {
               className="row child-cols-12 md:child-cols-6 lg:child-cols-4 col-match g-3"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              {features.map((feature, index) => (
+              {features15.map((feature, index) => (
                 <div key={index}>
-                  <div className="panel overflow-hidden text-gray-900 rounded-2 box-style bg-box">
+                  <div className="panel overflow-hidden text-gray-900 rounded-2 box-style bg-box justify-between d-flex flex-column">
+                    <div className="panel vstack items-start gap-2 p-3 lg:p-4 pb-0">
+                      <h4 className="h4 m-0 text-inherit fw-light ls-1">
+                        {feature.title}
+                      </h4>
+                      <p className="fs-6 opacity-50">{feature.description}</p>
+                      {feature.link && (
+                        <a
+                          href={feature.link.href}
+                          className="btn btn-sm btn-primary border px-2 mt-2"
+                        >
+                          <span> {feature.link.text}</span>
+                          <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
+                        </a>
+                      )}
+                    </div>
                     <div className="panel p-1 box-style-sm m-2 rounded-2 bg-box">
                       <Image
                         className="rounded-1-5"
+                        style={{
+                          width: '100%',
+                          height: '300px',
+                          objectFit: 'cover',
+                        }}
                         alt=""
                         src={feature.imgSrc}
                         width={680}
                         height={680}
                       />
-                    </div>
-                    <div className="panel vstack items-start gap-2 p-3 lg:p-4">
-                      <h4 className="h4 m-0 text-inherit fw-light ls-1">
-                        {feature.title}
-                      </h4>
-                      <a
-                        href="#"
-                        className="btn btn-sm btn-primary border px-2 mt-2"
-                      >
-                        <span>Try it now</span>
-                        <i className="icon icon-narrow unicon-arrow-right fw-bold rtl:rotate-180" />
-                      </a>
                     </div>
                   </div>
                 </div>
