@@ -40,7 +40,7 @@ export default function Faq() {
               <div className="lg:col-6">
                 <div className="panel">
                   <ul
-                    className="gap-2 uc-accordion"
+                    className="gap-2 uc-accordion m-0 p-0"
                     data-uc-accordion="targets: > li; multiple: true"
                   >
                     <Accordion parentClass="panel p-2 md:p-4 border rounded-1-5 uc-dark text-white" />

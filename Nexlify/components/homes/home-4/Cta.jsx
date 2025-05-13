@@ -4,7 +4,7 @@ import bg from "@/public/assets/images/landing/home-4-bg.png";
 
 export default function Cta() {
   return (
-    <div className="mx-2 px-2 sm:px-0">
+    <div className="lg:mx-2 lg:px-2 px-0 sm:mx-1">
       <div className="d-flex items-center position-relative  border border-2 border-gray-10 justify-center py-4 sm:py-6 xl:py-8 text-white uc-dark rounded-2 lg:rounded-4 mx-2 "
          style={{
               backgroundImage: `url(${bg.src})`,
@@ -22,7 +22,7 @@ export default function Cta() {
               <h2 className="h2 xl:display-5 text-center">
                 Unleash your creativity with nexlify.
               </h2>
-              <p className="fs-5 my-0">
+              <p className="fs-5 my-0 text-center">
                 Start your 14-days free trial. Cancel anytime.
               </p>
               <a

@@ -20,14 +20,14 @@ export default function Testimonials() {
               data-anime="onview: -100; targets: >*; translateY: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <h5 className="h3 lg:h2 xl:h1 m-0 text-white">What Our Satisfied Customers Say</h5>
-              <p className="h4 lg:h4 xl:h4 fw-medium m-0 text-white text-opacity-70">
+              <p className="h6 lg:h4 xl:h4 fw-medium m-0 text-white text-opacity-70">
               Hear from satisfied customers who've transformed their businesses. Real experiences, real results – see what's possible with us.
               </p>
             </div>
             <div className="panel w-100 mask-x">
               <Swiper
                 className="swiper"
-                slidesPerView={4}
+                slidesPerView={2}
                 spaceBetween={15}
                 centeredSlides={true}
                 loop={true}
@@ -41,8 +41,11 @@ export default function Testimonials() {
                 allowTouchMove={false}
                 breakpoints={{
                   1024: {
-                    // Adjust according to your responsive design
                     slidesPerView: 2,
+                    spaceBetween: 24,
+                  },
+                    400: {
+                    slidesPerView: 1,
                     spaceBetween: 24,
                   },
                 }}
@@ -96,6 +99,10 @@ export default function Testimonials() {
                   1024: {
                     // Adjust according to your responsive design
                     slidesPerView: 2,
+                    spaceBetween: 24,
+                  },
+                       400: {
+                    slidesPerView: 1,
                     spaceBetween: 24,
                   },
                 }}
