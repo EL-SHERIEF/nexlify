@@ -24,28 +24,8 @@ export const menuItems = [
         label: 'Home 5',
       },
       {
-        href: '/home-4',
+        href: '/home-6',
         label: 'Home 6',
-      },
-      {
-        href: '/home-7',
-        label: 'Home 7',
-      },
-      {
-        href: '/home-8',
-        label: 'Home 8',
-      },
-      {
-        href: '/home-9',
-        label: 'Home 9',
-      },
-      {
-        href: '/home-10',
-        label: 'Home 10',
-      },
-      {
-        href: '/rtl',
-        label: 'Home RTL',
       },
     ],
   },
