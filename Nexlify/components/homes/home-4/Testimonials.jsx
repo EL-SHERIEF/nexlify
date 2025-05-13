@@ -1,8 +1,8 @@
-"use client";
-import { reviews, slidesData } from "@/data/testimonials";
-import { Autoplay } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
+'use client'
+import { reviews, slidesData } from '@/data/testimonials'
+import { Autoplay } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import Image from 'next/image'
 export default function Testimonials() {
   return (
     <div
@@ -19,28 +19,37 @@ export default function Testimonials() {
               className="panel  hstack items-start justify-content-between w-full gap-2 xl:gap-3 text-start text-white"
               data-anime="onview: -100; targets: >*; translateY: [-48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <h5 className="h3 lg:h2 xl:h1 m-0 text-white">What Our Satisfied Customers Say</h5>
+              <h5 className="h3 lg:h2 xl:h1 m-0 text-white">
+                What Our Satisfied Customers Say
+              </h5>
               <p className="h4 lg:h4 xl:h4 fw-medium m-0 text-white text-opacity-70">
-              Hear from satisfied customers who've transformed their businesses. Real experiences, real results – see what's possible with us.
+                Hear from satisfied customers who've transformed their
+                businesses. Real experiences, real results – see what's possible
+                with us.
               </p>
             </div>
             <div className="panel w-100 mask-x">
               <Swiper
                 className="swiper"
-                slidesPerView={4}
+                slidesPerView={2}
                 spaceBetween={15}
                 centeredSlides={true}
                 loop={true}
                 speed={5000}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 0, 
+                  delay: 0,
                   disableOnInteraction: true,
                   pauseOnMouseEnter: true,
                 }}
                 allowTouchMove={false}
                 breakpoints={{
                   1024: {
+                    // Adjust according to your responsive design
+                    slidesPerView: 2,
+                    spaceBetween: 24,
+                  },
+                  600: {
                     // Adjust according to your responsive design
                     slidesPerView: 2,
                     spaceBetween: 24,
@@ -98,14 +107,19 @@ export default function Testimonials() {
                     slidesPerView: 2,
                     spaceBetween: 24,
                   },
+                  700: {
+                    // Adjust according to your responsive design
+                    slidesPerView: 2,
+                    spaceBetween: 24,
+                  },
                 }}
                 style={{
-                  transform: "rotate(180deg)",
+                  transform: 'rotate(180deg)',
                 }}
               >
                 {reviews.map((review, index) => (
                   <SwiperSlide
-                    style={{ transform: "rotate(180deg)" }}
+                    style={{ transform: 'rotate(180deg)' }}
                     className="swiper-slide"
                     key={index}
                   >
@@ -143,5 +157,5 @@ export default function Testimonials() {
         </div>
       </div>
     </div>
-  );
+  )
 }
