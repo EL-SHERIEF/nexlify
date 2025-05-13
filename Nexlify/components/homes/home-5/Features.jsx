@@ -1,6 +1,6 @@
-import { features } from "@/data/features";
-import Image from "next/image";
-import React from "react";
+import { features } from '@/data/features'
+import Image from 'next/image'
+import React from 'react'
 
 export default function Features() {
   return (
@@ -15,14 +15,13 @@ export default function Features() {
               className="panel vstack items-center gap-2 mb-2 sm:mb-5 lg:mb-5 max-w-650px mx-auto text-center text-gray-500"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-              <span className="custom-tag-sm mb-2">
-              Live Oversight
-              </span>
+              <span className="custom-tag-sm mb-2">Live Oversight</span>
               <h2 className="h1 fw-light m-0 text-inherit ls-1">
-              Comprehensive Features
+                Comprehensive Features
               </h2>
               <p className="fs-6 fw-light">
-              Track every campaign and customer interaction to refine engagement strategies
+                Track every campaign and customer interaction to refine
+                engagement strategies
               </p>
             </div>
             <div
@@ -42,7 +41,9 @@ export default function Features() {
                       />
                     </div>
                     <div className="panel vstack items-start gap-2 p-3 lg:p-4">
-                      <h4 className="h4 m-0 text-inherit fw-light ls-1">{feature.title}</h4>
+                      <h4 className="h4 m-0 text-inherit fw-light ls-1">
+                        {feature.title}
+                      </h4>
                       <a
                         href="#"
                         className="btn btn-sm btn-primary border px-2 mt-2"
@@ -69,7 +70,7 @@ export default function Features() {
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
                     <Image
                       alt="builder-tools"
-                      src="/assets/images/template/home-06-builder-tools.png"
+                      src="/assets/images/template/home-06-builder-tools.webp"
                       width={1280}
                       height={800}
                     />
@@ -78,8 +79,8 @@ export default function Features() {
               </div>
               <div className="col-12 lg:col-6">
                 <div className="panel vstack justify-content-between overflow-hidden min-h-600px bg-box box-style text-gray-500 rounded-2 pt-4 lg:pt-0">
-                <div className="panel vstack items-center text-center gap-2 p-3 lg:p-4 xl:p-6">
-                <h4 className="h2 fw-light m-0 text-inherit">
+                  <div className="panel vstack items-center text-center gap-2 p-3 lg:p-4 xl:p-6">
+                    <h4 className="h2 fw-light m-0 text-inherit">
                       Dedicated customer support
                     </h4>
                     <p className="fs-6 m-0">
@@ -96,10 +97,10 @@ export default function Features() {
                     </a>
                   </div>
                   <div className="panel  position-relative">
-                  <div className="panel p-1 box-style-sm m-2 rounded-2 bg-box">
+                    <div className="panel p-1 box-style-sm m-2 rounded-2 bg-box">
                       <Image
                         className="rounded-1-5 max-h-400px lg:max-h-450px"
-                        style={{objectFit:"cover",objectPosition:"start"}}
+                        style={{ objectFit: 'cover', objectPosition: 'start' }}
                         alt=""
                         src="/assets/images/landing/Hero-1-11.webp"
                         width={680}
@@ -114,5 +115,5 @@ export default function Features() {
         </div>
       </div>
     </div>
-  );
+  )
 }

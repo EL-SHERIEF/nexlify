@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 export default function Features() {
   return (
@@ -12,13 +12,14 @@ export default function Features() {
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <div className="grad-tag">
-                  <span>Main features</span>
+                <span>Main features</span>
               </div>
               <h2 className="h3 lg:h2 xl:h1 m-0 px-2 text-white">
-              Boost Your Workflow with Our Powerful Tools
+                Boost Your Workflow with Our Powerful Tools
               </h2>
               <p className="fs-6 xl:fs-5 text-white text-opacity-70">
-              Explore the advanced tools made to streamline your processes, enhance productivity, and drive business growth powerfully
+                Explore the advanced tools made to streamline your processes,
+                enhance productivity, and drive business growth powerfully
               </p>
             </div>
             <div className="row child-cols-12 lg:child-cols-5 col-match g-2">
@@ -27,7 +28,7 @@ export default function Features() {
                   className="panel overflow-hidden bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3 position-relative"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 0;"
                 >
-                 <div className="glow-div"/>
+                  <div className="glow-div" />
                   <div
                     className="panel vstack items-start gap-2 p-3 lg:p-4 xl:p-6"
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
@@ -45,7 +46,7 @@ export default function Features() {
                     <Image
                       className="ltr:rounded-top-start-1-5 rtl:rounded-top-end-1-5"
                       alt=""
-                      src="/assets/images/template/home-06-main-app.png"
+                      src="/assets/images/template/home-06-main-app.webp"
                       width="1280"
                       height="837"
                     />
@@ -57,14 +58,14 @@ export default function Features() {
                   className="panel position-relative vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white rounded-2 lg:rounded-3 uc-dark"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 100;"
                 >
-                   <div className="glow-div end"/>
+                  <div className="glow-div end" />
                   <div className="position-cover bg-gradient-to-t from-primary via-transparent to-primary" />
                   <div className="position-absolute d-inline-block w-500px h-500px rounded-circle bg-gradient-45 from-primary to-white start-50 blur-10 translate-middle blend-soft-light" />
                   <div className="panel p-3">
                     <Image
                       className="rounded-bottom-1-5 lg:rounded-bottom-3"
                       alt="dashboard-components"
-                      src="/assets/images/template/home-06-dashboard-components.png"
+                      src="/assets/images/template/home-06-dashboard-components.webp"
                       width="664"
                       height="496"
                     />
@@ -92,10 +93,10 @@ export default function Features() {
                   className="panel vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white  rounded-2 lg:rounded-3 uc-dark position-relative"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 200;"
                 >
-                  <div className="glow-div start"/>
+                  <div className="glow-div start" />
                   <div
                     className="position-cover opacity-70 bg-cover"
-                    style={{ backgroundPosition: "50% 85%" }}
+                    style={{ backgroundPosition: '50% 85%' }}
                     data-uc-img=""
                   />
                   <div className="position-cover bg-gradient-to-t from-primary via-transparent to-grimary" />
@@ -104,7 +105,7 @@ export default function Features() {
                     <Image
                       className="rounded-bottom-1-5 border border-top-0"
                       alt="ui components"
-                      src="/assets/images/template/home-06-components.png"
+                      src="/assets/images/template/home-06-components.webp"
                       width="800"
                       height="620"
                     />
@@ -133,12 +134,14 @@ export default function Features() {
                   className="panel vstack items-start overflow-hidden bg-dark border border-2 border-gray-10 text-white  text-white rounded-2 lg:rounded-3 position-relative"
                   data-anime="onview: -100; translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 300;"
                 >
-                <div className="glow-div bottom"/>
+                  <div className="glow-div bottom" />
                   <div
                     className="panel vstack items-center gap-2 p-3 lg:p-4 xl:p-6"
                     data-anime="onview: -100; targets: >*; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});"
                   >
-                    <h4 className="m-0 grad-tag"><span>Drag-and-Drop Interface</span></h4>
+                    <h4 className="m-0 grad-tag">
+                      <span>Drag-and-Drop Interface</span>
+                    </h4>
                     <p className="fs-6 md:fs-5 lg:fs-4 m-0 xl:px-4 text-center  text-opacity-70">
                       Unleash your creativity with our builder's intuitive UI
                       Components, experience the difference.
@@ -147,7 +150,7 @@ export default function Features() {
                   <div className="panel px-3 lg:px-4 xl:px-6 mb-2 lg:mb-5">
                     <Image
                       alt="builder-tools"
-                      src="/assets/images/template/home-06-builder-tools.png"
+                      src="/assets/images/template/home-06-builder-tools.webp"
                       width="1280"
                       height="800"
                     />
@@ -159,5 +162,5 @@ export default function Features() {
         </div>
       </div>
     </div>
-  );
+  )
 }
