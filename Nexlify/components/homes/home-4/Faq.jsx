@@ -1,6 +1,6 @@
-import Accordion from "@/components/common/Accordion";
-import React from "react";
-import Link from "next/link";
+import Accordion from '@/components/common/Accordion'
+import React from 'react'
+import Link from 'next/link'
 
 export default function Faq() {
   return (
@@ -19,14 +19,14 @@ export default function Faq() {
                   hidden=""
                 />
                 <div className="panel vstack items-start gap-2 uc-sticky uc-dark">
-                <div className="grad-tag">
-                  <span>FAQs</span>
-              </div>
+                  <div className="grad-tag">
+                    <span>FAQs</span>
+                  </div>
                   <h2 className="h3 lg:h2 m-0 ">Frequenlty Asked Questions</h2>
                   <p className="fs-6 lg:fs-5 text-white text-opacity-70">
-                    AI Developer? We value your skills! most of our
-                    time used to be taken up by most of who created new websites
-                    for thier businesses.
+                    AI Developer? We value your skills! most of our time used to
+                    be taken up by most of who created new websites for thier
+                    businesses.
                   </p>
                   <Link
                     href={`/page-contact`}
@@ -40,7 +40,7 @@ export default function Faq() {
               <div className="lg:col-6">
                 <div className="panel">
                   <ul
-                    className="gap-2 uc-accordion"
+                    className="gap-2 uc-accordion m-0 p-0"
                     data-uc-accordion="targets: > li; multiple: true"
                   >
                     <Accordion parentClass="panel p-2 md:p-4 border rounded-1-5 uc-dark text-white" />
@@ -52,5 +52,5 @@ export default function Faq() {
         </div>
       </div>
     </div>
-  );
+  )
 }

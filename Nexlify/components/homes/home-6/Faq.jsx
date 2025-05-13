@@ -1,6 +1,6 @@
-import Accordion from "@/components/common/Accordion";
-import React from "react";
-import Link from "next/link";
+import Accordion from '@/components/common/Accordion'
+import React from 'react'
+import Link from 'next/link'
 export default function Faq() {
   return (
     <div id="faq" className="section panel overflow-hidden">
@@ -12,19 +12,21 @@ export default function Faq() {
           >
             <div
               className="panel items-center justify-center "
-              style={{ transform: "translateY(0px)", opacity: 1 }}
+              style={{ transform: 'translateY(0px)', opacity: 1 }}
             >
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center fw-light text-white">
-               Any questions?
+                Any questions?
               </h2>
-                 <p className="fs-5 xl:fs-4 fw-light text-white text-center mt-3">
-                  <span className="opacity-50">See the info below or drop me a line via the </span>
-                  <Link href={`/page-contact`}>contact</Link>
-                   <span className="opacity-50"> form </span>
-                  </p>
+              <p className="fs-5 xl:fs-4 fw-light text-white text-center mt-3">
+                <span className="opacity-50">
+                  See the info below or drop me a line via the{' '}
+                </span>
+                <Link href={`/page-contact`}>contact</Link>
+                <span className="opacity-50"> form </span>
+              </p>
               <div className="panel mt-3 p-3 lg:max-w-900px xl:w-auto m-auto">
                 <ul
-                  className="gap-2 uc-accordion"
+                  className="gap-2 uc-accordion m-0 p-0"
                   data-uc-accordion="targets: > li;"
                 >
                   <Accordion />
@@ -35,5 +37,5 @@ export default function Faq() {
         </div>
       </div>
     </div>
-  );
+  )
 }
