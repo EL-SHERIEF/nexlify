@@ -50,7 +50,7 @@ export const features15 = [
   },
   {
     id: 6,
-    imgSrc: '/assets/images/landing/Hero-1-20.webpx ',
+    imgSrc: '/assets/images/landing/Hero-1-20.webp',
     imgAlt: 'Maintain compliance and control your apps',
     title: 'Secure and compliant AI solutions',
     link: {
