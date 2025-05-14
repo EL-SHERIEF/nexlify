@@ -34,7 +34,7 @@ export default function Hero() {
                       platform.
                     </p>
                     <div
-                      className="hstack justify-center items-center gap-1 lg:gap-4 my-1 lg:my-3 "
+                      className="hstack justify-center items-center gap-1 lg:gap-4 my-1 lg:my-3  scale-when-small"
                       data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
                     >
                       <a

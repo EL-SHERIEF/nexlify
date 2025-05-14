@@ -33,18 +33,21 @@ export default function Elements() {
                 }}
                 breakpoints={{
                   640: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                   },
                   768: {
-                    slidesPerView: 6,
+                    slidesPerView: 3,
                     spaceBetween: 10,
                   },
                 }}
               >
                 {slideData.map((slide, index) => (
                   <SwiperSlide key={index}>
-                    <div className="cstack box-style-sm py-1 rounded-1-5 bg-box">
-                      <span className="fs-7 md:fs-6 lg:fs-5 fw-medium">
+                    <div className="cstack box-style-sm py-1 rounded-1-5 bg-box ">
+                      <span
+                        className="fs-7 md:fs-6 lg:fs-5 fw-medium"
+                        style={{ whiteSpace: 'nowrap' }}
+                      >
                         {slide.label}
                       </span>
                     </div>
@@ -77,7 +80,10 @@ export default function Elements() {
                 {slideData.map((slide, index) => (
                   <SwiperSlide key={index}>
                     <div className="cstack box-style-sm py-1 rounded-1-5 bg-box">
-                      <span className="fs-7 md:fs-6 lg:fs-5 fw-medium">
+                      <span
+                        className="fs-7 md:fs-6 lg:fs-5 fw-medium"
+                        style={{ whiteSpace: 'nowrap' }}
+                      >
                         {slide.label}
                       </span>
                     </div>

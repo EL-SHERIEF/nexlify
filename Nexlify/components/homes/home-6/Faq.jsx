@@ -14,7 +14,7 @@ export default function Faq() {
               className="panel items-center justify-center "
               style={{ transform: 'translateY(0px)', opacity: 1 }}
             >
-              <h2 className="h4 sm:h3 lg:h2 m-0 text-center fw-light text-white">
+              <h2 className="h3 lg:h2 m-0 text-center fw-light text-white">
                 Any questions?
               </h2>
               <p className="fs-5 xl:fs-4 fw-light text-white text-center mt-3">

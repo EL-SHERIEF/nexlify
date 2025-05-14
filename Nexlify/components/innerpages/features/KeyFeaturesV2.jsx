@@ -1,6 +1,6 @@
-import { features4 } from "@/data/features";
-import React from "react";
-import Link from "next/link";
+import { features4 } from '@/data/features'
+import React from 'react'
+import Link from 'next/link'
 
 export default function KeyFeaturesV2() {
   return (
@@ -12,19 +12,24 @@ export default function KeyFeaturesV2() {
         <div className="container sm:max-w-md lg:max-w-lg">
           <div className="section-inner panel">
             <div className="panel vstack gap-4">
-             <div
-              className="panel vstack items-center gap-narrow mb-4 max-w-700px mx-auto text-center"
-              data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
-            >
-                 <span className="fw-medium9 fs-5 d-flex align-items-center text-primary" style={{width:'fit-content'}}>
-                            Key Features
-                    </span>
-              <h2 className="h2 m-0 text-white fw-medium">
-              We make data accessible and 
-              <br />
-              <span className="opacity-40">actionable for teams of all sizes.</span>{' '} 
-                  </h2>
-            </div>
+              <div
+                className="panel vstack items-center gap-narrow mb-4 max-w-700px mx-auto text-center"
+                data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
+              >
+                <span
+                  className="fw-medium9 fs-5 d-flex align-items-center text-primary"
+                  style={{ width: 'fit-content' }}
+                >
+                  Key Features
+                </span>
+                <h2 className="h3 lg:h2 m-0 text-white fw-medium">
+                  Make data accessible and
+                  <br />
+                  <span className="opacity-40">
+                    actionable for teams of all sizes.
+                  </span>{' '}
+                </h2>
+              </div>
               <div className="panel">
                 <div
                   className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2"
@@ -36,10 +41,13 @@ export default function KeyFeaturesV2() {
                         <div className="vstack panel min-h-250px">
                           <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" />
                           <div className="vstack justify-between gap-2 h-100">
-                            <div className="box-home-6 rounded-3 h-fit text-primary p-2 flex-0" style={{width:"fit-content"}}>
+                            <div
+                              className="box-home-6 rounded-3 h-fit text-primary p-2 flex-0"
+                              style={{ width: 'fit-content' }}
+                            >
                               <i className={`icon icon-4 ${feature.icon} `} />
-                              </div>
-                            
+                            </div>
+
                             <div className="panel">
                               <div className="vstack gap-1">
                                 <h3 className="title h5 m-0 text-inherit">
@@ -66,5 +74,5 @@ export default function KeyFeaturesV2() {
         </div>
       </div>
     </div>
-  );
+  )
 }

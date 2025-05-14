@@ -1,5 +1,5 @@
-import Accordion from "@/components/common/Accordion";
-import React from "react";
+import Accordion from '@/components/common/Accordion'
+import React from 'react'
 
 export default function Faqs() {
   return (
@@ -11,16 +11,22 @@ export default function Faqs() {
             data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
           >
             <div className="row child-cols-12 col-match g-4">
-                <div className="vstack items-center text-center gap-2 mb-2">
-                <span className="custom-tag-sm mb-2">Your Queries, Simplified</span>
+              <div className="vstack items-center text-center gap-2 mb-2">
+                <span className="custom-tag-sm mb-2">
+                  Your Queries, Simplified
+                </span>
                 <h2 className="h1 fw-light m-0 text-inherit ls-1 text-dark">
-                Questions? Answers!</h2>
-                <p className="fs-6 fw-light">Find quick answers to the most common questions about our platform</p>
-                          </div>
+                  Questions? Answers!
+                </h2>
+                <p className="fs-6 fw-light">
+                  Find quick answers to the most common questions about our
+                  platform
+                </p>
+              </div>
               <div>
                 <div className="panel">
                   <ul
-                    className="uc-accordion gap-1 max-w-md mx-auto"
+                    className="uc-accordion gap-1 max-w-md mx-auto p-0"
                     data-uc-accordion="targets: > li; multiple: false;"
                   >
                     <Accordion parentClass="panel fw-light border-0 px-2 py-3 md:px-3 lg:px-4 bg-box box-style rounded-1-5" />
@@ -32,5 +38,5 @@ export default function Faqs() {
         </div>
       </div>
     </div>
-  );
+  )
 }

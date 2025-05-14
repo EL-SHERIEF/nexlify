@@ -19,7 +19,7 @@ export default function Pricing() {
                 className="heading vstack items-center panel max-w-550px mx-auto text-center"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <h2 className="h4 sm:h3 lg:h2 m-0 text-center fw-light text-white">
+                <h2 className="h3 lg:h2 m-0 text-center fw-light text-white">
                   What will it cost?
                 </h2>
                 <p className="fs-5 xl:fs-4 fw-light text-white text-center mt-3 opacity-50">

@@ -12,7 +12,7 @@ export default function Features() {
         <div className="container">
           <div className="section-inner panel">
             <div
-              className="panel vstack items-center gap-2 mb-2 sm:mb-5 lg:mb-5 max-w-650px mx-auto text-center text-gray-500"
+              className="panel vstack items-center gap-2 mb-5 max-w-650px mx-auto text-center text-gray-500"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
               <span className="custom-tag-sm mb-2">Live Oversight</span>
