@@ -31,7 +31,7 @@ export default function Features() {
               {features15.map((feature, index) => (
                 <div key={index}>
                   <div className="panel overflow-hidden text-gray-900 rounded-2 box-style bg-box justify-between d-flex flex-column">
-                    <div className="panel vstack items-start gap-2 p-3 lg:p-4 pb-0">
+                    <div className="panel vstack items-start gap-1 p-4 pb-2">
                       <h4 className="h4 m-0 text-inherit fw-light ls-1">
                         {feature.title}
                       </h4>

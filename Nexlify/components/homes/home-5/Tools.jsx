@@ -1,7 +1,7 @@
-import { tools } from "@/data/tools";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import { tools } from '@/data/tools'
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
 
 export default function Tools() {
   return (
@@ -16,11 +16,11 @@ export default function Tools() {
               className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-6 lg:mb-8 mx-auto text-center max-w-800px px-3"
               data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
             >
-               <span className="custom-tag-sm mb-2">
-               Integrations
-              </span>
-              
-              <h2 className="h1 fw-light m-0 text-inherit ls-1">Get more value from your tools</h2>
+              <span className="custom-tag-sm mb-2">Integrations</span>
+
+              <h2 className="h1 fw-light m-0 text-inherit ls-1">
+                Get more value from your tools
+              </h2>
               <p className="fs-6 fw-light">
                 Connect your tools, connect your teams. With over 200 apps
                 already available in our directory, your team’s favourite tools
@@ -57,5 +57,5 @@ export default function Tools() {
         </div>
       </div>
     </div>
-  );
+  )
 }

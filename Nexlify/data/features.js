@@ -30,9 +30,9 @@ export const panelData = [
 export const features15 = [
   {
     id: 4,
-    imgSrc: '/assets/images/landing/Hero-1-8.webp',
-    imgAlt: 'Share tools quickly and confidently in minutes',
-    title: 'Deploy AI models effortlessly in minutes',
+    imgSrc: '/assets/images/landing/Hero-1-19.webp',
+    imgAlt: 'AI TOOL SAAS settings',
+    title: 'Easy Settings & Integrations',
     link: {
       text: 'Explore',
       href: '#',
@@ -50,7 +50,7 @@ export const features15 = [
   },
   {
     id: 6,
-    imgSrc: '/assets/images/landing/Hero-1-13.png',
+    imgSrc: '/assets/images/landing/Hero-1-20.webpx ',
     imgAlt: 'Maintain compliance and control your apps',
     title: 'Secure and compliant AI solutions',
     link: {
