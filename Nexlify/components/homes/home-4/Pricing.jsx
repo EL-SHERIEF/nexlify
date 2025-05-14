@@ -1,18 +1,23 @@
-"use client";
-import { tiers3 } from "@/data/pricing";
-import { useState } from "react";
-import React from "react";
-import Link from "next/link";
+'use client'
+import { tiers3 } from '@/data/pricing'
+import { useState } from 'react'
+import React from 'react'
+import Link from 'next/link'
 
 export default function Pricing() {
-  const [isYearly, setIsYearly] = useState(false);
+  const [isYearly, setIsYearly] = useState(false)
   return (
     <div
       id="pricing"
-      className="pricing section panel overflow-hidden uc-dark  scrollSpysection mx-2"
+      className="pricing section panel overflow-hidden uc-dark  scrollSpysection"
     >
       <div className="section-outer panel py-4 overflow-hidden md:py-6 xl:py-10 mx-2 rounded-2 lg:rounded-3 bg-primary text-white bg-opacity-10">
-        <div className="position-cover opacity-70 bg-contain" style={{ backgroundPosition: "50% 85%" }} data-src="/assets/images/template/pricing-06-bg-masked.png" data-uc-img=""  />
+        <div
+          className="position-cover opacity-70 bg-contain"
+          style={{ backgroundPosition: '50% 85%' }}
+          data-src="/assets/images/template/pricing-06-bg-masked.png"
+          data-uc-img=""
+        />
         <div className="position-cover bg-gradient-to-t from-gray-800 via-transparent to-gray-900" />
         <div className="container xl:max-w-xl">
           <div className="section-inner panel">
@@ -23,34 +28,46 @@ export default function Pricing() {
               >
                 <div className="grad-tag">
                   <span>Pricing</span>
-              </div>
+                </div>
                 <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
-                Find your perfect plan
+                  Find your perfect plan
                 </h2>
                 <p className="fs-6 xl:fs-5 text-opacity-70">
                   Unlock Your Full Potential with Flexible Pricing
                 </p>
                 <ul
-                className="uc-switcher-nav nav-x gap-0 p-narrow grad-tag rounded-pill fs-7 fw-medium"
-                data-uc-switcher="connect: .pricing-switcher;"
-              >
-                <li className={!isYearly ? " text-white inside-gard-tag" : "text-white border-transparent"}>
-                  <a
-                    onClick={() => setIsYearly(false)}
-                    className="text-none w-128px cstack p-1 text-white"
+                  className="uc-switcher-nav nav-x gap-0 p-narrow grad-tag rounded-pill fs-7 fw-medium"
+                  data-uc-switcher="connect: .pricing-switcher;"
+                >
+                  <li
+                    className={
+                      !isYearly
+                        ? ' text-white inside-gard-tag'
+                        : 'text-white border-transparent'
+                    }
                   >
-                    Monthly
-                  </a>
-                </li>
-                <li className={isYearly ? "inside-gard-tag text-white" : "text-white border-transparent"}>
-                  <a
-                    onClick={() => setIsYearly(true)}
-                    className="text-none w-128px cstack p-1 text-white"
+                    <a
+                      onClick={() => setIsYearly(false)}
+                      className="text-none w-128px cstack p-1 text-white"
+                    >
+                      Monthly
+                    </a>
+                  </li>
+                  <li
+                    className={
+                      isYearly
+                        ? 'inside-gard-tag text-white'
+                        : 'text-white border-transparent'
+                    }
                   >
-                    Yearly
-                  </a>
-                </li>
-              </ul>
+                    <a
+                      onClick={() => setIsYearly(true)}
+                      className="text-none w-128px cstack p-1 text-white"
+                    >
+                      Yearly
+                    </a>
+                  </li>
+                </ul>
               </div>
               <div className="content panel">
                 <div
@@ -85,13 +102,35 @@ export default function Pricing() {
                               <Link
                                 href={`/sign-up`}
                                 className={`btn btn-md sm:btn-sm lg:btn-md ${
-                                  tier.title === "Enterprise"
-                                    ? "btn-secondary text-black"
-                                    : "border-primary text-white shadow-none"
+                                  tier.title === 'Enterprise'
+                                    ? 'btn-secondary text-black'
+                                    : 'border-primary text-white shadow-none'
                                 } `}
                               >
                                 {tier.linkText}
-                                <svg width={20} height={20} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g strokeWidth="0"></g><g strokeLinecap="round" strokeLinejoin="round"></g><g> <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
+                                <svg
+                                  width={20}
+                                  height={20}
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g strokeWidth="0"></g>
+                                  <g
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  ></g>
+                                  <g>
+                                    {' '}
+                                    <path
+                                      d="M7 17L17 7M17 7H8M17 7V16"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    ></path>{' '}
+                                  </g>
+                                </svg>
                               </Link>
                               <span className="fs-7 opacity-70 min-h-24px">
                                 {tier.linkSubtext}
@@ -102,11 +141,25 @@ export default function Pricing() {
                         <div className="panel">
                           <div className="panel vstack gap-2">
                             <span className="fs-6 fw-bold dark:text-white">
-                            Including:
+                              Including:
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>                                <span>{feature}</span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width={24}
+                                  height={24}
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="black"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>{' '}
+                                <span>{feature}</span>
                               </div>
                             ))}
                           </div>
@@ -127,5 +180,5 @@ export default function Pricing() {
         </div>
       </div>
     </div>
-  );
+  )
 }
