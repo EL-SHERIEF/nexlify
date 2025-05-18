@@ -346,7 +346,7 @@ export default function Nav3() {
       </li>
       <li>
         <a
-          href="https://themeforest.net/user/ib-themes/portfolio"
+          href="#NexlifyAppBuyNow"
           target="_blank"
         >
           Buy now

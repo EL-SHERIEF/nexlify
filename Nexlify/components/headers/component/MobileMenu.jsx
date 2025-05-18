@@ -237,7 +237,7 @@ export default function MobileMenu() {
               <Link href={`/sign-in`}>Log in</Link>
             </li>
             <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
+              <a href="#NexlifyAppBuyNow">
                 Buy Template
               </a>
             </li>

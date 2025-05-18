@@ -105,7 +105,7 @@ export default function Nav() {
                   />
                   <a
                     className="position-cover"
-                    href="https://themeforest.net/user/ib-themes/portfolio"
+                    href="#NexlifyAppBuyNow"
                     target="_blank"
                   ></a>
                 </div>
