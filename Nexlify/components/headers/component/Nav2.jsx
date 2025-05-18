@@ -1,17 +1,17 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
-import { openNewsletterModal } from "@/utlis/toggleNewsletterModal";
-import { mainPages, othermenuItems } from "@/data/menu";
-import { usePathname } from "next/navigation";
+'use client'
+import Link from 'next/link'
+import Image from 'next/image'
+import { openNewsletterModal } from '@/utlis/toggleNewsletterModal'
+import { mainPages, othermenuItems } from '@/data/menu'
+import { usePathname } from 'next/navigation'
 
 export default function Nav2() {
-  const pathname = usePathname();
+  const pathname = usePathname()
   return (
     <>
       <li className="has-dd-menu">
         <a href="#" role="button" aria-haspopup="true">
-          Features{" "}
+          Features{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -27,7 +27,7 @@ export default function Nav2() {
           </span>
         </a>
         <div
-          style={{ top: 127, maxWidth: "100vw" }}
+          style={{ top: 127, maxWidth: '100vw' }}
           className="uc-navbar-dropdown w-100 ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-2 overflow-hidden uc-drop"
         >
           <div
@@ -43,7 +43,7 @@ export default function Nav2() {
                       <Link
                         href={page.href}
                         className={`vstack p-1 text-none text-center rounded-1-5 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 ${
-                          pathname == page.href ? "menuActiveBg" : ""
+                          pathname == page.href ? 'menuActiveBg' : ''
                         } `}
                       >
                         <div className="featured-image panel border shadow-xs rounded-1 overflow-hidden">
@@ -115,9 +115,9 @@ export default function Nav2() {
           </div>
         </div>
       </li>
-      <li className="has-dd-menu" style={{ position: "relative" }}>
+      <li className="has-dd-menu" style={{ position: 'relative' }}>
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          Products{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -249,9 +249,9 @@ export default function Nav2() {
           </div>
         </div>
       </li>
-      <li className="has-dd-menu" style={{ position: "relative" }}>
+      <li className="has-dd-menu" style={{ position: 'relative' }}>
         <a href="#" role="button" aria-haspopup="true">
-          Resources{" "}
+          Resources{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -363,13 +363,10 @@ export default function Nav2() {
         <Link href={`/page-pricing`}>Pricing</Link>
       </li>
       <li>
-        <a
-          href="https://themeforest.net/user/ib-themes/portfolio"
-          target="_blank"
-        >
+        <a href="#NexlifyAppBuyNow" target="_blank">
           More
         </a>
       </li>
     </>
-  );
+  )
 }

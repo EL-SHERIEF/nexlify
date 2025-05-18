@@ -1,19 +1,19 @@
-"use client";
-import { useContextElement } from "@/context/Context";
-import { icons, menuItems } from "@/data/menu";
-import { closeMobileMenu } from "@/utlis/toggleMobileMenu";
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+'use client'
+import { useContextElement } from '@/context/Context'
+import { icons, menuItems } from '@/data/menu'
+import { closeMobileMenu } from '@/utlis/toggleMobileMenu'
+import Image from 'next/image'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+import { useEffect, useRef, useState } from 'react'
 
 export default function MobileMenu() {
-  const { isDark, handleToggle } = useContextElement();
-  const pathname = usePathname();
-  const [activeParent1, setActiveParent1] = useState(-1);
-  const [activeParent2, setActiveParent2] = useState(-1);
-  const elementRef = useRef(null);
-  const containerRef = useRef(null);
+  const { isDark, handleToggle } = useContextElement()
+  const pathname = usePathname()
+  const [activeParent1, setActiveParent1] = useState(-1)
+  const [activeParent2, setActiveParent2] = useState(-1)
+  const elementRef = useRef(null)
+  const containerRef = useRef(null)
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -23,55 +23,55 @@ export default function MobileMenu() {
         elementRef.current && // Check if click is outside .gt-menu-area
         !elementRef.current.contains(event.target)
       ) {
-        closeMobileMenu();
+        closeMobileMenu()
         // Add your custom logic here
       }
-    };
+    }
 
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside)
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [])
   useEffect(() => {
-    closeMobileMenu();
-  }, [pathname]);
+    closeMobileMenu()
+  }, [pathname])
 
   const isMenuActive = (menu) => {
-    let isActive = false;
+    let isActive = false
     if (menu.href) {
-      if (pathname.split("/")[1] == menu.href?.split("/")[1]) {
-        isActive = true;
+      if (pathname.split('/')[1] == menu.href?.split('/')[1]) {
+        isActive = true
       }
     }
     if (menu.subItems) {
       menu.subItems.forEach((el) => {
         if (el.href) {
-          if (pathname.split("/")[1] == el.href?.split("/")[1]) {
-            isActive = true;
+          if (pathname.split('/')[1] == el.href?.split('/')[1]) {
+            isActive = true
           }
         }
         if (el.subItems) {
           el.subItems.map((elm) => {
             if (elm.href) {
-              if (pathname.split("/")[1] == elm.href?.split("/")[1]) {
-                isActive = true;
+              if (pathname.split('/')[1] == elm.href?.split('/')[1]) {
+                isActive = true
               }
             }
-          });
+          })
         }
-      });
+      })
     }
-    return isActive;
-  };
+    return isActive
+  }
   return (
     <div
       ref={containerRef}
       id="uc-menu-panel"
       data-uc-offcanvas="overlay: true;"
       className="uc-offcanvas mobile-menu"
-      style={{ display: "block" }}
+      style={{ display: 'block' }}
       tabIndex={-1}
     >
       <div
@@ -79,7 +79,7 @@ export default function MobileMenu() {
         className="uc-offcanvas-bar bg-white rounded-3 border-1 border-black border bg-opacity-100 text-dark uc-offcanvas-bar-animation uc-offcanvas-slide "
         role="dialog"
         aria-modal="true"
-        style={{ maxWidth: 876,margin:'10px 20px' }}
+        style={{ maxWidth: 876, margin: '10px 20px' }}
       >
         <header className="uc-offcanvas-header hstack justify-between items-center pb-2">
           <div className="uc-logo">
@@ -122,20 +122,20 @@ export default function MobileMenu() {
           </form>
           <div
             className="uc-sticky-placeholder"
-            style={{ height: 40, width: 290, margin: "0px 0px 16px" }}
+            style={{ height: 40, width: 290, margin: '0px 0px 16px' }}
             hidden=""
           />
           <ul className="nav-y gap-narrow fw-medium fs-6 uc-nav" data-uc-nav="">
             {menuItems.map((item, index) => (
               <li
                 key={index}
-                className={`${item.subItems ? "uc-parent" : ""} ${
-                  activeParent1 == index ? "active" : ""
+                className={`${item.subItems ? 'uc-parent' : ''} ${
+                  activeParent1 == index ? 'active' : ''
                 }`}
               >
                 {item.href ? (
                   <Link
-                    className={isMenuActive(item) ? "menuActive" : ""}
+                    className={isMenuActive(item) ? 'menuActive' : ''}
                     href={item.href}
                   >
                     {item.label}
@@ -143,7 +143,7 @@ export default function MobileMenu() {
                 ) : (
                   <>
                     <a
-                      className={isMenuActive(item) ? "menuActive" : ""}
+                      className={isMenuActive(item) ? 'menuActive' : ''}
                       onClick={() =>
                         setActiveParent1((pre) => (pre == index ? -1 : index))
                       }
@@ -153,21 +153,21 @@ export default function MobileMenu() {
                     {item.subItems && (
                       <ul
                         className={`uc-nav-sub ${
-                          activeParent1 == index ? "active" : ""
+                          activeParent1 == index ? 'active' : ''
                         }`}
                       >
                         {item.subItems.map((subItem, index2) => (
                           <li
                             key={index2}
-                            className={`${!subItem.href ? "uc-parent" : ""}  ${
-                              activeParent2 == index2 ? "active" : ""
+                            className={`${!subItem.href ? 'uc-parent' : ''}  ${
+                              activeParent2 == index2 ? 'active' : ''
                             }`}
                             role="presentation"
                           >
                             {subItem.href ? (
                               <Link
                                 className={
-                                  isMenuActive(subItem) ? "menuActive" : ""
+                                  isMenuActive(subItem) ? 'menuActive' : ''
                                 }
                                 href={subItem.href}
                               >
@@ -177,7 +177,7 @@ export default function MobileMenu() {
                               <>
                                 <a
                                   className={
-                                    isMenuActive(subItem) ? "menuActive" : ""
+                                    isMenuActive(subItem) ? 'menuActive' : ''
                                   }
                                   onClick={() =>
                                     setActiveParent2((pre) =>
@@ -190,14 +190,14 @@ export default function MobileMenu() {
                                 {subItem.subItems && (
                                   <ul
                                     className={`uc-nav-sub ${
-                                      activeParent2 == index2 ? "active" : ""
+                                      activeParent2 == index2 ? 'active' : ''
                                     }`}
                                   >
                                     {subItem.subItems.map((subItem, index3) => (
                                       <li
                                         key={index3}
                                         className={
-                                          !subItem.href ? "uc-parent" : ""
+                                          !subItem.href ? 'uc-parent' : ''
                                         }
                                         role="presentation"
                                       >
@@ -205,8 +205,8 @@ export default function MobileMenu() {
                                           <Link
                                             className={
                                               isMenuActive(subItem)
-                                                ? "menuActive"
-                                                : ""
+                                                ? 'menuActive'
+                                                : ''
                                             }
                                             href={subItem.href}
                                           >
@@ -237,9 +237,7 @@ export default function MobileMenu() {
               <Link href={`/sign-in`}>Log in</Link>
             </li>
             <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
+              <a href="#NexlifyAppBuyNow">Buy Template</a>
             </li>
           </ul>
           <ul className="social-icons nav-x mt-4">
@@ -271,10 +269,10 @@ export default function MobileMenu() {
           </div>
           <div
             className="uc-sticky-placeholder"
-            style={{ height: 83, width: 290, margin: "32px 0px 0px" }}
+            style={{ height: 83, width: 290, margin: '32px 0px 0px' }}
           />
         </div>
       </div>
     </div>
-  );
+  )
 }

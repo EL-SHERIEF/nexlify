@@ -1,12 +1,12 @@
-"use client";
+'use client'
 
-import Link from "next/link";
-import Image from "next/image";
-import { pagesData } from "@/data/menu";
-import { usePathname } from "next/navigation";
+import Link from 'next/link'
+import Image from 'next/image'
+import { pagesData } from '@/data/menu'
+import { usePathname } from 'next/navigation'
 
 export default function Nav() {
-  const pathname = usePathname();
+  const pathname = usePathname()
   return (
     <>
       <li>
@@ -26,7 +26,7 @@ export default function Nav() {
       </li>
       <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">
-          More{" "}
+          More{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -43,7 +43,9 @@ export default function Nav() {
         </a>
         {/* uc-navbar-dropdown uc-drop uc-open */}
 
-        <div className={`uc-navbar-dropdown uc-drop w-100 shadow-sm border-1 border border-black`}>
+        <div
+          className={`uc-navbar-dropdown uc-drop w-100 shadow-sm border-1 border border-black`}
+        >
           <div
             className="uc-drop-grid row child-cols g-4 uc-grid uc-grid-stack"
             data-uc-grid=""
@@ -56,14 +58,14 @@ export default function Nav() {
                       <li className="uc-nav-header">{section.header}</li>
                       {section.items.map((item, itemIndex) => (
                         <li key={itemIndex}>
-                          {item.href.startsWith("/") ? (
+                          {item.href.startsWith('/') ? (
                             <Link
                               href={item.href}
                               className={
-                                pathname.split("/")[1] ==
-                                item.href.split("/")[1]
-                                  ? "menuActive"
-                                  : "inActiveMenu"
+                                pathname.split('/')[1] ==
+                                item.href.split('/')[1]
+                                  ? 'menuActive'
+                                  : 'inActiveMenu'
                               }
                             >
                               {item.label}
@@ -105,7 +107,7 @@ export default function Nav() {
                   />
                   <a
                     className="position-cover"
-                    href="https://themeforest.net/user/ib-themes/portfolio"
+                    href="#NexlifyAppBuyNow"
                     target="_blank"
                   ></a>
                 </div>
@@ -115,5 +117,5 @@ export default function Nav() {
         </div>
       </li>
     </>
-  );
+  )
 }

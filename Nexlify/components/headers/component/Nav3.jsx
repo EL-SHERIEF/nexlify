@@ -1,15 +1,15 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
-import { openNewsletterModal } from "@/utlis/toggleNewsletterModal";
-import { features, homeLinks, links } from "@/data/menu";
-import { featuresMenu, services } from "@/data/services";
+'use client'
+import Link from 'next/link'
+import Image from 'next/image'
+import { openNewsletterModal } from '@/utlis/toggleNewsletterModal'
+import { features, homeLinks, links } from '@/data/menu'
+import { featuresMenu, services } from '@/data/services'
 export default function Nav3() {
   return (
     <>
       <li className="has-dd-menu ">
         <a href="#" role="button" aria-haspopup="true">
-          Products{" "}
+          Products{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -146,9 +146,9 @@ export default function Nav3() {
           </div>
         </div>
       </li>
-      <li className="has-dd-menu" style={{ position: "relative" }}>
+      <li className="has-dd-menu" style={{ position: 'relative' }}>
         <a href="#" role="button" aria-haspopup="true">
-          Resources{" "}
+          Resources{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -234,9 +234,9 @@ export default function Nav3() {
           </div>
         </div>
       </li>
-      <li className="has-dd-menu" style={{ position: "relative" }}>
+      <li className="has-dd-menu" style={{ position: 'relative' }}>
         <a href="#" role="button" aria-haspopup="true">
-          Learn{" "}
+          Learn{' '}
           <span
             data-uc-navbar-parent-icon=""
             className="uc-icon uc-navbar-parent-icon"
@@ -345,13 +345,10 @@ export default function Nav3() {
         <Link href={`/page-pricing`}>Pricing</Link>
       </li>
       <li>
-        <a
-          href="https://themeforest.net/user/ib-themes/portfolio"
-          target="_blank"
-        >
+        <a href="#NexlifyAppBuyNow" target="_blank">
           Buy now
         </a>
       </li>
     </>
-  );
+  )
 }
